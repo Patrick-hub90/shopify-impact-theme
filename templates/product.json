@@ -132,7 +132,7 @@
         "richtext_MgHfad": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em>21 jours exactement entre ces deux photos. Je n'y croyais pas moi-même ! La cellulite qui me complexait depuis des années a pratiquement disparu.</em></p><p>⭐⭐⭐⭐⭐ <br/><strong>Julie R., 37 ans, Marseille</strong><br/><br/></p>"
+            "content": "<p>21 jours exactement entre ces deux photos. Je n'y croyais pas moi-même ! La cellulite qui me complexait depuis des années a pratiquement disparu.</p><p>⭐⭐⭐⭐⭐ <br/><strong>Julie R., 37 ans, Marseille</strong></p>"
           }
         }
       },
@@ -176,8 +176,8 @@
           "type": "button",
           "settings": {
             "style": "fill",
-            "size": "xl",
-            "text": "Je découvre la Méthode -->",
+            "size": "base",
+            "text": "→ Je découvre la Méthode",
             "url": "",
             "background": "#f7afaf",
             "text_color": ""
@@ -193,7 +193,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -208,7 +208,7 @@
           "masseur-a-ventouse-velaura™"
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
@@ -217,7 +217,7 @@
         "title": "Notre kit Anti Cellulite Velaura !",
         "content": "<p>Créez votre propre<strong> thérapie anti-cellulite</strong> grâce à des outils sélectionnés dermatologiquement, pour des soins professionnels, directement chez vous.</p>",
         "link_url": "",
-        "link_text": "Vioir tous",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -233,6 +233,7 @@
         "item_q3chqJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Cellulite_Formation.png",
             "column_size": "3",
             "title": "Comment se forme la cellulite ?",
             "heading_tag": "h4",
@@ -257,6 +258,7 @@
         "item_grPLhw": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Brossage_stimulant.png",
             "column_size": "3",
             "title": "La routine Velaura : un rituel anti-cellulite au quotidien",
             "heading_tag": "h4",
