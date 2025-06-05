@@ -303,3 +303,9 @@
     font-size: 7.5rem;
   }
 }
+.kaching-bundles__bundle-products__pricing {
+  visibility: hidden;
+}
+.product-card__info .price-list {
+  visibility: hidden;
+}
