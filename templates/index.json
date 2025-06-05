@@ -9,21 +9,6 @@
  */
 {
   "sections": {
-    "video_3TmKhi": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/0606.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -73,7 +58,6 @@
         "slide-1",
         "slide-2"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -893,7 +877,6 @@
     }
   },
   "order": [
-    "video_3TmKhi",
     "slideshow",
     "image-link-blocks",
     "scrolling-text",
