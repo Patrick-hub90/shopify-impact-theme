@@ -34,6 +34,18 @@
             "show_empty": false
           }
         },
+        "text_73Gqra": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Routine Velaura a déjà conquis plus de 12,000 femmes en France depuis 2012.</p>"
+          }
+        },
+        "liquid_B7LfBx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -79,6 +91,8 @@
         "badges",
         "price",
         "rating",
+        "text_73Gqra",
+        "liquid_B7LfBx",
         "payment_terms",
         "separator",
         "description",
@@ -152,6 +166,19 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "custom_liquid_F6mcqn": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "rich_text_rbRA63": {
@@ -857,6 +884,7 @@
     "main",
     "related-products",
     "image_with_text_overlay_3U6Hyp",
+    "custom_liquid_F6mcqn",
     "rich_text_rbRA63",
     "featured_collection_FLt4Bx",
     "multi_column_tQQK4i",
