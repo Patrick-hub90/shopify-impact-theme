@@ -234,9 +234,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "",
+            "title": "Comment se forme la cellulite ?",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>La cellulite, c’est ce <strong>relief irrégulier</strong> qu’on appelle “peau d’orange”. Elle apparaît quand les <strong>graisses sous la peau gonflent</strong>, que la <strong>circulation ralentit</strong>, et que des <strong>fibres rigides</strong> viennent comprimer les tissus.<br/><strong><br/>Résultat : </strong>les toxines s’accumulent, la peau gonfle, les muscles en dessous se relâchent, et les creux se forment.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -246,9 +246,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Cibler les fibres de soutien : la clé contre la cellulite",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Une étude clinique publiée dans le <em><strong>Journal of Dermatologic Surgery</strong></em> souligne que les approches ciblant les fibres de soutient—par des méthodes mécaniques, chirurgicales ou enzymatiques (<strong>Comme la Routine de Velaura</strong>) sont les plus prometteuses pour améliorer durablement la texture de la peau et réduire l'apparence de la cellulite.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -258,9 +258,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "La routine Velaura : un rituel anti-cellulite au quotidien",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p><strong>La routine Velaura est un protocole anti-cellulite complet, conçu avec l’expertise de dermatologues spécialisés.</strong><br/>Elle repose sur des approches mécaniques et enzymatiques reconnues scientifiquement, qui agissent en profondeur pour <strong>relâcher les fibres de soutien</strong>, <strong>stimuler le drainage naturel</strong> et <strong>réduire visiblement l’aspect capitonné</strong> de la peau.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -285,6 +285,238 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "scrolling_text_gdUp3K": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Transformez votre peau en 21 jours avec la méthode qui a déjà conquis plus de 12 000 femmes en France.",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#aa2826",
+        "text_gradient": ""
+      }
+    },
+    "rich_text_QkHbXj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_etTz49": {
+          "type": "heading",
+          "settings": {
+            "text": "Elles en parlent mieux que nous ! ☘️",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_hgLkjL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Rejoignez ces milliers de femmes qui ont adopté la routine Velaura pour une peau sans cellulite.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_etTz49",
+        "richtext_hgLkjL"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_kyQDK6": {
+      "type": "multi-column",
+      "blocks": {
+        "item_padhb6": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dYxiR4": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DYeef7": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WnHRR7": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yE8D3f": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_7eWjEJ": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_eYpBPp": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jmk4N8": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Am8A4N": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9ChGcM": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_padhb6",
+        "item_dYxiR4",
+        "item_DYeef7",
+        "item_WnHRR7",
+        "item_yE8D3f",
+        "item_7eWjEJ",
+        "item_eYpBPp",
+        "item_jmk4N8",
+        "item_Am8A4N",
+        "item_9ChGcM"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_68QtHB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YznfrW": {
+          "type": "heading",
+          "settings": {
+            "text": "Votre transformation commence en 5 minutes par jour.",
+            "heading_tag": "h2",
+            "text_color": "#ffffff",
+            "gradient": ""
+          }
+        },
+        "richtext_y9KKJz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>La routine Velaura est un protocole anti-cellulite complet, conçu pour cibler en profondeur les causes de la peau d’orange. </strong>Elle associe des gestes techniques précis à des produits et accessoires dermatologiquement adaptés. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YznfrW",
+        "richtext_y9KKJz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f7afaf",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
@@ -293,6 +525,10 @@
     "image_with_text_overlay_3U6Hyp",
     "rich_text_rbRA63",
     "featured_collection_FLt4Bx",
-    "multi_column_tQQK4i"
+    "multi_column_tQQK4i",
+    "scrolling_text_gdUp3K",
+    "rich_text_QkHbXj",
+    "multi_column_kyQDK6",
+    "rich_text_68QtHB"
   ]
 }
