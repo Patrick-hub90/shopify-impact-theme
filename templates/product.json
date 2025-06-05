@@ -515,7 +515,170 @@
         "text_position": "center",
         "background": "#f7afaf",
         "background_gradient": "",
-        "text_color": "#000000"
+        "text_color": "#ffffff"
+      }
+    },
+    "multi_column_erDYxy": {
+      "type": "multi-column",
+      "blocks": {
+        "item_KXkQwt": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "🌀 ÉTAPE 1 – ACTIVER LA CIRCULATION POUR BRISER LA STAGNATION",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : relancer la microcirculation sanguine et lymphatique.</p><p><strong>Pourquoi ?  </strong>La cellulite s’installe là où la circulation est paresseuse, les toxines stagnent, et les tissus s’asphyxient.<br/><br/><strong>Comment ?  </strong>En brossant votre peau à sec avec la <strong>brosse Velaura</strong>, vous stimulez immédiatement la circulation, activez la régénération cellulaire et préparez la peau aux soins.<br/><br/> <strong>Résultat : </strong> Une peau plus vive, décongestionnée et prête à absorber les actifs.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_7h9x3T": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "💧 ÉTAPE 2 – DRAINER POUR DÉGONFLER LA CELLULITE AQUEUSE",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : éliminer l’excès d’eau et les toxines accumulées.</p><p><strong>Pourquoi ? </strong> La <strong>cellulite aqueuse</strong> donne cet effet “gonflé” et bosselé.<br/><br/><strong>Comment ?  </strong>Appliquez la crème<strong> Velaura</strong>, enrichie en caféine, gingembre et romarin, avec des mouvements circulaires. Ces extraits botaniques favorisent le drainage et améliorent la texture de la peau.<br/><br/><strong>Résultat :</strong>  La peau devient plus souple, mieux hydratée et visiblement désengorgée.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_R4kw7g": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "🔥 ÉTAPE 3 – CASSER LES GRAISSES INSTALLÉES",
+            "heading_tag": "h4",
+            "content": "<p><strong>Objectif</strong> : cibler les amas graisseux à l’origine de la cellulite fibreuse.</p><p><strong>Pourquoi ?</strong>  Les graisses comprimées par des fibres rigides forment les fameux capitons.<br/><br/><strong>Comment ? </strong> Grâce à la <strong>ventouse Velaura</strong>, vous reproduisez l’effet du palper-rouler professionnel. Elle mobilise les graisses, libère les tissus comprimés et stimule le déstockage.<br/><br/><strong> Résultat :  L</strong>es irrégularités s’atténuent, la peau devient plus lisse et plus uniforme.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ULnWGF": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "💪 ÉTAPE 4 – RENFORCER VOS MUSCLES POUR TENDRE LA PEAU",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : retonifier les muscles sous-cutanés pour retendre la peau durablement.</p><p><strong>Pourquoi ?</strong> Une peau relâchée, même affinée, peut rester irrégulière.<br/><br/><strong>Comment ?</strong> Le <strong>programme d’exercices Velaura</strong> (inclus dans l’ebook offert) cible les fessiers, cuisses, hanches et ventre, en synergie avec la <strong>bande de résistance fournie</strong>.<br/><br/><strong>Résultat : </strong>un galbe redessiné, une peau plus ferme, un corps visiblement tonifié.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_KXkQwt",
+        "item_7h9x3T",
+        "item_R4kw7g",
+        "item_ULnWGF"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f7afaf",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "rich_text_KbN9pi": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_97pBEq": {
+          "type": "subheading",
+          "settings": {
+            "text": "Avec Velaura, tout change !"
+          }
+        },
+        "heading_EBKNQq": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi choisir Velaura™ ?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_4EhFQJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Notre approche allie une routine guidée, des accessoires premium, un eBook expert et un programme sportif : un véritable protocole global, validé par des dermatologues. </p>"
+          }
+        },
+        "button_TcLBwr": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Obtenez le kit Velaura™",
+            "url": "shopify://products/masseur-a-ventouse-velaura™",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_97pBEq",
+        "heading_EBKNQq",
+        "richtext_4EhFQJ",
+        "button_TcLBwr"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_3mw39w": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Velaura vs Concurrents</title>\n    <style>\n        * {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n\n        body {\n            background: #F2F2F2;\n            overflow-x: hidden;\n        }\n\n        .comparison-container {\n            width: 100%;\n            margin: 3rem 0;\n            padding: 0 rem;\n        }\n\n        .comparison-table {\n            width: 100%;\n            border-collapse: collapse;\n            background: white;\n\n            table-layout: fixed;\n        }\n\n        .comparison-table th,\n        .comparison-table td {\n            padding: 1.5rem 1rem;\n            text-align: center;\n            color: #000000;\n            font-weight: 700;\n            font-size: 1em;\n            word-break: break-word;\n        }\n\n        .comparison-table thead {\n            background: linear-gradient(135deg, #F7AFAF 0%, #f8c4c4 100%);\n            color: white;\n        }\n\n        .comparison-table th:first-child {\n            text-align: left;\n            width: 40%;\n            min-width: 200px;\n            padding-left: 1.rem;\n        }\n\n        .comparison-table tbody td {\n            border-bottom: 1px solid #ffe6e6;\n        }\n\n        .comparison-table tbody td:first-child {\n            text-align: left;\n            font-weight: 600;\n            padding-left: rem;\n        }\n\n        .feature-icon {\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            display: inline-flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: bold;\n            font-size: 1.3em;\n            margin: 0 auto;\n        }\n\n        .check-mark {\n            background: #F7AFAF;\n            color: white;\n        }\n\n        .cross-mark {\n            background: #f0f0f0;\n            color: #a18888;\n        }\n\n        @media (max-width: 768px) {\n            .comparison-table th,\n            .comparison-table td {\n                padding: 1rem 0.5rem;\n                font-size: 0.9em;\n            }\n            \n            .feature-icon {\n                width: 28px;\n                height: 28px;\n                font-size: 1.1em;\n            }\n            \n            .comparison-table th:first-child {\n                min-width: 150px;\n                padding-left: 1rem;\n            }\n            \n            .comparison-table td:first-child {\n                padding-left: 1rem;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"comparison-container\">\n        <table class=\"comparison-table\">\n            <thead>\n                <tr>\n                    <th>Bénéfices clés</th>\n                    <th>Velaura</th>\n                    <th>Autres marques</th>\n                </tr>\n            </thead>\n            <tbody>\n    <tr>\n        <td>Méthode complète 21 jours</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Guide expert inclus</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Kit d'accessoires premium</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Protocole professionnel à domicile</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Programme sportif intégré</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Compatible avec tous les types de cellulite </td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Suivi quotidien structuré</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Méthode 100% naturelle, sans produits chimiques</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Résultats durables</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n</tbody>\n        </table>\n    </div>\n</body>\n</html>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_iV9dPx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bgp8Ye": {
+          "type": "heading",
+          "settings": {
+            "text": "Les résultats parlent d’eux-mêmes",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bgp8Ye"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#f7afaf",
+        "background_gradient": "",
+        "text_color": "#ffffff"
       }
     }
   },
@@ -529,6 +692,10 @@
     "scrolling_text_gdUp3K",
     "rich_text_QkHbXj",
     "multi_column_kyQDK6",
-    "rich_text_68QtHB"
+    "rich_text_68QtHB",
+    "multi_column_erDYxy",
+    "rich_text_KbN9pi",
+    "custom_liquid_3mw39w",
+    "rich_text_iV9dPx"
   ]
 }
