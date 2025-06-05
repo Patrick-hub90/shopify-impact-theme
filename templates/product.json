@@ -399,9 +399,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p><em>Après des années à tester des crèmes sans résultats, la routine Velaura a transformé ma peau. En 12 jours, ma cellulite a nettement diminué. Le combo massage + activité physique change tout. </em></p><p><em><strong>Anaïs Lefèvre – 36 ans</strong></em></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -411,9 +411,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p><em>Ce qui m'a convaincue avec Velaura c'est qu'on comprend POURQUOI ça marche. L'ebook explique tout super bien. Je ne faisais plus que subir ma cellulite, maintenant j'agis ! En 2 semaines, transformation totale de mes cuisses et fessiers. Je recommande à toutes mes copines. Seul regret : ne pas l'avoir découvert plus tôt !</em></p><p><strong>Manon Rousseau – 29 ans</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -423,9 +423,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Ces photos parlent mieux que mille mots... 18 jours seulement ! Ma cellulite sur les fesses a complètement changé d'aspect.</p><p><strong>Caroline B., 37 ans</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -435,9 +435,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p><em>Je ne pensais pas que ce serait aussi rapide. J’ai vu une différence sur mes cuisses dès le 4ème jour d’utilisation. Le kit est bien pensé, l’huile sent bon, la ventouse est efficace et le programme me motive à rester régulière. Je recommande à 100% !</em><br/><br/><strong>Julie R., 32 ans</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -447,69 +447,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_7eWjEJ": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_eYpBPp": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_jmk4N8": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_Am8A4N": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_9ChGcM": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p><em>Regardez bien l'arrière de mes cuisses... INCROYABLE non ? Avant, c'était un champ de bataille, tout bosselé, avec des zones violacées. Après 2 semaines de Velaura, ma peau a retrouvé une couleur uniforme et une texture presque parfaite ! </em></p><p><strong>Aurélie, 39 ans - Angers</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -521,12 +461,7 @@
         "item_dYxiR4",
         "item_DYeef7",
         "item_WnHRR7",
-        "item_yE8D3f",
-        "item_7eWjEJ",
-        "item_eYpBPp",
-        "item_jmk4N8",
-        "item_Am8A4N",
-        "item_9ChGcM"
+        "item_yE8D3f"
       ],
       "name": "Multi-column",
       "settings": {
