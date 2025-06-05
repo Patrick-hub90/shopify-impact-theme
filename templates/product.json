@@ -680,6 +680,170 @@
         "background_gradient": "",
         "text_color": "#ffffff"
       }
+    },
+    "impact_text_Tcx8Wj": {
+      "type": "impact-text",
+      "blocks": {
+        "item_p8tXJq": {
+          "type": "item",
+          "settings": {
+            "title": "+12,000",
+            "subheading": "Françaises ont adopté la Routine Velaura.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_hV3gGh": {
+          "type": "item",
+          "settings": {
+            "title": "13",
+            "subheading": "ans d’expertise en soins anti-cellulite naturels.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_MADJFG": {
+          "type": "item",
+          "settings": {
+            "title": "96%",
+            "subheading": "de taux de reussite.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_p8tXJq",
+        "item_hV3gGh",
+        "item_MADJFG"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "#f7afaf",
+        "background_gradient": "",
+        "heading_text_color": "#ffffff",
+        "heading_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_AGaVcr": {
+      "type": "rich-text",
+      "blocks": {
+        "image_YfiPhq": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "subheading_YQLBgq": {
+          "type": "subheading",
+          "settings": {
+            "text": "Le secret des femmes qui obtiennent de vrais résultats ?"
+          }
+        },
+        "heading_RnGfWJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Une méthode.",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_MYc4xd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Velaura vous offre un <strong>eBook premium</strong>, conçu  pour vous guider <strong>pas à pas</strong> vers une peau plus lisse et tonique sans cellulite.</p><p>À l’intérieur, vous découvrirez :<br/>✅ Des <strong>protocoles de massage ciblés</strong> selon votre type de cellulite<br/>✅ Des <strong>astuces alimentaires puissantes</strong> pour booster les effets du drainage<br/>✅ Des <strong>routines quotidiennes simples</strong>, validées par des spécialistes<br/>✅ Des <strong>erreurs fréquentes à éviter</strong> qui sabotent souvent les résultats<br/>✅ Un <strong>plan de suivi de 21 jours à cocher </strong> pour rester motivée et voir l’évolution.<br/><strong><br/>Adoptez une routine, 100% naturelle 🌿, qui fonctionne, et s’intègre facilement à votre quotidien. Faites le choix d’une peau lisse et d’une silhouette affinée… juste à temps pour l’été.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_YfiPhq",
+        "subheading_YQLBgq",
+        "heading_RnGfWJ",
+        "richtext_MYc4xd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_AacKYz": {
+      "type": "faq",
+      "blocks": {
+        "item_LbBqyT": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_yKxwp8": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_xmpmME": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_LbBqyT",
+        "item_yKxwp8",
+        "item_xmpmME"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Tout ce que vous devez savoir sur la routine anti-cellulite Velaura.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -696,6 +860,9 @@
     "multi_column_erDYxy",
     "rich_text_KbN9pi",
     "custom_liquid_3mw39w",
-    "rich_text_iV9dPx"
+    "rich_text_iV9dPx",
+    "impact_text_Tcx8Wj",
+    "rich_text_AGaVcr",
+    "faq_AacKYz"
   ]
 }
