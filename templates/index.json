@@ -160,8 +160,9 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
+            "image": "shopify://shop_images/ef45a8df33c660bfd53cca43559a04f4.jpg",
+            "title": "Cuisse",
+            "heading_tag": "h2",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
