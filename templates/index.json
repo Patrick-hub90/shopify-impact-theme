@@ -77,10 +77,11 @@
         "1664424046b00c932c-0": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/VOGUE.png",
             "stretch_image": true,
             "link_text": "",
             "link_url": "",
-            "background": "",
+            "background": "#f2f2f2",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -142,8 +143,9 @@
         "1664424046b00c932c-3",
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
       ],
+      "custom_css": [],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "block_size": "medium",
         "subheading": "",
         "title": "",
