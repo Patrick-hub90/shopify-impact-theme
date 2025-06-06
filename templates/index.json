@@ -68,7 +68,7 @@
         "autoplay": false,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "background_gradient": "linear-gradient(60deg, rgba(217, 150, 126, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
     "rich_text_6PmQaM": {
