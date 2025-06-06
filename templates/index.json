@@ -72,6 +72,67 @@
         "background_gradient": "linear-gradient(60deg, rgba(173, 107, 106, 1), rgba(173, 121, 109, 1) 58%, rgba(26, 26, 26, 0.42) 98%)"
       }
     },
+    "text_with_icons_B33DrW": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_EJHDbp": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#d9967e",
+            "icon_color": "#ffffff",
+            "title": "Made in France",
+            "content": "<p>L'innovation française au service de votre beauté.</p>"
+          }
+        },
+        "item_kLn8YL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#d9967e",
+            "icon_color": "#ffffff",
+            "title": "Matériel de qualité médicale",
+            "content": "<p>Techniques utilisées par les kinésithérapeutes.</p>"
+          }
+        },
+        "item_3qYn8V": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "#d9967e",
+            "icon_color": "#ffffff",
+            "title": "Dans le confort de votre salon",
+            "content": "<p>À votre rythme, quand vous voulez.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_EJHDbp",
+        "item_kLn8YL",
+        "item_3qYn8V"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_6PmQaM": {
       "type": "rich-text",
       "blocks": {
@@ -812,6 +873,7 @@
   },
   "order": [
     "slideshow",
+    "text_with_icons_B33DrW",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
     "media-grid",
