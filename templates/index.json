@@ -107,7 +107,7 @@
             "stretch_image": false,
             "link_text": "",
             "link_url": "",
-            "background": "#ffffff",
+            "background": "#f7afaf",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -176,7 +176,7 @@
       "custom_css": [],
       "settings": {
         "full_width": true,
-        "block_size": "large",
+        "block_size": "medium",
         "subheading": "",
         "title": "",
         "content": "",
