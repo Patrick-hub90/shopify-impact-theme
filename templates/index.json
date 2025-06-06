@@ -204,8 +204,9 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
+            "image": "shopify://shop_images/48c217cff6a9d5cffc7171e2a2b19a9e.jpg",
+            "title": "Ventre",
+            "heading_tag": "h2",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -214,7 +215,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#2a555a",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -225,8 +226,9 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
+            "image": "shopify://shop_images/0841cdc1629da6d890f7a39d2120fec3.jpg",
+            "title": "Bras",
+            "heading_tag": "h2",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -235,7 +237,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#2a555a",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
