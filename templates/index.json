@@ -120,6 +120,7 @@
         "item_kLn8YL",
         "item_3qYn8V"
       ],
+      "disabled": true,
       "name": "Text with icons",
       "settings": {
         "full_width": true,
