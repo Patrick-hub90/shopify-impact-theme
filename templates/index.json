@@ -78,14 +78,14 @@
         "subheading_CUb4XJ": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": "Facts"
           }
         },
         "heading_jzebEk": {
           "type": "heading",
           "settings": {
-            "text": "Ils en parlent...",
-            "heading_tag": "h1",
+            "text": "When you move your body, you can move the world.",
+            "heading_tag": "h2",
             "text_color": "#996a6a",
             "gradient": ""
           }
@@ -111,18 +111,31 @@
         "item_4ELA8H": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "title": "60%",
+            "subheading": "Of our fabrics this season are made with recycled materials.",
             "content": "",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_kPanm8": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Of our Oeko-Tex® certified technical fabrics are made without using harmful chemicals.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
             "animate_impact_text_duration": 2
           }
         }
       },
       "block_order": [
-        "item_4ELA8H"
+        "item_4ELA8H",
+        "item_kPanm8"
       ],
       "name": "Impact text",
       "settings": {
@@ -135,102 +148,10 @@
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
-        "heading_gradient": "",
+        "heading_gradient": "linear-gradient(60deg, rgba(42, 85, 90, 1), rgba(255, 249, 246, 1) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1_9574bc16-a883-4192-b683-49ee66a88388.png",
-            "stretch_image": false,
-            "link_text": "",
-            "link_url": "",
-            "background": "#f2f2f2",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_WjE8Fh": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/5_48bac776-e1c1-4055-952c-210e7048617a.png",
-            "stretch_image": false,
-            "link_text": "",
-            "link_url": "",
-            "background": "#f2f2f2",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_Qbn4MC": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/3_a56ee749-0f19-4f23-a3a8-4d5a546a8bfb.png",
-            "stretch_image": false,
-            "link_text": "",
-            "link_url": "",
-            "background": "#f2f2f2",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_hxiirb": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2_5c501277-53dd-4849-8098-71d762dfdd51.png",
-            "stretch_image": false,
-            "link_text": "",
-            "link_url": "",
-            "background": "#f2f2f2",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_XyRHdX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/4_0c6e37b6-cd2b-4701-9721-238631ec2014.png",
-            "stretch_image": false,
-            "link_text": "",
-            "link_url": "",
-            "background": "#f2f2f2",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "1664424046b00c932c-0",
-        "item_WjE8Fh",
-        "item_Qbn4MC",
-        "item_hxiirb",
-        "item_XyRHdX"
-      ],
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "block_size": "small",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "scrolling-text": {
@@ -957,7 +878,6 @@
     "slideshow",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
-    "image-link-blocks",
     "scrolling-text",
     "collection-list",
     "featured-collection",
