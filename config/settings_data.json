@@ -20,7 +20,7 @@
     "icon_stroke_width": 1.5,
     "button_style": "fill",
     "button_hover_effect": "reverse",
-    "background": "#ffffff",
+    "background": "#2a555a",
     "text_color": "#f7afaf",
     "success_color": "#00a341",
     "warning_color": "#ffb74a",
