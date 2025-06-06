@@ -57,8 +57,8 @@
         "transparent_header_text_color": "#fff9f6",
         "transparent_logo": "shopify://shop_images/Untitled_design_16.png",
         "reduce_padding": false,
-        "background_opacity": 100,
-        "background_blur_radius": 0
+        "background_opacity": 0,
+        "background_blur_radius": 14
       }
     }
   },
