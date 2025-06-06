@@ -139,13 +139,13 @@
         "subheading_CUb4XJ": {
           "type": "subheading",
           "settings": {
-            "text": "Facts"
+            "text": "Statistiques depuis 2012"
           }
         },
         "heading_jzebEk": {
           "type": "heading",
           "settings": {
-            "text": "When you move your body, you can move the world.",
+            "text": "Quand vous prenez soin de votre peau, vous augmentez votre estime de soi.",
             "heading_tag": "h2",
             "text_color": "#2a555a",
             "gradient": ""
@@ -172,8 +172,8 @@
         "item_4ELA8H": {
           "type": "item",
           "settings": {
-            "title": "60%",
-            "subheading": "Of our fabrics this season are made with recycled materials.",
+            "title": "300+",
+            "subheading": "avis clients vérifiés avec une note moyenne de 4,8/5 sur Trustpilot.",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -185,7 +185,19 @@
           "type": "item",
           "settings": {
             "title": "100%",
-            "subheading": "Of our Oeko-Tex® certified technical fabrics are made without using harmful chemicals.",
+            "subheading": "De nos produits sont formulés sans paraben, sans sulfate et testés dermatologiquement.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_pz9q7Y": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "de nos clientes ont déjà adopté la Routine Velaura avec succès.",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -196,7 +208,8 @@
       },
       "block_order": [
         "item_4ELA8H",
-        "item_kPanm8"
+        "item_kPanm8",
+        "item_pz9q7Y"
       ],
       "name": "Impact text",
       "settings": {
