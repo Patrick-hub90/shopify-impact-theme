@@ -78,7 +78,7 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/VOGUE.png",
-            "stretch_image": true,
+            "stretch_image": false,
             "link_text": "",
             "link_url": "",
             "background": "#f2f2f2",
@@ -146,7 +146,7 @@
       "custom_css": [],
       "settings": {
         "full_width": true,
-        "block_size": "medium",
+        "block_size": "large",
         "subheading": "",
         "title": "",
         "content": "",
