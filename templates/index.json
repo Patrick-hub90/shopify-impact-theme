@@ -51,7 +51,7 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "#ff77aaff",
+            "background": "#ff77aa",
             "background_gradient": ""
           }
         }
@@ -69,7 +69,7 @@
         "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(173, 107, 106, 1), rgba(173, 121, 109, 1) 58%, rgba(23, 29, 33, 1) 98%)"
+        "background_gradient": "linear-gradient(60deg, rgba(173, 107, 106, 1), rgba(173, 121, 109, 1) 58%, rgba(26, 26, 26, 0.42) 98%)"
       }
     },
     "rich_text_6PmQaM": {
@@ -86,7 +86,7 @@
           "settings": {
             "text": "When you move your body, you can move the world.",
             "heading_tag": "h2",
-            "text_color": "#996a6a",
+            "text_color": "#2a555a",
             "gradient": ""
           }
         }
@@ -144,11 +144,11 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 1.2,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
-        "heading_gradient": "linear-gradient(60deg, rgba(42, 85, 90, 1), rgba(255, 249, 246, 1) 100%)",
+        "heading_gradient": "linear-gradient(60deg, rgba(247, 175, 175, 1), rgba(255, 249, 246, 1) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
