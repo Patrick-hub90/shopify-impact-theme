@@ -79,7 +79,7 @@
           "settings": {
             "text": "Ils en parlent...",
             "heading_tag": "h1",
-            "text_color": "#f7afaf",
+            "text_color": "#000000",
             "gradient": ""
           }
         }
@@ -104,10 +104,10 @@
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/1.png",
-            "stretch_image": true,
+            "stretch_image": false,
             "link_text": "",
             "link_url": "",
-            "background": "#f2f2f2",
+            "background": "#000000",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
