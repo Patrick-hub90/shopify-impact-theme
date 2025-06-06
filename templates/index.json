@@ -71,6 +71,42 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "impact_text_HhCW7h": {
+      "type": "impact-text",
+      "blocks": {
+        "item_4ELA8H": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_4ELA8H"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "rich_text_6PmQaM": {
       "type": "rich-text",
       "blocks": {
@@ -912,6 +948,7 @@
   "order": [
     "slideshow",
     "rich_text_6PmQaM",
+    "impact_text_HhCW7h",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
