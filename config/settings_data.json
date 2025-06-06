@@ -16,6 +16,7 @@
     "input_border_radius": 8,
     "block_border_radius": 20,
     "block_shadow_opacity": 10,
+    "block_shadow_horizontal_offset": 0,
     "block_shadow_vertical_offset": 18,
     "icon_stroke_width": 1.5,
     "button_style": "fill",
