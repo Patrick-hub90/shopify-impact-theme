@@ -71,6 +71,32 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "rich_text_6PmQaM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jzebEk": {
+          "type": "heading",
+          "settings": {
+            "text": "Vu dans",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jzebEk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -871,6 +897,7 @@
   },
   "order": [
     "slideshow",
+    "rich_text_6PmQaM",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
