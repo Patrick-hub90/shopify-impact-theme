@@ -160,7 +160,7 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_17.png",
+            "image": "shopify://shop_images/278579c9407ec3c2d3739481f0b09dc0.jpg",
             "title": "Cuisse",
             "heading_tag": "h2",
             "link_url": "",
@@ -171,7 +171,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#2a555a",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
@@ -182,8 +182,9 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "title": "Promote your products",
-            "heading_tag": "h4",
+            "image": "shopify://shop_images/a919aade36fdae8dfc01003604b84a4f.jpg",
+            "title": "Fesses",
+            "heading_tag": "h2",
             "link_url": "",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -192,7 +193,7 @@
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#2a555a",
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
