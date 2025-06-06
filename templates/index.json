@@ -133,7 +133,9 @@
         "item_Qbn4MC",
         "item_WjE8Fh"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".prose {}"
+      ],
       "settings": {
         "full_width": true,
         "block_size": "large",
