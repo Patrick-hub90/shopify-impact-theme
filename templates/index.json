@@ -61,7 +61,7 @@
       ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "numbers",
         "transition_type": "fade_with_text",
@@ -133,14 +133,12 @@
         "item_Qbn4MC",
         "item_WjE8Fh"
       ],
-      "custom_css": [
-        ".prose {}"
-      ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
-        "block_size": "large",
+        "block_size": "small",
         "subheading": "",
-        "title": "Vu dans",
+        "title": "",
         "content": "",
         "link_url": "",
         "link_text": "",
