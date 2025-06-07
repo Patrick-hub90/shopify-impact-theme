@@ -958,27 +958,51 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Quels sont vos délais de livraison ?",
+            "content": "<p><strong>Pour la France métropolitaine :</strong> 2 à 4 jours ouvrés après validation de votre commande.</p><p><strong>Pour l'Europe :</strong> 5 à 8 jours ouvrés selon le pays de destination.</p>"
+          }
+        },
+        "item_YEmcYz": {
+          "type": "item",
+          "settings": {
+            "title": "Ma commande est-elle expédiée rapidement ?",
+            "content": "<p>Oui ! Toutes les commandes passées avant 14h du lundi au vendredi sont préparées et expédiées le jour même. Les commandes du week-end sont traitées le lundi suivant.</p>"
+          }
+        },
+        "item_tGDafF": {
+          "type": "item",
+          "settings": {
+            "title": "Comment puis-je suivre ma commande ?",
+            "content": "<p>Dès l'expédition de votre colis, vous recevrez par email un numéro de suivi vous permettant de localiser votre commande en temps réel sur le site de notre transporteur.</p>"
+          }
+        },
+        "item_7xB4pA": {
+          "type": "item",
+          "settings": {
+            "title": "En quoi consiste votre garantie 30 jours ?",
+            "content": "<p>Nous sommes tellement convaincus de la qualité de nos produits que nous vous offrons une <strong>garantie satisfait ou remboursé de 30 jours</strong>. Si vous n'êtes pas entièrement satisfait(e), nous vous remboursons intégralement.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Comment fonctionne le remboursement ?",
+            "content": "<p>C'est très simple :</p><ul><li>Contactez notre service client dans les 30 jours suivant votre achat</li><li>Renvoyez-nous le produit (même entamé, c'est normal !)</li><li>Nous procédons au remboursement complet sous 5 à 7 jours ouvrés</li></ul>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Quelles certifications possédez-vous ?",
+            "content": "<p>Nos produits sont certifiés :</p><ul><li><strong>ISO 22716</strong> : Bonnes pratiques de fabrication des cosmétiques</li><li><strong>Règlement européen CE 1223/2009</strong> : Sécurité des produits cosmétiques</li><li><strong>FDA américaine</strong> : Standards de qualité et sécurité</li><li><strong>Tests dermatologiques</strong> : Validés par des laboratoires indépendants</li></ul>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
+        "item_YEmcYz",
+        "item_tGDafF",
+        "item_7xB4pA",
         "166442457738b23caf-1",
         "166442457738b23caf-2"
       ],
@@ -988,8 +1012,8 @@
         "title": "FAQ",
         "content": "<p>Use this text to share information about your product or shipping policies.</p>",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "Pour toute autre question, notre équipe reste à votre disposition par email ou via notre chat en ligne du lundi au vendredi de 9h à 18h.",
+        "answer_time": "Temps moyen de réponse: 1h",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
