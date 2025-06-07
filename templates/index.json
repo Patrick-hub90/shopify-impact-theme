@@ -445,7 +445,7 @@
         "video_size": "sm",
         "video": "shopify://files/videos/0606(1).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#d9967e",
+        "text_color": "#fff9f6",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
