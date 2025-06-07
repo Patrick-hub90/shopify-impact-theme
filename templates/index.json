@@ -450,6 +450,19 @@
         "overlay_opacity": 30
       }
     },
+    "custom_liquid_NpaMtY": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p style=\"text-align: center\"></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_3t7d9N": {
       "type": "multi-column",
       "blocks": {
@@ -1118,6 +1131,7 @@
     "featured-collection",
     "impact-text",
     "video_fACYEQ",
+    "custom_liquid_NpaMtY",
     "multi_column_3t7d9N",
     "multiple-images-with-text",
     "image-with-text-overlay",
