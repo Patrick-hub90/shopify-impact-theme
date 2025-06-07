@@ -110,22 +110,31 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "text_a9GBJm": {
+          "type": "text",
+          "settings": {
+            "title": "A propos Velaura",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "enable_follow_on_shop": true
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
             "menu": "footer",
-            "show_menu_title": true
+            "show_menu_title": false
           }
         },
         "links_4faYzd": {
           "type": "links",
           "settings": {
             "menu": "politique",
-            "show_menu_title": true
+            "show_menu_title": false
           }
         }
       },
       "block_order": [
+        "text_a9GBJm",
         "links",
         "links_4faYzd"
       ],
