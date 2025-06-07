@@ -450,19 +450,6 @@
         "overlay_opacity": 30
       }
     },
-    "custom_liquid_NpaMtY": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<p style=\"text-align: center\"></p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "multi_column_3t7d9N": {
       "type": "multi-column",
       "blocks": {
@@ -1131,13 +1118,12 @@
     "featured-collection",
     "impact-text",
     "video_fACYEQ",
-    "custom_liquid_NpaMtY",
+    "rich_text_f9M7cW",
+    "image_link_blocks_43GrkJ",
     "multi_column_3t7d9N",
     "multiple-images-with-text",
     "image-with-text-overlay",
     "multi_column_Fxc7Gw",
-    "rich_text_f9M7cW",
-    "image_link_blocks_43GrkJ",
     "press",
     "featured-product",
     "feature-chart",
