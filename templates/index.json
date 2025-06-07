@@ -581,27 +581,122 @@
         "text_color": ""
       }
     },
-    "before-after-image": {
-      "type": "before-after-image",
-      "disabled": true,
+    "rich_text_f9M7cW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FjN8Wg": {
+          "type": "heading",
+          "settings": {
+            "text": "Vu dans",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FjN8Wg"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Avant / Après",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "expand_image": true,
+        "content_width": "small",
         "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_link_blocks_43GrkJ": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_jf9jwT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/telechargement_24.png",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_XVxymM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/telechargement_25.png",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_nVPEcY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/telechargement_26.png",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_ANp338": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/telechargement_27.png",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_kH3Yti": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/telechargement_28.png",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7f7f7",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_jf9jwT",
+        "item_XVxymM",
+        "item_nVPEcY",
+        "item_ANp338",
+        "item_kH3Yti"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": true,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "press": {
@@ -635,9 +730,9 @@
       "settings": {
         "full_width": true,
         "content_size": "medium",
-        "background": "",
+        "background": "#2a555a",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#f7f7f7",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "",
@@ -1028,7 +1123,8 @@
     "video_fACYEQ",
     "image-with-text-overlay",
     "multi_column_Fxc7Gw",
-    "before-after-image",
+    "rich_text_f9M7cW",
+    "image_link_blocks_43GrkJ",
     "press",
     "hot-spots",
     "multiple-images-with-text",
