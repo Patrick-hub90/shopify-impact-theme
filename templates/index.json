@@ -72,6 +72,32 @@
         "background_gradient": "linear-gradient(60deg, rgba(173, 107, 106, 1), rgba(173, 121, 109, 1) 58%, rgba(26, 26, 26, 0.42) 98%)"
       }
     },
+    "rich_text_f9M7cW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FjN8Wg": {
+          "type": "heading",
+          "settings": {
+            "text": "Vu dans",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FjN8Wg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "text_with_icons_B33DrW": {
       "type": "text-with-icons",
       "blocks": {
@@ -698,32 +724,6 @@
         "text_color": ""
       }
     },
-    "rich_text_f9M7cW": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_FjN8Wg": {
-          "type": "heading",
-          "settings": {
-            "text": "Vu dans",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_FjN8Wg"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_link_blocks_43GrkJ": {
       "type": "image-link-blocks",
       "blocks": {
@@ -1123,6 +1123,8 @@
   },
   "order": [
     "slideshow",
+    "rich_text_f9M7cW",
+    "image_link_blocks_43GrkJ",
     "text_with_icons_B33DrW",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
@@ -1135,8 +1137,6 @@
     "multiple-images-with-text",
     "image-with-text-overlay",
     "multi_column_Fxc7Gw",
-    "rich_text_f9M7cW",
-    "image_link_blocks_43GrkJ",
     "press",
     "featured-product",
     "feature-chart",
