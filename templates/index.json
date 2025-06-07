@@ -508,7 +508,7 @@
         "title": "Votre transformation commence en 15 minutes par jour.",
         "content": "<p>Créez votre propre<strong> thérapie anti-cellulite</strong> grâce à des outils sélectionnés dermatologiquement, pour des soins professionnels, directement chez vous.</p>",
         "background": "#2a555a",
-        "background_gradient": "",
+        "background_gradient": "linear-gradient(46deg, rgba(42, 85, 90, 1) 48%, rgba(247, 247, 247, 1) 91%)",
         "text_color": "#f7f7f7"
       }
     },
@@ -1118,12 +1118,12 @@
     "featured-collection",
     "impact-text",
     "video_fACYEQ",
-    "rich_text_f9M7cW",
-    "image_link_blocks_43GrkJ",
     "multi_column_3t7d9N",
     "multiple-images-with-text",
     "image-with-text-overlay",
     "multi_column_Fxc7Gw",
+    "rich_text_f9M7cW",
+    "image_link_blocks_43GrkJ",
     "press",
     "featured-product",
     "feature-chart",
