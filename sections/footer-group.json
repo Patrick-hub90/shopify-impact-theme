@@ -116,10 +116,18 @@
             "menu": "footer",
             "show_menu_title": true
           }
+        },
+        "links_4faYzd": {
+          "type": "links",
+          "settings": {
+            "menu": "politique",
+            "show_menu_title": true
+          }
         }
       },
       "block_order": [
-        "links"
+        "links",
+        "links_4faYzd"
       ],
       "settings": {
         "show_social_media": true,
