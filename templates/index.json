@@ -340,8 +340,8 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "L'excellence des soins parisiens maintenant chez vous",
-        "text_size": "large",
+        "text": "L’excellence des soins parisiens chez vous, avec des accessoires de qualité médicale pour des soins d’institut à domicile.",
+        "text_size": "medium",
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 3,
