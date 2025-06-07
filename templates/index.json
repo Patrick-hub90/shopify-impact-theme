@@ -870,6 +870,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_GjfBfQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Routine Velaura a déjà conquis plus de 12,000 femmes en France depuis 2012.</p>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -889,12 +895,6 @@
         "separator": {
           "type": "separator",
           "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
         },
         "variant-picker": {
           "type": "variant_picker",
@@ -925,11 +925,11 @@
       "block_order": [
         "vendor",
         "title",
+        "text_GjfBfQ",
         "badges",
         "price",
         "rating",
         "separator",
-        "description",
         "variant-picker",
         "quantity-selector",
         "buy-buttons"
