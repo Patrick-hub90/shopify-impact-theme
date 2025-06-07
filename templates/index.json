@@ -419,12 +419,6 @@
     "video_fACYEQ": {
       "type": "video",
       "blocks": {
-        "subheading_R3xDNn": {
-          "type": "subheading",
-          "settings": {
-            "text": "La Routine Velaura"
-          }
-        },
         "heading_qDeBF9": {
           "type": "heading",
           "settings": {
@@ -440,7 +434,6 @@
         }
       },
       "block_order": [
-        "subheading_R3xDNn",
         "heading_qDeBF9",
         "richtext_ppYAKn"
       ],
