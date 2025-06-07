@@ -870,12 +870,6 @@
             "heading_tag": "h2"
           }
         },
-        "text_GjfBfQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>La Routine Velaura a déjà conquis plus de 12,000 femmes en France depuis 2012.</p>"
-          }
-        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -896,6 +890,18 @@
           "type": "separator",
           "settings": {}
         },
+        "text_wYFk8E": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Routine Velaura a déjà conquis plus de 12,000 femmes en France depuis 2012.</p>"
+          }
+        },
+        "liquid_TnNwhd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign avantages = \"Résultats visibles dès 14 jours|Méthode 100% naturelle, sans irritation|Routine complète à suivre chez soi|92% des utilisatrices constatent une peau plus lisse\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #000000;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+          }
+        },
         "variant-picker": {
           "type": "variant_picker",
           "settings": {
@@ -913,7 +919,7 @@
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
@@ -925,18 +931,19 @@
       "block_order": [
         "vendor",
         "title",
-        "text_GjfBfQ",
         "badges",
         "price",
         "rating",
         "separator",
+        "text_wYFk8E",
+        "liquid_TnNwhd",
         "variant-picker",
         "quantity-selector",
         "buy-buttons"
       ],
       "settings": {
         "full_width": false,
-        "product": "",
+        "product": "masseur-a-ventouse-velaura™",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
