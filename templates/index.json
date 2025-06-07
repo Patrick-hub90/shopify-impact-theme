@@ -355,7 +355,12 @@
       "type": "featured-collection",
       "settings": {
         "collection": "",
-        "products": [],
+        "products": [
+          "masseur-a-ventouse-velaura™",
+          "brosse-anti-cellulite-velaura",
+          "creme-anti-cellulite-velaura",
+          "bande-de-resistance-velaura"
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -383,7 +388,7 @@
           "type": "item",
           "settings": {
             "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "subheading": "des accessoires du kit sont conçus pour reproduire les résultats d'institut directement chez vous.",
             "content": "",
             "button_text": "",
             "button_url": "",
