@@ -435,11 +435,11 @@
         "button_UihetN": {
           "type": "button",
           "settings": {
-            "style": "outline",
+            "style": "fill",
             "size": "lg",
             "text": "→ Je découvre la Méthode",
             "url": "",
-            "background": "",
+            "background": "#2a555a",
             "text_color": "#f7f7f7"
           }
         }
