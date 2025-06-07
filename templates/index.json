@@ -431,11 +431,23 @@
           "settings": {
             "content": "<p>C’est un protocole complet utilisé depuis des années par des professionnels, notamment auprès de personnes exposées comme les mannequins, qui doivent préserver une peau ferme et lisse.</p>"
           }
+        },
+        "button_UihetN": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "→ Je découvre la Méthode",
+            "url": "",
+            "background": "",
+            "text_color": "#f7f7f7"
+          }
         }
       },
       "block_order": [
         "heading_qDeBF9",
-        "richtext_ppYAKn"
+        "richtext_ppYAKn",
+        "button_UihetN"
       ],
       "name": "Video",
       "settings": {
@@ -498,6 +510,7 @@
         "item_BTPNPx",
         "item_tyzLFi"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
