@@ -450,6 +450,39 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_jCBfQU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aeBdik": {
+          "type": "heading",
+          "settings": {
+            "text": "Votre transformation commence en 15 minutes par jour.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_dRr7NJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Créez votre propre<strong> thérapie anti-cellulite</strong> grâce à des outils sélectionnés dermatologiquement, pour des soins professionnels, directement chez vous.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aeBdik",
+        "richtext_dRr7NJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_3t7d9N": {
       "type": "multi-column",
       "blocks": {
@@ -505,8 +538,8 @@
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
-        "title": "Votre transformation commence en 15 minutes par jour.",
-        "content": "<p>Créez votre propre<strong> thérapie anti-cellulite</strong> grâce à des outils sélectionnés dermatologiquement, pour des soins professionnels, directement chez vous.</p>",
+        "title": "",
+        "content": "",
         "background": "#2a555a",
         "background_gradient": "",
         "text_color": "#f7f7f7"
@@ -1118,6 +1151,7 @@
     "featured-collection",
     "impact-text",
     "video_fACYEQ",
+    "rich_text_jCBfQU",
     "multi_column_3t7d9N",
     "multiple-images-with-text",
     "image-with-text-overlay",
