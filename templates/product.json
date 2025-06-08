@@ -480,7 +480,7 @@
         "heading_YznfrW": {
           "type": "heading",
           "settings": {
-            "text": "Votre transformation commence en 5 minutes par jour.",
+            "text": "",
             "heading_tag": "h2",
             "text_color": "#ffffff",
             "gradient": ""
@@ -489,7 +489,7 @@
         "richtext_y9KKJz": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>La routine Velaura est un protocole anti-cellulite complet, conçu pour cibler en profondeur les causes de la peau d’orange. </strong>Elle associe des gestes techniques précis à des produits et accessoires dermatologiquement adaptés. </p>"
+            "content": ""
           }
         },
         "liquid_WByAXk": {
@@ -583,8 +583,8 @@
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
-        "title": "",
-        "content": "",
+        "title": "Votre transformation commence en 5 minutes par jour.",
+        "content": "<p>La routine Velaura est un protocole anti-cellulite complet, conçu pour cibler en profondeur les causes de la peau d’orange. Elle associe des gestes techniques précis à des produits et accessoires dermatologiquement adaptés. </p>",
         "background": "#2a555a",
         "background_gradient": "",
         "text_color": "#ffffff"
