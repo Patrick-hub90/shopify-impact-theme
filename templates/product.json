@@ -801,29 +801,45 @@
         "item_LbBqyT": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Combien de temps faut-il pour voir des résultats avec le Kit anti-cellulite de Velaura ?",
+            "content": "<p>Les premiers résultats peuvent être visibles <strong>dès la première semaine d'utilisation </strong>chez certaines clientes. Toutefois, chaque corps est unique, et <strong>les résultats peuvent varier </strong>selon votre métabolisme, votre type de cellulite et votre mode de vie. <strong>L'assiduité et la régularité </strong>d'utilisation du Kit en conformité avec la routine Velaura, accéléreront et <strong>optimiseront vos résultats sur la durée</strong>.</p>"
           }
         },
         "item_yKxwp8": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Est-ce que le Kit anti-cellulite élimine vraiment la cellulite efficacement ?",
+            "content": ""
           }
         },
         "item_xmpmME": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Le Kit anti-cellulite  nécessite-t-il des produits ou des accessoires supplémentaires ?",
+            "content": "<p>Non, <strong>le Kit anti-cellulite est complet </strong>en lui-même, contenant tous les soins et accessoires nécessaires <strong>pour traiter efficacement la cellulite</strong>. Toutefois, si vous souhaitez combiner plusieurs objectifs, comme par exemple cellulite et minceur, nous vous recommandons de <strong>traiter chaque objectif séparément</strong>, l'un après l'autre.<br/>Par la suite, vous pourrez continuer à utiliser les produits qui vous ont particulièrement plu ou ceux qui ont apporté <strong>les meilleurs résultats </strong>en entretien régulier pour <strong>préserver durablement les effets obtenus</strong>.</p>"
+          }
+        },
+        "item_XD9Q96": {
+          "type": "item",
+          "settings": {
+            "title": "Le Kit anti-cellulite est-il efficace pour lutter contre tous types de cellulite ?",
+            "content": "<p>Oui, c'est une <strong>véritable arme contre tous les types de cellulite</strong>, qu'elle soit adipeuse, fibreuse, aqueuse... La clé de son efficacité réside dans notre ventouse électrique révolutionnaire, qui dispose de 12<strong> niveaux d'intensité </strong>et de <strong>2 modes d'aspiration </strong>distincts. Ces caractéristiques permettent d'<strong>adapter le traitement </strong>à votre type spécifique de cellulite et à vos <strong>besoins personnels</strong>. Que vous cherchiez à <strong>cibler des zones tenaces </strong>ou à <strong>effectuer un traitement plus général</strong>, cette ventouse est capable de <strong>s'ajuster pour offrir des résultats optimaux</strong>. Combinée à nos autres soins ciblés, elle constitue une solution complète pour combattre efficacement la cellulite sous toutes ses formes.</p>"
+          }
+        },
+        "item_xNKGfM": {
+          "type": "item",
+          "settings": {
+            "title": "Le Kit anti-cellulite  est-il compatible avec la grossesse ou l'allaitement ?",
+            "content": "<p>Nous ne recommandons pas d'utiliser ce pack pendant la grossesse ou l'allaitement. En cas de doute, demandez toujours l'avis d'un médecin ou d'un professionnel de la santé.</p>"
           }
         }
       },
       "block_order": [
         "item_LbBqyT",
         "item_yKxwp8",
-        "item_xmpmME"
+        "item_xmpmME",
+        "item_XD9Q96",
+        "item_xNKGfM"
       ],
       "name": "FAQ",
       "settings": {
