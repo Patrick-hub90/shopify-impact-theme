@@ -157,6 +157,129 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_QkHbXj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_etTz49": {
+          "type": "heading",
+          "settings": {
+            "text": "Soins Cabine☘️",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_hgLkjL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Rejoignez ces milliers de femmes qui ont adopté la routine Velaura pour une peau sans cellulite.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_etTz49",
+        "richtext_hgLkjL"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_kyQDK6": {
+      "type": "multi-column",
+      "blocks": {
+        "item_padhb6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/10.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Franchement, je ne m'attendais pas à voir des résultats si rapidement ! Ma peau était terne et fatiguée, maintenant elle rayonne littéralement. La routine Velaura, c'est vraiment mon petit secret beauté maintenant !<br/><br/><br/>⭐⭐⭐⭐⭐<br/> <strong>Sarah M.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dYxiR4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/15_bcd04f7f-e657-40b5-aae1-1cb95be85348.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Peau ultra-réactive depuis toujours, j'appréhendais... Mais aucune irritation avec Velaura ! Au contraire, ma peau s'est apaisée. C'est doux, ça sent bon, et ça marche vraiment. Enfin une routine adaptée à ma peau capricieuse !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Yasmine B.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DYeef7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/13.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Six mois que j'utilise Velaura religieusement... Résultat : ma peau n'a jamais été aussi belle ! Plus besoin de fond de teint au quotidien. Mes amies pensent que j'ai fait des injections tellement l'effet est bluffant. Je ne changerai pour rien au monde !</p><p><br/>⭐⭐⭐⭐⭐ <br/><strong>Charlotte F.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WnHRR7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/9.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Difficile à convaincre niveau cosmétiques... Mais Velaura m'a bluffée ! Ingrédients clean, résultats visibles, packaging élégant. Tout y est. Ma peau respire la santé maintenant. <br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Emma L.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yE8D3f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/9_aae8d66e-16b2-415d-b145-3f7b787e8b36.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>J'ai testé des centaines de produits... Velaura sort vraiment du lot ! L'effet \"glow\" est immédiat et durable. Ma routine du soir est devenue un vrai moment de plaisir. Je suis définitivement conquise et déjà en train de recommander !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Julie H.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_padhb6",
+        "item_dYxiR4",
+        "item_DYeef7",
+        "item_WnHRR7",
+        "item_yE8D3f"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_3U6Hyp": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -170,6 +293,7 @@
       "block_order": [
         "richtext_MgHfad"
       ],
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -351,129 +475,6 @@
         "text_gradient": ""
       }
     },
-    "rich_text_QkHbXj": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_etTz49": {
-          "type": "heading",
-          "settings": {
-            "text": "Elles en parlent mieux que nous ! ☘️",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_hgLkjL": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Rejoignez ces milliers de femmes qui ont adopté la routine Velaura pour une peau sans cellulite.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_etTz49",
-        "richtext_hgLkjL"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_kyQDK6": {
-      "type": "multi-column",
-      "blocks": {
-        "item_padhb6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/10.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Franchement, je ne m'attendais pas à voir des résultats si rapidement ! Ma peau était terne et fatiguée, maintenant elle rayonne littéralement. La routine Velaura, c'est vraiment mon petit secret beauté maintenant !<br/><br/><br/>⭐⭐⭐⭐⭐<br/> <strong>Sarah M.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_dYxiR4": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/15_bcd04f7f-e657-40b5-aae1-1cb95be85348.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Peau ultra-réactive depuis toujours, j'appréhendais... Mais aucune irritation avec Velaura ! Au contraire, ma peau s'est apaisée. C'est doux, ça sent bon, et ça marche vraiment. Enfin une routine adaptée à ma peau capricieuse !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Yasmine B.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_DYeef7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/13.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Six mois que j'utilise Velaura religieusement... Résultat : ma peau n'a jamais été aussi belle ! Plus besoin de fond de teint au quotidien. Mes amies pensent que j'ai fait des injections tellement l'effet est bluffant. Je ne changerai pour rien au monde !</p><p><br/>⭐⭐⭐⭐⭐ <br/><strong>Charlotte F.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_WnHRR7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/9.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Difficile à convaincre niveau cosmétiques... Mais Velaura m'a bluffée ! Ingrédients clean, résultats visibles, packaging élégant. Tout y est. Ma peau respire la santé maintenant. <br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Emma L.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yE8D3f": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/9_aae8d66e-16b2-415d-b145-3f7b787e8b36.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>J'ai testé des centaines de produits... Velaura sort vraiment du lot ! L'effet \"glow\" est immédiat et durable. Ma routine du soir est devenue un vrai moment de plaisir. Je suis définitivement conquise et déjà en train de recommander !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Julie H.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_padhb6",
-        "item_dYxiR4",
-        "item_DYeef7",
-        "item_WnHRR7",
-        "item_yE8D3f"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_68QtHB": {
       "type": "rich-text",
       "blocks": {
@@ -650,6 +651,67 @@
         "remove_vertical_spacing": true,
         "remove_horizontal_spacing": true,
         "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Velaura vs Concurrents</title>\n    <style>\n        * {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n\n        body {\n            background: #F7f7f7;\n            overflow-x: hidden;\n        }\n\n        .comparison-container {\n            width: 100%;\n            margin: 3rem 0;\n            padding: 0 rem;\n        }\n\n        .comparison-table {\n            width: 100%;\n            border-collapse: collapse;\n            background: white;\n\n            table-layout: fixed;\n        }\n\n        .comparison-table th,\n        .comparison-table td {\n            padding: 1.5rem 1rem;\n            text-align: center;\n            color: #d2A555A;\n            font-weight: 700;\n            font-size: 1em;\n            word-break: break-word;\n        }\n\n        .comparison-table thead {\n            background: linear-gradient(135deg, #2A555A 0%, #f7f7f7 100%);\n            color: white;\n        }\n\n        .comparison-table th:first-child {\n            text-align: left;\n            width: 40%;\n            min-width: 200px;\n            padding-left: 1.rem;\n        }\n\n        .comparison-table tbody td {\n            border-bottom: 1px solid #f7f7f7;\n        }\n\n        .comparison-table tbody td:first-child {\n            text-align: left;\n            font-weight: 600;\n            padding-left: rem;\n        }\n\n        .feature-icon {\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            display: inline-flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: bold;\n            font-size: 1.3em;\n            margin: 0 auto;\n        }\n\n        .check-mark {\n            background: #2A555A;\n            color: white;\n        }\n\n        .cross-mark {\n            background: #f0f0f0;\n            color: #a18888;\n        }\n\n        @media (max-width: 768px) {\n            .comparison-table th,\n            .comparison-table td {\n                padding: 1rem 0.5rem;\n                font-size: 0.9em;\n            }\n            \n            .feature-icon {\n                width: 28px;\n                height: 28px;\n                font-size: 1.1em;\n            }\n            \n            .comparison-table th:first-child {\n                min-width: 150px;\n                padding-left: 1rem;\n            }\n            \n            .comparison-table td:first-child {\n                padding-left: 1rem;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"comparison-container\">\n        <table class=\"comparison-table\">\n            <thead>\n                <tr>\n                    <th>Bénéfices clés</th>\n                    <th>Velaura</th>\n                    <th>Autres marques</th>\n                </tr>\n            </thead>\n            <tbody>\n    <tr>\n        <td>Méthode complète 21 jours</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Guide expert inclus</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Kit d'accessoires premium</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Protocole institut 100 % à domicile</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Programme sportif intégré</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Compatible avec tous les types de cellulite </td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Suivi quotidien structuré</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Méthode 100% naturelle, sans produits chimiques</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Résultats durables</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n</tbody>\n        </table>\n    </div>\n</body>\n</html>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_mitddm": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_yXUqyV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 84,
+            "icon_background_type": "circle",
+            "icon_background": "#d9967e",
+            "icon_color": "#f7f7f7",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_LWLtGA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 84,
+            "icon_background_type": "circle",
+            "icon_background": "#d9967e",
+            "icon_color": "#f7f7f7",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_XT3FaM": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 84,
+            "icon_background_type": "circle",
+            "icon_background": "#d9967e",
+            "icon_color": "#f7f7f7",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_yXUqyV",
+        "item_LWLtGA",
+        "item_XT3FaM"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -868,18 +930,19 @@
   "order": [
     "main",
     "related-products",
+    "rich_text_QkHbXj",
+    "multi_column_kyQDK6",
     "image_with_text_overlay_3U6Hyp",
     "custom_liquid_F6mcqn",
     "rich_text_rbRA63",
     "featured_collection_FLt4Bx",
     "multi_column_tQQK4i",
     "scrolling_text_gdUp3K",
-    "rich_text_QkHbXj",
-    "multi_column_kyQDK6",
     "rich_text_68QtHB",
     "multi_column_erDYxy",
     "rich_text_KbN9pi",
     "custom_liquid_3mw39w",
+    "text_with_icons_mitddm",
     "rich_text_iV9dPx",
     "impact_text_Tcx8Wj",
     "rich_text_AGaVcr",
