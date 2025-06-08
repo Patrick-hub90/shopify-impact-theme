@@ -18,6 +18,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_73Gqra": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La méthode exclusive des instituts de beauté dans un coffret clé en main </p>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -37,12 +43,6 @@
         "separator": {
           "type": "separator",
           "settings": {}
-        },
-        "text_73Gqra": {
-          "type": "text",
-          "settings": {
-            "text": "<p>La méthode exclusive des instituts de beauté dans un coffret clé en main </p>"
-          }
         },
         "liquid_B7LfBx": {
           "type": "liquid",
@@ -103,11 +103,11 @@
       },
       "block_order": [
         "title",
+        "text_73Gqra",
         "badges",
         "price",
         "rating",
         "separator",
-        "text_73Gqra",
         "liquid_B7LfBx",
         "payment_terms",
         "variant_picker",
