@@ -701,67 +701,6 @@
         "text_color": ""
       }
     },
-    "text_with_icons_mitddm": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_yXUqyV": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 84,
-            "icon_background_type": "circle",
-            "icon_background": "#d9967e",
-            "icon_color": "#f7f7f7",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
-          }
-        },
-        "item_LWLtGA": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 84,
-            "icon_background_type": "circle",
-            "icon_background": "#d9967e",
-            "icon_color": "#f7f7f7",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
-          }
-        },
-        "item_XT3FaM": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 84,
-            "icon_background_type": "circle",
-            "icon_background": "#d9967e",
-            "icon_color": "#f7f7f7",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_yXUqyV",
-        "item_LWLtGA",
-        "item_XT3FaM"
-      ],
-      "name": "Text with icons",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_iV9dPx": {
       "type": "rich-text",
       "blocks": {
@@ -987,7 +926,6 @@
     "multi_column_dw4MHP",
     "rich_text_KbN9pi",
     "custom_liquid_3mw39w",
-    "text_with_icons_mitddm",
     "rich_text_iV9dPx",
     "impact_text_Tcx8Wj",
     "rich_text_AGaVcr",
