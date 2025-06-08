@@ -34,6 +34,10 @@
             "show_empty": false
           }
         },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
         "text_73Gqra": {
           "type": "text",
           "settings": {
@@ -43,22 +47,12 @@
         "liquid_B7LfBx": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% assign avantages = \"Résultats visibles dès 14 jours|Méthode 100% naturelle, sans irritation|Routine complète à suivre chez soi|92% des utilisatrices constatent une peau plus lisse\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #000000;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+            "liquid": "{% assign avantages = \"Résultats visibles dès 14 jours|Méthode 100% naturelle, sans irritation|Routine complète à suivre chez soi|92% des utilisatrices constatent une peau plus lisse\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #2A555A; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -79,7 +73,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#f7afaf",
+            "atc_button_background": "#2a555a",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -112,11 +106,10 @@
         "badges",
         "price",
         "rating",
+        "separator",
         "text_73Gqra",
         "liquid_B7LfBx",
         "payment_terms",
-        "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -170,7 +163,7 @@
         "richtext_MgHfad": {
           "type": "richtext",
           "settings": {
-            "content": "<p>21 jours exactement entre ces deux photos. Je n'y croyais pas moi-même ! La cellulite qui me complexait depuis des années a pratiquement disparu.</p><p>⭐⭐⭐⭐⭐ <br/><strong>Julie R., 37 ans, Marseille</strong></p>"
+            "content": "<p>21 jours exactement entre ces deux photos. Je n'y croyais pas moi-même ! La cellulite qui me complexait depuis des années a pratiquement disparu.</p><p>⭐⭐⭐⭐⭐ <br/><strong>Juliette R., 37 ans, Marseille</strong></p>"
           }
         }
       },
@@ -229,7 +222,7 @@
             "style": "fill",
             "size": "base",
             "text": "→ Je découvre la Méthode",
-            "url": "",
+            "url": "https://velaura.fr/products/kit-anti-cellulite#methode",
             "background": "#f7afaf",
             "text_color": ""
           }
@@ -499,11 +492,18 @@
           "settings": {
             "content": "<p><strong>La routine Velaura est un protocole anti-cellulite complet, conçu pour cibler en profondeur les causes de la peau d’orange. </strong>Elle associe des gestes techniques précis à des produits et accessoires dermatologiquement adaptés. </p>"
           }
+        },
+        "liquid_WByAXk": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p id=\"methode\"></p>"
+          }
         }
       },
       "block_order": [
         "heading_YznfrW",
-        "richtext_y9KKJz"
+        "richtext_y9KKJz",
+        "liquid_WByAXk"
       ],
       "name": "Rich text",
       "settings": {
@@ -559,6 +559,7 @@
         },
         "item_ULnWGF": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Avant_2.png",
             "column_size": "3",
@@ -783,6 +784,7 @@
         "heading_RnGfWJ",
         "richtext_MYc4xd"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
