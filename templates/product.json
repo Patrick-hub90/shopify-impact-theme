@@ -475,46 +475,6 @@
         "text_gradient": ""
       }
     },
-    "rich_text_68QtHB": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_YznfrW": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2",
-            "text_color": "#ffffff",
-            "gradient": ""
-          }
-        },
-        "richtext_y9KKJz": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        },
-        "liquid_WByAXk": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<p id=\"methode\"></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_YznfrW",
-        "richtext_y9KKJz",
-        "liquid_WByAXk"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#2a555a",
-        "background_gradient": "",
-        "text_color": "#ffffff"
-      }
-    },
     "multi_column_erDYxy": {
       "type": "multi-column",
       "blocks": {
@@ -577,6 +537,7 @@
         "item_R4kw7g",
         "item_ULnWGF"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -586,6 +547,82 @@
         "subheading": "",
         "title": "Votre transformation commence en 5 minutes par jour.",
         "content": "<p>La routine Velaura est un protocole anti-cellulite complet, conçu pour cibler en profondeur les causes de la peau d’orange. Elle associe des gestes techniques précis à des produits et accessoires dermatologiquement adaptés. </p>",
+        "background": "#2a555a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "multi_column_dw4MHP": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CpENdw": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524.mp4",
+            "column_size": "3",
+            "title": "🌀 ÉTAPE 1 – ACTIVER LA CIRCULATION POUR BRISER LA STAGNATION",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : relancer la microcirculation sanguine et lymphatique.</p><p><strong>Pourquoi ?  </strong>La cellulite s’installe là où la circulation est paresseuse, les toxines stagnent, et les tissus s’asphyxient.<br/><br/><strong>Comment ?  </strong>En brossant votre peau à sec avec la <strong>brosse Velaura</strong>, vous stimulez immédiatement la circulation, activez la régénération cellulaire et préparez la peau aux soins.<br/><br/> <strong>Résultat : </strong> Une peau plus vive, décongestionnée et prête à absorber les actifs.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_X6KPBG": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524(2).mp4",
+            "column_size": "3",
+            "title": "💧 ÉTAPE 2 – DRAINER POUR DÉGONFLER LA CELLULITE AQUEUSE",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : éliminer l’excès d’eau et les toxines accumulées.</p><p><strong>Pourquoi ? </strong> La <strong>cellulite aqueuse</strong> donne cet effet “gonflé” et bosselé.<br/><br/><strong>Comment ?  </strong>Appliquez la crème<strong> Velaura</strong>, enrichie en caféine, gingembre et romarin, avec des mouvements circulaires. Ces extraits botaniques favorisent le drainage et améliorent la texture de la peau.<br/><br/><strong>Résultat :</strong>  La peau devient plus souple, mieux hydratée et visiblement désengorgée.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_q4t3md": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524(4).mp4",
+            "column_size": "3",
+            "title": "🔥 ÉTAPE 3 – CASSER LES GRAISSES INSTALLÉES",
+            "heading_tag": "h4",
+            "content": "<p><strong>Objectif</strong> : cibler les amas graisseux à l’origine de la cellulite fibreuse.</p><p><strong>Pourquoi ?</strong>  Les graisses comprimées par des fibres rigides forment les fameux capitons.<br/><br/><strong>Comment ? </strong> Grâce à la <strong>ventouse Velaura</strong>, vous reproduisez l’effet du palper-rouler professionnel. Elle mobilise les graisses, libère les tissus comprimés et stimule le déstockage.<br/><br/><strong> Résultat :  L</strong>es irrégularités s’atténuent, la peau devient plus lisse et plus uniforme.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HQ9WxN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_2.png",
+            "column_size": "3",
+            "title": "💪 ÉTAPE 4 – RENFORCER VOS MUSCLES POUR TENDRE LA PEAU",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : retonifier les muscles sous-cutanés pour retendre la peau durablement.</p><p><strong>Pourquoi ?</strong> Une peau relâchée, même affinée, peut rester irrégulière.<br/><br/><strong>Comment ?</strong> Le <strong>programme d’exercices Velaura</strong> (inclus dans l’ebook offert) cible les fessiers, cuisses, hanches et ventre, en synergie avec la <strong>bande de résistance fournie</strong>.<br/><br/><strong>Résultat : </strong>un galbe redessiné, une peau plus ferme, un corps visiblement tonifié.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CpENdw",
+        "item_X6KPBG",
+        "item_q4t3md",
+        "item_HQ9WxN"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Le protocole cabine, chez vous",
+        "content": "",
         "background": "#2a555a",
         "background_gradient": "",
         "text_color": "#ffffff"
@@ -946,8 +983,8 @@
     "featured_collection_FLt4Bx",
     "multi_column_tQQK4i",
     "scrolling_text_gdUp3K",
-    "rich_text_68QtHB",
     "multi_column_erDYxy",
+    "multi_column_dw4MHP",
     "rich_text_KbN9pi",
     "custom_liquid_3mw39w",
     "text_with_icons_mitddm",
