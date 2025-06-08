@@ -21,7 +21,7 @@
         "text_73Gqra": {
           "type": "text",
           "settings": {
-            "text": "<p>La méthode exclusive des instituts de beauté dans un coffret clé en main </p>"
+            "text": "<p><em>Velaura transpose les protocoles professionnels des instituts dans un kit accessible.</em></p>"
           }
         },
         "badges": {
@@ -47,7 +47,7 @@
         "liquid_B7LfBx": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% assign avantages = \" Résultats pro visibles dès 14 jours|Méthode éprouvée en institut depuis 2012|Outils de qualité cabine\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #D9967E; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+            "liquid": "{% assign avantages = \" Résultats visibles dès 14 jours|Gel tenseur aux actifs cliniques (concentration équivalente aux soins pro)|Masseur électrique reproduisant les vibrations des appareils d'hydro-lipomassage\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #D9967E; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         },
         "payment_terms": {
