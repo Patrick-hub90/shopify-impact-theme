@@ -163,8 +163,8 @@
         "heading_etTz49": {
           "type": "heading",
           "settings": {
-            "text": "Soins Cabine☘️",
-            "heading_tag": "h1",
+            "text": "Testé en cabine, approuvé à domicile ☘️",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -172,7 +172,7 @@
         "richtext_hgLkjL": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Rejoignez ces milliers de femmes qui ont adopté la routine Velaura pour une peau sans cellulite.</strong></p>"
+            "content": "<p><strong>30 jours de protocole intensif, validé en institut : réduction mesurée de la cellulite, grain de peau affiné et effet tenseur durable.</strong></p>"
           }
         }
       },
