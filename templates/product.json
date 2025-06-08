@@ -321,6 +321,31 @@
         "text_color": ""
       }
     },
+    "before_after_image_6f7xqi": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "En institut / À domicile",
+        "content": "<p>Découvrez le protocole complet utilisé par les instituts de beauté - maintenant accessible chez vous, sans rendez-vous ni tarifs prohibitifs</p>",
+        "before_image": "shopify://shop_images/steptodown.com362569.jpg",
+        "after_image": "shopify://shop_images/0519.jpg",
+        "expand_image": true,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "En institut",
+        "after_text": "À domicile",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#2a555a",
+        "after_text_color": "#2a555a",
+        "drag_cursor_background": "#2a555a",
+        "drag_cursor_color": "#fff9f6"
+      }
+    },
     "rich_text_rbRA63": {
       "type": "rich-text",
       "blocks": {
@@ -336,7 +361,7 @@
         "liquid_fRGPYP": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% assign avantages = \" Économisez 80% vs. des séances en institut|Résultats optimaux sans déplacement (application quotidienne possible)| Intimité : traitez les zones sensibles en toute discrétion\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #D9967E; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+            "liquid": "{% assign avantages = \" Économisez une fortune vs. des séances en institut|Résultats optimaux sans déplacement (application quotidienne possible)| Intimité : traitez les zones sensibles en toute discrétion\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #D9967E; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         },
         "button_j4rFx4": {
@@ -364,31 +389,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "before_after_image_6f7xqi": {
-      "type": "before-after-image",
-      "name": "Before/after image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "En institut / À domicile",
-        "content": "<p>Découvrez le protocole complet utilisé par les instituts de beauté - maintenant accessible chez vous, sans rendez-vous ni tarifs prohibitifs</p>",
-        "before_image": "shopify://shop_images/steptodown.com362569.jpg",
-        "after_image": "shopify://shop_images/0519.jpg",
-        "expand_image": true,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "En institut",
-        "after_text": "À domicile",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#2a555a",
-        "after_text_color": "#2a555a",
-        "drag_cursor_background": "#2a555a",
-        "drag_cursor_color": "#fff9f6"
       }
     },
     "featured_collection_FLt4Bx": {
