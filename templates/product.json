@@ -261,7 +261,7 @@
         "products_per_row_desktop": 3,
         "subheading": "",
         "title": "Notre kit Anti Cellulite Velaura !",
-        "content": "<p>Créez votre propre<strong> thérapie anti-cellulite</strong> grâce à des outils sélectionnés dermatologiquement, pour des soins professionnels, directement chez vous.</p>",
+        "content": "<p>Créez votre propre<strong> thérapie anti-cellulite</strong> grâce à nos outils, pour des soins professionnels, directement chez vous.</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
@@ -558,7 +558,6 @@
         },
         "item_ULnWGF": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Avant_2.png",
             "column_size": "3",
