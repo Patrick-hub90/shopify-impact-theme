@@ -327,10 +327,16 @@
         "heading_8Cg4rz": {
           "type": "heading",
           "settings": {
-            "text": "La Routine 100%  naturelle qui élimine VRAIMENT la cellulite.",
-            "heading_tag": "h3",
+            "text": "Pourquoi à domicile ?",
+            "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
+          }
+        },
+        "liquid_fRGPYP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign avantages = \" Économisez 80% vs. des séances en institut|Résultats optimaux sans déplacement (application quotidienne possible)| Intimité : traitez les zones sensibles en toute discrétion\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #D9967E; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         },
         "richtext_BEYmde": {
@@ -353,6 +359,7 @@
       },
       "block_order": [
         "heading_8Cg4rz",
+        "liquid_fRGPYP",
         "richtext_BEYmde",
         "button_j4rFx4"
       ],
