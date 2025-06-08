@@ -863,7 +863,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h4"
           }
         },
         "badges": {
@@ -989,7 +989,7 @@
           "type": "item",
           "settings": {
             "title": "Comment fonctionne le remboursement ?",
-            "content": "<p>C'est très simple :</p><ul><li>Contactez notre service client dans les 30 jours suivant votre achat</li><li>Renvoyez-nous le produit (même entamé, c'est normal !)</li><li>Nous procédons au remboursement complet sous 5 à 7 jours ouvrés</li></ul>"
+            "content": "<p>C'est très simple :</p><ul><li>Contactez notre service client dans les 30 jours suivant votre achat via retour@velaura.fr</li><li>Renvoyez nous le produit ( Les instructions vous seront communiqué par notre service client )</li><li>Nous procédons au remboursement complet sous 5 à 7 jours ouvrés</li></ul>"
           }
         },
         "166442457738b23caf-2": {
