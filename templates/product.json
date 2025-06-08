@@ -510,7 +510,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#f7afaf",
+        "background": "#2a555a",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -587,7 +587,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "#f7afaf",
+        "background": "#2a555a",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
