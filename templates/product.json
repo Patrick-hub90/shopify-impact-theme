@@ -609,8 +609,15 @@
             "gradient": ""
           }
         },
+        "liquid_McBLF4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign avantages = \" Développé par des pro : protocole mis au point et testé en cabine par nos esthéticiennes certifiées.|Matériel de cabine : appareil et accessoires professionnels, identiques à ceux utilisés en institut.|Ebook inclus : tutoriels détaillés pour un soin expert, étape par étape.\n\n\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;text-align: left;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #D9967E; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+          }
+        },
         "richtext_4EhFQJ": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Notre approche allie une routine guidée, des accessoires premium, et un programme sportif : un véritable protocole global, validé par des dermatologues. </p>"
           }
@@ -630,6 +637,7 @@
       "block_order": [
         "subheading_97pBEq",
         "heading_EBKNQq",
+        "liquid_McBLF4",
         "richtext_4EhFQJ",
         "button_TcLBwr"
       ],
