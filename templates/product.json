@@ -83,7 +83,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Que contient le Kit Velaura™  ?",
-            "content": "<p>✅ 1 <strong>ventouse professionnelle</strong> anti-cellulite en silicone médical<br/><br/>✅ 1 <strong>brosse de massage</strong> stimulante à picots souples<br/><br/>✅ 1 c<strong>rème anti cellulite </strong> aux extraits de caféine, romarin & gingembre (100 ml)<br/><br/>✅ 1 <strong>bande de résistance</strong> pour tonifier les zones ciblées<br/><br/>✅ 1 <strong>ebook exclusif OFFERT</strong> : protocole complet + programmes d’exercices ciblés (PDF)<br/><br/>✅ 1 <strong>pochette de rangement</strong> en coton naturel</p><p>🧖‍♀️ <strong>Testé et approuvé par nos ambassadrices beauté</strong></p>"
+            "content": "<ul><li>1 Masseur à <strong>ventouse </strong>anti-cellulite </li><li>1 <strong>brosse de massage</strong> stimulante à picots souples</li><li>1 c<strong>rème anti cellulite </strong> aux extraits de caféine, romarin & gingembre (100 ml)<br/></li></ul>"
           }
         },
         "collapsible_text_j4hmFf": {
@@ -97,7 +97,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Comment effectuer un retour ?",
-            "content": "<p>Contactez notre service client à retour@velaura.fr avec :</p><ul><li>Votre numéro de commande</li><li>Le motif de votre retour</li><li>Une photo du produit si nécessaire</li></ul><p>Nous vous transmettrons l’adresse de retour et les instructions.</p><p>Une fois le produit reçu et inspecté, vous recevrez la confirmation de remboursement par email.</p><p>Le montant sera recrédité automatiquement sur votre mode de paiement initial dans un délai de 5 à 10 jours ouvrés.</p><p>📦<strong> Frais de retour : </strong>Les frais d’expédition pour renvoyer le produit restent à la charge du client sauf en cas de produit défectueux ou erreur de notre part. Consultez nos politiques de retour pour plus d'informations.</p>"
+            "content": "<p>C'est très simple :</p><ul><li>Contactez notre service client dans les 30 jours suivant votre achat via retour@velaura.fr</li><li>Renvoyez nous le produit ( Les instructions vous seront communiqué par notre service client )</li><li>Nous procédons au remboursement complet sous 5 à 7 jours ouvrés</li></ul>"
           }
         }
       },
@@ -176,8 +176,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/5.png",
-        "mobile_image": "shopify://shop_images/5.png",
+        "image": "shopify://shop_images/Avant_6.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
