@@ -172,7 +172,7 @@
         "richtext_hgLkjL": {
           "type": "richtext",
           "settings": {
-            "content": "<p> Comment elles ont transformé leur salle de bain en institut professionnel - et économisé 250€/mois.</p>"
+            "content": "<p> Comment elles ont transformé leur maison en institut professionnel - et économisé 250€/mois.</p>"
           }
         }
       },
@@ -690,7 +690,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Obtenez vos soins pro à domicile",
-            "url": "shopify://products/soin-pro-anti-cellulite-a-domicile",
+            "url": "shopify://products/kit-anti-cellulite",
             "background": "",
             "text_color": ""
           }
