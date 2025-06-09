@@ -934,6 +934,34 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "1749445869fb7437ce": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_widget_xebR49": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_widget_xebR49"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -955,6 +983,7 @@
     "rich_text_iV9dPx",
     "impact_text_Tcx8Wj",
     "rich_text_AGaVcr",
-    "faq_AacKYz"
+    "faq_AacKYz",
+    "1749445869fb7437ce"
   ]
 }
