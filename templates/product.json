@@ -85,24 +85,30 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_NcnHbg": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"shipping-mini\">\n  <div class=\"shipping-row\">\n    <div class=\"shipping-step\">\n      <div class=\"icon\">⏱</div>\n      <div class=\"text\">\n        <span>Commandé avant 15h</span>\n        <strong>Expédié aujourd'hui</strong>\n      </div>\n    </div>\n    \n    <div class=\"shipping-step\">\n      <div class=\"icon\">🚚</div>\n      <div class=\"text\">\n        <span>Livraison Gratuite</span>\n        <strong>3 à 4 Jours ouvrés</strong>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.shipping-mini {\n  max-width: 600px;\n  margin: 20px auto;\n  padding: 12px;\n  background: #f8f9ff;\n  border-radius: 8px;\n}\n\n.shipping-row {\n  display: flex;\n  justify-content: space-around;\n  gap: 10px;\n}\n\n.shipping-step {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 10px;\n  background: white;\n  border-radius: 6px;\n  box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n}\n\n.shipping-step.express {\n  background: #fff7e6;\n  border: 1px solid #ffe7ba;\n}\n\n.icon {\n  font-size: 1.4em;\n}\n\n.text {\n  line-height: 1.3;\n}\n\n.text span {\n  display: block;\n  font-size: 0.75em;\n  color: #666;\n}\n\n.text strong {\n  font-size: 0.9em;\n  color: #2c3e50;\n}\n\n</style>"
+          }
+        },
         "collapsible_text_axbrb7": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Que contient le Kit Velaura™  ?",
+            "title": "🎁 Que contient le Kit Velaura™  ?",
             "content": "<ul><li>1 <strong>Masseur 3D Haute Fréquence </strong>avec 7 types de Massage différent et 12 niveaux de sucions selon de type de cellulite.</li><li>1 <strong>Brosse d'Activation Cutanée </strong>stimulante à picots souples</li><li>1 <strong>Sérum Pro-Fermeté </strong>aux extraits de caféine, romarin & gingembre (100 ml)</li><li><strong>1 Active-Band </strong><br/><br/><br/></li></ul>"
           }
         },
         "collapsible_text_j4hmFf": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Garantie satisfait ou remboursé – 30 jours",
+            "title": "🔁 Garantie satisfait ou remboursé – 30 jours",
             "content": "<p>Essayez notre Kit pendant 30 jours, sans risque. Si vous n'êtes pas entièrement satisfait(e), nous vous remboursons intégralement et vous recevez en plus un bon d'achat de 10 €.</p>"
           }
         },
         "collapsible_text_iRib8j": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Comment effectuer un retour ?",
+            "title": "💌 Comment effectuer un retour ?",
             "content": "<p>C'est très simple :</p><ul><li>Contactez notre service client dans les 30 jours suivant votre achat via retour@velaura.fr</li><li>Renvoyez nous le produit ( Les instructions vous seront communiqué par notre service client )</li><li>Nous procédons au remboursement complet sous 5 à 7 jours ouvrés</li></ul>"
           }
         }
@@ -120,6 +126,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "liquid_NcnHbg",
         "collapsible_text_axbrb7",
         "collapsible_text_j4hmFf",
         "collapsible_text_iRib8j"
