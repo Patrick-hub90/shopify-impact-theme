@@ -12,14 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "growave_loyalty_wishlist_v2_product_reviews_mini_slider_HkjXBx": {
-          "type": "shopify://apps/growave-loyalty-wishlist/blocks/v2.product.reviewsMiniSlider/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-          "settings": {
-            "lowest_rating": "1",
-            "only_pinned_reviews": false,
-            "custom_css": ""
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -91,7 +83,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Que contient le Kit Velaura™  ?",
-            "content": "<ul><li>1 Masseur à <strong>ventouse </strong>anti-cellulite </li><li>1 <strong>brosse de massage</strong> stimulante à picots souples</li><li>1 c<strong>rème anti cellulite </strong> aux extraits de caféine, romarin & gingembre (100 ml)<br/></li></ul>"
+            "content": "<ul><li>1 <strong>Masseur 3D Haute Fréquence </strong>avec 7 types de Massage différent et 12 niveaux de sucions selon de type de cellulite.</li><li>1 <strong>Brosse d'Activation Cutanée </strong>stimulante à picots souples</li><li>1 <strong>Sérum Pro-Fermeté </strong>aux extraits de caféine, romarin & gingembre (100 ml)</li><li><strong>1 Active-Band </strong><br/><br/><br/></li></ul>"
           }
         },
         "collapsible_text_j4hmFf": {
@@ -110,7 +102,6 @@
         }
       },
       "block_order": [
-        "growave_loyalty_wishlist_v2_product_reviews_mini_slider_HkjXBx",
         "title",
         "badges",
         "price",
