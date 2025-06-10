@@ -342,7 +342,7 @@
         "full_width": true,
         "subheading": "",
         "title": "En institut / À domicile",
-        "content": "<p>Découvrez le protocole complet utilisé par les instituts de beauté - maintenant accessible chez vous, sans rendez-vous ni tarifs prohibitifs</p>",
+        "content": "<p>Découvrez le protocole complet utilisé par les instituts de beauté - maintenant accessible chez vous, sans rendez-vous ni tarifs prohibitifs.</p>",
         "before_image": "shopify://shop_images/steptodown.com362569.jpg",
         "after_image": "shopify://shop_images/0519.jpg",
         "expand_image": true,
@@ -661,7 +661,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Le protocole cabine, chez vous",
-        "content": "",
+        "content": "<p>Découvrez comment les accessoires Velaura reproduisent, chez vous, les étapes clés d’une séance professionnelle en institut.</p>",
         "background": "#2a555a",
         "background_gradient": "",
         "text_color": "#ffffff"
