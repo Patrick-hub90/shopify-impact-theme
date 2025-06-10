@@ -890,6 +890,13 @@
             "content": "<p>Les premiers résultats peuvent être visibles <strong>dès la première semaine d'utilisation </strong>chez certaines clientes. Toutefois, chaque corps est unique, et <strong>les résultats peuvent varier </strong>selon votre métabolisme, votre type de cellulite et votre mode de vie. <strong>L'assiduité et la régularité </strong>d'utilisation du Kit en conformité avec la routine Velaura, accéléreront et <strong>optimiseront vos résultats sur la durée</strong>.</p>"
           }
         },
+        "item_CGirKL": {
+          "type": "item",
+          "settings": {
+            "title": "Les soins avec le Kit Velaura sont-ils douloureux ?",
+            "content": "<p>Non, les soins avec Velaura sont totalement indolores. Les accessoires sont conçus pour stimuler la peau en douceur, sans causer de douleur ni d’inconfort, vous offrant une expérience agréable et sécurisée à chaque utilisation.</p>"
+          }
+        },
         "item_yKxwp8": {
           "type": "item",
           "settings": {
@@ -921,6 +928,7 @@
       },
       "block_order": [
         "item_LbBqyT",
+        "item_CGirKL",
         "item_yKxwp8",
         "item_xmpmME",
         "item_XD9Q96",
