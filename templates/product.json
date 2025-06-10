@@ -56,6 +56,12 @@
             "liquid": "{% assign avantages = \" Agit en cercle vertueux : Chaque élément potentialise les autres|Cible la cellulite sous tous ses angles : Texture, fermeté, circulation|S'intègre à VOTRE rythme : Plus besoin d'adapter votre vie aux soins |Vous fait économiser temps ET argent : Investissement unique = résultats permanents\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         },
+        "kaching_bundles_app_block_HbWRDC": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -122,6 +128,7 @@
         "separator",
         "text_73Gqra",
         "liquid_B7LfBx",
+        "kaching_bundles_app_block_HbWRDC",
         "payment_terms",
         "variant_picker",
         "quantity_selector",
