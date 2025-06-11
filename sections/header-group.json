@@ -17,13 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "PROFITEZ DE 30% DE RÉDUCTION – OFFRE VALABLE 24H SEULEMENT !",
+            "text": "GARANTIE 30 JOURS : SATISFAIT OU REMBOURSÉ",
+            "url": ""
+          }
+        },
+        "message_FT7ri9": {
+          "type": "message",
+          "settings": {
+            "text": "OFFRE LIMITÉE",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_FT7ri9"
       ],
       "settings": {
         "enable_sticky": false,
