@@ -98,13 +98,6 @@
             "content": "<ul><li>1 <strong>Masseur 3D Haute Fréquence </strong>avec 7 types de Massage différent et 12 niveaux de sucions selon de type de cellulite.</li><li>1 <strong>Brosse d'Activation Cutanée </strong>stimulante à picots souples</li><li>1 <strong>Sérum Pro-Fermeté </strong>aux extraits de caféine, romarin & gingembre (100 ml)</li><li><strong>1 Active-Band </strong><br/><br/><br/></li></ul>"
           }
         },
-        "collapsible_text_CTNgK7": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Title",
-            "content": "<p>Tous nos produits cosmétiques sont :<br/>🇫🇷 Made in France & Made in EU<br/>🌿 Naturels<br/>🐰 Formulés sans ingrédient d'origine animale<br/><br/></p>"
-          }
-        },
         "collapsible_text_j4hmFf": {
           "type": "collapsible_text",
           "settings": {
@@ -135,7 +128,6 @@
         "buy_buttons",
         "liquid_NcnHbg",
         "collapsible_text_axbrb7",
-        "collapsible_text_CTNgK7",
         "collapsible_text_j4hmFf",
         "collapsible_text_iRib8j"
       ],
