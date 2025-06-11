@@ -460,6 +460,7 @@
         "item_eCy47R": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/bebb86ef-1f0f-4316-8c0b-e9f59ca05874.jpg",
             "icon": "none",
             "icon_width": 48,
             "title": "Heading 2",
@@ -469,6 +470,7 @@
         "item_WfKFWp": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_May_20_2025_10_15_15_AM.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Heading",
@@ -478,6 +480,7 @@
         "item_VrjWxn": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Printemps_1920x1920px_3.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Heading",
