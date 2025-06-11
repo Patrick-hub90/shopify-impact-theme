@@ -444,6 +444,32 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_UVAJAR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_i9LtJj": {
+          "type": "heading",
+          "settings": {
+            "text": "Spécification technique",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_i9LtJj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "images_with_text_scrolling_Xpjf6h": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -1068,6 +1094,7 @@
     "before_after_image_6f7xqi",
     "rich_text_rbRA63",
     "featured_collection_FLt4Bx",
+    "rich_text_UVAJAR",
     "images_with_text_scrolling_Xpjf6h",
     "multi_column_tQQK4i",
     "scrolling_text_gdUp3K",
