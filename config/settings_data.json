@@ -50,7 +50,7 @@
     "color_swatch_style": "round",
     "product_color_display": "swatch",
     "product_info_alignment": "center",
-    "cart_type": "drawer",
+    "cart_type": "popover",
     "cart_icon": "tote_bag",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
@@ -62,11 +62,6 @@
         "settings": {
           "show_preview_data": true
         }
-      },
-      "15557474716127144420": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-        "disabled": false,
-        "settings": {}
       }
     }
   },

@@ -98,6 +98,13 @@
             "content": "<ul><li>1 <strong>Masseur 3D Haute Fréquence </strong>avec 7 types de Massage différent et 12 niveaux de sucions selon de type de cellulite.</li><li>1 <strong>Brosse d'Activation Cutanée </strong>stimulante à picots souples</li><li>1 <strong>Sérum Pro-Fermeté </strong>aux extraits de caféine, romarin & gingembre (100 ml)</li><li><strong>1 Active-Band </strong><br/><br/><br/></li></ul>"
           }
         },
+        "collapsible_text_CTNgK7": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Title",
+            "content": "<p>Tous nos produits cosmétiques sont :<br/>🇫🇷 Made in France & Made in EU<br/>🌿 Naturels<br/>🐰 Formulés sans ingrédient d'origine animale<br/><br/></p>"
+          }
+        },
         "collapsible_text_j4hmFf": {
           "type": "collapsible_text",
           "settings": {
@@ -128,6 +135,7 @@
         "buy_buttons",
         "liquid_NcnHbg",
         "collapsible_text_axbrb7",
+        "collapsible_text_CTNgK7",
         "collapsible_text_j4hmFf",
         "collapsible_text_iRib8j"
       ],
@@ -434,6 +442,67 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "images_with_text_scrolling_Xpjf6h": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_D8KyFz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4_2025-05-17_12-53-58_b16df2bc-2282-4721-93e9-4d289143ec46.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_eCy47R": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_WfKFWp": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_VrjWxn": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_D8KyFz",
+        "item_eCy47R",
+        "item_WfKFWp",
+        "item_VrjWxn"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "multi_column_tQQK4i": {
@@ -996,6 +1065,7 @@
     "before_after_image_6f7xqi",
     "rich_text_rbRA63",
     "featured_collection_FLt4Bx",
+    "images_with_text_scrolling_Xpjf6h",
     "multi_column_tQQK4i",
     "scrolling_text_gdUp3K",
     "multi_column_erDYxy",
