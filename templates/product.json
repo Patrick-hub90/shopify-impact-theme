@@ -451,7 +451,7 @@
           "type": "heading",
           "settings": {
             "text": "Spécification technique",
-            "heading_tag": "h1",
+            "heading_tag": "h0",
             "text_color": "",
             "gradient": ""
           }
