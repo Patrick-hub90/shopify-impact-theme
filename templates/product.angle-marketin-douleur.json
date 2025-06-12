@@ -171,6 +171,41 @@
         "product_card_text_color": ""
       }
     },
+    "media_with_text_zD6FFM": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_tJbF7g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a919aade36fdae8dfc01003604b84a4f.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Un traitement efficace pour éliminer la graisse est souvent inefficace.",
+            "content": "<p>Pourquoi ? Parce que la cellulite ne vient pas seulement du gras.<br/>Elle est causée par des <strong>fibres rigides</strong> sous la peau qui <strong>compressent les cellules graisseuse</strong> et bloquent la circulation.<br/>Le sport aide à brûler des graisses, mais <strong>il ne détend pas ces fibres</strong> et <strong>n’améliore pas la texture de la peau</strong>.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2a555a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tJbF7g"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
     "rich_text_QkHbXj": {
       "type": "rich-text",
       "blocks": {
@@ -1060,6 +1095,7 @@
   "order": [
     "main",
     "related-products",
+    "media_with_text_zD6FFM",
     "rich_text_QkHbXj",
     "multi_column_kyQDK6",
     "image_with_text_overlay_3U6Hyp",
