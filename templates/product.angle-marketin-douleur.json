@@ -212,22 +212,22 @@
         "heading_etTz49": {
           "type": "heading",
           "settings": {
-            "text": "Un traitement efficace pour éliminer la graisse est souvent inefficace.",
+            "text": "Velaura agit là où le sport ne peut rien faire :",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         },
-        "richtext_hgLkjL": {
-          "type": "richtext",
+        "liquid_wTmJdj": {
+          "type": "liquid",
           "settings": {
-            "content": "<p>Pourquoi ? Parce que la cellulite ne vient pas seulement du gras.<br/>Elle est causée par des <strong>fibres rigides</strong> sous la peau qui <strong>compressent les cellules graisseuse</strong> et bloquent la circulation.<br/>Le sport aide à brûler des graisses, mais <strong>il ne détend pas ces fibres</strong> et <strong>n’améliore pas la texture de la peau</strong>.</p>"
+            "liquid": "{% assign avantages = \"Il relance la circulation dans les tissus engorgés|Il décoince et assouplit les fibres responsables des creux|Il tonifie les couches profondes de la peau pour un rendu plus ferme|Il réactive le renouvellement cutané, pour une texture plus lisse et homogène\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         }
       },
       "block_order": [
         "heading_etTz49",
-        "richtext_hgLkjL"
+        "liquid_wTmJdj"
       ],
       "settings": {
         "full_width": true,
@@ -236,6 +236,31 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "before_after_image_KcE9xb": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "<p>Résultat : une peau qui change <strong>visiblement</strong>, même si vous avez déjà \"tout essayé\".</p>",
+        "before_image": "shopify://shop_images/telechargement_25.jpg",
+        "after_image": "shopify://shop_images/venus_legacy_1_after.jpg",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2a555a",
+        "before_text_color": "#000000",
+        "after_text_color": "#000000",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "multi_column_kyQDK6": {
@@ -1097,6 +1122,7 @@
     "related-products",
     "media_with_text_zD6FFM",
     "rich_text_QkHbXj",
+    "before_after_image_KcE9xb",
     "multi_column_kyQDK6",
     "image_with_text_overlay_3U6Hyp",
     "custom_liquid_F6mcqn",
