@@ -898,6 +898,12 @@
             "liquid": "{% assign avantages = \"Résultats visibles dès 14 jours|Méthode 100% naturelle, sans irritation|Routine complète à suivre chez soi|92% des utilisatrices constatent une peau plus lisse\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #000000;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         },
+        "kaching_bundles_app_block_bqk9qt": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "variant-picker": {
           "type": "variant_picker",
           "settings": {
@@ -932,6 +938,7 @@
         "separator",
         "text_wYFk8E",
         "liquid_TnNwhd",
+        "kaching_bundles_app_block_bqk9qt",
         "variant-picker",
         "quantity-selector",
         "buy-buttons"
