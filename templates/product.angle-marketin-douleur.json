@@ -177,8 +177,8 @@
         "heading_etTz49": {
           "type": "heading",
           "settings": {
-            "text": "Leur institut, c'est leur salon ☘️",
-            "heading_tag": "h1",
+            "text": "Un traitement efficace pour éliminer la graisse est souvent inefficace.",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -186,7 +186,7 @@
         "richtext_hgLkjL": {
           "type": "richtext",
           "settings": {
-            "content": "<p> Comment elles ont transformé leur maison en institut professionnel - et économisé 250€/mois.</p>"
+            "content": "<p>Et c’est normal. La cellulite <strong>n’est pas juste une question de graisse</strong>.<br/>Elle apparaît quand les <strong>fibres sous la peau</strong> (appelées septas) se durcissent et <strong>coincencent les cellules graisseuses</strong>, ce qui crée cet effet \"peau d’orange\". Même avec du sport et une perte de poids, <strong>les fibres restent figées</strong> et la peau peut paraître encore plus relâchée.</p>"
           }
         }
       },
@@ -197,7 +197,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
