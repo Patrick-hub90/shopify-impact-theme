@@ -47,13 +47,13 @@
         "text_73Gqra": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Velaura transpose les protocoles professionnels des instituts dans un kit accessible qui:</em></p>"
+            "text": "<p><em>Velaura propose une solution qui réduit énormément l'apparence de la cellulite parce qu'elle :</em></p>"
           }
         },
         "liquid_B7LfBx": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% assign avantages = \" Agit en cercle vertueux : Chaque élément potentialise les autres|Cible la cellulite sous tous ses angles : Texture, fermeté, circulation|S'intègre à VOTRE rythme : Plus besoin d'adapter votre vie aux soins |Vous fait économiser temps ET argent : Investissement unique = résultats permanents\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+            "liquid": "{% assign avantages = \"Stimule la circulation en profondeur pour libérer les zones engorgées que le sport ne touche pas.|Raffermit visiblement la peau relâchée souvent laissée après une perte de poids.|Lisse les irrégularités en agissant là où les crèmes seules ne pénètrent jamais.|Relance le renouvellement des tissus pour une peau plus tonique, plus homogène, plus vivante.\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
           }
         },
         "payment_terms": {
@@ -194,7 +194,6 @@
         "heading_etTz49",
         "richtext_hgLkjL"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -280,7 +279,6 @@
         "item_WnHRR7",
         "item_yE8D3f"
       ],
-      "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -308,7 +306,6 @@
         "richtext_MgHfad"
       ],
       "disabled": true,
-      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -324,7 +321,6 @@
     },
     "custom_liquid_F6mcqn": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -337,7 +333,6 @@
     },
     "before_after_image_6f7xqi": {
       "type": "before-after-image",
-      "name": "Before/after image",
       "settings": {
         "full_width": true,
         "subheading": "",
@@ -395,7 +390,6 @@
         "liquid_fRGPYP",
         "button_j4rFx4"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -407,7 +401,6 @@
     },
     "featured_collection_FLt4Bx": {
       "type": "featured-collection",
-      "name": "Featured collection",
       "settings": {
         "collection": "",
         "products": [
@@ -452,7 +445,6 @@
       "block_order": [
         "heading_i9LtJj"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -512,7 +504,6 @@
         "item_WfKFWp",
         "item_VrjWxn"
       ],
-      "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -574,7 +565,6 @@
         "item_rNTFNk",
         "item_grPLhw"
       ],
-      "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -590,7 +580,6 @@
     },
     "scrolling_text_gdUp3K": {
       "type": "scrolling-text",
-      "name": "Scrolling text",
       "settings": {
         "full_width": true,
         "text": "Transformez votre peau en 21 jours avec la méthode qui a déjà conquis plus de 12 000 femmes en France.",
@@ -667,7 +656,6 @@
         "item_ULnWGF"
       ],
       "disabled": true,
-      "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
@@ -743,7 +731,6 @@
         "item_q4t3md",
         "item_HQ9WxN"
       ],
-      "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
@@ -807,7 +794,6 @@
         "richtext_4EhFQJ",
         "button_TcLBwr"
       ],
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -819,7 +805,6 @@
     },
     "custom_liquid_3mw39w": {
       "type": "custom-liquid",
-      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
@@ -847,7 +832,6 @@
         "heading_Bgp8Ye"
       ],
       "disabled": true,
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -903,7 +887,6 @@
         "item_MADJFG"
       ],
       "disabled": true,
-      "name": "Impact text",
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -960,7 +943,6 @@
         "richtext_MYc4xd"
       ],
       "disabled": true,
-      "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -1024,7 +1006,6 @@
         "item_XD9Q96",
         "item_xNKGfM"
       ],
-      "name": "FAQ",
       "settings": {
         "full_width": true,
         "subheading": "",
