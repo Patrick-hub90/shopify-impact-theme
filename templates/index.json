@@ -290,6 +290,7 @@
       "blocks": {
         "item_4ELA8H": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "300+",
             "subheading": "avis clients vérifiés avec une note moyenne de 4,8/5 sur Trustpilot.",
