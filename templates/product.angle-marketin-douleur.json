@@ -47,7 +47,7 @@
         "text_73Gqra": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Velaura propose une solution qui réduit énormément l'apparence de la cellulite parce qu'elle :</em></p>"
+            "text": "<p><em>Velaura propose une solution qui traite la cellulite parce qu'elle :</em></p>"
           }
         },
         "liquid_B7LfBx": {
@@ -200,7 +200,6 @@
       "block_order": [
         "image_tJbF7g"
       ],
-      "name": "Media with text",
       "settings": {
         "full_width": true,
         "spacing": "none"
@@ -240,7 +239,6 @@
     },
     "before_after_image_KcE9xb": {
       "type": "before-after-image",
-      "name": "Before/after image",
       "settings": {
         "full_width": true,
         "subheading": "",
