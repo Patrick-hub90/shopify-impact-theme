@@ -363,6 +363,7 @@
         "item_aWjifc": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Printemps_1920_x_1920_px_15.png",
             "icon": "none",
             "icon_width": 48,
             "title": "Crème de Maquillage Anti-Cellulite",
