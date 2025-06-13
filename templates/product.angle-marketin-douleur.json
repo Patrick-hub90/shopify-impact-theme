@@ -603,16 +603,16 @@
         "heading_8Cg4rz": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi à domicile ?",
-            "heading_tag": "h1",
+            "text": "❌ Pourquoi 99 % des femmes n’arrivent pas à se débarrasser de la cellulite ?",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         },
-        "liquid_fRGPYP": {
-          "type": "liquid",
+        "richtext_ckQdgB": {
+          "type": "richtext",
           "settings": {
-            "liquid": "{% assign avantages = \" Économisez une fortune vs. des séances en institut|Résultats optimaux sans déplacement (application quotidienne possible)| Intimité : traitez les zones sensibles en toute discrétion\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+            "content": "<p>Parce qu’elles traitent <strong>le gras</strong>, pas <strong>le vrai problème : la structure de la peau</strong>.</p><p>Crèmes, massages, régimes… utilisées seules, ces méthodes restent <strong>incomplètes</strong>.<br/><br/>👉 Sans une <strong>routine ciblée et cohérente</strong>, rien ne change.</p><p><strong>Velaura, c’est enfin une approche globale, simple et efficace.</strong></p>"
           }
         },
         "button_j4rFx4": {
@@ -629,7 +629,7 @@
       },
       "block_order": [
         "heading_8Cg4rz",
-        "liquid_fRGPYP",
+        "richtext_ckQdgB",
         "button_j4rFx4"
       ],
       "settings": {
