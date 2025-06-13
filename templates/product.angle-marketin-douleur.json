@@ -359,13 +359,23 @@
             "title": "Active-Band Body-Shaper",
             "content": "<p>La <strong>Active-Band Body-Shaper</strong> est une bande de résistance premium conçue pour cibler efficacement les zones sujettes à la cellulite (cuisses, fessiers, hanches, bras). Fabriquée en <strong>latex naturel haute densité</strong>, elle offre une <strong>résistance progressive</strong> idéale pour renforcer les muscles en profondeur, activer la circulation sanguine et stimuler le drainage lymphatique.<br/><br/><strong>Avantages clés</strong> :</p><ul><li>Stimule le métabolisme local</li><li> Raffermit et tonifie les tissus</li><li>Favorise la combustion des graisses sous-cutanées</li><li>Légère, portable, idéale à la maison ou en déplacement<br/><br/></li></ul>"
           }
+        },
+        "item_aWjifc": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Crème de Maquillage Anti-Cellulite",
+            "content": "<ul><li>Camoufle instantanément l’aspect peau d’orange</li><li>Uniformise le teint des jambes, cuisses et fesses</li><li>Lisse visuellement la peau grâce à des pigments réflecteurs de lumière</li><li>Apporte un fini naturel, satiné et sans trace</li><li>Résiste à la transpiration et à l’humidité</li></ul><h3><strong>Principes actifs / Ingrédients clés</strong></h3><ul><li><strong>Pigments minéraux teintés : </strong>effet flouteur et perfecteur visuel</li><li><strong>Agents lissants :</strong> comblent visuellement les creux causés par la cellulite</li><li><strong>Extrait de caféine</strong> : aide à stimuler la microcirculation</li><li><strong>Hydratants légers :</strong> assurent une bonne tenue sans effet gras<br/></li></ul>"
+          }
         }
       },
       "block_order": [
         "item_D8KyFz",
         "item_eCy47R",
         "item_WfKFWp",
-        "item_VrjWxn"
+        "item_VrjWxn",
+        "item_aWjifc"
       ],
       "settings": {
         "full_width": true,
