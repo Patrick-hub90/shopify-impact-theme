@@ -444,13 +444,27 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_FnH3Ge": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pinterestdownloader.com-1749851736.689034_1.jpg",
+            "column_size": "3",
+            "title": "🎭 ÉTAPE 5 – CAMOUFLER EN ATTENDANT LA TRANSFORMATION",
+            "heading_tag": "h4",
+            "content": "<p><strong>Objectif</strong> : masquer instantanément l’apparence de la cellulite le temps que la routine Velaura fasse pleinement effet.</p><p><strong>Pourquoi ?</strong> Les résultats visibles prennent du temps, mais votre confiance ne devrait pas attendre.<br/><br/>La peau peut déjà être en amélioration, mais <strong>certaines zones restent marquées</strong> visuellement.</p><p><strong>Comment ?</strong> Grâce à la <strong>Crème </strong>, appliquez un voile teinté qui <strong>floute les capitons</strong>, <strong>unifie le teint</strong> et <strong>sublime votre peau</strong> en quelques secondes.</p><p><strong>Résultat</strong> : une peau visiblement plus lisse à l’œil nu — <strong>comme si la cellulite n’avait jamais existé</strong>, le temps que le traitement en profondeur termine son action.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
         "item_CpENdw",
         "item_X6KPBG",
         "item_q4t3md",
-        "item_HQ9WxN"
+        "item_HQ9WxN",
+        "item_FnH3Ge"
       ],
       "settings": {
         "full_width": true,
