@@ -263,202 +263,6 @@
         "drag_cursor_color": "#000000"
       }
     },
-    "rich_text_rbRA63": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8Cg4rz": {
-          "type": "heading",
-          "settings": {
-            "text": "Pourquoi à domicile ?",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "liquid_fRGPYP": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% assign avantages = \" Économisez une fortune vs. des séances en institut|Résultats optimaux sans déplacement (application quotidienne possible)| Intimité : traitez les zones sensibles en toute discrétion\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
-          }
-        },
-        "button_j4rFx4": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "base",
-            "text": "→ Je découvre la Méthode",
-            "url": "https://velaura.fr/products/kit-anti-cellulite#methode",
-            "background": "#f7afaf",
-            "text_color": "#fff9f6"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8Cg4rz",
-        "liquid_fRGPYP",
-        "button_j4rFx4"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "multi_column_kyQDK6": {
-      "type": "multi-column",
-      "blocks": {
-        "item_padhb6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/10.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Franchement, je ne m'attendais pas à voir des résultats si rapidement ! Ma peau était terne et fatiguée, maintenant elle rayonne littéralement. La routine Velaura, c'est vraiment mon petit secret beauté maintenant !<br/><br/><br/>⭐⭐⭐⭐⭐<br/> <strong>Sarah M.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_dYxiR4": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/15_bcd04f7f-e657-40b5-aae1-1cb95be85348.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Peau ultra-réactive depuis toujours, j'appréhendais... Mais aucune irritation avec Velaura ! Au contraire, ma peau s'est apaisée. C'est doux, ça sent bon, et ça marche vraiment. Enfin une routine adaptée à ma peau capricieuse !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Yasmine B.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_DYeef7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/13.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Deux semaines que j'utilise Velaura religieusement... Résultat : ma peau n'a jamais été aussi belle ! Plus besoin de fond de teint au quotidien. Mes amies pensent que j'ai fait des injections tellement l'effet est bluffant. Je ne changerai pour rien au monde !</p><p><br/>⭐⭐⭐⭐⭐ <br/><strong>Charlotte F.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_WnHRR7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/14_6f407380-84e1-418d-a3ef-a8a98ee862a2.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Difficile à convaincre niveau cosmétiques... Mais Velaura m'a bluffée ! Ingrédients clean, résultats visibles, packaging élégant. Tout y est. Ma peau respire la santé maintenant. <br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Emma L.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_yE8D3f": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/9_aae8d66e-16b2-415d-b145-3f7b787e8b36.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>J'ai testé des centaines de produits... Velaura sort vraiment du lot ! L'effet \"glow\" est immédiat et durable. Ma routine du soir est devenue un vrai moment de plaisir. Je suis définitivement conquise et déjà en train de recommander !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Julie H.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_padhb6",
-        "item_dYxiR4",
-        "item_DYeef7",
-        "item_WnHRR7",
-        "item_yE8D3f"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_3U6Hyp": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "richtext_MgHfad": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>21 jours exactement entre ces deux photos. Je n'y croyais pas moi-même ! La cellulite qui me complexait depuis des années a pratiquement disparu.</p><p>⭐⭐⭐⭐⭐ <br/><strong>Juliette R., 37 ans, Marseille</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_MgHfad"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Avant_6.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "custom_liquid_F6mcqn": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "before_after_image_6f7xqi": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "En institut / À domicile",
-        "content": "<p>Découvrez le protocole complet utilisé par les instituts de beauté - maintenant accessible chez vous, sans rendez-vous ni tarifs prohibitifs.</p>",
-        "before_image": "shopify://shop_images/steptodown.com362569.jpg",
-        "after_image": "shopify://shop_images/0519.jpg",
-        "expand_image": true,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "En institut",
-        "after_text": "À domicile",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#2a555a",
-        "after_text_color": "#2a555a",
-        "drag_cursor_background": "#2a555a",
-        "drag_cursor_color": "#fff9f6"
-      }
-    },
     "featured_collection_FLt4Bx": {
       "type": "featured-collection",
       "settings": {
@@ -577,6 +381,265 @@
         "heading_gradient": ""
       }
     },
+    "multi_column_dw4MHP": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CpENdw": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524.mp4",
+            "column_size": "3",
+            "title": "🌀 ÉTAPE 1 – ACTIVER LA CIRCULATION POUR BRISER LA STAGNATION",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : relancer la microcirculation sanguine et lymphatique.</p><p><strong>Pourquoi ?  </strong>La cellulite s’installe là où la circulation est paresseuse, les toxines stagnent, et les tissus s’asphyxient.<br/><br/><strong>Comment ?  </strong>En brossant votre peau à sec avec la <strong>brosse Velaura</strong>, vous stimulez immédiatement la circulation, activez la régénération cellulaire et préparez la peau aux soins.<br/><br/> <strong>Résultat : </strong> Une peau plus vive, décongestionnée et prête à absorber les actifs.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_X6KPBG": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524(2).mp4",
+            "column_size": "3",
+            "title": "💧 ÉTAPE 2 – DRAINER POUR DÉGONFLER LA CELLULITE AQUEUSE",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : éliminer l’excès d’eau et les toxines accumulées.</p><p><strong>Pourquoi ? </strong> La <strong>cellulite aqueuse</strong> donne cet effet “gonflé” et bosselé.<br/><br/><strong>Comment ?  </strong>Appliquez la crème<strong> Velaura</strong>, enrichie en caféine, gingembre et romarin, avec des mouvements circulaires. Ces extraits botaniques favorisent le drainage et améliorent la texture de la peau.<br/><br/><strong>Résultat :</strong>  La peau devient plus souple, mieux hydratée et visiblement désengorgée.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_q4t3md": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524(4).mp4",
+            "column_size": "3",
+            "title": "🔥 ÉTAPE 3 – CASSER LES GRAISSES INSTALLÉES",
+            "heading_tag": "h4",
+            "content": "<p><strong>Objectif</strong> : cibler les amas graisseux à l’origine de la cellulite fibreuse.</p><p><strong>Pourquoi ?</strong>  Les graisses comprimées par des fibres rigides forment les fameux capitons.<br/><br/><strong>Comment ? </strong> Grâce aux <strong>Masseur 3D Haute Fréquence</strong>, vous reproduisez l’effet du palper-rouler professionnel. Elle mobilise les graisses, libère les tissus comprimés et stimule le déstockage.<br/><br/><strong> Résultat :  L</strong>es irrégularités s’atténuent, la peau devient plus lisse et plus uniforme.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_HQ9WxN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_2.png",
+            "column_size": "3",
+            "title": "💪 ÉTAPE 4 – RENFORCER VOS MUSCLES POUR TENDRE LA PEAU",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : retonifier les muscles sous-cutanés pour retendre la peau durablement.</p><p><strong>Pourquoi ?</strong> Une peau relâchée, même affinée, peut rester irrégulière.<br/><br/><strong>Comment ?</strong> Le <strong>programme d’exercices Velaura</strong> (inclus dans l’ebook offert) cible les fessiers, cuisses, hanches et ventre, en synergie avec la <strong>bande de résistance fournie</strong>.<br/><br/><strong>Résultat : </strong>un galbe redessiné, une peau plus ferme, un corps visiblement tonifié.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CpENdw",
+        "item_X6KPBG",
+        "item_q4t3md",
+        "item_HQ9WxN"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Utilisez le Kit Velaura en suivant une routine simple et efficace.",
+        "content": "",
+        "background": "#2a555a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "multi_column_kyQDK6": {
+      "type": "multi-column",
+      "blocks": {
+        "item_padhb6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/10.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Franchement, je ne m'attendais pas à voir des résultats si rapidement ! Ma peau était terne et fatiguée, maintenant elle rayonne littéralement. La routine Velaura, c'est vraiment mon petit secret beauté maintenant !<br/><br/><br/>⭐⭐⭐⭐⭐<br/> <strong>Sarah M.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_dYxiR4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/15_bcd04f7f-e657-40b5-aae1-1cb95be85348.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Peau ultra-réactive depuis toujours, j'appréhendais... Mais aucune irritation avec Velaura ! Au contraire, ma peau s'est apaisée. C'est doux, ça sent bon, et ça marche vraiment. Enfin une routine adaptée à ma peau capricieuse !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Yasmine B.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DYeef7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/13.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Deux semaines que j'utilise Velaura religieusement... Résultat : ma peau n'a jamais été aussi belle ! Plus besoin de fond de teint au quotidien. Mes amies pensent que j'ai fait des injections tellement l'effet est bluffant. Je ne changerai pour rien au monde !</p><p><br/>⭐⭐⭐⭐⭐ <br/><strong>Charlotte F.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WnHRR7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/14_6f407380-84e1-418d-a3ef-a8a98ee862a2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Difficile à convaincre niveau cosmétiques... Mais Velaura m'a bluffée ! Ingrédients clean, résultats visibles, packaging élégant. Tout y est. Ma peau respire la santé maintenant. <br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Emma L.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_yE8D3f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/9_aae8d66e-16b2-415d-b145-3f7b787e8b36.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>J'ai testé des centaines de produits... Velaura sort vraiment du lot ! L'effet \"glow\" est immédiat et durable. Ma routine du soir est devenue un vrai moment de plaisir. Je suis définitivement conquise et déjà en train de recommander !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Julie H.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_padhb6",
+        "item_dYxiR4",
+        "item_DYeef7",
+        "item_WnHRR7",
+        "item_yE8D3f"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_3U6Hyp": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "richtext_MgHfad": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>21 jours exactement entre ces deux photos. Je n'y croyais pas moi-même ! La cellulite qui me complexait depuis des années a pratiquement disparu.</p><p>⭐⭐⭐⭐⭐ <br/><strong>Juliette R., 37 ans, Marseille</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_MgHfad"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Avant_6.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "before_after_image_6f7xqi": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "En institut / À domicile",
+        "content": "<p>Découvrez le protocole complet utilisé par les instituts de beauté - maintenant accessible chez vous, sans rendez-vous ni tarifs prohibitifs.</p>",
+        "before_image": "shopify://shop_images/steptodown.com362569.jpg",
+        "after_image": "shopify://shop_images/0519.jpg",
+        "expand_image": true,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "En institut",
+        "after_text": "À domicile",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#2a555a",
+        "after_text_color": "#2a555a",
+        "drag_cursor_background": "#2a555a",
+        "drag_cursor_color": "#fff9f6"
+      }
+    },
+    "rich_text_rbRA63": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8Cg4rz": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi à domicile ?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "liquid_fRGPYP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% assign avantages = \" Économisez une fortune vs. des séances en institut|Résultats optimaux sans déplacement (application quotidienne possible)| Intimité : traitez les zones sensibles en toute discrétion\" | split: \"|\" %}\n\n<ul style=\"list-style: none; padding-left: 0px; margin: 0;\">\n  {% for avantage in avantages %}\n    <li style=\"position: relative; padding-left: 35px; margin-bottom: 12px; color: #2A555A;\">\n      <span style=\"position: absolute; \n                  left: 0; \n                  top: 2px; \n                  width: 22px; \n                  height: 22px; \n                  background: #F7AFAF; \n                  border-radius: 50%; \n                  text-align: center; \n                  line-height: 22px; \n                  color: white;\">\n        ✓\n      </span>\n      {{ avantage }}\n    </li>\n  {% endfor %}\n</ul>"
+          }
+        },
+        "button_j4rFx4": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Obtenez vos soins pro à domicile",
+            "url": "https://velaura.fr/products/kit-anti-cellulite#methode",
+            "background": "#f7afaf",
+            "text_color": "#fff9f6"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8Cg4rz",
+        "liquid_fRGPYP",
+        "button_j4rFx4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_tQQK4i": {
       "type": "multi-column",
       "blocks": {
@@ -625,6 +688,7 @@
         "item_rNTFNk",
         "item_grPLhw"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -640,6 +704,7 @@
     },
     "scrolling_text_gdUp3K": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Transformez votre peau en 21 jours avec la méthode qui a déjà conquis plus de 12 000 femmes en France.",
@@ -729,81 +794,6 @@
         "text_color": "#ffffff"
       }
     },
-    "multi_column_dw4MHP": {
-      "type": "multi-column",
-      "blocks": {
-        "item_CpENdw": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0524.mp4",
-            "column_size": "3",
-            "title": "🌀 ÉTAPE 1 – ACTIVER LA CIRCULATION POUR BRISER LA STAGNATION",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : relancer la microcirculation sanguine et lymphatique.</p><p><strong>Pourquoi ?  </strong>La cellulite s’installe là où la circulation est paresseuse, les toxines stagnent, et les tissus s’asphyxient.<br/><br/><strong>Comment ?  </strong>En brossant votre peau à sec avec la <strong>brosse Velaura</strong>, vous stimulez immédiatement la circulation, activez la régénération cellulaire et préparez la peau aux soins.<br/><br/> <strong>Résultat : </strong> Une peau plus vive, décongestionnée et prête à absorber les actifs.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_X6KPBG": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0524(2).mp4",
-            "column_size": "3",
-            "title": "💧 ÉTAPE 2 – DRAINER POUR DÉGONFLER LA CELLULITE AQUEUSE",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : éliminer l’excès d’eau et les toxines accumulées.</p><p><strong>Pourquoi ? </strong> La <strong>cellulite aqueuse</strong> donne cet effet “gonflé” et bosselé.<br/><br/><strong>Comment ?  </strong>Appliquez la crème<strong> Velaura</strong>, enrichie en caféine, gingembre et romarin, avec des mouvements circulaires. Ces extraits botaniques favorisent le drainage et améliorent la texture de la peau.<br/><br/><strong>Résultat :</strong>  La peau devient plus souple, mieux hydratée et visiblement désengorgée.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_q4t3md": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0524(4).mp4",
-            "column_size": "3",
-            "title": "🔥 ÉTAPE 3 – CASSER LES GRAISSES INSTALLÉES",
-            "heading_tag": "h4",
-            "content": "<p><strong>Objectif</strong> : cibler les amas graisseux à l’origine de la cellulite fibreuse.</p><p><strong>Pourquoi ?</strong>  Les graisses comprimées par des fibres rigides forment les fameux capitons.<br/><br/><strong>Comment ? </strong> Grâce aux <strong>Masseur 3D Haute Fréquence</strong>, vous reproduisez l’effet du palper-rouler professionnel. Elle mobilise les graisses, libère les tissus comprimés et stimule le déstockage.<br/><br/><strong> Résultat :  L</strong>es irrégularités s’atténuent, la peau devient plus lisse et plus uniforme.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_HQ9WxN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Avant_2.png",
-            "column_size": "3",
-            "title": "💪 ÉTAPE 4 – RENFORCER VOS MUSCLES POUR TENDRE LA PEAU",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : retonifier les muscles sous-cutanés pour retendre la peau durablement.</p><p><strong>Pourquoi ?</strong> Une peau relâchée, même affinée, peut rester irrégulière.<br/><br/><strong>Comment ?</strong> Le <strong>programme d’exercices Velaura</strong> (inclus dans l’ebook offert) cible les fessiers, cuisses, hanches et ventre, en synergie avec la <strong>bande de résistance fournie</strong>.<br/><br/><strong>Résultat : </strong>un galbe redessiné, une peau plus ferme, un corps visiblement tonifié.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_CpENdw",
-        "item_X6KPBG",
-        "item_q4t3md",
-        "item_HQ9WxN"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "Utilisez le Kit Velaura en suivant une routine simple et efficace.",
-        "content": "",
-        "background": "#2a555a",
-        "background_gradient": "",
-        "text_color": "#ffffff"
-      }
-    },
     "rich_text_KbN9pi": {
       "type": "rich-text",
       "blocks": {
@@ -854,6 +844,7 @@
         "richtext_4EhFQJ",
         "button_TcLBwr"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -1129,9 +1120,8 @@
     "multi_column_dw4MHP",
     "multi_column_kyQDK6",
     "image_with_text_overlay_3U6Hyp",
-    "custom_liquid_F6mcqn",
-    "rich_text_rbRA63",
     "before_after_image_6f7xqi",
+    "rich_text_rbRA63",
     "multi_column_tQQK4i",
     "scrolling_text_gdUp3K",
     "multi_column_erDYxy",
