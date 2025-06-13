@@ -536,9 +536,9 @@
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
-        "title": "",
+        "title": "Elles pensaient que c’était impossible. Velaura leur a prouvé le contraire.",
         "content": "",
         "background": "#ffffff",
         "background_gradient": "",
@@ -574,6 +574,7 @@
     },
     "before_after_image_6f7xqi": {
       "type": "before-after-image",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "",
