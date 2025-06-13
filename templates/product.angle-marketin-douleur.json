@@ -857,6 +857,7 @@
     },
     "custom_liquid_3mw39w": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
