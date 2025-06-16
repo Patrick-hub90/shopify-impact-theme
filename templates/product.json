@@ -817,19 +817,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_3mw39w": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Velaura vs Concurrents</title>\n    <style>\n        * {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n\n        body {\n            background: #F7f7f7;\n            overflow-x: hidden;\n        }\n\n        .comparison-container {\n            width: 100%;\n            margin: 3rem 0;\n            padding: 0 rem;\n        }\n\n        .comparison-table {\n            width: 100%;\n            border-collapse: collapse;\n            background: white;\n\n            table-layout: fixed;\n        }\n\n        .comparison-table th,\n        .comparison-table td {\n            padding: 1.5rem 1rem;\n            text-align: center;\n            color: #d2A555A;\n            font-weight: 700;\n            font-size: 1em;\n            word-break: break-word;\n        }\n\n        .comparison-table thead {\n            background: linear-gradient(135deg, #2A555A 0%, #f7f7f7 100%);\n            color: white;\n        }\n\n        .comparison-table th:first-child {\n            text-align: left;\n            width: 40%;\n            min-width: 200px;\n            padding-left: 1.rem;\n        }\n\n        .comparison-table tbody td {\n            border-bottom: 1px solid #f7f7f7;\n        }\n\n        .comparison-table tbody td:first-child {\n            text-align: left;\n            font-weight: 600;\n            padding-left: rem;\n        }\n\n        .feature-icon {\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            display: inline-flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: bold;\n            font-size: 1.3em;\n            margin: 0 auto;\n        }\n\n        .check-mark {\n            background: #2A555A;\n            color: white;\n        }\n\n        .cross-mark {\n            background: #f0f0f0;\n            color: #a18888;\n        }\n\n        @media (max-width: 768px) {\n            .comparison-table th,\n            .comparison-table td {\n                padding: 1rem 0.5rem;\n                font-size: 0.9em;\n            }\n            \n            .feature-icon {\n                width: 28px;\n                height: 28px;\n                font-size: 1.1em;\n            }\n            \n            .comparison-table th:first-child {\n                min-width: 150px;\n                padding-left: 1rem;\n            }\n            \n            .comparison-table td:first-child {\n                padding-left: 1rem;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"comparison-container\">\n        <table class=\"comparison-table\">\n            <thead>\n                <tr>\n                    <th>Bénéfices clés</th>\n                    <th>Velaura (Institut à domicile)</th>\n                    <th>Concurrents</th>\n                </tr>\n            </thead>\n            <tbody>\n    <tr>\n        <td>Méthode complète 21 jours</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Guide expert inclus</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Kit d'accessoires premium</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Protocole institut 100 % à domicile</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Programme sportif intégré</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Compatible avec tous les types de cellulite </td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Suivi quotidien structuré</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Méthode 100% naturelle, sans produits chimiques</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>Résultats durables</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n</tbody>\n        </table>\n    </div>\n</body>\n</html>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_iV9dPx": {
       "type": "rich-text",
       "blocks": {
@@ -970,6 +957,41 @@
         "text_color": ""
       }
     },
+    "media_with_text_tpbQEr": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QLH8mQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0616.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Appuyé par des études cliniques",
+            "content": "<p><br/>Recommandé par le <strong>Dr John  Willardsen</strong>, spécialiste en soins de la peau, le <strong>Kit Velaura™</strong> associe massage par roulement, chaleur ciblée et stimulation du drainage lymphatique pour <strong>réduire visiblement la cellulite</strong> et <strong>atténuer les vergetures</strong>.<br/><br/>Une utilisation régulière aide à <strong>décomposer les graisses</strong>, <strong>raffermir les tissus cutanés</strong> et <strong>stimuler la microcirculation</strong>, pour une peau plus lisse, plus ferme et visiblement plus saine.<br/><br/>Testé et approuvé par de nombreuses utilisatrices, <strong>Velaura™</strong> offre des <strong>résultats cliniquement prouvés</strong> dès les premières semaines d’utilisation.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QLH8mQ"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
     "faq_AacKYz": {
       "type": "faq",
       "blocks": {
@@ -1093,10 +1115,10 @@
     "multi_column_erDYxy",
     "multi_column_dw4MHP",
     "rich_text_KbN9pi",
-    "custom_liquid_3mw39w",
     "rich_text_iV9dPx",
     "impact_text_Tcx8Wj",
     "rich_text_AGaVcr",
+    "media_with_text_tpbQEr",
     "faq_AacKYz",
     "1749445869fb7437ce"
   ]
