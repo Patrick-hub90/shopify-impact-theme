@@ -405,6 +405,68 @@
         "text_color": ""
       }
     },
+    "multi_column_tQQK4i": {
+      "type": "multi-column",
+      "blocks": {
+        "item_q3chqJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Cellulite_Formation.png",
+            "column_size": "3",
+            "title": "Comment se forme la cellulite ?",
+            "heading_tag": "h4",
+            "content": "<p>La cellulite, c’est ce <strong>relief irrégulier</strong> qu’on appelle “peau d’orange”. Elle apparaît quand les <strong>graisses sous la peau gonflent</strong>, que la <strong>circulation ralentit</strong>, et que des <strong>fibres rigides</strong> viennent comprimer les tissus.<br/><strong><br/>Résultat : </strong>les toxines s’accumulent, la peau gonfle, les muscles en dessous se relâchent, et les creux se forment.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_rNTFNk": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0519(1).mp4",
+            "column_size": "3",
+            "title": "Cibler les fibres de soutien : la clé contre la cellulite",
+            "heading_tag": "h4",
+            "content": "<p>Une étude clinique publiée dans le <em><strong>Journal of Dermatologic Surgery</strong></em> souligne que les approches ciblant les fibres de soutient—par des méthodes mécaniques, chirurgicales ou enzymatiques (<strong>Comme la Routine de Velaura</strong>) sont les plus prometteuses pour améliorer durablement la texture de la peau et réduire l'apparence de la cellulite.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_grPLhw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Brossage_stimulant.png",
+            "column_size": "3",
+            "title": "La routine Velaura : un rituel anti-cellulite au quotidien",
+            "heading_tag": "h4",
+            "content": "<p><strong>La routine Velaura est un protocole anti-cellulite complet, conçu avec l’expertise de dermatologues spécialisés.</strong><br/>Elle repose sur des approches mécaniques et enzymatiques reconnues scientifiquement, qui agissent en profondeur pour <strong>relâcher les fibres de soutien</strong>, <strong>stimuler le drainage naturel</strong> et <strong>réduire visiblement l’aspect capitonné</strong> de la peau.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_q3chqJ",
+        "item_rNTFNk",
+        "item_grPLhw"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "La cellulite expliquée en 1 minute",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_collection_FLt4Bx": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -524,68 +586,6 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
-      }
-    },
-    "multi_column_tQQK4i": {
-      "type": "multi-column",
-      "blocks": {
-        "item_q3chqJ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Cellulite_Formation.png",
-            "column_size": "3",
-            "title": "Comment se forme la cellulite ?",
-            "heading_tag": "h4",
-            "content": "<p>La cellulite, c’est ce <strong>relief irrégulier</strong> qu’on appelle “peau d’orange”. Elle apparaît quand les <strong>graisses sous la peau gonflent</strong>, que la <strong>circulation ralentit</strong>, et que des <strong>fibres rigides</strong> viennent comprimer les tissus.<br/><strong><br/>Résultat : </strong>les toxines s’accumulent, la peau gonfle, les muscles en dessous se relâchent, et les creux se forment.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_rNTFNk": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0519(1).mp4",
-            "column_size": "3",
-            "title": "Cibler les fibres de soutien : la clé contre la cellulite",
-            "heading_tag": "h4",
-            "content": "<p>Une étude clinique publiée dans le <em><strong>Journal of Dermatologic Surgery</strong></em> souligne que les approches ciblant les fibres de soutient—par des méthodes mécaniques, chirurgicales ou enzymatiques (<strong>Comme la Routine de Velaura</strong>) sont les plus prometteuses pour améliorer durablement la texture de la peau et réduire l'apparence de la cellulite.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_grPLhw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Brossage_stimulant.png",
-            "column_size": "3",
-            "title": "La routine Velaura : un rituel anti-cellulite au quotidien",
-            "heading_tag": "h4",
-            "content": "<p><strong>La routine Velaura est un protocole anti-cellulite complet, conçu avec l’expertise de dermatologues spécialisés.</strong><br/>Elle repose sur des approches mécaniques et enzymatiques reconnues scientifiquement, qui agissent en profondeur pour <strong>relâcher les fibres de soutien</strong>, <strong>stimuler le drainage naturel</strong> et <strong>réduire visiblement l’aspect capitonné</strong> de la peau.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_q3chqJ",
-        "item_rNTFNk",
-        "item_grPLhw"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "La cellulite expliquée en 1 minute",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "scrolling_text_gdUp3K": {
@@ -1085,10 +1085,10 @@
     "custom_liquid_F6mcqn",
     "before_after_image_6f7xqi",
     "rich_text_rbRA63",
+    "multi_column_tQQK4i",
     "featured_collection_FLt4Bx",
     "rich_text_UVAJAR",
     "images_with_text_scrolling_Xpjf6h",
-    "multi_column_tQQK4i",
     "scrolling_text_gdUp3K",
     "multi_column_erDYxy",
     "multi_column_dw4MHP",
