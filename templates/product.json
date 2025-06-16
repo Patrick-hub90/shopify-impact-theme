@@ -616,22 +616,6 @@
         "heading_gradient": ""
       }
     },
-    "scrolling_text_gdUp3K": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "Transformez votre peau en 21 jours avec la méthode qui a déjà conquis plus de 12 000 femmes en France.",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#f7afaf",
-        "text_gradient": ""
-      }
-    },
     "multi_column_erDYxy": {
       "type": "multi-column",
       "blocks": {
@@ -1140,7 +1124,6 @@
     "1750111911718b5641",
     "rich_text_UVAJAR",
     "images_with_text_scrolling_Xpjf6h",
-    "scrolling_text_gdUp3K",
     "multi_column_erDYxy",
     "multi_column_dw4MHP",
     "rich_text_KbN9pi",
