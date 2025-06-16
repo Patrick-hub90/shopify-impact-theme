@@ -500,18 +500,6 @@
     },
     "1750111911718b5641": {
       "type": "apps",
-      "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_slider_QwYgWz": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist-slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {
-            "playlist_id": "rl_pl_17449",
-            "debugging_script": ""
-          }
-        }
-      },
-      "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_slider_QwYgWz"
-      ],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
