@@ -540,6 +540,34 @@
         "text_color": ""
       }
     },
+    "1750148626fa69272b": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_8p9mCc": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist-slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": "rl_pl_17449",
+            "debugging_script": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_8p9mCc"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
     "images_with_text_scrolling_Xpjf6h": {
       "type": "images-with-text-scrolling",
       "blocks": {
@@ -1111,6 +1139,7 @@
     "featured_collection_FLt4Bx",
     "1750111911718b5641",
     "rich_text_UVAJAR",
+    "1750148626fa69272b",
     "images_with_text_scrolling_Xpjf6h",
     "multi_column_erDYxy",
     "multi_column_dw4MHP",
