@@ -70,9 +70,18 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
+        "offer_ix4p87": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "icon_width": 24,
+            "title": "Livraison Gratuite",
+            "content": "<p>En stock, prêt à être expédié – Livraison estimée entre le <strong>23</strong> et le <strong>25 </strong>juin.</p>",
+            "background": "#eaf2ed",
+            "text_color": "#000000"
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -85,14 +94,21 @@
             "payment_button_text_color": ""
           }
         },
-        "liquid_NcnHbg": {
+        "liquid_AekBRP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"shipping-mini\">\n  <div class=\"shipping-row\">\n    <div class=\"shipping-step\">\n      <div class=\"icon\">⏱</div>\n      <div class=\"text\">\n        <span>Commandé avant 15h</span>\n        <strong>Expédié aujourd'hui</strong>\n      </div>\n    </div>\n    \n    <div class=\"shipping-step\">\n      <div class=\"icon\">🚚</div>\n      <div class=\"text\">\n        <span>Livraison Gratuite</span>\n        <strong>3 à 4 Jours ouvrés</strong>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.shipping-mini {\n  max-width: 600px;\n  margin: 20px auto;\n  padding: 12px;\n  background: #f8f9ff;\n  border-radius: 8px;\n}\n\n.shipping-row {\n  display: flex;\n  justify-content: space-around;\n  gap: 10px;\n}\n\n.shipping-step {\n  flex: 1;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 10px;\n  background: white;\n  border-radius: 6px;\n  box-shadow: 0 2px 4px rgba(0,0,0,0.05);\n}\n\n.shipping-step.express {\n  background: #fff7e6;\n  border: 1px solid #ffe7ba;\n}\n\n.icon {\n  font-size: 1.4em;\n}\n\n.text {\n  line-height: 1.3;\n}\n\n.text span {\n  display: block;\n  font-size: 0.75em;\n  color: #666;\n}\n\n.text strong {\n  font-size: 0.9em;\n  color: #2c3e50;\n}\n\n</style>"
+            "liquid": "<div class=\"payment-icons-wrapper\" style=\"display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 15px;\">\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_12_small_ba88b7ee-8809-49b7-b380-b932961e5adf.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_7_small_1dc155ad-8e9b-4736-9840-2cd296364c1b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_8_small_ba0e64d5-6f9a-44e0-9876-b04822ec0d9d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003645_small_2d7474cc-1165-4117-bfb0-05762afd5d2d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003644_small_0dca41cf-dfc8-4898-a7be-06a0613475ad.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_9_small_e6cf4cd9-c7f8-44d8-8dda-6e601d4e702d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003997_small_978567ae-f946-41c3-a08b-36a8a6a76403.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_10_small_b92b8686-9144-41d7-9317-0e256a221bde.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_11_small_23598d8c-6cd8-4a4b-b354-0b54a5dc794b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n</div>\n\n<style>\n  .payment-icons-wrapper {\n    display: flex;\n    justify-content: center;\n    flex-wrap: wrap;\n    gap: 8px;\n    margin-top: 15px;\n  }\n  \n  .payment-icon {\n    display: flex;\n    align-items: center;\n  }\n  \n  .payment-icon img {\n    max-width: 100%;\n    height: auto;\n    transition: all 0.3s ease;\n  }\n  \n\n  }\n</style>"
+          }
+        },
+        "text_YH44we": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Retours sans risque pendant 90 jours | Assistance 24h/24 et 7j/7</p>"
           }
         },
         "collapsible_text_axbrb7": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "Que contient le Kit Velaura™  ?",
             "content": "<ul><li>1 <strong>Masseur Anti Cellulite Palper rouler à Chauffage infrarouge </strong>avec 7 types de Massage différent et 12 niveaux de sucions selon de type de cellulite.</li><li>1 <strong>Brosse d'Activation Cutanée </strong>stimulante à picots souples</li><li>1 <strong>Crème Anti-Cellulite Rétinol & Caféine </strong></li><li><strong>1 Active-Band </strong><br/><br/><br/></li></ul>"
@@ -100,6 +116,7 @@
         },
         "collapsible_text_j4hmFf": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "Garantie satisfait ou remboursé – 30 jours",
             "content": "<p>Essayez notre Kit pendant 30 jours, sans risque. Si vous n'êtes pas entièrement satisfait(e), nous vous remboursons intégralement et vous recevez en plus un bon d'achat de 10 €.</p>"
@@ -107,6 +124,7 @@
         },
         "collapsible_text_iRib8j": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "Comment effectuer un retour ?",
             "content": "<p>C'est très simple :</p><ul><li>Contactez notre service client dans les 30 jours suivant votre achat via retour@velaura.fr</li><li>Renvoyez nous le produit ( Les instructions vous seront communiqué par notre service client )</li><li>Nous procédons au remboursement complet sous 5 à 7 jours ouvrés</li></ul>"
@@ -124,9 +142,10 @@
         "liquid_B7LfBx",
         "payment_terms",
         "variant_picker",
-        "quantity_selector",
+        "offer_ix4p87",
         "buy_buttons",
-        "liquid_NcnHbg",
+        "liquid_AekBRP",
+        "text_YH44we",
         "collapsible_text_axbrb7",
         "collapsible_text_j4hmFf",
         "collapsible_text_iRib8j"
@@ -149,26 +168,72 @@
         "input_text_color": ""
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "logo_list_iQ4J88": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_maGBmM": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/vogue_svg_1_small_0b03fe35-b7bd-4b99-846b-a2d06a35a2c5.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_whrg9D": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/elle-2_1_small_04616558-b405-46dc-b5d7-563b8e929a32.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_QjG3tc": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/idbn5VXnTJ_1737615768532_1_small_ec181fa1-7ef0-463c-84d9-093e4007050e.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_cPc43W": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vector_1_small_0d864a32-4015-4142-922f-1e1acff76226.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_rq4J7r": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Vector_small_c461d501-e6e5-41af-9bd5-fe3775b54899.svg",
+            "logo_width": 300,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_maGBmM",
+        "logo_whrg9D",
+        "logo_QjG3tc",
+        "logo_cPc43W",
+        "logo_rq4J7r"
+      ],
+      "name": "Logo list",
       "settings": {
-        "recommendations_count": 6,
-        "products": [],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
+        "stack_mobile": false,
+        "title": "",
         "content": "",
-        "background": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
+        "background": "#f7afaf",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "rich_text_QkHbXj": {
@@ -1128,7 +1193,7 @@
   },
   "order": [
     "main",
-    "related-products",
+    "logo_list_iQ4J88",
     "rich_text_QkHbXj",
     "multi_column_kyQDK6",
     "image_with_text_overlay_3U6Hyp",
