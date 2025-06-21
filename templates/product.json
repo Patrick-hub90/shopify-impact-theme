@@ -565,7 +565,7 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "1-4",
+            "title": "Niveaux  1 - 4",
             "heading_tag": "h4",
             "content": "<p>Les niveaux 1 à 4 offrent un <strong>massage apaisant</strong> et léger , idéal pour <strong>les débutants  </strong> ou les <strong>peaux sensibles.</strong> Ces niveaux stimulent progressivement la circulation sanguine, <strong>détendent la peau</strong> et commencent <strong>à éliminer</strong> les premiers signes de <strong>cellulite par un simple toucher doux.</strong></p>",
             "link_url": "",
@@ -577,9 +577,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "5-8",
+            "title": "Niveaux 5 - 8",
             "heading_tag": "h4",
-            "content": "<p>Les niveaux 1 à 4 offrent un <strong>massage apaisant</strong> et léger , idéal pour <strong>les débutants  </strong> ou les <strong>peaux sensibles.</strong> Ces niveaux stimulent progressivement la circulation sanguine, <strong>détendent la peau</strong> et commencent <strong>à éliminer</strong> les premiers signes de <strong>cellulite par un simple toucher doux.</strong></p>",
+            "content": "<p>Ces niveaux offrent un massage plus tonique, parfait pour les utilisateurs habitués ou ceux qui recherchent des résultats visibles plus rapidement. Ils agissent plus profondément sur les tissus, activent la circulation lymphatique et ciblent les zones où la cellulite est plus marquée, tout en restant confortables à l’usage.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -589,7 +589,7 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "8-12",
+            "title": "Niveaux  8 - 12",
             "heading_tag": "h4",
             "content": "<p><strong>Utilisateurs expérimentés</strong> nécessitant <strong>un traitement intensif</strong> . Ces réglages pénètrent profondément la peau pour <strong>réduire significativement</strong> l'apparence de <strong>la cellulite</strong> , stimuler <strong>la production de collagène</strong> et lisser les <strong>irrégularités cutanées les plus tenaces.</strong></p>",
             "link_url": "",
