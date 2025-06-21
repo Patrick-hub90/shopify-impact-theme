@@ -11,27 +11,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "contact_Nxfm6D": {
-      "type": "contact",
-      "name": "Contact form",
-      "settings": {
-        "full_width": true,
-        "subheading": "Contactez-nous",
-        "title": "Avez-vous des questions ?",
-        "content": "",
-        "text_position": "start",
-        "contact_form_size": "large",
-        "background": "#f7f7f7",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "#f7f7f7",
-        "contact_text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -63,6 +42,7 @@
         "links",
         "links_4faYzd"
       ],
+      "disabled": true,
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
@@ -74,7 +54,6 @@
     }
   },
   "order": [
-    "contact_Nxfm6D",
     "footer"
   ]
 }
