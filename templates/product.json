@@ -532,6 +532,91 @@
         "review_button_text_color": "#ffffff"
       }
     },
+    "rich_text_qtpfBT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n7i8JL": {
+          "type": "heading",
+          "settings": {
+            "text": "Comment l'utiliser ?",
+            "heading_tag": "h1",
+            "text_color": "#f7afaf",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n7i8JL"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_bJxqK3": {
+      "type": "multi-column",
+      "blocks": {
+        "item_NFCUmj": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p><strong>Utilisateurs expérimentés</strong> nécessitant <strong>un traitement intensif</strong> . Ces réglages pénètrent profondément la peau pour <strong>réduire significativement</strong> l'apparence de <strong>la cellulite</strong> , stimuler <strong>la production de collagène</strong> et lisser les <strong>irrégularités cutanées les plus tenaces.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BRtVgq": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Les niveaux 1 à 4 offrent un <strong>massage apaisant</strong> et léger , idéal pour <strong>les débutants  </strong> ou les <strong>peaux sensibles.</strong> Ces niveaux stimulent progressivement la circulation sanguine, <strong>détendent la peau</strong> et commencent <strong>à éliminer</strong> les premiers signes de <strong>cellulite par un simple toucher doux.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NH4rEJ": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Les niveaux 1 à 4 offrent un <strong>massage apaisant</strong> et léger , idéal pour <strong>les débutants  </strong> ou les <strong>peaux sensibles.</strong> Ces niveaux stimulent progressivement la circulation sanguine, <strong>détendent la peau</strong> et commencent <strong>à éliminer</strong> les premiers signes de <strong>cellulite par un simple toucher doux.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_NFCUmj",
+        "item_BRtVgq",
+        "item_NH4rEJ"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "175053023853a0e5ed": {
       "type": "apps",
       "settings": {
@@ -976,6 +1061,8 @@
     "rich_text_yXCpyU",
     "impact_text_8NwX3c",
     "1750111911718b5641",
+    "rich_text_qtpfBT",
+    "multi_column_bJxqK3",
     "175053023853a0e5ed",
     "multi_column_dw4MHP",
     "rich_text_KbN9pi",
