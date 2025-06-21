@@ -902,15 +902,15 @@
         "item_LbBqyT": {
           "type": "item",
           "settings": {
-            "title": "Combien de temps faut-il pour voir des résultats avec le Kit anti-cellulite de Velaura ?",
-            "content": "<p>Les premiers résultats peuvent être visibles <strong>dès la première semaine d'utilisation </strong>chez certaines clientes. Toutefois, chaque corps est unique, et <strong>les résultats peuvent varier </strong>selon votre métabolisme, votre type de cellulite et votre mode de vie. <strong>L'assiduité et la régularité </strong>d'utilisation du Kit en conformité avec la routine Velaura, accéléreront et <strong>optimiseront vos résultats sur la durée</strong>.</p>"
+            "title": "« Est-ce que cela fonctionnera VRAIMENT pour MA cellulite tenace ? »",
+            "content": "<p>OUI. Même si vous souffrez de cellulite depuis plus de 20 ans. Même si vous avez tout essayé. Le système Velaura cible les trois couches de la cellulite grâce à une technologie auparavant réservée aux traitements médicaux à plus de 3 000 $. Les femmes présentant la cellulite la plus sévère et la plus résistante constatent souvent les transformations les plus spectaculaires.</p>"
           }
         },
         "item_CGirKL": {
           "type": "item",
           "settings": {
-            "title": "Les soins avec le Kit Velaura sont-ils douloureux ?",
-            "content": "<p>Non, les soins avec Velaura sont totalement indolores. Les accessoires sont conçus pour stimuler la peau en douceur, sans causer de douleur ni d’inconfort, vous offrant une expérience agréable et sécurisée à chaque utilisation.</p>"
+            "title": "« Combien de temps cela va-t-il prendre dans mon emploi du temps chargé ? »",
+            "content": "<p>SEULEMENT 5 MINUTES PAR JOUR. C'est tout. Pas de crèmes salissantes à appliquer. Pas de rendez-vous d'une heure au spa. L'appareil s'éteint automatiquement lorsque la durée optimale du traitement est atteinte, pour éviter les excès. À utiliser en regardant la télévision ou en consultant votre téléphone.</p>"
           }
         },
         "item_yKxwp8": {
@@ -923,22 +923,36 @@
         "item_xmpmME": {
           "type": "item",
           "settings": {
-            "title": "Le Kit anti-cellulite  nécessite-t-il des produits ou des accessoires supplémentaires ?",
-            "content": "<p>Non, <strong>le Kit anti-cellulite est complet </strong>en lui-même, contenant tous les soins et accessoires nécessaires <strong>pour traiter efficacement la cellulite</strong>. Toutefois, si vous souhaitez combiner plusieurs objectifs, comme par exemple cellulite et minceur, nous vous recommandons de <strong>traiter chaque objectif séparément</strong>, l'un après l'autre.<br/>Par la suite, vous pourrez continuer à utiliser les produits qui vous ont particulièrement plu ou ceux qui ont apporté <strong>les meilleurs résultats </strong>en entretien régulier pour <strong>préserver durablement les effets obtenus</strong>.</p>"
+            "title": "« Est-ce juste un autre gadget qui va ramasser la poussière ? »",
+            "content": "<p>ABSOLUMENT PAS. Contrairement à 95 % des produits anti-cellulite qui promettent mais ne tiennent pas leurs promesses, Velaura affiche un taux de réussite de 94 % lors des études cliniques. C'est pourquoi nous vous proposons un essai sans risque de 90 jours. Si vous ne constatez aucune amélioration visible, retournez-le pour un remboursement intégral, sans justification.</p>"
           }
         },
         "item_XD9Q96": {
           "type": "item",
           "settings": {
-            "title": "Le Kit anti-cellulite est-il efficace pour lutter contre tous types de cellulite ?",
-            "content": "<p>Oui, c'est une <strong>véritable arme contre tous les types de cellulite</strong>, qu'elle soit adipeuse, fibreuse, aqueuse... La clé de son efficacité réside dans notre ventouse électrique révolutionnaire, qui dispose de 12<strong> niveaux d'intensité </strong>et de <strong>2 modes d'aspiration </strong>distincts. Ces caractéristiques permettent d'<strong>adapter le traitement </strong>à votre type spécifique de cellulite et à vos <strong>besoins personnels</strong>. Que vous cherchiez à <strong>cibler des zones tenaces </strong>ou à <strong>effectuer un traitement plus général</strong>, cette ventouse est capable de <strong>s'ajuster pour offrir des résultats optimaux</strong>. Combinée à nos autres soins ciblés, elle constitue une solution complète pour combattre efficacement la cellulite sous toutes ses formes.</p>"
+            "title": "« Dans combien de temps verrai-je les résultats RÉELS ? »",
+            "content": "<p><strong>IMMÉDIATEMENT</strong>. Votre peau sera plus ferme dès la première séance de 5 minutes. La plupart des femmes constatent une amélioration visible de leur cellulite en 7 jours. Au 21e jour, 94 % des utilisatrices constatent une réduction spectaculaire de la cellulite, même la plus tenace, au niveau des cuisses et des fesses. N'oubliez pas de nous envoyez une vidéo de vos résultats par mail <strong>support@velaura.com </strong>pour bénéficiez d'un Masseur Anti Cellulite gratuit. </p>"
           }
         },
         "item_xNKGfM": {
           "type": "item",
           "settings": {
-            "title": "Le Kit anti-cellulite  est-il compatible avec la grossesse ou l'allaitement ?",
-            "content": "<p>Nous ne recommandons pas d'utiliser ce pack pendant la grossesse ou l'allaitement. En cas de doute, demandez toujours l'avis d'un médecin ou d'un professionnel de la santé.</p>"
+            "title": "« Pourquoi est-ce mieux que des traitements professionnels coûteux ? »",
+            "content": "<p>ÉCONOMISEZ PLUS DE 2 400 € PAR AN. Un seul traitement professionnel contre la cellulite coûte entre 200 et 400 € et nécessite 6 à 12 séances pour des résultats qui s'estompent souvent rapidement. Velaura offre des résultats SUPÉRIEURS, SANS frais récurrents, SANS rendez-vous et SANS convalescence douloureuse.</p>"
+          }
+        },
+        "item_yVXXDG": {
+          "type": "item",
+          "settings": {
+            "title": "« Et si je ne suis pas doué en technologie ? »",
+            "content": "<p>ZÉRO COURBE D'APPRENTISSAGE. Appuyez sur un bouton pour utiliser notre Masseur. Son fonctionnement en une seule touche et son contrôle automatique de l'intensité garantissent des traitements parfaits à chaque fois. Le guide inclus explique précisément où et comment l'utiliser pour des résultats optimaux.</p>"
+          }
+        },
+        "item_DqH4R8": {
+          "type": "item",
+          "settings": {
+            "title": "« Puis-je le retourner si je ne suis pas satisfait ? »",
+            "content": "<p>OUI, AUCUN RISQUE POUR VOUS. Essayez Velaura pendant 30 jours. Si vous n'êtes pas satisfait(e) des résultats, retournez-le simplement pour un remboursement intégral. Nous prenons TOUS les risques, car nous savons que ça marche.</p>"
           }
         }
       },
@@ -948,17 +962,72 @@
         "item_yKxwp8",
         "item_xmpmME",
         "item_XD9Q96",
-        "item_xNKGfM"
+        "item_xNKGfM",
+        "item_yVXXDG",
+        "item_DqH4R8"
       ],
       "name": "FAQ",
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "FAQs",
+        "title": "Questions fréquentes",
         "content": "<p>Tout ce que vous devez savoir sur la routine anti-cellulite Velaura.</p>",
         "team_avatar_width": 160,
-        "support_hours": "Pas trouvé votre réponse ? Notre équipe support est là pour vous aider par mail : contact@velaura.fr",
+        "support_hours": "",
         "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "faq_fFYAN9": {
+      "type": "faq",
+      "blocks": {
+        "item_LDQqTg": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_eG9C4L": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_kfLkNr": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_LDQqTg",
+        "item_eG9C4L",
+        "item_kfLkNr"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Produit et Utilisation",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "Notre service clientèle est disponible du lundi au vendredi : de 8h à 20h30 via le Chat en ligne ou par mail au support@velaura.fr",
+        "answer_time": "Temps de réponse moyen: 24h",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
@@ -1024,6 +1093,7 @@
     "custom_liquid_TWdK6z",
     "media_with_text_tpbQEr",
     "faq_AacKYz",
+    "faq_fFYAN9",
     "1749445869fb7437ce"
   ]
 }
