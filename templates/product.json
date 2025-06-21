@@ -746,6 +746,95 @@
         "text_color": ""
       }
     },
+    "text_with_icons_MTYJpD": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_78Afej": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/telechargement_29.png",
+            "mobile_icon_width": 60,
+            "icon_width": 60,
+            "icon_background_type": "circle",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "",
+            "title": "Réduction de la cellulite",
+            "content": "<p>Les massages aident à casser les petits amas sous la peau qui forment les bosses (la \"peau d’orange\"). Résultat : la peau devient plus lisse et plus uniforme.</p>"
+          }
+        },
+        "item_mnxMYx": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/telechargement_31.png",
+            "mobile_icon_width": 60,
+            "icon_width": 60,
+            "icon_background_type": "circle",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "",
+            "title": "Réduction de la graisse",
+            "content": "<p>En massant certaines zones, on aide le corps à \"décoller\" la graisse stockée pour qu’il puisse l’éliminer plus facilement, ce qui peut affiner certaines parties du corps.</p>"
+          }
+        },
+        "item_XrJzWg": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/telechargement_32.png",
+            "mobile_icon_width": 60,
+            "icon_width": 60,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Élimination des Vergetures",
+            "content": "<p>Le soin stimule la peau pour qu’elle se régénère plus vite. Les marques blanches ou violacées s’atténuent avec le temps, et la peau paraît plus souple et plus jolie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_78Afej",
+        "item_mnxMYx",
+        "item_XrJzWg"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "before_after_image_CGRk7R": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/telechargement_25.jpg",
+        "after_image": "shopify://shop_images/venus_legacy_1_after.jpg",
+        "expand_image": true,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Jour 1",
+        "after_text": "Jour 14",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#000000",
+        "after_text_color": "#000000",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "media_with_text_tpbQEr": {
       "type": "media-with-text",
       "blocks": {
@@ -903,6 +992,8 @@
     "175053023853a0e5ed",
     "multi_column_dw4MHP",
     "rich_text_a3RFhr",
+    "text_with_icons_MTYJpD",
+    "before_after_image_CGRk7R",
     "media_with_text_tpbQEr",
     "faq_AacKYz",
     "1749445869fb7437ce"
