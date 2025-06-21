@@ -324,7 +324,7 @@
           "type": "tab",
           "settings": {
             "title": "Ce que contient votre kit :",
-            "content": "<p>;;,</p>",
+            "content": "",
             "page": "produit-soins"
           }
         },
