@@ -22,7 +22,7 @@
     "button_style": "fill",
     "button_hover_effect": "reverse",
     "background": "#fff9f6",
-    "text_color": "#2a555a",
+    "text_color": "#000000",
     "success_color": "#00a341",
     "warning_color": "#ffb74a",
     "error_color": "#aa2826",
@@ -81,11 +81,6 @@
       "15557474716127144420": {
         "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": true,
-        "settings": {}
-      },
-      "1143683040400472741": {
-        "type": "shopify://apps/trustoo-io-reviews/blocks/trustoo-review-switch/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-        "disabled": false,
         "settings": {}
       }
     }
