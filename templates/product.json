@@ -484,6 +484,9 @@
         "item_dUbxGy",
         "item_pXCrbj"
       ],
+      "custom_css": [
+        "img{width: 100%;}"
+      ],
       "name": "Multi-column",
       "settings": {
         "full_width": true,
