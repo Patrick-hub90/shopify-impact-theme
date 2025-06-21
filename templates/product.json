@@ -324,7 +324,7 @@
           "type": "tab",
           "settings": {
             "title": "Ce que contient votre kit :",
-            "content": "",
+            "content": "<p>;;,</p>",
             "page": "produit-soins"
           }
         },
@@ -355,7 +355,7 @@
         "full_width": true,
         "content_size": "fill",
         "subheading": "",
-        "title": "",
+        "title": "k",
         "first_tab_open": true,
         "background": "",
         "background_gradient": "",
