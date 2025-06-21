@@ -254,6 +254,36 @@
         "heading_gradient": ""
       }
     },
+    "1750521069ccbfb4ff": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_carousel_7BPbqb": {
+          "type": "shopify://apps/okendo/blocks/reviews-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": "soin-pro-anti-cellulite-a-domicile"
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_carousel_7BPbqb"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
     "testimonials_8FQN8k": {
       "type": "testimonials",
       "blocks": {
@@ -315,53 +345,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": "#2a555a"
-      }
-    },
-    "tabs_YF7hgz": {
-      "type": "tabs",
-      "blocks": {
-        "tab_Dbr7YM": {
-          "type": "tab",
-          "settings": {
-            "title": "Ce que contient votre kit :",
-            "content": "",
-            "page": "produit-soins"
-          }
-        },
-        "tab_dndKnV": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 2",
-            "content": "",
-            "page": "produit-soins"
-          }
-        },
-        "tab_pNFHbg": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab 3",
-            "content": "<p>Share information about your shipping rates, return policy or contact information.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_Dbr7YM",
-        "tab_dndKnV",
-        "tab_pNFHbg"
-      ],
-      "name": "Tabs",
-      "settings": {
-        "full_width": true,
-        "content_size": "fill",
-        "subheading": "",
-        "title": "",
-        "first_tab_open": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "multi_column_kyQDK6": {
@@ -1261,8 +1244,8 @@
   "order": [
     "main",
     "image_link_blocks_ANCqfF",
+    "1750521069ccbfb4ff",
     "testimonials_8FQN8k",
-    "tabs_YF7hgz",
     "multi_column_kyQDK6",
     "custom_liquid_F6mcqn",
     "before_after_image_6f7xqi",
