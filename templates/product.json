@@ -482,6 +482,9 @@
         "item_ng84Nc",
         "item_xEiw9b"
       ],
+      "custom_css": [
+        "img{width: 100%;}"
+      ],
       "name": "Impact text",
       "settings": {
         "full_width": true,
