@@ -995,22 +995,22 @@
         "item_LDQqTg": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Faut-il appliquer de l'huile de massage sur la peau avant d'utiliser l'appareil ? Si oui, comment nettoyer le produit après utilisation ?",
+            "content": "<p>Oui ! Il est important d'appliquer une fine couche d'huiles de massage Velaura riche en Caféine avant d'utiliser l'appareil. Cela garantit une glisse plus fluide, réduit les frottements et améliore l'efficacité du traitement tout en nourrissant votre peau. L'utilisation d'huile aide également à prévenir les ecchymoses et améliore le confort général.</p><p>Pour nettoyer l’appareil par la suite, essuyez-le simplement avec un chiffon humide et du savon doux si nécessaire. Veillez simplement à ne pas l’immerger dans l’eau.</p><p>✨ <strong>C'est pourquoi nous vous offrons 1 bouteille d'huile de massage Velaura GRATUITES lorsque vous commandez aujourd'hui !</strong> ✨</p>"
           }
         },
         "item_eG9C4L": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Combien de temps faut-il utiliser l'appareil sur chaque section ?",
+            "content": "<p>Pour de meilleurs résultats, nous recommandons d'utiliser le  <strong>kit anti-cellulite Velaura</strong>  environ  <strong>10 minutes par jour</strong> , en appliquant uniformément sur toutes les zones ciblées. <strong>Ne laissez pas l'appareil trop longtemps au même endroit</strong> , afin d'éviter une aspiration excessive et de garantir une peau uniforme et tonique.</p><p>💡  <strong>La régularité est essentielle !</strong>  Quelques minutes par jour suffisent pour lisser, raffermir et rajeunir votre peau au fil du temps.</p>"
           }
         },
         "item_kfLkNr": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Combien de fois par semaine pouvez-vous l'utiliser ?",
+            "content": "<p>Pour des résultats optimaux, nous recommandons d'utiliser le  <strong>kit anti-cellulite Velaura </strong> <strong>3 à 5 fois par semaine,</strong>  à raison d'environ  <strong>10 minutes par séance</strong> . Cela permet à votre peau de s'adapter et de maximiser ses bienfaits raffermissants et lissants.</p><p>💡  <strong>Astuce :</strong>  Commencez par  <strong>3 fois par semaine</strong> , puis augmentez progressivement en fonction du niveau de confort de votre peau pour des résultats optimaux !</p>"
           }
         }
       },
