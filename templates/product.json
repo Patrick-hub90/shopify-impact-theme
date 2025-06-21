@@ -540,7 +540,7 @@
           "settings": {
             "text": "Comment l'utiliser ?",
             "heading_tag": "h1",
-            "text_color": "#f7afaf",
+            "text_color": "#000000",
             "gradient": ""
           }
         }
@@ -564,6 +564,7 @@
         "item_BRtVgq": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Concept_16_-_Editable_11_2_e44383ff-0051-442b-8200-357a5b068d43_1_1_1.png",
             "column_size": "3",
             "title": "Niveaux  1 - 4",
             "heading_tag": "h4",
@@ -576,6 +577,7 @@
         "item_NH4rEJ": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Concept_16_-_Editable_11_3_d5873eba-d240-4e12-81e5-ee1e9f894994_1_1_1.png",
             "column_size": "3",
             "title": "Niveaux 5 - 8",
             "heading_tag": "h4",
@@ -588,8 +590,9 @@
         "item_NFCUmj": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Concept_16_-_Editable_11_4_edda1ead-36b4-46ae-b8b9-e46dd8bf53a1_1.png",
             "column_size": "3",
-            "title": "Niveaux  8 - 12",
+            "title": "Niveaux  9 - 12",
             "heading_tag": "h4",
             "content": "<p><strong>Utilisateurs expérimentés</strong> nécessitant <strong>un traitement intensif</strong> . Ces réglages pénètrent profondément la peau pour <strong>réduire significativement</strong> l'apparence de <strong>la cellulite</strong> , stimuler <strong>la production de collagène</strong> et lisser les <strong>irrégularités cutanées les plus tenaces.</strong></p>",
             "link_url": "",
@@ -602,6 +605,9 @@
         "item_BRtVgq",
         "item_NH4rEJ",
         "item_NFCUmj"
+      ],
+      "custom_css": [
+        "img {width: 100%;}"
       ],
       "name": "Multi-column",
       "settings": {
