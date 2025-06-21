@@ -442,9 +442,9 @@
         "item_ypXXqC": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/2_1.png",
-            "title": "95",
-            "subheading": "Showcase a benefit of your product",
+            "image": "shopify://shop_images/1_1.png",
+            "title": "96%",
+            "subheading": " des femmes constatent une amélioration spectaculaire du teint et de l'éclat de leur peau en quelques jours.",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -455,8 +455,9 @@
         "item_ng84Nc": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
+            "image": "shopify://shop_images/2_1.png",
+            "title": "94 %",
+            "subheading": "constatent une disparition visible des vergetures qu’elles pensaient permanentes (même après une grossesse).",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -467,8 +468,9 @@
         "item_xEiw9b": {
           "type": "item",
           "settings": {
-            "title": "84%",
-            "subheading": "Showcase a benefit of your product",
+            "image": "shopify://shop_images/3_1.png",
+            "title": "96 %",
+            "subheading": "constatent une réduction significative de la cellulite tenace des cuisses et des hanches que le régime et l'exercice n'ont pas pu éliminer !",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -483,7 +485,7 @@
         "item_xEiw9b"
       ],
       "custom_css": [
-        "img{width: 100%;}"
+        "img {width: 100%;}"
       ],
       "name": "Impact text",
       "settings": {
