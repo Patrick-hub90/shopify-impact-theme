@@ -323,9 +323,9 @@
         "tab_Dbr7YM": {
           "type": "tab",
           "settings": {
-            "title": "Tab 1",
-            "content": "<p>Use this text to share information about your brand with your customers.</p>",
-            "page": ""
+            "title": "Ce que contient votre kit :",
+            "content": "",
+            "page": "produit-soins"
           }
         },
         "tab_dndKnV": {
