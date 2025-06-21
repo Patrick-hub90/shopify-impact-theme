@@ -504,70 +504,35 @@
         "button_text_color": ""
       }
     },
-    "multi_column_tQQK4i": {
-      "type": "multi-column",
+    "1750111911718b5641": {
+      "type": "apps",
       "blocks": {
-        "item_q3chqJ": {
-          "type": "item",
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_FpYFjb": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist-slider/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
-            "image": "shopify://shop_images/Cellulite_Formation.png",
-            "column_size": "3",
-            "title": "Comment se forme la cellulite ?",
-            "heading_tag": "h4",
-            "content": "<p>La cellulite, c’est ce <strong>relief irrégulier</strong> qu’on appelle “peau d’orange”. Elle apparaît quand les <strong>graisses sous la peau gonflent</strong>, que la <strong>circulation ralentit</strong>, et que des <strong>fibres rigides</strong> viennent comprimer les tissus.<br/><strong><br/>Résultat : </strong>les toxines s’accumulent, la peau gonfle, les muscles en dessous se relâchent, et les creux se forment.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_rNTFNk": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0519(1).mp4",
-            "column_size": "3",
-            "title": "Cibler les fibres de soutien : la clé contre la cellulite",
-            "heading_tag": "h4",
-            "content": "<p>Une étude clinique publiée dans le <em><strong>Journal of Dermatologic Surgery</strong></em> souligne que les approches ciblant les fibres de soutient—par des méthodes mécaniques, chirurgicales ou enzymatiques (<strong>Comme la Routine de Velaura</strong>) sont les plus prometteuses pour améliorer durablement la texture de la peau et réduire l'apparence de la cellulite.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_grPLhw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Brossage_stimulant.png",
-            "column_size": "3",
-            "title": "La routine Velaura : un rituel anti-cellulite au quotidien",
-            "heading_tag": "h4",
-            "content": "<p><strong>La routine Velaura est un protocole anti-cellulite complet, conçu avec l’expertise de dermatologues spécialisés.</strong><br/>Elle repose sur des approches mécaniques et enzymatiques reconnues scientifiquement, qui agissent en profondeur pour <strong>relâcher les fibres de soutien</strong>, <strong>stimuler le drainage naturel</strong> et <strong>réduire visiblement l’aspect capitonné</strong> de la peau.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "playlist_id": "",
+            "debugging_script": ""
           }
         }
       },
       "block_order": [
-        "item_q3chqJ",
-        "item_rNTFNk",
-        "item_grPLhw"
+        "reelup_shoppable_videos_reels_reelup_playlist_slider_FpYFjb"
       ],
-      "disabled": true,
-      "name": "Multi-column",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "La cellulite expliquée en 1 minute",
-        "content": "",
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
-    "1750111911718b5641": {
+    "175053023853a0e5ed": {
       "type": "apps",
       "settings": {
         "full_width": true,
@@ -1010,8 +975,8 @@
     "video_bc8YXi",
     "rich_text_yXCpyU",
     "impact_text_8NwX3c",
-    "multi_column_tQQK4i",
     "1750111911718b5641",
+    "175053023853a0e5ed",
     "multi_column_dw4MHP",
     "rich_text_KbN9pi",
     "rich_text_iV9dPx",
