@@ -385,6 +385,20 @@
         "text_color": ""
       }
     },
+    "video_bc8YXi": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "multi_column_tQQK4i": {
       "type": "multi-column",
       "blocks": {
@@ -888,6 +902,7 @@
     "testimonials_8FQN8k",
     "scrolling_text_HPdhxz",
     "rich_text_LgCAtK",
+    "video_bc8YXi",
     "multi_column_tQQK4i",
     "1750111911718b5641",
     "multi_column_dw4MHP",
