@@ -237,6 +237,7 @@
         "item_LweQje",
         "item_cpeVNN"
       ],
+      "custom_css": [],
       "name": "Image link blocks",
       "settings": {
         "full_width": true,
@@ -253,37 +254,67 @@
         "heading_gradient": ""
       }
     },
-    "rich_text_QkHbXj": {
-      "type": "rich-text",
+    "testimonials_8FQN8k": {
+      "type": "testimonials",
       "blocks": {
-        "heading_etTz49": {
-          "type": "heading",
+        "testimonial_hb8Nj4": {
+          "type": "testimonial",
           "settings": {
-            "text": "Leur institut, c'est leur salon ☘️",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "image": "shopify://shop_images/telechargement_27.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Camille D., 34 ans, Lyon, France",
+            "title": "Résultats incroyables !!",
+            "content": "<p>J’étais sceptique au début, mais après seulement deux semaines, ma peau est visiblement plus lisse, et la cellulite sur mes cuisses a presque disparu !</p>"
           }
         },
-        "richtext_hgLkjL": {
-          "type": "richtext",
+        "testimonial_fzeEWL": {
+          "type": "testimonial",
           "settings": {
-            "content": "<p> Comment elles ont transformé leur maison en institut professionnel - et économisé 250€/mois.</p>"
+            "image": "shopify://shop_images/telechargement_28.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Sophie L., 41 ans, Bordeaux, France",
+            "title": "Plutôt impressionnant",
+            "content": "<p>Je l’utilise depuis environ trois semaines, et même si les résultats sont progressifs, la texture de ma peau s’est nettement améliorée. </p>"
+          }
+        },
+        "testimonial_tNzryX": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/telechargement_29.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Emilie A., 45 ans, Paris, France",
+            "title": "Parfait pour les femmes occupées",
+            "content": "<p>En tant que maman qui travaille, je n’ai pas le temps d’aller au spa. Cet appareil s’intègre parfaitement dans ma routine. Je l’utilise 5 à 10 minutes avant de dormir, et mes bras et mes jambes sont visiblement plus fermes.</p>"
           }
         }
       },
       "block_order": [
-        "heading_etTz49",
-        "richtext_hgLkjL"
+        "testimonial_hb8Nj4",
+        "testimonial_fzeEWL",
+        "testimonial_tNzryX"
       ],
-      "name": "Rich text",
+      "name": "Testimonials",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#ffffff",
+        "testimonial_card_text_color": "#2a555a"
       }
     },
     "multi_column_kyQDK6": {
@@ -1211,7 +1242,7 @@
   "order": [
     "main",
     "image_link_blocks_ANCqfF",
-    "rich_text_QkHbXj",
+    "testimonials_8FQN8k",
     "multi_column_kyQDK6",
     "image_with_text_overlay_3U6Hyp",
     "custom_liquid_F6mcqn",
