@@ -97,13 +97,7 @@
         "liquid_AekBRP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"payment-icons-wrapper\" style=\"display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 15px;\">\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_12_small_ba88b7ee-8809-49b7-b380-b932961e5adf.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_7_small_1dc155ad-8e9b-4736-9840-2cd296364c1b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_8_small_ba0e64d5-6f9a-44e0-9876-b04822ec0d9d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003645_small_2d7474cc-1165-4117-bfb0-05762afd5d2d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003644_small_0dca41cf-dfc8-4898-a7be-06a0613475ad.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_9_small_e6cf4cd9-c7f8-44d8-8dda-6e601d4e702d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003997_small_978567ae-f946-41c3-a08b-36a8a6a76403.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_10_small_b92b8686-9144-41d7-9317-0e256a221bde.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_11_small_23598d8c-6cd8-4a4b-b354-0b54a5dc794b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n</div>\n\n<style>\n  .payment-icons-wrapper {\n    display: flex;\n    justify-content: center;\n    flex-wrap: wrap;\n    gap: 8px;\n    margin-top: 15px;\n  }\n  \n  .payment-icon {\n    display: flex;\n    align-items: center;\n  }\n  \n  .payment-icon img {\n    max-width: 100%;\n    height: auto;\n    transition: all 0.3s ease;\n  }\n  \n\n  }\n</style>"
-          }
-        },
-        "text_YH44we": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Retours sans risque pendant 90 jours | Assistance 24h/24 et 7j/7</p>"
+            "liquid": "<div class=\"payment-icons-wrapper\" style=\"display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 15px;\">\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_12_small_ba88b7ee-8809-49b7-b380-b932961e5adf.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_7_small_1dc155ad-8e9b-4736-9840-2cd296364c1b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_8_small_ba0e64d5-6f9a-44e0-9876-b04822ec0d9d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003645_small_2d7474cc-1165-4117-bfb0-05762afd5d2d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003644_small_0dca41cf-dfc8-4898-a7be-06a0613475ad.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_9_small_e6cf4cd9-c7f8-44d8-8dda-6e601d4e702d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003997_small_978567ae-f946-41c3-a08b-36a8a6a76403.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_10_small_b92b8686-9144-41d7-9317-0e256a221bde.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_11_small_23598d8c-6cd8-4a4b-b354-0b54a5dc794b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n</div>\n\n<style>\n  .payment-icons-wrapper {\n    display: flex;\n    justify-content: center;\n    flex-wrap: wrap;\n    gap: 8px;\n    margin-top: 15px;\n  }\n  \n  .payment-icon {\n    display: flex;\n    align-items: center;\n  }\n  \n  .payment-icon img {\n    max-width: 100%;\n    height: auto;\n    transition: all 0.3s ease;\n  }\n  \n\n  }\n</style>\n<p style=\"text-align: center\"><br/>Retours sans risque pendant 90 jours | Assistance 24h/24 et 7j/7</p>"
           }
         },
         "collapsible_text_axbrb7": {
@@ -145,7 +139,6 @@
         "offer_ix4p87",
         "buy_buttons",
         "liquid_AekBRP",
-        "text_YH44we",
         "collapsible_text_axbrb7",
         "collapsible_text_j4hmFf",
         "collapsible_text_iRib8j"
@@ -168,75 +161,96 @@
         "input_text_color": ""
       }
     },
-    "logo_list_iQ4J88": {
-      "type": "logo-list",
+    "image_link_blocks_ANCqfF": {
+      "type": "image-link-blocks",
       "blocks": {
-        "logo_maGBmM": {
-          "type": "logo",
+        "item_xntmAY": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/vogue_svg_1_small_0b03fe35-b7bd-4b99-846b-a2d06a35a2c5.svg",
-            "logo_width": 300,
-            "link": ""
+            "image": "shopify://shop_images/vogue_svg_1_small_0b03fe35-b7bd-4b99-846b-a2d06a35a2c5.svg",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7afaf",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "logo_whrg9D": {
-          "type": "logo",
+        "item_3jYpCc": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/elle-2_1_small_04616558-b405-46dc-b5d7-563b8e929a32.svg",
-            "logo_width": 300,
-            "link": ""
+            "image": "shopify://shop_images/elle-2_1_small_04616558-b405-46dc-b5d7-563b8e929a32.svg",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7afaf",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "logo_QjG3tc": {
-          "type": "logo",
+        "item_ayTKrE": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/idbn5VXnTJ_1737615768532_1_small_ec181fa1-7ef0-463c-84d9-093e4007050e.svg",
-            "logo_width": 300,
-            "link": ""
+            "image": "shopify://shop_images/idbn5VXnTJ_1737615768532_1_small_ec181fa1-7ef0-463c-84d9-093e4007050e.svg",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7afaf",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "logo_cPc43W": {
-          "type": "logo",
+        "item_LweQje": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/Vector_1_small_0d864a32-4015-4142-922f-1e1acff76226.svg",
-            "logo_width": 300,
-            "link": ""
+            "image": "shopify://shop_images/Vector_1_small_0d864a32-4015-4142-922f-1e1acff76226.svg",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7afaf",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
-        "logo_rq4J7r": {
-          "type": "logo",
+        "item_cpeVNN": {
+          "type": "item",
           "settings": {
-            "logo": "shopify://shop_images/Vector_small_c461d501-e6e5-41af-9bd5-fe3775b54899.svg",
-            "logo_width": 300,
-            "link": ""
+            "image": "shopify://shop_images/Vector_small_c461d501-e6e5-41af-9bd5-fe3775b54899.svg",
+            "stretch_image": false,
+            "link_text": "",
+            "link_url": "",
+            "background": "#f7afaf",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "logo_maGBmM",
-        "logo_whrg9D",
-        "logo_QjG3tc",
-        "logo_cPc43W",
-        "logo_rq4J7r"
+        "item_xntmAY",
+        "item_3jYpCc",
+        "item_ayTKrE",
+        "item_LweQje",
+        "item_cpeVNN"
       ],
-      "custom_css": [
-        ".logo-list{padding-top: 0px;}"
-      ],
-      "name": "Logo list",
+      "name": "Image link blocks",
       "settings": {
         "full_width": true,
-        "stack_mobile": false,
+        "block_size": "large",
+        "subheading": "",
         "title": "",
         "content": "",
-        "text_alignment": "start",
-        "items_per_row": 5,
+        "link_url": "",
+        "link_text": "",
         "background": "#f7afaf",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#f7afaf",
-        "logo_item_border": ""
+        "heading_gradient": ""
       }
     },
     "rich_text_QkHbXj": {
@@ -1196,7 +1210,7 @@
   },
   "order": [
     "main",
-    "logo_list_iQ4J88",
+    "image_link_blocks_ANCqfF",
     "rich_text_QkHbXj",
     "multi_column_kyQDK6",
     "image_with_text_overlay_3U6Hyp",
