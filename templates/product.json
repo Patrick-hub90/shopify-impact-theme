@@ -561,23 +561,11 @@
     "multi_column_bJxqK3": {
       "type": "multi-column",
       "blocks": {
-        "item_NFCUmj": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p><strong>Utilisateurs expérimentés</strong> nécessitant <strong>un traitement intensif</strong> . Ces réglages pénètrent profondément la peau pour <strong>réduire significativement</strong> l'apparence de <strong>la cellulite</strong> , stimuler <strong>la production de collagène</strong> et lisser les <strong>irrégularités cutanées les plus tenaces.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_BRtVgq": {
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "1-4",
             "heading_tag": "h4",
             "content": "<p>Les niveaux 1 à 4 offrent un <strong>massage apaisant</strong> et léger , idéal pour <strong>les débutants  </strong> ou les <strong>peaux sensibles.</strong> Ces niveaux stimulent progressivement la circulation sanguine, <strong>détendent la peau</strong> et commencent <strong>à éliminer</strong> les premiers signes de <strong>cellulite par un simple toucher doux.</strong></p>",
             "link_url": "",
@@ -589,9 +577,21 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "5-8",
             "heading_tag": "h4",
             "content": "<p>Les niveaux 1 à 4 offrent un <strong>massage apaisant</strong> et léger , idéal pour <strong>les débutants  </strong> ou les <strong>peaux sensibles.</strong> Ces niveaux stimulent progressivement la circulation sanguine, <strong>détendent la peau</strong> et commencent <strong>à éliminer</strong> les premiers signes de <strong>cellulite par un simple toucher doux.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_NFCUmj": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "8-12",
+            "heading_tag": "h4",
+            "content": "<p><strong>Utilisateurs expérimentés</strong> nécessitant <strong>un traitement intensif</strong> . Ces réglages pénètrent profondément la peau pour <strong>réduire significativement</strong> l'apparence de <strong>la cellulite</strong> , stimuler <strong>la production de collagène</strong> et lisser les <strong>irrégularités cutanées les plus tenaces.</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -599,9 +599,9 @@
         }
       },
       "block_order": [
-        "item_NFCUmj",
         "item_BRtVgq",
-        "item_NH4rEJ"
+        "item_NH4rEJ",
+        "item_NFCUmj"
       ],
       "name": "Multi-column",
       "settings": {
