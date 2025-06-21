@@ -985,8 +985,8 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_background": "#f7afaf",
+        "accordion_text_color": "#ffffff"
       }
     },
     "faq_fFYAN9": {
