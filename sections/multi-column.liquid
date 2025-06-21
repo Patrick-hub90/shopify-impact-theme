@@ -3,8 +3,29 @@
 
   <style>
     #shopify-section-{{ section.id }} {
-      --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
+      --multi-column-grid: {% if section.settings.mobile_columns == '1' %}none{% else %}auto / auto-flow calc(100% / {{ section.settings.mobile_columns }}){% endif %};
       --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
+    }
+
+    /* Styles pour contrôler les colonnes sur mobile */
+    @media screen and (max-width: 699px) {
+      .multi-column {
+        {% if section.settings.mobile_columns == '1' %}
+          display: flex;
+          flex-direction: column;
+        {% else %}
+          display: grid;
+          grid-template-columns: repeat({{ section.settings.mobile_columns }}, 1fr);
+          grid-auto-flow: row;
+          overflow-x: visible;
+        {% endif %}
+      }
+
+      .multi-column__item {
+        {% if section.settings.mobile_columns != '1' %}
+          width: 100% !important;
+        {% endif %}
+      }
     }
   </style>
 
@@ -22,7 +43,7 @@
                     {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
                   </video-media>
                 {%- elsif block.settings.image != blank -%}
-                  {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
+                  {%- capture sizes -%}(max-width: 699px) 100%, (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
                   {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
                 {%- endif -%}
 
@@ -77,10 +98,25 @@
       "default": true
     },
     {
-      "type": "checkbox",
-      "id": "stack_on_mobile",
-      "label": "Stack on mobile",
-      "default": false
+      "type": "select",
+      "id": "mobile_columns",
+      "label": "Colonnes sur mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1 colonne"
+        },
+        {
+          "value": "2",
+          "label": "2 colonnes"
+        },
+        {
+          "value": "3",
+          "label": "3 colonnes"
+        }
+      ],
+      "default": "1",
+      "info": "Nombre de colonnes à afficher sur les écrans mobiles"
     },
     {
       "type": "select",
@@ -100,8 +136,8 @@
           "label": "Large"
         },
         {
-        "value": "x-large",
-        "label": "X-Large"
+          "value": "x-large",
+          "label": "X-Large"
         }
       ],
       "default": "medium"
