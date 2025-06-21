@@ -835,6 +835,19 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "custom_liquid_nhM7eE": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_tpbQEr": {
       "type": "media-with-text",
       "blocks": {
@@ -994,6 +1007,7 @@
     "rich_text_a3RFhr",
     "text_with_icons_MTYJpD",
     "before_after_image_CGRk7R",
+    "custom_liquid_nhM7eE",
     "media_with_text_tpbQEr",
     "faq_AacKYz",
     "1749445869fb7437ce"
