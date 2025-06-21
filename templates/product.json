@@ -369,11 +369,18 @@
             "text_color": "#f7afaf",
             "gradient": ""
           }
+        },
+        "richtext_TVgR6N": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Contrairement aux crèmes et traitements qui masquent le problème, SheVitality attaque la cellulite là où elle commence - dans les couches structurelles sous votre peau SANS chirurgie invasive.</p>"
+          }
         }
       },
       "block_order": [
         "heading_Ejm3me",
-        "heading_3rYjhX"
+        "heading_3rYjhX",
+        "richtext_TVgR6N"
       ],
       "name": "Rich text",
       "settings": {
