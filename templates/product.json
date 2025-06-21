@@ -436,69 +436,66 @@
         "text_color": ""
       }
     },
-    "multi_column_VgKVpE": {
-      "type": "multi-column",
+    "impact_text_8NwX3c": {
+      "type": "impact-text",
       "blocks": {
-        "item_fpLHUx": {
+        "item_ypXXqC": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1_1.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>96 % des femmes constatent une amélioration spectaculaire du teint et de l'éclat de leur peau en quelques jours</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "title": "95",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
           }
         },
-        "item_dUbxGy": {
+        "item_ng84Nc": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/2_1.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>94 % constatent une disparition visible des vergetures qu’elles pensaient permanentes (même après une grossesse)</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
           }
         },
-        "item_pXCrbj": {
+        "item_xEiw9b": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/3_1.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p><strong>96 % constatent une réduction significative de la cellulite tenace des cuisses et des hanches que le régime et l'exercice n'ont pas pu éliminer !</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "title": "84%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
           }
         }
       },
       "block_order": [
-        "item_fpLHUx",
-        "item_dUbxGy",
-        "item_pXCrbj"
+        "item_ypXXqC",
+        "item_ng84Nc",
+        "item_xEiw9b"
       ],
-      "custom_css": [
-        "img{width: 100%;}"
-      ],
-      "name": "Multi-column",
+      "name": "Impact text",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
-        "gap": "medium",
+        "stack_mobile": true,
         "text_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "heading_text_color": "#f7afaf",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "multi_column_tQQK4i": {
@@ -1006,7 +1003,7 @@
     "rich_text_LgCAtK",
     "video_bc8YXi",
     "rich_text_yXCpyU",
-    "multi_column_VgKVpE",
+    "impact_text_8NwX3c",
     "multi_column_tQQK4i",
     "1750111911718b5641",
     "multi_column_dw4MHP",
