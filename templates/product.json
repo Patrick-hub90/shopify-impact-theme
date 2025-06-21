@@ -332,7 +332,7 @@
           "type": "tab",
           "settings": {
             "title": "Tab 2",
-            "content": "<p>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "content": "",
             "page": "produit-soins"
           }
         },
@@ -355,7 +355,7 @@
         "full_width": true,
         "content_size": "fill",
         "subheading": "",
-        "title": "k",
+        "title": "",
         "first_tab_open": true,
         "background": "",
         "background_gradient": "",
