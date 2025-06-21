@@ -1031,14 +1031,14 @@
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
+        "accordion_background": "#fff9f6",
         "accordion_text_color": ""
       }
     },
