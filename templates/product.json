@@ -406,6 +406,36 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_yXCpyU": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_RN7Bgn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h2>VOTRE PARCOURS VERS <span style=\"color: #f7afaf\">UNE PEAU PARFAITE </span></h2>"
+          }
+        },
+        "richtext_A3VEjM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>DE VRAIES FEMMES RAPPORTENT CES RÉSULTATS APRÈS SEULEMENT 3 SEMAINES.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_RN7Bgn",
+        "richtext_A3VEjM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_tQQK4i": {
       "type": "multi-column",
       "blocks": {
@@ -910,6 +940,7 @@
     "scrolling_text_HPdhxz",
     "rich_text_LgCAtK",
     "video_bc8YXi",
+    "rich_text_yXCpyU",
     "multi_column_tQQK4i",
     "1750111911718b5641",
     "multi_column_dw4MHP",
