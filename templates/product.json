@@ -442,6 +442,7 @@
         "item_ypXXqC": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/2_1.png",
             "title": "95",
             "subheading": "Showcase a benefit of your product",
             "content": "",
