@@ -331,6 +331,22 @@
     "after_testimony_YBCdiC": {
       "type": "after-testimony",
       "blocks": {
+        "item_CrRMD8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-26_at_16.43.49.jpg",
+            "column_size": "3",
+            "title": "Bon achat !",
+            "heading_tag": "h4",
+            "content": "<p>Bon achat ! J'ai commandé le kit il y a 1 mois et les résultats sont là. Ma cellulite sur les cuisses s'améliore progressivement. Ce n'est pas spectaculaire mais il y a une vraie différence. J'aime bien faire la routine le soir, ça me détend après le boulot. L'huile sent bon et hydrate bien sans être grasse. La brosse est parfaite pour stimuler la circulation. La ventouse est très efficace. Ma peau s'améliore ! Je pense continuer sur la durée.</p>",
+            "rating": 5,
+            "author": "Ingrid K.",
+            "date": "Aujourd'hui",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_BUnHJA": {
           "type": "item",
           "settings": {
@@ -347,6 +363,22 @@
             "link_style": "link"
           }
         },
+        "item_mzCtDJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_8__2025-06-22_19-08-01.png",
+            "column_size": "3",
+            "title": "Marche comme prévu",
+            "heading_tag": "h4",
+            "content": "<p>Franchement, j'ai commandé un peu par hasard après avoir vu une pub sur Facebook. Meilleure décision de l'année ! En 15 jours, ma cellulite surmon ventre a quasi disparu ! C'est dingue ! Ma peau n'a jamais été aussi belle ! MERCI Velaura!</p>",
+            "rating": 5,
+            "author": "Céline R.",
+            "date": "Il y a 1 semaine",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_6zJ9hG": {
           "type": "item",
           "settings": {
@@ -357,7 +389,7 @@
             "content": "<p>Très bon kit dans l'ensemble ! Reçu en 4 jours, parfait. J'utilise depuis 2 semaines et les résultats sont au rendez-vous. Ma cellulite sur les hanches et cuisses s'estompe progressivement.  La brosse est parfaite pour le massage à sec le matin. La ventouse, il faut s'habituer mais c'est efficace.</p>",
             "rating": 5,
             "author": "Laura M.",
-            "date": "22 mars 2025",
+            "date": "Il y a 1 mois",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -373,39 +405,7 @@
             "content": "<p>WOW WOW WOW ! Les filles, si vous hésitez encore, arrêtez tout et commandez ! J'ai 35 ans, 2 enfants, et ma cellulite c'était mon cauchemar depuis mes grossesses. Cuisses, fesses, hanches... un vrai champ de bataille ! Avec Velaura, en moins d'un mois, transformation TOTALE ! Ma peau est lisse, ferme, tonique. Je me sens enfin bien dans mon corps ! Ce qui m'a convaincue c'est l'approche scientifique, on comprend pourquoi ça marche. Et c'est naturel, ça c'est important pour moi. La routine est facile, 5 minutes c'est rien. Résultat : je porte enfin des shorts cet été ! MERCI !</p>",
             "rating": 5,
             "author": "Sophie L.",
-            "date": "20 juillet 2024",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_CrRMD8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-04-26_at_16.43.49.jpg",
-            "column_size": "3",
-            "title": "Bon achat !",
-            "heading_tag": "h4",
-            "content": "<p>Bon achat ! J'ai commandé le kit il y a 1 mois et les résultats sont là. Ma cellulite sur les cuisses s'améliore progressivement. Ce n'est pas spectaculaire mais il y a une vraie différence. J'aime bien faire la routine le soir, ça me détend après le boulot. L'huile sent bon et hydrate bien sans être grasse. La brosse est parfaite pour stimuler la circulation. La ventouse est très efficace. Ma peau s'améliore ! Je pense continuer sur la durée.</p>",
-            "rating": 5,
-            "author": "Jean Dupont",
-            "date": "15 mars 2023",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_mzCtDJ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Avant_8__2025-06-22_19-08-01.png",
-            "column_size": "3",
-            "title": "Marche comme prévu",
-            "heading_tag": "h4",
-            "content": "<p>Franchement, j'ai commandé un peu par hasard après avoir vu une pub sur Facebook. Meilleure décision de l'année ! En 15 jours, ma cellulite surmon ventre a quasi disparu ! C'est dingue ! Ma peau n'a jamais été aussi belle ! MERCI Velaura!</p>",
-            "rating": 5,
-            "author": "Céline R.",
-            "date": "Il y a une semaine",
+            "date": "Il y a 1 semaine",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -413,11 +413,11 @@
         }
       },
       "block_order": [
-        "item_BUnHJA",
-        "item_6zJ9hG",
-        "item_CVbmzp",
         "item_CrRMD8",
-        "item_mzCtDJ"
+        "item_BUnHJA",
+        "item_mzCtDJ",
+        "item_6zJ9hG",
+        "item_CVbmzp"
       ],
       "name": "Multi-column avec avis",
       "settings": {
@@ -432,7 +432,7 @@
         "read_more_text": "Lire la suite...",
         "truncate_height": 150,
         "star_color": "#FFD700",
-        "meta_color": "#666666",
+        "meta_color": "#000000",
         "read_more_color": "#000000",
         "background": "",
         "background_gradient": "",
