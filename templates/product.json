@@ -598,57 +598,47 @@
     "testimonials_UVWAxR": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_7qptLa": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "verified_purchase": true,
-            "title": "",
-            "content": "<p>« Cet appareil a transformé mes jambes ! Fini les capitons, et la luminothérapie fait une telle différence. Ça vaut vraiment le coup ! »<br/><br/></p>"
-          }
-        },
         "testimonial_h3CnM7": {
           "type": "testimonial",
           "settings": {
-            "round_avatar": true,
-            "show_rating": true,
+            "image": "shopify://shop_images/gempages_516536871178732347-5950809d-7456-432e-a7fd-4d54c63d48eb_small_f51cc158-03d8-46d3-bf43-fbd0e7ae6b40.jpg",
+            "round_avatar": false,
+            "show_rating": false,
             "rating": 5,
-            "author": "Mary U.",
+            "author": "Sophie L., 41 ans, Bordeaux, France",
             "verified_purchase": true,
-            "title": "Testimonial 2",
+            "title": "",
             "content": "<p>« Enfin quelque chose qui fonctionne ! J'ai essayé tellement de produits, et c'est le seul qui donne de vrais résultats. Ma cellulite s'estompe et ma peau est magnifique. »</p>"
           }
         },
         "testimonial_G4Fptf": {
           "type": "testimonial",
           "settings": {
-            "round_avatar": true,
-            "show_rating": true,
+            "image": "shopify://shop_images/gempages_516536871178732347-066f044c-5328-4859-a080-1826d15aeb57_small_4df86a86-25ed-4e46-bfef-1b2a6eefb3e2.webp",
+            "round_avatar": false,
+            "show_rating": false,
             "rating": 4,
-            "author": "Joshua A.",
-            "verified_purchase": false,
-            "title": "Testimonial 3",
+            "author": "Emilie A., 45 ans, Paris, France",
+            "verified_purchase": true,
+            "title": "",
             "content": "<p>« Utiliser cet appareil, c'est comme se faire un soin spa à la maison. Il est facile à utiliser et les résultats sont incroyables. Ma peau est plus lisse et plus ferme, et je suis ravie ! »<br/><br/></p>"
           }
         },
         "testimonial_MEgnhr": {
           "type": "testimonial",
           "settings": {
-            "round_avatar": true,
-            "show_rating": true,
+            "image": "shopify://shop_images/gempages_516536871178732347-1e826784-e0d7-484e-ba3d-35e4883e3d99_small_1426313b-47a6-4275-b311-371a52f49309.webp",
+            "round_avatar": false,
+            "show_rating": false,
             "rating": 4,
-            "author": "Joshua A.",
-            "verified_purchase": false,
-            "title": "Testimonial 3",
+            "author": "Camille D., 34 ans, Lyon, France",
+            "verified_purchase": true,
+            "title": "",
             "content": "<p>« Les niveaux d'intensité personnalisables sont géniaux ! J'ai commencé avec un réglage faible, puis j'ai progressivement augmenté. C'est vraiment efficace pour cibler les zones rebelles, et j'ai constaté une nette amélioration. »<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "testimonial_7qptLa",
         "testimonial_h3CnM7",
         "testimonial_G4Fptf",
         "testimonial_MEgnhr"
