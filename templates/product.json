@@ -367,10 +367,8 @@
       ],
       "name": "Custom Tabs",
       "settings": {
-        "heading": "",
-        "subheading": "",
-        "primary_color": "#ff6b6b",
-        "secondary_color": "#4ecdc4",
+        "primary_color": "#f7afaf",
+        "secondary_color": "#2a555a",
         "text_color": "#333333",
         "active_tab_color": "#ff6b6b",
         "background_color": "#ffffff",
@@ -378,7 +376,7 @@
         "border_radius": 16,
         "tab_spacing": 20,
         "tab_padding": 20,
-        "heading_alignment": "center"
+        "content_padding": 40
       }
     },
     "rich_text_yXCpyU": {
