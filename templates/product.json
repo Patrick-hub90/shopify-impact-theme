@@ -643,6 +643,9 @@
         "testimonial_h3CnM7",
         "testimonial_G4Fptf"
       ],
+      "custom_css": [
+        "div h2 {text-align: center;}"
+      ],
       "name": "Testimonials",
       "settings": {
         "full_width": true,
