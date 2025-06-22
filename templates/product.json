@@ -243,6 +243,7 @@
             "show_rating": true,
             "rating": 5,
             "author": "Camille D., 34 ans, Lyon, France",
+            "verified_purchase": false,
             "title": "Résultats incroyables !!",
             "content": "<p>J’étais sceptique au début, mais après seulement deux semaines, ma peau est visiblement plus lisse, et la cellulite sur mes cuisses a presque disparu !</p>"
           }
@@ -255,6 +256,7 @@
             "show_rating": true,
             "rating": 5,
             "author": "Sophie L., 41 ans, Bordeaux, France",
+            "verified_purchase": false,
             "title": "Plutôt impressionnant",
             "content": "<p>Je l’utilise depuis environ trois semaines, et même si les résultats sont progressifs, la texture de ma peau s’est nettement améliorée. </p>"
           }
@@ -267,6 +269,7 @@
             "show_rating": true,
             "rating": 5,
             "author": "Emilie A., 45 ans, Paris, France",
+            "verified_purchase": false,
             "title": "Parfait pour les femmes occupées",
             "content": "<p>En tant que maman qui travaille, je n’ai pas le temps d’aller au spa. Cet appareil s’intègre parfaitement dans ma routine. Je l’utilise 5 à 10 minutes avant de dormir, et mes bras et mes jambes sont visiblement plus fermes.</p>"
           }
@@ -602,7 +605,8 @@
             "show_rating": true,
             "rating": 4,
             "author": "John S.",
-            "title": "Achat vérifié",
+            "verified_purchase": true,
+            "title": "",
             "content": "<p>« Cet appareil a transformé mes jambes ! Fini les capitons, et la luminothérapie fait une telle différence. Ça vaut vraiment le coup ! »<br/><br/></p>"
           }
         },
@@ -613,6 +617,7 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
+            "verified_purchase": true,
             "title": "Testimonial 2",
             "content": "<p>« Enfin quelque chose qui fonctionne ! J'ai essayé tellement de produits, et c'est le seul qui donne de vrais résultats. Ma cellulite s'estompe et ma peau est magnifique. »</p>"
           }
@@ -624,6 +629,7 @@
             "show_rating": true,
             "rating": 4,
             "author": "Joshua A.",
+            "verified_purchase": false,
             "title": "Testimonial 3",
             "content": "<p>« Utiliser cet appareil, c'est comme se faire un soin spa à la maison. Il est facile à utiliser et les résultats sont incroyables. Ma peau est plus lisse et plus ferme, et je suis ravie ! »<br/><br/></p>"
           }
@@ -635,6 +641,7 @@
             "show_rating": true,
             "rating": 4,
             "author": "Joshua A.",
+            "verified_purchase": false,
             "title": "Testimonial 3",
             "content": "<p>« Les niveaux d'intensité personnalisables sont géniaux ! J'ai commencé avec un réglage faible, puis j'ai progressivement augmenté. C'est vraiment efficace pour cibler les zones rebelles, et j'ai constaté une nette amélioration. »<br/><br/></p>"
           }
