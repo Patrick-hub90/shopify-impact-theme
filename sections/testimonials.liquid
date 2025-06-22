@@ -13,6 +13,18 @@
       {%- assign controls_color = section.settings.text_color | default: section.settings.heading_color | default: settings.text_color -%}
       --text-color: {{ controls_color.rgb }};
     }
+    
+    /* Style pour le badge "Achat Vérifié" */
+    .verified-badge {
+      display: inline-block;
+      background: #000;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-top: 4px;
+    }
 
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
@@ -69,6 +81,11 @@
 
                     {%- if block.settings.author != blank -%}
                       <p class="text-subdued">{{ block.settings.author | escape }}</p>
+                    {%- endif -%}
+                    
+                    <!-- Ajout du badge "Achat Vérifié" -->
+                    {%- if block.settings.verified_purchase -%}
+                      <span class="verified-badge">Achat Vérifié</span>
                     {%- endif -%}
                   </div>
                 </div>
@@ -139,6 +156,12 @@
           "type": "text",
           "id": "author",
           "label": "Author"
+        },
+        {
+          "type": "checkbox",
+          "id": "verified_purchase",
+          "label": "Achat Vérifié",
+          "default": false
         },
         {
           "type": "text",
