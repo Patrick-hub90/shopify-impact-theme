@@ -298,6 +298,96 @@
         "testimonial_card_text_color": "#000000"
       }
     },
+    "multi_column_khqDtH": {
+      "type": "multi-column",
+      "blocks": {
+        "item_4PX6QC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/EDc7yMd5xn.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gNXUXN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/T4SJJR7GGX.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RT4bDj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_7__2025-06-22_19-07-52.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Cq8UqG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_9.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4jzxGq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_10.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_4PX6QC",
+        "item_gNXUXN",
+        "item_RT4bDj",
+        "item_Cq8UqG",
+        "item_4jzxGq"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "scrolling_text_HPdhxz": {
       "type": "scrolling-text",
       "name": "Scrolling text",
@@ -1126,6 +1216,7 @@
     "main",
     "image_link_blocks_ANCqfF",
     "testimonials_8FQN8k",
+    "multi_column_khqDtH",
     "scrolling_text_HPdhxz",
     "rich_text_LgCAtK",
     "video_bc8YXi",
