@@ -543,10 +543,17 @@
             "text_color": "#000000",
             "gradient": ""
           }
+        },
+        "richtext_bMgdfV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>12 niveaux d'intensité personnalisables.</p>"
+          }
         }
       },
       "block_order": [
-        "heading_n7i8JL"
+        "heading_n7i8JL",
+        "richtext_bMgdfV"
       ],
       "name": "Rich text",
       "settings": {
