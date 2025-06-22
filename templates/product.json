@@ -652,12 +652,12 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "#ffffff",
+        "background": "#fff9f6",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "#fff9f6",
+        "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": ""
       }
     },
