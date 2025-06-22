@@ -736,7 +736,7 @@
           "settings": {
             "text": "RÉSULTATS APRÈS 14 JOURS AVEC VELAURA",
             "heading_tag": "h2",
-            "text_color": "#f7afaf",
+            "text_color": "#000000",
             "gradient": ""
           }
         }
