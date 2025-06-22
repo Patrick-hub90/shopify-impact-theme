@@ -431,7 +431,7 @@
         "truncate_limit": 300,
         "read_more_text": "Lire la suite...",
         "truncate_height": 150,
-        "star_color": "#FFD700",
+        "star_color": "#f7afaf",
         "meta_color": "#000000",
         "read_more_color": "#000000",
         "background": "",
