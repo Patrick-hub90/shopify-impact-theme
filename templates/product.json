@@ -730,11 +730,21 @@
           "settings": {
             "content": "<p>Notre appareil utilise la thérapie par lumière rouge, l'EMS (stimulation musculaire électrique) et la technologie des ventouses pour traiter efficacement votre problème !</p>"
           }
+        },
+        "heading_tQtLWQ": {
+          "type": "heading",
+          "settings": {
+            "text": "RÉSULTATS Après 14 JOURS AVEC VELAURA",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
         }
       },
       "block_order": [
         "liquid_Tgx64r",
-        "richtext_DAgK7t"
+        "richtext_DAgK7t",
+        "heading_tQtLWQ"
       ],
       "name": "Rich text",
       "settings": {
@@ -744,6 +754,31 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "before_after_image_CGRk7R": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/telechargement_25.jpg",
+        "after_image": "shopify://shop_images/venus_legacy_1_after.jpg",
+        "expand_image": true,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Jour 1",
+        "after_text": "Jour 14",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#000000",
+        "after_text_color": "#000000",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "text_with_icons_MTYJpD": {
@@ -808,31 +843,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "before_after_image_CGRk7R": {
-      "type": "before-after-image",
-      "name": "Before/after image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "before_image": "shopify://shop_images/telechargement_25.jpg",
-        "after_image": "shopify://shop_images/venus_legacy_1_after.jpg",
-        "expand_image": true,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Jour 1",
-        "after_text": "Jour 14",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#000000",
-        "after_text_color": "#000000",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
       }
     },
     "custom_liquid_nhM7eE": {
@@ -1087,8 +1097,8 @@
     "175053023853a0e5ed",
     "multi_column_dw4MHP",
     "rich_text_a3RFhr",
-    "text_with_icons_MTYJpD",
     "before_after_image_CGRk7R",
+    "text_with_icons_MTYJpD",
     "custom_liquid_nhM7eE",
     "custom_liquid_TWdK6z",
     "media_with_text_tpbQEr",
