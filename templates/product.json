@@ -100,6 +100,14 @@
             "text_color": "#000000"
           }
         },
+        "trustoo_io_reviews_barrage_carousel_meWdqM": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/barrage-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
+        "sku_kpeDwX": {
+          "type": "sku",
+          "settings": {}
+        },
         "collapsible_text_axbrb7": {
           "type": "collapsible_text",
           "disabled": true,
@@ -139,6 +147,8 @@
         "buy_buttons",
         "liquid_AekBRP",
         "offer_ix4p87",
+        "trustoo_io_reviews_barrage_carousel_meWdqM",
+        "sku_kpeDwX",
         "collapsible_text_axbrb7",
         "collapsible_text_j4hmFf",
         "collapsible_text_iRib8j"
@@ -331,6 +341,31 @@
         "heading_gradient": "",
         "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": "#000000"
+      }
+    },
+    "175053624804112abd": {
+      "type": "apps",
+      "blocks": {
+        "trustoo_io_reviews_photo_carousel_PLgPfa": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/photo-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trustoo_io_reviews_photo_carousel_PLgPfa"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "scrolling_text_HPdhxz": {
@@ -1093,6 +1128,7 @@
     "image_link_blocks_ANCqfF",
     "1750521069ccbfb4ff",
     "testimonials_8FQN8k",
+    "175053624804112abd",
     "scrolling_text_HPdhxz",
     "rich_text_LgCAtK",
     "video_bc8YXi",
