@@ -14,16 +14,25 @@
       --text-color: {{ controls_color.rgb }};
     }
     
-    /* Style pour le badge "Achat Vérifié" */
+    /* Style amélioré pour le badge "Achat Vérifié" */
     .verified-badge {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
       background: #000;
       color: white;
-      padding: 2px 8px;
-      border-radius: 4px;
+      padding: 4px 10px;
+      border-radius: 20px;
       font-size: 0.75rem;
       font-weight: 600;
       margin-top: 4px;
+      line-height: 1.2;
+    }
+    
+    .verified-badge svg {
+      width: 14px;
+      height: 14px;
+      fill: white;
     }
 
     @media screen and (min-width: 700px) {
@@ -83,9 +92,15 @@
                       <p class="text-subdued">{{ block.settings.author | escape }}</p>
                     {%- endif -%}
                     
-                    <!-- Ajout du badge "Achat Vérifié" -->
+                    <!-- Badge "Achat Vérifié" amélioré -->
                     {%- if block.settings.verified_purchase -%}
-                      <span class="verified-badge">Achat Vérifié</span>
+                      <span class="verified-badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        Achat Vérifié
+                      </span>
                     {%- endif -%}
                   </div>
                 </div>
