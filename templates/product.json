@@ -734,9 +734,9 @@
         "heading_tQtLWQ": {
           "type": "heading",
           "settings": {
-            "text": "RÉSULTATS Après 14 JOURS AVEC VELAURA",
+            "text": "RÉSULTATS APRÈS 14 JOURS AVEC VELAURA",
             "heading_tag": "h2",
-            "text_color": "",
+            "text_color": "#f7afaf",
             "gradient": ""
           }
         }
