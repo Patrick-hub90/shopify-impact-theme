@@ -331,22 +331,6 @@
     "after_testimony_YBCdiC": {
       "type": "after-testimony",
       "blocks": {
-        "item_CrRMD8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2025-04-26_at_16.43.49.jpg",
-            "column_size": "3",
-            "title": "Bon achat !",
-            "heading_tag": "h4",
-            "content": "<p>Bon achat ! J'ai commandé le kit il y a 1 mois et les résultats sont là. Ma cellulite sur les cuisses s'améliore progressivement. Ce n'est pas spectaculaire mais il y a une vraie différence. J'aime bien faire la routine le soir, ça me détend après le boulot. L'huile sent bon et hydrate bien sans être grasse. La brosse est parfaite pour stimuler la circulation. La ventouse est très efficace. Ma peau s'améliore ! Je pense continuer sur la durée.</p>",
-            "rating": 5,
-            "author": "Ingrid K.",
-            "date": "Aujourd'hui",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_BUnHJA": {
           "type": "item",
           "settings": {
@@ -374,6 +358,22 @@
             "rating": 5,
             "author": "Céline R.",
             "date": "Il y a 1 semaine",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CrRMD8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-26_at_16.43.49.jpg",
+            "column_size": "3",
+            "title": "Bon achat !",
+            "heading_tag": "h4",
+            "content": "<p>Bon achat ! J'ai commandé le kit il y a 1 mois et les résultats sont là. Ma cellulite sur les cuisses s'améliore progressivement. Ce n'est pas spectaculaire mais il y a une vraie différence. J'aime bien faire la routine le soir, ça me détend après le boulot. L'huile sent bon et hydrate bien sans être grasse. La brosse est parfaite pour stimuler la circulation. La ventouse est très efficace. Ma peau s'améliore ! Je pense continuer sur la durée.</p>",
+            "rating": 5,
+            "author": "Ingrid K.",
+            "date": "Aujourd'hui",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -413,9 +413,9 @@
         }
       },
       "block_order": [
-        "item_CrRMD8",
         "item_BUnHJA",
         "item_mzCtDJ",
+        "item_CrRMD8",
         "item_6zJ9hG",
         "item_CVbmzp"
       ],
