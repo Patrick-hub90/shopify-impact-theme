@@ -367,8 +367,8 @@
       ],
       "name": "Custom Tabs",
       "settings": {
-        "heading": "Kit anti-cellulite SheVitality",
-        "subheading": "Votre solution complète pour une peau plus ferme et plus lisse",
+        "heading": "",
+        "subheading": "",
         "primary_color": "#ff6b6b",
         "secondary_color": "#4ecdc4",
         "text_color": "#333333",
