@@ -1,134 +1,200 @@
 <style>
-  .custom-tabs {
-    padding: 50px 0;
-    background-color: #fff;
+  .custom-tabs-section {
+    --primary-color: {{ section.settings.primary_color }};
+    --secondary-color: {{ section.settings.secondary_color }};
+    --text-color: {{ section.settings.text_color }};
+    --active-tab-color: {{ section.settings.active_tab_color }};
+    --border-radius: {{ section.settings.border_radius }}px;
+    --tab-spacing: {{ section.settings.tab_spacing }}px;
+    --tab-padding: {{ section.settings.tab_padding }}px;
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 80px 0;
+    background: {{ section.settings.background_gradient | default: section.settings.background_color }};
+    color: var(--text-color);
   }
   
-  .custom-tabs .page-width {
+  .custom-tabs-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
   
-  .custom-tabs-header {
-    text-align: center;
-    margin-bottom: 40px;
+  .section-header {
+    text-align: {{ section.settings.heading_alignment }};
+    margin-bottom: 60px;
   }
   
-  .custom-tabs-header .heading {
-    font-size: 32px;
+  .section-header h2 {
+    font-size: 36px;
     font-weight: 700;
-    color: #333;
-    margin: 0;
+    margin: 0 0 15px;
+    color: var(--primary-color);
+    position: relative;
+    display: inline-block;
   }
   
-  .custom-tabs-body {
+  .section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: var(--secondary-color);
+    border-radius: 2px;
+  }
+  
+  .section-header p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: var(--text-color);
+    opacity: 0.8;
+    line-height: 1.6;
+  }
+  
+  .tabs-container {
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  
+  .tabs-header {
     display: flex;
-    flex-direction: column;
-  }
-  
-  .custom-tabs-nav {
-    margin-bottom: 30px;
-  }
-  
-  .custom-tabs-nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    border-bottom: 2px solid #f0f0f0;
+    background: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0 var(--tab-spacing);
     overflow-x: auto;
     scrollbar-width: none;
-    -ms-overflow-style: none;
   }
   
-  .custom-tabs-nav ul::-webkit-scrollbar {
+  .tabs-header::-webkit-scrollbar {
     display: none;
   }
   
-  .custom-tabs-nav li {
-    flex: 0 0 auto;
-  }
-  
-  .custom-tabs-nav a {
-    display: block;
-    padding: 12px 25px;
+  .tab-btn {
+    padding: calc(var(--tab-padding) + 5px) var(--tab-padding);
     font-size: 16px;
     font-weight: 600;
-    color: #666;
-    text-decoration: none;
-    white-space: nowrap;
-    position: relative;
-    transition: all 0.3s ease;
+    color: var(--text-color);
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
     cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   
-  .custom-tabs-nav a.is-active {
-    color: #000;
-  }
-  
-  .custom-tabs-nav a.is-active::after {
+  .tab-btn:after {
     content: '';
     position: absolute;
-    bottom: -2px;
+    bottom: -3px;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 3px;
-    background-color: #ff6b6b;
+    background: var(--active-tab-color);
+    transition: width 0.3s ease;
   }
   
-  .custom-tabs-nav a:hover:not(.is-active) {
-    color: #333;
-    background-color: #f9f9f9;
+  .tab-btn.is-active {
+    color: var(--primary-color);
   }
   
-  .custom-tabs-content {
-    position: relative;
+  .tab-btn.is-active:after {
+    width: 100%;
   }
   
-  .custom-tab-content {
+  .tab-btn:hover:not(.is-active) {
+    color: var(--primary-color);
+    background: rgba(0,0,0,0.02);
+  }
+  
+  .tab-icon {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tabs-content {
+    padding: 40px;
+  }
+  
+  .tab-content {
     display: none;
     animation: fadeIn 0.5s ease;
   }
   
-  .custom-tab-content.is-active {
+  .tab-content.is-active {
     display: block;
   }
   
-  .custom-tab-content h3,
-  .custom-tab-content h4 {
-    margin-top: 0;
-    color: #222;
-  }
-  
-  .custom-tab-content ul {
-    padding-left: 20px;
-  }
-  
-  .custom-tab-content li {
-    margin-bottom: 10px;
-  }
-  
-  .custom-tab-content strong {
-    color: #ff6b6b;
-  }
-  
-  .tab-content-item_bottom {
+  .tab-content-inner {
     display: flex;
-    gap: 30px;
-    margin-top: 30px;
-    align-items: flex-start;
+    gap: 40px;
   }
   
-  .tab-content-item_bottom > div {
+  .tab-content-text {
     flex: 1;
   }
   
-  .tab-content-item_bottom img {
-    flex: 0 0 40%;
+  .tab-content-image {
+    flex: 0 0 45%;
+    border-radius: calc(var(--border-radius) - 10px);
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  }
+  
+  .tab-content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .tab-content h3 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .tab-content ul {
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .tab-content li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  .tab-content li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  
+  .tab-content strong {
+    color: var(--primary-color);
+  }
+  
+  .feature-highlight {
+    background: linear-gradient(to right, rgba(255,255,255,0.1), rgba(255,255,255,0.4));
+    border-left: 4px solid var(--secondary-color);
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 30px 0;
   }
   
   @keyframes fadeIn {
@@ -136,61 +202,92 @@
     to { opacity: 1; transform: translateY(0); }
   }
   
-  @media (max-width: 768px) {
-    .custom-tabs-nav a {
-      padding: 10px 15px;
-      font-size: 14px;
-    }
-    
-    .tab-content-item_bottom {
+  @media (max-width: 900px) {
+    .tab-content-inner {
       flex-direction: column;
     }
     
-    .tab-content-item_bottom img {
-      width: 100%;
-      margin-top: 20px;
+    .tab-content-image {
+      order: -1;
     }
     
-    .custom-tabs-header .heading {
-      font-size: 26px;
+    .tabs-content {
+      padding: 30px 20px;
+    }
+    
+    .section-header h2 {
+      font-size: 28px;
+    }
+    
+    .custom-tabs-section {
+      padding: 50px 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .tabs-header {
+      gap: 5px;
+      padding: 0 10px;
+    }
+    
+    .tab-btn {
+      padding: 15px;
+      font-size: 14px;
+    }
+    
+    .tab-icon {
+      font-size: 16px;
+    }
+    
+    .section-header h2 {
+      font-size: 24px;
     }
   }
 </style>
 
-<section class="custom-tabs" id="shopify-section-{{ section.id }}">
-  <div class="page-width">
-    <div class="custom-tabs-header">
-      <h2 class="heading">{{ section.settings.heading }}</h2>
+<section class="custom-tabs-section" id="shopify-section-{{ section.id }}">
+  <div class="custom-tabs-container">
+    <div class="section-header">
+      <h2>{{ section.settings.heading }}</h2>
+      {% if section.settings.subheading != blank %}
+        <p>{{ section.settings.subheading }}</p>
+      {% endif %}
     </div>
     
-    <div class="custom-tabs-body">
-      <div class="custom-tabs-nav">
-        <ul>
-          {% for block in section.blocks %}
-            <li>
-              <a href="javascript:void(0);" 
-                 data-id="{{ forloop.index }}" 
-                 class="{% if forloop.first %}is-active{% endif %}">
-                {{ block.settings.tab_title }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
+    <div class="tabs-container">
+      <div class="tabs-header">
+        {% for block in section.blocks %}
+          <button class="tab-btn {% if forloop.first %}is-active{% endif %}" data-id="{{ forloop.index }}">
+            {% if block.settings.tab_icon != 'none' %}
+              <span class="tab-icon">{{ block.settings.tab_icon }}</span>
+            {% endif %}
+            {{ block.settings.tab_title }}
+          </button>
+        {% endfor %}
       </div>
       
-      <div class="custom-tabs-content">
+      <div class="tabs-content">
         {% for block in section.blocks %}
-          <div class="custom-tab-content {% if forloop.first %}is-active{% endif %}" data-id="{{ forloop.index }}">
-            {{ block.settings.tab_content }}
-            
-            {% if block.settings.show_image and block.settings.tab_image %}
-              <div class="tab-content-item_bottom">
-                <div>{{ block.settings.image_text }}</div>
-                <img src="{{ block.settings.tab_image | img_url: '800x' }}" 
-                     alt="{{ block.settings.tab_title }}" 
-                     loading="lazy">
+          <div class="tab-content {% if forloop.first %}is-active{% endif %}" data-id="{{ forloop.index }}">
+            <div class="tab-content-inner">
+              <div class="tab-content-text">
+                {{ block.settings.tab_content }}
+                
+                {% if block.settings.feature_text != blank %}
+                  <div class="feature-highlight">
+                    {{ block.settings.feature_text }}
+                  </div>
+                {% endif %}
               </div>
-            {% endif %}
+              
+              {% if block.settings.tab_image %}
+                <div class="tab-content-image">
+                  <img src="{{ block.settings.tab_image | img_url: '800x' }}" 
+                       alt="{{ block.settings.tab_title }}" 
+                       loading="lazy">
+                </div>
+              {% endif %}
+            </div>
           </div>
         {% endfor %}
       </div>
@@ -200,7 +297,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const tabButtons = document.querySelectorAll('.custom-tabs-nav a');
+  const tabButtons = document.querySelectorAll('.tab-btn');
   
   tabButtons.forEach(button => {
     button.addEventListener('click', function() {
@@ -211,13 +308,26 @@ document.addEventListener('DOMContentLoaded', function() {
       this.classList.add('is-active');
       
       const tabId = this.getAttribute('data-id');
-      const tabContents = document.querySelectorAll('.custom-tab-content');
+      const tabContents = document.querySelectorAll('.tab-content');
       
       // Hide all tab contents
       tabContents.forEach(content => content.classList.remove('is-active'));
       
       // Show selected tab content
-      document.querySelector(`.custom-tab-content[data-id="${tabId}"]`).classList.add('is-active');
+      document.querySelector(`.tab-content[data-id="${tabId}"]`).classList.add('is-active');
+    });
+  });
+  
+  // Add subtle hover effect
+  tabButtons.forEach(button => {
+    button.addEventListener('mouseenter', function() {
+      if (!this.classList.contains('is-active')) {
+        this.style.transform = 'translateY(-3px)';
+      }
+    });
+    
+    button.addEventListener('mouseleave', function() {
+      this.style.transform = '';
     });
   });
 });
@@ -225,71 +335,171 @@ document.addEventListener('DOMContentLoaded', function() {
 
 {% schema %}
 {
-  "name": "Custom Tabs Section",
+  "name": "Onglets Élégants",
   "settings": [
     {
       "type": "text",
       "id": "heading",
-      "label": "Section Heading",
+      "label": "Titre principal",
       "default": "Kit anti-cellulite SheVitality"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sous-titre",
+      "default": "Votre solution complète pour une peau plus ferme et plus lisse"
+    },
+    {
+      "type": "header",
+      "content": "Personnalisation des couleurs"
+    },
+    {
+      "type": "color",
+      "id": "primary_color",
+      "label": "Couleur primaire",
+      "default": "#FF6B6B"
+    },
+    {
+      "type": "color",
+      "id": "secondary_color",
+      "label": "Couleur secondaire",
+      "default": "#4ECDC4"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "active_tab_color",
+      "label": "Couleur de l'onglet actif",
+      "default": "#FF6B6B"
+    },
+    {
+      "type": "header",
+      "content": "Personnalisation de l'apparence"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur de fond",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Dégradé de fond"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Arrondi des coins",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "tab_spacing",
+      "label": "Espacement des onglets",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "tab_padding",
+      "label": "Remplissage des onglets",
+      "min": 10,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Alignement du titre",
+      "options": [
+        {"value": "left", "label": "Gauche"},
+        {"value": "center", "label": "Centre"},
+        {"value": "right", "label": "Droite"}
+      ],
+      "default": "center"
     }
   ],
   "blocks": [
     {
       "type": "tab",
-      "name": "Tab",
+      "name": "Onglet",
       "settings": [
         {
           "type": "text",
           "id": "tab_title",
-          "label": "Tab Title",
-          "default": "Tab Title"
+          "label": "Titre de l'onglet",
+          "default": "Paquet"
+        },
+        {
+          "type": "select",
+          "id": "tab_icon",
+          "label": "Icône de l'onglet",
+          "options": [
+            {"value": "none", "label": "Aucune"},
+            {"value": "📦", "label": "Boîte"},
+            {"value": "❓", "label": "Question"},
+            {"value": "📆", "label": "Calendrier"},
+            {"value": "✈️", "label": "Avion"},
+            {"value": "⚙️", "label": "Engrenage"},
+            {"value": "💎", "label": "Diamant"}
+          ],
+          "default": "none"
         },
         {
           "type": "richtext",
           "id": "tab_content",
-          "label": "Tab Content",
-          "default": "<p>Tab content goes here</p>"
+          "label": "Contenu de l'onglet",
+          "default": "<p>Contenu de votre onglet ici...</p>"
         },
         {
-          "type": "checkbox",
-          "id": "show_image",
-          "label": "Show Image",
-          "default": false
+          "type": "richtext",
+          "id": "feature_text",
+          "label": "Texte en évidence",
+          "default": "<p>Fonctionnalité spéciale mise en avant</p>"
         },
         {
           "type": "image_picker",
           "id": "tab_image",
-          "label": "Tab Image"
-        },
-        {
-          "type": "richtext",
-          "id": "image_text",
-          "label": "Image Text",
-          "default": "<p>Text next to image</p>"
+          "label": "Image de l'onglet"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Custom Tabs",
-      "category": "Custom Sections",
+      "name": "Onglets Élégants",
+      "category": "Design",
       "blocks": [
         {
           "type": "tab",
           "settings": {
-            "tab_title": "Package",
+            "tab_title": "Paquet",
+            "tab_icon": "📦",
             "tab_content": "<h3>Qu'est-ce qui est inclus ?</h3><ul><li><strong>1x Masseur anti-cellulite</strong> – Votre outil ultime pour une peau plus lisse et plus ferme.</li><li><strong>2 huiles essentielles (gratuites)</strong> – Améliorez les résultats avec une nutrition pré-traitement.</li><li><strong>Masque revitalisant au collagène (gratuit)</strong> – Nourrissez et rajeunissez votre peau après le traitement.</li><li><strong>Sacoche pour appareil</strong> – Gardez votre appareil en sécurité et portable.</li><li><strong>Guide d'instructions et chargeur USB (gratuit)</strong> – Configuration simple pour une utilisation instantanée.</li><li><strong>1x E-book (gratuit)</strong> – Conseils d'experts pour atteindre les résultats de vos rêves.</li></ul>",
-            "show_image": true,
-            "image_text": "<p>Votre kit complet pour une peau éclatante et plus ferme !</p>"
+            "feature_text": "<p>Votre kit complet pour une peau éclatante et plus ferme !</p>"
           }
         },
         {
           "type": "tab",
           "settings": {
             "tab_title": "FAQ",
-            "tab_content": "<p><strong>Comment fonctionne SheVitality</strong></p><p>Le masseur anti-cellulite avancé de SheVitality combine des traitements de qualité professionnelle dans un appareil portable et facile à utiliser, pour un confort optimal à domicile. Il utilise la synergie de <strong>la luminothérapie rouge, de la chaleur infrarouge, de la ventouse réglable et des techniques de grattage</strong>, couramment utilisées pour réduire la cellulite et améliorer l'élasticité de la peau. Ces méthodes agissent ensemble pour cibler la cellulite tenace, stimuler la circulation et rajeunir votre peau, tout en vous permettant d'ajuster le niveau de succion pour un confort optimal.</p><p>Résultat? Une peau visiblement plus lisse, plus ferme et plus galbée, avec une diminution de la cellulite, une réduction du relâchement cutané, du relâchement cutané et des vergetures, le tout dans le confort de votre maison.</p><p>&nbsp;</p><p><strong>Quand verrai-je une peau plus ferme ?</strong></p><p>Découvrez une peau visiblement plus ferme et plus lisse après une seule utilisation, avec des résultats qui s'améliorent considérablement au fil du temps à mesure que votre peau se régénère et se raffermit.</p><p>&nbsp;</p><p><strong>« J'ai été victime d'une arnaque ou d'une fraude dans d'autres magasins. »</strong></p><p>Pour vous assurer de recevoir des produits authentiques et de qualité, commandez toujours directement sur notre site officiel. Évitez les contrefaçons souvent vendues sur des plateformes comme Amazon.</p><p>&nbsp;</p><p><strong>« Trop de bleus, ça fait mal. »</strong></p><p>Our device is specially designed to minimize bruising when used correctly. Simply follow the detailed guidelines included in your order for a comfortable and effective experience.</p><p><br>for any further inquries contact info@shopshevitality.com</p>"
+            "tab_icon": "❓",
+            "tab_content": "<p><strong>Comment fonctionne SheVitality</strong></p><p>Le masseur anti-cellulite avancé de SheVitality combine des traitements de qualité professionnelle dans un appareil portable et facile à utiliser, pour un confort optimal à domicile.</p>"
           }
         }
       ]
