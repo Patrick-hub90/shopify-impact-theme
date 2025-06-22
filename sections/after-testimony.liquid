@@ -1,6 +1,482 @@
+{%- if section.blocks.size > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
+      --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
+    }
+
+    .review-rating {
+      display: flex;
+      gap: 2px;
+      margin: 8px 0;
+    }
+
+    .review-rating-star {
+      color: {{ section.settings.star_color }};
+    }
+
+    .review-meta {
+      font-size: 0.85em;
+      color: {{ section.settings.meta_color }};
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .review-content-container {
+      position: relative;
+    }
+
+    .review-content[data-truncated="true"] {
+      max-height: {{ section.settings.truncate_height }}px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .review-content[data-truncated="true"]::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 40px;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, var(--background) 100%);
+    }
+
+    .read-more-link {
+      display: inline-block;
+      margin-top: 8px;
+      cursor: pointer;
+      color: {{ section.settings.read_more_color }};
+      font-weight: bold;
+    }
+  </style>
+
+  <div {% render 'section-properties' %}>
+    <div class="section-stack">
+      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
+
+      <div class="multi-column scroll-area bleed md:unbleed">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'item' -%}
+              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+                {%- if block.settings.video != blank -%}
+                  <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
+                    {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
+                  </video-media>
+                {%- elsif block.settings.image != blank -%}
+                  {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
+                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
+                {%- endif -%}
+
+                {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
+                  <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
+                    {%- if block.settings.title != blank -%}
+                      <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank or block.settings.link_text != blank -%}
+                      <div class="prose">
+                        <div class="review-content-container">
+                          <div class="review-content" 
+                               data-truncated="{% if block.settings.content.size > section.settings.truncate_limit %}true{% else %}false{% endif %}"
+                               data-full-content="{{ block.settings.content | escape }}">
+                            {{ block.settings.content }}
+                          </div>
+                          
+                          {%- if block.settings.content.size > section.settings.truncate_limit -%}
+                            <div class="read-more-link" onclick="this.previousElementSibling.dataset.truncated='false'; this.remove()">
+                              {{ section.settings.read_more_text }}
+                            </div>
+                          {%- endif -%}
+                        </div>
+
+                        {%- if block.settings.rating > 0 -%}
+                          <div class="review-rating">
+                            {%- for i in (1..5) -%}
+                              <span class="review-rating-star">
+                                {%- if i <= block.settings.rating -%}★{%- else -%}☆{%- endif -%}
+                              </span>
+                            {%- endfor -%}
+                          </div>
+                        {%- endif -%}
+
+                        <div class="review-meta">
+                          {%- if block.settings.author != blank -%}
+                            <span class="review-author">{{ block.settings.author | escape }}</span>
+                          {%- endif -%}
+                          {%- if block.settings.date != blank -%}
+                            <span class="review-date">{{ block.settings.date | escape }}</span>
+                          {%- endif -%}
+                        </div>
+
+                        {%- if block.settings.link_text != blank -%}
+                          <div>
+                            {%- if block.settings.link_style == 'link' -%}
+                              <a href="{{ block.settings.link_url }}" class="link">{{ block.settings.link_text | escape }}</a>
+                            {%- else -%}
+                              {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'lg' -%}
+                            {%- endif -%}
+                          </div>
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              </div>
+
+            {%- when 'spacer' -%}
+              <div class="multi-column__item hidden md:block" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}></div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Multi-column avec avis",
+  "class": "shopify-section--multi-column",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stack on mobile",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "gap",
+      "label": "Gap spacing",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "x-large",
+          "label": "X-Large"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "start"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "About"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Featured content"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>"
+    },
+    {
+      "type": "number",
+      "id": "truncate_limit",
+      "label": "Limite de caractères avant 'Lire la suite'",
+      "default": 300
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Texte 'Lire la suite'",
+      "default": "Lire la suite"
+    },
+    {
+      "type": "number",
+      "id": "truncate_height",
+      "label": "Hauteur de troncation (px)",
+      "default": 150
+    },
+    {
+      "type": "color",
+      "id": "star_color",
+      "label": "Couleur des étoiles",
+      "default": "#FFD700"
+    },
+    {
+      "type": "color",
+      "id": "meta_color",
+      "label": "Couleur des métadonnées",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "read_more_color",
+      "label": "Couleur 'Lire la suite'",
+      "default": "#0066CC"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item avec avis",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1400 x 1400px .jpg recommended"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video",
+          "info": "Video are muted automatically and will autoplay."
+        },
+        {
+          "type": "select",
+          "id": "column_size",
+          "label": "Desktop item size",
+          "options": [
+            {
+              "value": "4",
+              "label": "25%"
+            },
+            {
+              "value": "3",
+              "label": "33%"
+            },
+            {
+              "value": "2",
+              "label": "50%"
+            },
+            {
+              "value": "1.5",
+              "label": "66%"
+            }
+          ],
+          "default": "3"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Column title"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Heading style",
+          "options": [
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "h4"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Rating",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Auteur",
+          "default": "Jean Dupont"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date",
+          "default": "15 mars 2023"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "select",
+          "id": "link_style",
+          "label": "Link style",
+          "options": [
+            {
+              "value": "link",
+              "label": "Link"
+            },
+            {
+              "value": "button",
+              "label": "Button"
+            }
+          ],
+          "default": "link"
+        }
+      ]
+    },
+    {
+      "type": "spacer",
+      "name": "Spacer",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Add extra space between columns. Ignored on mobile and tablets."
+        },
+        {
+          "type": "select",
+          "id": "column_size",
+          "label": "Desktop item size",
+          "options": [
+            {
+              "value": "12",
+              "label": "8%"
+            },
+            {
+              "value": "6",
+              "label": "16%"
+            },
+            {
+              "value": "4",
+              "label": "25%"
+            },
+            {
+              "value": "3",
+              "label": "33%"
+            }
+          ],
+          "default": "12"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column avec avis",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "rating": 5,
+            "author": "Marie Martin",
+            "date": "10 avril 2023"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "rating": 4,
+            "author": "Pierre Durand",
+            "date": "5 mai 2023"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "rating": 3,
+            "author": "Sophie Lambert",
+            "date": "20 juin 2023"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
