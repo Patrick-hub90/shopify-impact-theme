@@ -298,6 +298,36 @@
         "testimonial_card_text_color": "#000000"
       }
     },
+    "rich_text_yXCpyU": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_RN7Bgn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h2>Transformations avec <span style=\"color: #f7afaf\">LE KIT VELAURA </span></h2>"
+          }
+        },
+        "richtext_A3VEjM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>VOYEZ LES RÉSULTATS APRES SEULEMENT 3 SEMAINES</p>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_RN7Bgn",
+        "richtext_A3VEjM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_khqDtH": {
       "type": "multi-column",
       "blocks": {
@@ -461,16 +491,16 @@
         "overlay_opacity": 30
       }
     },
-    "rich_text_yXCpyU": {
+    "rich_text_RyjWrF": {
       "type": "rich-text",
       "blocks": {
-        "liquid_RN7Bgn": {
+        "liquid_MdfPqE": {
           "type": "liquid",
           "settings": {
             "liquid": "<h2>VOTRE PARCOURS VERS <span style=\"color: #f7afaf\">UNE PEAU PARFAITE </span></h2>"
           }
         },
-        "richtext_A3VEjM": {
+        "richtext_QizDCJ": {
           "type": "richtext",
           "settings": {
             "content": "<p>DE VRAIES FEMMES RAPPORTENT CES RÉSULTATS APRÈS SEULEMENT 3 SEMAINES.</p>"
@@ -478,8 +508,8 @@
         }
       },
       "block_order": [
-        "liquid_RN7Bgn",
-        "richtext_A3VEjM"
+        "liquid_MdfPqE",
+        "richtext_QizDCJ"
       ],
       "name": "Rich text",
       "settings": {
@@ -1216,11 +1246,12 @@
     "main",
     "image_link_blocks_ANCqfF",
     "testimonials_8FQN8k",
+    "rich_text_yXCpyU",
     "multi_column_khqDtH",
     "scrolling_text_HPdhxz",
     "rich_text_LgCAtK",
     "video_bc8YXi",
-    "rich_text_yXCpyU",
+    "rich_text_RyjWrF",
     "impact_text_8NwX3c",
     "1750111911718b5641",
     "rich_text_qtpfBT",
