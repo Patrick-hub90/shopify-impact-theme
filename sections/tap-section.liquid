@@ -1,0 +1,299 @@
+<style>
+  .custom-tabs {
+    padding: 50px 0;
+    background-color: #fff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .custom-tabs .page-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .custom-tabs-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .custom-tabs-header .heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+  }
+  
+  .custom-tabs-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-tabs-nav {
+    margin-bottom: 30px;
+  }
+  
+  .custom-tabs-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #f0f0f0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .custom-tabs-nav ul::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .custom-tabs-nav li {
+    flex: 0 0 auto;
+  }
+  
+  .custom-tabs-nav a {
+    display: block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    text-decoration: none;
+    white-space: nowrap;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .custom-tabs-nav a.is-active {
+    color: #000;
+  }
+  
+  .custom-tabs-nav a.is-active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #ff6b6b;
+  }
+  
+  .custom-tabs-nav a:hover:not(.is-active) {
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .custom-tabs-content {
+    position: relative;
+  }
+  
+  .custom-tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  .custom-tab-content.is-active {
+    display: block;
+  }
+  
+  .custom-tab-content h3,
+  .custom-tab-content h4 {
+    margin-top: 0;
+    color: #222;
+  }
+  
+  .custom-tab-content ul {
+    padding-left: 20px;
+  }
+  
+  .custom-tab-content li {
+    margin-bottom: 10px;
+  }
+  
+  .custom-tab-content strong {
+    color: #ff6b6b;
+  }
+  
+  .tab-content-item_bottom {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: flex-start;
+  }
+  
+  .tab-content-item_bottom > div {
+    flex: 1;
+  }
+  
+  .tab-content-item_bottom img {
+    flex: 0 0 40%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-tabs-nav a {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+    
+    .tab-content-item_bottom {
+      flex-direction: column;
+    }
+    
+    .tab-content-item_bottom img {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .custom-tabs-header .heading {
+      font-size: 26px;
+    }
+  }
+</style>
+
+<section class="custom-tabs" id="shopify-section-{{ section.id }}">
+  <div class="page-width">
+    <div class="custom-tabs-header">
+      <h2 class="heading">{{ section.settings.heading }}</h2>
+    </div>
+    
+    <div class="custom-tabs-body">
+      <div class="custom-tabs-nav">
+        <ul>
+          {% for block in section.blocks %}
+            <li>
+              <a href="javascript:void(0);" 
+                 data-id="{{ forloop.index }}" 
+                 class="{% if forloop.first %}is-active{% endif %}">
+                {{ block.settings.tab_title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="custom-tabs-content">
+        {% for block in section.blocks %}
+          <div class="custom-tab-content {% if forloop.first %}is-active{% endif %}" data-id="{{ forloop.index }}">
+            {{ block.settings.tab_content }}
+            
+            {% if block.settings.show_image and block.settings.tab_image %}
+              <div class="tab-content-item_bottom">
+                <div>{{ block.settings.image_text }}</div>
+                <img src="{{ block.settings.tab_image | img_url: '800x' }}" 
+                     alt="{{ block.settings.tab_title }}" 
+                     loading="lazy">
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tabButtons = document.querySelectorAll('.custom-tabs-nav a');
+  
+  tabButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      // Remove active class from all buttons
+      tabButtons.forEach(btn => btn.classList.remove('is-active'));
+      
+      // Add active class to clicked button
+      this.classList.add('is-active');
+      
+      const tabId = this.getAttribute('data-id');
+      const tabContents = document.querySelectorAll('.custom-tab-content');
+      
+      // Hide all tab contents
+      tabContents.forEach(content => content.classList.remove('is-active'));
+      
+      // Show selected tab content
+      document.querySelector(`.custom-tab-content[data-id="${tabId}"]`).classList.add('is-active');
+    });
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "Custom Tabs Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "Kit anti-cellulite SheVitality"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title",
+          "default": "Tab Title"
+        },
+        {
+          "type": "richtext",
+          "id": "tab_content",
+          "label": "Tab Content",
+          "default": "<p>Tab content goes here</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_image",
+          "label": "Show Image",
+          "default": false
+        },
+        {
+          "type": "image_picker",
+          "id": "tab_image",
+          "label": "Tab Image"
+        },
+        {
+          "type": "richtext",
+          "id": "image_text",
+          "label": "Image Text",
+          "default": "<p>Text next to image</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Tabs",
+      "category": "Custom Sections",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Package",
+            "tab_content": "<h3>Qu'est-ce qui est inclus ?</h3><ul><li><strong>1x Masseur anti-cellulite</strong> – Votre outil ultime pour une peau plus lisse et plus ferme.</li><li><strong>2 huiles essentielles (gratuites)</strong> – Améliorez les résultats avec une nutrition pré-traitement.</li><li><strong>Masque revitalisant au collagène (gratuit)</strong> – Nourrissez et rajeunissez votre peau après le traitement.</li><li><strong>Sacoche pour appareil</strong> – Gardez votre appareil en sécurité et portable.</li><li><strong>Guide d'instructions et chargeur USB (gratuit)</strong> – Configuration simple pour une utilisation instantanée.</li><li><strong>1x E-book (gratuit)</strong> – Conseils d'experts pour atteindre les résultats de vos rêves.</li></ul>",
+            "show_image": true,
+            "image_text": "<p>Votre kit complet pour une peau éclatante et plus ferme !</p>"
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "tab_title": "FAQ",
+            "tab_content": "<p><strong>Comment fonctionne SheVitality</strong></p><p>Le masseur anti-cellulite avancé de SheVitality combine des traitements de qualité professionnelle dans un appareil portable et facile à utiliser, pour un confort optimal à domicile. Il utilise la synergie de <strong>la luminothérapie rouge, de la chaleur infrarouge, de la ventouse réglable et des techniques de grattage</strong>, couramment utilisées pour réduire la cellulite et améliorer l'élasticité de la peau. Ces méthodes agissent ensemble pour cibler la cellulite tenace, stimuler la circulation et rajeunir votre peau, tout en vous permettant d'ajuster le niveau de succion pour un confort optimal.</p><p>Résultat? Une peau visiblement plus lisse, plus ferme et plus galbée, avec une diminution de la cellulite, une réduction du relâchement cutané, du relâchement cutané et des vergetures, le tout dans le confort de votre maison.</p><p>&nbsp;</p><p><strong>Quand verrai-je une peau plus ferme ?</strong></p><p>Découvrez une peau visiblement plus ferme et plus lisse après une seule utilisation, avec des résultats qui s'améliorent considérablement au fil du temps à mesure que votre peau se régénère et se raffermit.</p><p>&nbsp;</p><p><strong>« J'ai été victime d'une arnaque ou d'une fraude dans d'autres magasins. »</strong></p><p>Pour vous assurer de recevoir des produits authentiques et de qualité, commandez toujours directement sur notre site officiel. Évitez les contrefaçons souvent vendues sur des plateformes comme Amazon.</p><p>&nbsp;</p><p><strong>« Trop de bleus, ça fait mal. »</strong></p><p>Our device is specially designed to minimize bruising when used correctly. Simply follow the detailed guidelines included in your order for a comfortable and effective experience.</p><p><br>for any further inquries contact info@shopshevitality.com</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
