@@ -598,6 +598,19 @@
     "testimonials_UVWAxR": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_MEgnhr": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/gempages_516536871178732347-1e826784-e0d7-484e-ba3d-35e4883e3d99_small_1426313b-47a6-4275-b311-371a52f49309.webp",
+            "round_avatar": false,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Camille D., 34 ans, Lyon, France",
+            "verified_purchase": true,
+            "title": "",
+            "content": "<p>Première séance au niveau 5 et j'ai senti mes jambes toutes chaudes après ! En 4 jours, ma peau était déjà moins rugueuse au toucher.</p>"
+          }
+        },
         "testimonial_h3CnM7": {
           "type": "testimonial",
           "settings": {
@@ -608,7 +621,7 @@
             "author": "Sophie L., 41 ans, Bordeaux, France",
             "verified_purchase": true,
             "title": "",
-            "content": "<p>« Enfin quelque chose qui fonctionne ! J'ai essayé tellement de produits, et c'est le seul qui donne de vrais résultats. Ma cellulite s'estompe et ma peau est magnifique. »</p>"
+            "content": "<p>J'ai essayé le niveau 12 directement - erreur ! Trop intense. Redescendue au 6, et là en une semaine mes cuisses étaient visiblement plus lisses.</p>"
           }
         },
         "testimonial_G4Fptf": {
@@ -621,27 +634,14 @@
             "author": "Emilie A., 45 ans, Paris, France",
             "verified_purchase": true,
             "title": "",
-            "content": "<p>« Utiliser cet appareil, c'est comme se faire un soin spa à la maison. Il est facile à utiliser et les résultats sont incroyables. Ma peau est plus lisse et plus ferme, et je suis ravie ! »<br/><br/></p>"
-          }
-        },
-        "testimonial_MEgnhr": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/gempages_516536871178732347-1e826784-e0d7-484e-ba3d-35e4883e3d99_small_1426313b-47a6-4275-b311-371a52f49309.webp",
-            "round_avatar": false,
-            "show_rating": false,
-            "rating": 4,
-            "author": "Camille D., 34 ans, Lyon, France",
-            "verified_purchase": true,
-            "title": "",
-            "content": "<p>« Les niveaux d'intensité personnalisables sont géniaux ! J'ai commencé avec un réglage faible, puis j'ai progressivement augmenté. C'est vraiment efficace pour cibler les zones rebelles, et j'ai constaté une nette amélioration. »<br/><br/></p>"
+            "content": "<p>« Niveau 3 les premiers jours, ça détendait bien. Puis niveau 7 et là... en 2 semaines mes vergetures sur le ventre se sont complètement estomper !  »<br/><br/></p>"
           }
         }
       },
       "block_order": [
+        "testimonial_MEgnhr",
         "testimonial_h3CnM7",
-        "testimonial_G4Fptf",
-        "testimonial_MEgnhr"
+        "testimonial_G4Fptf"
       ],
       "name": "Testimonials",
       "settings": {
