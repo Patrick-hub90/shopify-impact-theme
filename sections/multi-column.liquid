@@ -7,7 +7,7 @@
       --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
     }
     
-    /* Ajout du style pour le badge "Achat Vérifié" */
+    /* Style pour le badge "Achat Vérifié" */
     .verified-badge {
       display: inline-flex;
       align-items: center;
@@ -52,7 +52,7 @@
                       <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
                     {%- endif -%}
                     
-                    <!-- Ajout du badge "Achat Vérifié" -->
+                    <!-- Badge "Achat Vérifié" -->
                     {%- if block.settings.verified_purchase -%}
                       <span class="verified-badge">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -130,8 +130,8 @@
           "label": "Large"
         },
         {
-        "value": "x-large",
-        "label": "X-Large"
+          "value": "x-large",
+          "label": "X-Large"
         }
       ],
       "default": "medium"
@@ -211,12 +211,6 @@
           "id": "video",
           "label": "Video",
           "info": "Video are muted automatically and will autoplay."
-        },
-        {
-          "type": "checkbox",
-          "id": "verified_purchase",
-          "label": "Achat Vérifié",
-          "default": false
         },
         {
           "type": "select",
@@ -311,6 +305,13 @@
             }
           ],
           "default": "link"
+        },
+        // AJOUT IMPORTANT: NOUVEAU PARAMÈTRE POUR LE BADGE
+        {
+          "type": "checkbox",
+          "id": "verified_purchase",
+          "label": "Achat Vérifié",
+          "default": false
         }
       ]
     },
