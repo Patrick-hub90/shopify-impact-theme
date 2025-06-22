@@ -592,6 +592,78 @@
         "text_color": ""
       }
     },
+    "testimonials_UVWAxR": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_7qptLa": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Achat vérifié",
+            "content": "<p>« Cet appareil a transformé mes jambes ! Fini les capitons, et la luminothérapie fait une telle différence. Ça vaut vraiment le coup ! »<br/><br/></p>"
+          }
+        },
+        "testimonial_h3CnM7": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>« Enfin quelque chose qui fonctionne ! J'ai essayé tellement de produits, et c'est le seul qui donne de vrais résultats. Ma cellulite s'estompe et ma peau est magnifique. »</p>"
+          }
+        },
+        "testimonial_G4Fptf": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>« Utiliser cet appareil, c'est comme se faire un soin spa à la maison. Il est facile à utiliser et les résultats sont incroyables. Ma peau est plus lisse et plus ferme, et je suis ravie ! »<br/><br/></p>"
+          }
+        },
+        "testimonial_MEgnhr": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>« Les niveaux d'intensité personnalisables sont géniaux ! J'ai commencé avec un réglage faible, puis j'ai progressivement augmenté. C'est vraiment efficace pour cibler les zones rebelles, et j'ai constaté une nette amélioration. »<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_7qptLa",
+        "testimonial_h3CnM7",
+        "testimonial_G4Fptf",
+        "testimonial_MEgnhr"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
     "175053023853a0e5ed": {
       "type": "apps",
       "settings": {
@@ -1062,6 +1134,7 @@
     "1750111911718b5641",
     "rich_text_qtpfBT",
     "multi_column_bJxqK3",
+    "testimonials_UVWAxR",
     "175053023853a0e5ed",
     "multi_column_dw4MHP",
     "rich_text_a3RFhr",
