@@ -328,36 +328,26 @@
         "text_color": ""
       }
     },
-    "multi_column_khqDtH": {
-      "type": "multi-column",
+    "after_testimony_YBCdiC": {
+      "type": "after-testimony",
       "blocks": {
-        "item_4PX6QC": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/EDc7yMd5xn.jpg",
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_gNXUXN": {
+        "item_BUnHJA": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/T4SJJR7GGX.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "rating": 5,
+            "author": "Marie Martin",
+            "date": "10 avril 2023",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_Cq8UqG": {
+        "item_6zJ9hG": {
           "type": "item",
           "settings": {
             "image": "shopify://shop_images/Avant_9.png",
@@ -365,19 +355,57 @@
             "title": "Column title",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "rating": 4,
+            "author": "Pierre Durand",
+            "date": "5 mai 2023",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_4jzxGq": {
+        "item_CVbmzp": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Avant_10.png",
+            "image": "shopify://shop_images/EDc7yMd5xn.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "rating": 3,
+            "author": "Sophie Lambert",
+            "date": "20 juin 2023",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CrRMD8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-26_at_16.43.49.jpg",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "rating": 5,
+            "author": "Jean Dupont",
+            "date": "15 mars 2023",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_mzCtDJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_8__2025-06-22_19-08-01.png",
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "rating": 5,
+            "author": "Jean Dupont",
+            "date": "15 mars 2023",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -385,20 +413,27 @@
         }
       },
       "block_order": [
-        "item_4PX6QC",
-        "item_gNXUXN",
-        "item_Cq8UqG",
-        "item_4jzxGq"
+        "item_BUnHJA",
+        "item_6zJ9hG",
+        "item_CVbmzp",
+        "item_CrRMD8",
+        "item_mzCtDJ"
       ],
-      "name": "Multi-column",
+      "name": "Multi-column avec avis",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
+        "subheading": "About",
+        "title": "Featured content",
+        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "truncate_limit": 300,
+        "read_more_text": "Lire la suite",
+        "truncate_height": 150,
+        "star_color": "#FFD700",
+        "meta_color": "#666666",
+        "read_more_color": "#0066CC",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -768,22 +803,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": ""
-      }
-    },
-    "175053023853a0e5ed": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
       }
     },
     "multi_column_dw4MHP": {
@@ -1233,7 +1252,7 @@
     "image_link_blocks_ANCqfF",
     "testimonials_8FQN8k",
     "rich_text_yXCpyU",
-    "multi_column_khqDtH",
+    "after_testimony_YBCdiC",
     "scrolling_text_HPdhxz",
     "rich_text_LgCAtK",
     "video_bc8YXi",
@@ -1243,7 +1262,6 @@
     "rich_text_qtpfBT",
     "multi_column_bJxqK3",
     "testimonials_UVWAxR",
-    "175053023853a0e5ed",
     "multi_column_dw4MHP",
     "rich_text_a3RFhr",
     "before_after_image_CGRk7R",
