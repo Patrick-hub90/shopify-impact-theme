@@ -367,7 +367,7 @@
       ],
       "name": "Custom Tabs",
       "settings": {
-        "primary_color": "#f7afaf",
+        "primary_color": "#f83a3a",
         "secondary_color": "#2a555a",
         "text_color": "#333333",
         "active_tab_color": "#ff6b6b",
@@ -1092,19 +1092,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_nhM7eE": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "custom_liquid_TWdK6z": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -1348,7 +1335,6 @@
     "rich_text_a3RFhr",
     "before_after_image_CGRk7R",
     "text_with_icons_MTYJpD",
-    "custom_liquid_nhM7eE",
     "custom_liquid_TWdK6z",
     "media_with_text_tpbQEr",
     "faq_AacKYz",
