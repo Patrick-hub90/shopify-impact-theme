@@ -107,30 +107,6 @@
         "sku_kpeDwX": {
           "type": "sku",
           "settings": {}
-        },
-        "collapsible_text_axbrb7": {
-          "type": "collapsible_text",
-          "disabled": true,
-          "settings": {
-            "title": "Que contient le Kit Velaura™  ?",
-            "content": "<ul><li>1 <strong>Masseur Anti Cellulite Palper rouler à Chauffage infrarouge </strong>avec 7 types de Massage différent et 12 niveaux de sucions selon de type de cellulite.</li><li>1 <strong>Brosse d'Activation Cutanée </strong>stimulante à picots souples</li><li>1 <strong>Crème Anti-Cellulite Rétinol & Caféine </strong></li><li><strong>1 Active-Band </strong><br/><br/><br/></li></ul>"
-          }
-        },
-        "collapsible_text_j4hmFf": {
-          "type": "collapsible_text",
-          "disabled": true,
-          "settings": {
-            "title": "Garantie satisfait ou remboursé – 30 jours",
-            "content": "<p>Essayez notre Kit pendant 30 jours, sans risque. Si vous n'êtes pas entièrement satisfait(e), nous vous remboursons intégralement et vous recevez en plus un bon d'achat de 10 €.</p>"
-          }
-        },
-        "collapsible_text_iRib8j": {
-          "type": "collapsible_text",
-          "disabled": true,
-          "settings": {
-            "title": "Comment effectuer un retour ?",
-            "content": "<p>C'est très simple :</p><ul><li>Contactez notre service client dans les 30 jours suivant votre achat via retour@velaura.fr</li><li>Renvoyez nous le produit ( Les instructions vous seront communiqué par notre service client )</li><li>Nous procédons au remboursement complet sous 5 à 7 jours ouvrés</li></ul>"
-          }
         }
       },
       "block_order": [
@@ -148,10 +124,7 @@
         "liquid_AekBRP",
         "offer_ix4p87",
         "trustoo_io_reviews_barrage_carousel_meWdqM",
-        "sku_kpeDwX",
-        "collapsible_text_axbrb7",
-        "collapsible_text_j4hmFf",
-        "collapsible_text_iRib8j"
+        "sku_kpeDwX"
       ],
       "settings": {
         "full_width": true,
@@ -264,22 +237,6 @@
         "heading_gradient": ""
       }
     },
-    "1750521069ccbfb4ff": {
-      "type": "apps",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "testimonials_8FQN8k": {
       "type": "testimonials",
       "blocks": {
@@ -341,31 +298,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": "#000000"
-      }
-    },
-    "175053624804112abd": {
-      "type": "apps",
-      "blocks": {
-        "trustoo_io_reviews_photo_carousel_PLgPfa": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/photo-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "trustoo_io_reviews_photo_carousel_PLgPfa"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
       }
     },
     "scrolling_text_HPdhxz": {
@@ -1126,9 +1058,7 @@
   "order": [
     "main",
     "image_link_blocks_ANCqfF",
-    "1750521069ccbfb4ff",
     "testimonials_8FQN8k",
-    "175053624804112abd",
     "scrolling_text_HPdhxz",
     "rich_text_LgCAtK",
     "video_bc8YXi",
