@@ -103,10 +103,6 @@
         "trustoo_io_reviews_barrage_carousel_meWdqM": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/barrage-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
           "settings": {}
-        },
-        "sku_kpeDwX": {
-          "type": "sku",
-          "settings": {}
         }
       },
       "block_order": [
@@ -123,8 +119,7 @@
         "buy_buttons",
         "liquid_AekBRP",
         "offer_ix4p87",
-        "trustoo_io_reviews_barrage_carousel_meWdqM",
-        "sku_kpeDwX"
+        "trustoo_io_reviews_barrage_carousel_meWdqM"
       ],
       "settings": {
         "full_width": true,
