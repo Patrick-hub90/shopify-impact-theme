@@ -238,8 +238,8 @@
         "testimonial_hb8Nj4": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/telechargement_27.jpg",
-            "round_avatar": true,
+            "image": "shopify://shop_images/gempages_516536871178732347-1e826784-e0d7-484e-ba3d-35e4883e3d99_small_1426313b-47a6-4275-b311-371a52f49309.webp",
+            "round_avatar": false,
             "show_rating": true,
             "rating": 5,
             "author": "Camille D., 34 ans, Lyon, France",
@@ -250,8 +250,8 @@
         "testimonial_fzeEWL": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/telechargement_28.jpg",
-            "round_avatar": true,
+            "image": "shopify://shop_images/gempages_516536871178732347-5950809d-7456-432e-a7fd-4d54c63d48eb_small_f51cc158-03d8-46d3-bf43-fbd0e7ae6b40.jpg",
+            "round_avatar": false,
             "show_rating": true,
             "rating": 5,
             "author": "Sophie L., 41 ans, Bordeaux, France",
@@ -262,8 +262,8 @@
         "testimonial_tNzryX": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/telechargement_29.jpg",
-            "round_avatar": true,
+            "image": "shopify://shop_images/gempages_516536871178732347-066f044c-5328-4859-a080-1826d15aeb57_small_4df86a86-25ed-4e46-bfef-1b2a6eefb3e2.webp",
+            "round_avatar": false,
             "show_rating": true,
             "rating": 5,
             "author": "Emilie A., 45 ans, Paris, France",
