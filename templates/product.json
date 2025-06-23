@@ -342,7 +342,7 @@
       "name": "Custom Tabs",
       "settings": {
         "primary_color": "#f83a3a",
-        "secondary_color": "#2a555a",
+        "secondary_color": "#000000",
         "text_color": "#333333",
         "active_tab_color": "#ff6b6b",
         "background_color": "#ffffff",
