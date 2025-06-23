@@ -192,70 +192,6 @@
         "heading_gradient": ""
       }
     },
-    "text_with_icons_B33DrW": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_EJHDbp": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-validation",
-            "custom_icon": "shopify://shop_images/telechargement_29.png",
-            "mobile_icon_width": 60,
-            "icon_width": 60,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
-            "title": "Réduction de la cellulite",
-            "content": "<p>Les massages aident à casser les petits amas sous la peau qui forment les bosses (la \"peau d’orange\"). Résultat : la peau devient plus lisse et plus uniforme.<br/></p>"
-          }
-        },
-        "item_kLn8YL": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-leaf",
-            "custom_icon": "shopify://shop_images/telechargement_31.png",
-            "mobile_icon_width": 60,
-            "icon_width": 60,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
-            "title": "Réduction de la graisse",
-            "content": "<p>En massant certaines zones, on aide le corps à \"décoller\" la graisse stockée pour qu’il puisse l’éliminer plus facilement, ce qui peut affiner certaines parties du corps.<br/></p>"
-          }
-        },
-        "item_3qYn8V": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-building",
-            "custom_icon": "shopify://shop_images/telechargement_32.png",
-            "mobile_icon_width": 60,
-            "icon_width": 60,
-            "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
-            "title": "Élimination des Vergetures",
-            "content": "<p>Le soin stimule la peau pour qu’elle se régénère plus vite. Les marques blanches ou violacées s’atténuent avec le temps, et la peau paraît plus souple et plus jolie.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_EJHDbp",
-        "item_kLn8YL",
-        "item_3qYn8V"
-      ],
-      "name": "Text with icons",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "title": "Avantages du masseur anti-cellulite",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "scrolling-text": {
       "type": "scrolling-text",
       "settings": {
@@ -485,6 +421,70 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "text_with_icons_B33DrW": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_EJHDbp": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "custom_icon": "shopify://shop_images/telechargement_29.png",
+            "mobile_icon_width": 60,
+            "icon_width": 60,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "#ffffff",
+            "title": "Réduction de la cellulite",
+            "content": "<p>Les massages aident à casser les petits amas sous la peau qui forment les bosses (la \"peau d’orange\"). Résultat : la peau devient plus lisse et plus uniforme.<br/></p>"
+          }
+        },
+        "item_kLn8YL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-leaf",
+            "custom_icon": "shopify://shop_images/telechargement_31.png",
+            "mobile_icon_width": 60,
+            "icon_width": 60,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "#ffffff",
+            "title": "Réduction de la graisse",
+            "content": "<p>En massant certaines zones, on aide le corps à \"décoller\" la graisse stockée pour qu’il puisse l’éliminer plus facilement, ce qui peut affiner certaines parties du corps.<br/></p>"
+          }
+        },
+        "item_3qYn8V": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-building",
+            "custom_icon": "shopify://shop_images/telechargement_32.png",
+            "mobile_icon_width": 60,
+            "icon_width": 60,
+            "icon_background_type": "circle",
+            "icon_background": "#ffffff",
+            "icon_color": "#ffffff",
+            "title": "Élimination des Vergetures",
+            "content": "<p>Le soin stimule la peau pour qu’elle se régénère plus vite. Les marques blanches ou violacées s’atténuent avec le temps, et la peau paraît plus souple et plus jolie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_EJHDbp",
+        "item_kLn8YL",
+        "item_3qYn8V"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "Avantages du masseur anti-cellulite",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media-grid": {
@@ -1049,12 +1049,12 @@
     "slideshow",
     "rich_text_f9M7cW",
     "image_link_blocks_43GrkJ",
-    "text_with_icons_B33DrW",
     "scrolling-text",
     "featured-collection",
     "multi_column_Fxc7Gw",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
+    "text_with_icons_B33DrW",
     "media-grid",
     "impact-text",
     "video_fACYEQ",
