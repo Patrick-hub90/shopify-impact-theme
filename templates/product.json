@@ -75,17 +75,10 @@
             "liquid": "<div class=\"payment-icons-wrapper\" style=\"display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 15px;\">\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_12_small_ba88b7ee-8809-49b7-b380-b932961e5adf.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_7_small_1dc155ad-8e9b-4736-9840-2cd296364c1b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_8_small_ba0e64d5-6f9a-44e0-9876-b04822ec0d9d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003645_small_2d7474cc-1165-4117-bfb0-05762afd5d2d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003644_small_0dca41cf-dfc8-4898-a7be-06a0613475ad.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_9_small_e6cf4cd9-c7f8-44d8-8dda-6e601d4e702d.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003997_small_978567ae-f946-41c3-a08b-36a8a6a76403.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_10_small_b92b8686-9144-41d7-9317-0e256a221bde.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n  <div class=\"payment-icon\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_11_small_23598d8c-6cd8-4a4b-b354-0b54a5dc794b.svg?v=1750452002\" alt=\"Payment icon\" width=\"40\" height=\"25\">\n  </div>\n</div>\n\n<style>\n  .payment-icons-wrapper {\n    display: flex;\n    justify-content: center;\n    flex-wrap: wrap;\n    gap: 8px;\n    margin-top: 15px;\n  }\n  \n  .payment-icon {\n    display: flex;\n    align-items: center;\n  }\n  \n  .payment-icon img {\n    max-width: 100%;\n    height: auto;\n    transition: all 0.3s ease;\n  }\n  \n\n  }\n</style>\n<p style=\"text-align: center\"><br/>Retours sans risque pendant 30 jours | Assistance 24h/24 et 7j/7</p>"
           }
         },
-        "offer_ix4p87": {
-          "type": "offer",
+        "liquid_K66d6C": {
+          "type": "liquid",
           "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-truck",
-            "icon_width": 24,
-            "title": "Livraison Gratuite partout en France",
-            "content": "<p>En stock, prêt à être expédié – Livraison estimée entre le <strong>23</strong> et le <strong>25 </strong>juin.</p>",
-            "background": "#eaf2ed",
-            "text_color": "#000000"
+            "liquid": "<div style=\"margin:15px 0; padding:12px; background:#f8f9fa; border-radius:8px; border:1px solid #e1e3e5; text-align:center;\">\n  <p style=\"margin:0 0 5px 0; font-size:14px; color:#5f6368;\">Livraison prévue entre :</p>\n  \n  {%- assign now = \"now\" | date: \"%s\" -%}\n  {%- assign min_days = 3 | times: 86400 -%}\n  {%- assign max_days = 5 | times: 86400 -%}\n  \n  {%- assign min_date = now | plus: min_days | date: \"%d %m\" | split: \" \" -%}\n  {%- assign max_date = now | plus: max_days | date: \"%d %m\" | split: \" \" -%}\n  \n  {%- assign months = \"janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre\" | split: \",\" -%}\n  {%- assign min_month_index = min_date[1] | plus: 0 | minus: 1 -%}\n  {%- assign max_month_index = max_date[1] | plus: 0 | minus: 1 -%}\n  \n  {%- assign min_day = min_date[0] | plus: 0 -%}\n  {%- assign min_month = months[min_month_index] -%}\n  {%- assign max_day = max_date[0] | plus: 0 -%}\n  {%- assign max_month = months[max_month_index] -%}\n  \n  <div style=\"display:flex; justify-content:center; align-items:center;\">\n    <div style=\"padding:8px 12px; background:#fff; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.05); margin:0 5px;\">\n      <div style=\"font-weight:600; font-size:16px;\">{{ min_day }} {{ min_month }}</div>\n    </div>\n    \n    <div style=\"color:#5f6368; font-size:14px;\">au</div>\n    \n    <div style=\"padding:8px 12px; background:#fff; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.05); margin:0 5px;\">\n      <div style=\"font-weight:600; font-size:16px;\">{{ max_day }} {{ max_month }}</div>\n    </div>\n  </div>\n  \n  <p style=\"margin:8px 0 0 0; font-size:12px; color:#80868b;\">\n    <svg style=\"vertical-align:middle; margin-right:4px;\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n      <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"1.5\"></circle>\n      <polyline points=\"12 6 12 12 16 14\" stroke-width=\"1.5\"></polyline>\n    </svg>\n    Délai de traitement : 3-5 jours\n  </p>\n</div>"
           }
         },
         "trustoo_io_reviews_barrage_carousel_meWdqM": {
@@ -104,7 +97,7 @@
         "variant_picker",
         "buy_buttons",
         "liquid_AekBRP",
-        "offer_ix4p87",
+        "liquid_K66d6C",
         "trustoo_io_reviews_barrage_carousel_meWdqM"
       ],
       "settings": {
