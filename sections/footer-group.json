@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "title": "A propos Velaura",
-            "content": "<p>Notre mission est de <strong>démocratiser l'accès à des soins de qualité professionnelle</strong> en créant des routines efficaces, accessibles et respectueuses de votre peau.</p>",
+            "content": "<p>*Les résultats peuvent varier d'un individu à l'autre.<br/>Cet appareil n'est pas un instrument médical et n'est pas destiné à diagnostiquer, traiter ou gérer une maladie ou un problème médical.*</p>",
             "enable_follow_on_shop": false
           }
         },
