@@ -885,9 +885,9 @@
             "content": "<p>Recommandé par le <strong>Dr John  Willardsen</strong>, spécialiste en soins de la peau, le <strong>Kit Velaura™</strong> associe massage par roulement, chaleur ciblée et stimulation du drainage lymphatique pour <strong>réduire visiblement la cellulite</strong> et <strong>atténuer les vergetures</strong>.<br/><br/>Une utilisation régulière aide à <strong>décomposer les graisses</strong>, <strong>raffermir les tissus cutanés</strong> et <strong>stimuler la microcirculation</strong>, pour une peau plus lisse, plus ferme et visiblement plus saine.<br/><br/>Testé et approuvé par de nombreuses utilisatrices, <strong>Velaura™</strong> offre des <strong>résultats cliniquement prouvés</strong> dès les premières semaines d’utilisation.<br/><br/></p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "rgba(0,0,0,0)",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#000000",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
