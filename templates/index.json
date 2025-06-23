@@ -269,6 +269,36 @@
         "text_gradient": ""
       }
     },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "masseur-a-ventouse-velaura™",
+          "brosse-anti-cellulite-velaura",
+          "creme-anti-cellulite-velaura",
+          "bande-de-resistance-velaura"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Meilleures ventes",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "rich_text_6PmQaM": {
       "type": "rich-text",
       "blocks": {
@@ -470,36 +500,6 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "masseur-a-ventouse-velaura™",
-          "brosse-anti-cellulite-velaura",
-          "creme-anti-cellulite-velaura",
-          "bande-de-resistance-velaura"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Le Kit Velaura™",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     },
     "impact-text": {
@@ -1047,10 +1047,10 @@
     "image_link_blocks_43GrkJ",
     "text_with_icons_B33DrW",
     "scrolling-text",
+    "featured-collection",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
     "media-grid",
-    "featured-collection",
     "impact-text",
     "video_fACYEQ",
     "multi_column_3t7d9N",
