@@ -19,7 +19,7 @@
           "settings": {
             "title": "A propos Velaura",
             "content": "<p>Notre mission est de <strong>démocratiser l'accès à des soins de qualité professionnelle</strong> en créant des routines efficaces, accessibles et respectueuses de votre peau.</p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         },
         "links": {
