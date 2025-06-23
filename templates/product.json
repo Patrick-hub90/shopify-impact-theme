@@ -346,6 +346,15 @@
             "tab_content": "<h3>🔬 <strong>Technologies intégrées</strong></h3><ul><li><strong> Palper-rouler par aspiration réglable</strong> – Stimule la peau en profondeur pour déloger les amas graisseux</li><li><strong>Chaleur infrarouge douce</strong> – Favorise la circulation et améliore l’oxygénation des tissus</li><li><strong>Luminothérapie rouge (630 nm)</strong> – Active la production naturelle de collagène pour une peau plus ferme</li><li><strong>Grattage mécanique (effet Gua Sha)</strong> – Lisse et tonifie la surface cutanée</li></ul><h3>🔌 <strong>Alimentation & Batterie</strong></h3><ul><li>Batterie lithium-ion rechargeable intégrée</li><li>Chargement via USB (câble inclus)</li><li>Autonomie : jusqu’à 1h30 d’utilisation continue</li><li>Temps de charge : environ 2 heures</li><li>Tension de charge : 5V – compatible avec tous les adaptateurs USB</li></ul><p></p><h3>🎛️ <strong>Réglages & Contrôle</strong></h3><p>🌬️ 3 niveaux de succion réglables<br/><br/>🌡️ 2 niveaux de chaleur<br/><br/>🔄 Modes combinés : aspiration + chaleur + LED<br/><br/>🖐️ Écran LED tactile intuitif<br/><br/>⏹️ Arrêt automatique après 15 minutes pour plus de sécurité</p><p></p>",
             "feature_text": "<p><strong>Exclusif à Velaura – Disponible uniquement sur velaura.fr</strong></p>"
           }
+        },
+        "tab_GCnn7w": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Matériaux  & Certifications",
+            "tab_icon": "none",
+            "tab_content": "<h3>🌿 <strong>Matériaux </strong></h3><p>✔ <strong>Plastique ABS médical hypoallergénique</strong> – Sûr et adapté à tous les types de peau, même sensibles<br/><br/>✔ <strong>Sangles en silicone thermorésistantes</strong> – Durables, souples et confortables à l’usage</p><h3>✅ <strong>Certifications </strong></h3><p>✔ <strong>Certification CE</strong> – Conforme aux normes de sécurité européennes les plus strictes<br/><br/>✔ <strong>Homologation FCC</strong> – Garantie de fiabilité et de performance électronique contrôlée</p>",
+            "feature_text": "<p>Fonctionnalité spéciale mise en avant</p>"
+          }
         }
       },
       "block_order": [
@@ -353,7 +362,8 @@
         "tab_etFJNb",
         "tab_qfbWiR",
         "tab_TgNUQx",
-        "tab_GYYyH9"
+        "tab_GYYyH9",
+        "tab_GCnn7w"
       ],
       "name": "Custom Tabs",
       "settings": {
