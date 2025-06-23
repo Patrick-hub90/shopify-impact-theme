@@ -618,8 +618,8 @@
           "settings": {
             "image": "shopify://shop_images/2_b7395655-83e5-4f5c-ba36-f2d9dbc331c0.png",
             "title": "94 %",
-            "subheading": "constatent une disparition visible des vergetures qu’elles pensaient permanentes (même après une grossesse).",
-            "content": "",
+            "subheading": "",
+            "content": "<p>constatent une disparition visible des vergetures qu’elles pensaient permanentes (même après une grossesse).</p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
