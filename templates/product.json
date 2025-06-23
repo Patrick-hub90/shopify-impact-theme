@@ -499,7 +499,7 @@
       "name": "Scrolling text",
       "settings": {
         "full_width": true,
-        "text": "GARANTIE 1 AN  -  EXPÉDITION PARTOUT EN FRANCE - SATISFAIT OU REMBOURSÉ 90 JOURS",
+        "text": "GARANTIE 1 AN  -  EXPÉDITION PARTOUT EN FRANCE - SATISFAIT OU REMBOURSÉ 30 JOURS",
         "text_size": "small",
         "text_style": "fill",
         "scrolling_mode": "auto",
