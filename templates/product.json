@@ -280,7 +280,7 @@
           "settings": {
             "tab_title": "Package",
             "tab_icon": "📦",
-            "tab_content": "<h3><strong>Qu'est-ce qui est inclus ?</strong></h3><ul><li><strong>1x Masseur Anti Cellulite Palper-rouler à Chauffage infrarouge</strong> – <br/>conçu pour cibler efficacement la cellulite, stimuler la circulation et raffermir visiblement la peau dès les premières utilisations.</li><li><strong>1x Huile de Massage (gratuites)</strong> – <br/>Nourrit la peau avec du rétinol pour booster la production de collagène</li><li><strong>1x Brosse de Massage en Silicone (Offerte)</strong> –  préparer la peau au traitement, améliorer l’absorption des actifs et renforcer les résultats du massage.</li><li><strong>Sacoche pour appareil</strong> – Gardez votre appareil en sécurité et portable.</li><li><strong>Guide d'instructions et chargeur USB (gratuit)</strong> – Configuration simple pour une utilisation instantanée.</li><li><strong>1x E-book (gratuit)</strong> – Conseils d'experts pour atteindre les résultats de vos rêves.</li></ul>",
+            "tab_content": "<h3><strong>Qu'est-ce qui est inclus ?</strong></h3><ul><li><strong>1x Masseur Anti Cellulite Palper-rouler à Chauffage infrarouge</strong> – <br/>.conçu pour cibler efficacement la cellulite, stimuler la circulation et raffermir visiblement la peau dès les premières utilisations.</li><li><strong>1x Huile de Massage (gratuites)</strong> – <br/>Nourrit la peau avec du rétinol pour booster la production de collagène</li><li><strong>1x Brosse de Massage en Silicone (Offerte)</strong> –  préparer la peau au traitement, améliorer l’absorption des actifs et renforcer les résultats du massage.</li><li><strong>Sacoche pour appareil</strong> – Gardez votre appareil en sécurité et portable.</li><li><strong>Guide d'instructions et chargeur USB (gratuit)</strong> – Configuration simple pour une utilisation instantanée.</li><li><strong>1x E-book (gratuit)</strong> – Conseils d'experts pour atteindre les résultats de vos rêves.</li></ul>",
             "feature_text": "<p><strong>Pour toute question complémentaire, contactez-nous via le Chat en ligne ou par mail au support@velaura.fr</strong></p>",
             "tab_image": "shopify://shop_images/Hero_pic.png"
           }
@@ -516,8 +516,8 @@
         "heading_Ejm3me": {
           "type": "heading",
           "settings": {
-            "text": "NOTRE APPAREIL CONÇU POUR CIBLER EFFICACEMENT LA CELLULITE",
-            "heading_tag": "h3",
+            "text": "Notre appareil révolutionnaire contre la cellulite :",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -525,8 +525,8 @@
         "heading_3rYjhX": {
           "type": "heading",
           "settings": {
-            "text": "COMMENT ÇA MARCHE ?",
-            "heading_tag": "h3",
+            "text": "Comment ça marche ?",
+            "heading_tag": "h1",
             "text_color": "#ff546e",
             "gradient": ""
           }
@@ -605,8 +605,8 @@
           "settings": {
             "image": "shopify://shop_images/1_4edbc4f6-e9d9-4368-a67e-52ca853b9c3d.png",
             "title": "96%",
-            "subheading": "",
-            "content": "<p>des femmes constatent une amélioration spectaculaire du teint et de l'éclat de leur peau en quelques jours.</p>",
+            "subheading": " des femmes constatent une amélioration spectaculaire du teint et de l'éclat de leur peau en quelques jours.",
+            "content": "",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -618,8 +618,8 @@
           "settings": {
             "image": "shopify://shop_images/2_b7395655-83e5-4f5c-ba36-f2d9dbc331c0.png",
             "title": "94 %",
-            "subheading": "",
-            "content": "<p>constatent une disparition visible des vergetures qu’elles pensaient permanentes (même après une grossesse).</p>",
+            "subheading": "constatent une disparition visible des vergetures qu’elles pensaient permanentes (même après une grossesse).",
+            "content": "",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": true,
@@ -1282,7 +1282,7 @@
         "background_gradient": "",
         "text_color": "",
         "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
