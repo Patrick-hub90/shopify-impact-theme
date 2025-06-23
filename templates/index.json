@@ -437,8 +437,8 @@
             "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "rgba(0,0,0,0)",
             "title": "Réduction de la cellulite",
             "content": "<p>Les massages aident à casser les petits amas sous la peau qui forment les bosses (la \"peau d’orange\"). Résultat : la peau devient plus lisse et plus uniforme.<br/></p>"
           }
@@ -451,8 +451,8 @@
             "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "rgba(0,0,0,0)",
             "title": "Réduction de la graisse",
             "content": "<p>En massant certaines zones, on aide le corps à \"décoller\" la graisse stockée pour qu’il puisse l’éliminer plus facilement, ce qui peut affiner certaines parties du corps.<br/></p>"
           }
