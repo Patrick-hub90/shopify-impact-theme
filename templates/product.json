@@ -123,7 +123,7 @@
             "stretch_image": false,
             "link_text": "",
             "link_url": "",
-            "background": "#f7afaf",
+            "background": "#ff546e",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -136,7 +136,7 @@
             "stretch_image": false,
             "link_text": "",
             "link_url": "",
-            "background": "#f7afaf",
+            "background": "#ff546e",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -149,7 +149,7 @@
             "stretch_image": false,
             "link_text": "",
             "link_url": "",
-            "background": "#f7afaf",
+            "background": "#ff546e",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -199,7 +199,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "#f7afaf",
+        "background": "#ff546e",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
