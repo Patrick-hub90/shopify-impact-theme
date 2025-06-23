@@ -465,8 +465,8 @@
             "mobile_icon_width": 60,
             "icon_width": 60,
             "icon_background_type": "circle",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
+            "icon_background": "rgba(0,0,0,0)",
+            "icon_color": "rgba(0,0,0,0)",
             "title": "Élimination des Vergetures",
             "content": "<p>Le soin stimule la peau pour qu’elle se régénère plus vite. Les marques blanches ou violacées s’atténuent avec le temps, et la peau paraît plus souple et plus jolie.</p>"
           }
