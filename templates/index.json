@@ -332,6 +332,7 @@
       "blocks": {
         "subheading_CUb4XJ": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Statistiques depuis 2012"
           }
