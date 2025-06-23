@@ -333,9 +333,9 @@
         "active_tab_color": "#ff6b6b",
         "background_color": "#ffffff",
         "background_gradient": "",
-        "border_radius": 16,
+        "border_radius": 9,
         "tab_spacing": 20,
-        "tab_padding": 20,
+        "tab_padding": 17,
         "content_padding": 40
       }
     },
