@@ -416,7 +416,7 @@
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
-        "heading_gradient": "linear-gradient(60deg, rgba(247, 46, 46, 1) 84%, rgba(255, 249, 246, 1) 100%)",
+        "heading_gradient": "linear-gradient(60deg, rgba(255, 84, 110, 1) 84%, rgba(255, 249, 246, 1) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
