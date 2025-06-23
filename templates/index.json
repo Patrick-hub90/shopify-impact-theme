@@ -266,7 +266,7 @@
           "settings": {
             "text": "Quand vous prenez soin de votre peau, vous augmentez votre estime de soi.",
             "heading_tag": "h2",
-            "text_color": "#2a555a",
+            "text_color": "#000000",
             "gradient": ""
           }
         }
