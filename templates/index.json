@@ -759,6 +759,7 @@
         },
         "1664424486a2b084ab-1": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image_rotation_degrees": 1.5,
             "subheading": "",
