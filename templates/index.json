@@ -365,7 +365,6 @@
       "blocks": {
         "item_4ELA8H": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "96%",
             "subheading": "Des femmes constatent une amélioration spectaculaire du teint et de l'éclat de leur peau en quelques jours.",
@@ -379,8 +378,8 @@
         "item_kPanm8": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "De nos produits sont formulés sans paraben, sans sulfate et testés dermatologiquement.",
+            "title": "94 %",
+            "subheading": "constatent une disparition visible des vergetures qu’elles pensaient permanentes (même après une grossesse).",
             "content": "",
             "button_text": "",
             "button_url": "",
@@ -391,8 +390,8 @@
         "item_pz9q7Y": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "de nos clientes ont déjà adopté la Routine Velaura avec succès.",
+            "title": "96 %",
+            "subheading": "constatent une réduction significative de la cellulite tenace des cuisses et des hanches que le régime et l'exercice n'ont pas pu éliminer !",
             "content": "",
             "button_text": "",
             "button_url": "",

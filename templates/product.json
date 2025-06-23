@@ -15,7 +15,7 @@
         "liquid_q4YtCL": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"display: flex; align-items: center; gap: 4px; font-family: Arial, sans-serif;\">\n  {% assign star_url = \"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Star_2_30x30_3bc1a30d-4b80-4969-b9ad-63ef65b28905.svg?v=1750707797\" %}\n  <div style=\"display: flex; gap: 2px;\">\n    {% for i in (1..5) %}\n      <img src=\"{{ star_url }}\" alt=\"Étoile\" width=\"20\" height=\"14\" style=\"display: inline-block; vertical-align: middle;\" />\n    {% endfor %}\n  </div>\n  <span style=\"font-weight: 600; font-size: 13px; color: #333; margin-left: 4px;\">\n    4.9/5\n  </span>\n  <span style=\"font-size: 13px; color: #888; margin-left: 2px;\">\n    (basé sur 1034 avis)\n  </span>\n</div>"
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 4px; font-family: Arial, sans-serif;\">\n  {% assign star_url = \"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Star_2_30x30_3bc1a30d-4b80-4969-b9ad-63ef65b28905.svg?v=1750707797\" %}\n  <div style=\"display: flex; gap: 2px;\">\n    {% for i in (1..5) %}\n      <img src=\"{{ star_url }}\" alt=\"Étoile\" width=\"20\" height=\"14\" style=\"display: inline-block; vertical-align: middle;\" />\n    {% endfor %}\n  </div>\n  <span style=\"font-weight: 600; font-size: 13px; color: #333; margin-left: 4px;\">\n    4.9/5\n  </span>\n  <span style=\"font-size: 13px; color: #888; margin-left: 2px;\">\n    (basé sur 326 avis)\n  </span>\n</div>"
           }
         },
         "title": {
