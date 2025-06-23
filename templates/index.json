@@ -200,8 +200,8 @@
           "settings": {
             "icon": "picto-validation",
             "custom_icon": "shopify://shop_images/telechargement_29.png",
-            "mobile_icon_width": 40,
-            "icon_width": 52,
+            "mobile_icon_width": 60,
+            "icon_width": 60,
             "icon_background_type": "circle",
             "icon_background": "#ffffff",
             "icon_color": "#ffffff",
@@ -213,10 +213,11 @@
           "type": "item",
           "settings": {
             "icon": "picto-leaf",
-            "mobile_icon_width": 24,
+            "custom_icon": "shopify://shop_images/telechargement_31.png",
+            "mobile_icon_width": 60,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "#ff546e",
+            "icon_background": "#ffffff",
             "icon_color": "#ffffff",
             "title": "Réduction de la graisse",
             "content": "<p>En massant certaines zones, on aide le corps à \"décoller\" la graisse stockée pour qu’il puisse l’éliminer plus facilement, ce qui peut affiner certaines parties du corps.<br/></p>"
