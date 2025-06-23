@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "okendo_star_rating_tYFNhP": {
-          "type": "shopify://apps/okendo/blocks/star-rating/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -32,12 +26,6 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": true
           }
         },
         "separator": {
@@ -106,11 +94,9 @@
         }
       },
       "block_order": [
-        "okendo_star_rating_tYFNhP",
         "title",
         "badges",
         "price",
-        "rating",
         "separator",
         "text_73Gqra",
         "liquid_B7LfBx",
