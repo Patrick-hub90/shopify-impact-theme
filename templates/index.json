@@ -299,6 +299,96 @@
         "product_card_text_color": ""
       }
     },
+    "multi_column_Fxc7Gw": {
+      "type": "multi-column",
+      "blocks": {
+        "item_p4KbVT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/10_d9f545a3-c0f9-4353-b56d-251bf99018fa.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Franchement, je ne m'attendais pas à voir des résultats si rapidement ! Ma peau était terne et fatiguée, maintenant elle rayonne littéralement. La routine Velaura, c'est vraiment mon petit secret beauté maintenant !<br/><br/><br/>⭐⭐⭐⭐⭐<br/> <strong>Sarah M.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FBQwmC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/14_6f407380-84e1-418d-a3ef-a8a98ee862a2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Peau ultra-réactive depuis toujours, j'appréhendais... Mais aucune irritation avec Velaura ! Au contraire, ma peau s'est apaisée. C'est doux, ça sent bon, et ça marche vraiment. Enfin une routine adaptée à ma peau capricieuse !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Yasmine B.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_zAA4qP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/13_02b99d28-1683-4ce9-9275-cc622df0d440.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Six mois que j'utilise Velaura religieusement... Résultat : ma peau n'a jamais été aussi belle ! Plus besoin de fond de teint au quotidien. Mes amies pensent que j'ai fait des injections tellement l'effet est bluffant. Je ne changerai pour rien au monde !</p><p><br/>⭐⭐⭐⭐⭐ <br/><strong>Charlotte F.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_iQHxF7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/15_bcd04f7f-e657-40b5-aae1-1cb95be85348.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Difficile à convaincre niveau cosmétiques... Mais Velaura m'a bluffée ! Ingrédients clean, résultats visibles, packaging élégant. Tout y est. Ma peau respire la santé maintenant. <br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Emma L.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_4dgjPN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/9_aae8d66e-16b2-415d-b145-3f7b787e8b36.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>J'ai testé des centaines de produits... Velaura sort vraiment du lot ! L'effet \"glow\" est immédiat et durable. Ma routine du soir est devenue un vrai moment de plaisir. Je suis définitivement conquise et déjà en train de recommander !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Julie H.</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_p4KbVT",
+        "item_FBQwmC",
+        "item_zAA4qP",
+        "item_iQHxF7",
+        "item_4dgjPN"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Transformations avant et après",
+        "content": "<p>Témoignages et transformations réelles<br/></p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_6PmQaM": {
       "type": "rich-text",
       "blocks": {
@@ -688,96 +778,6 @@
         "button_text_color": ""
       }
     },
-    "multi_column_Fxc7Gw": {
-      "type": "multi-column",
-      "blocks": {
-        "item_p4KbVT": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/10_d9f545a3-c0f9-4353-b56d-251bf99018fa.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Franchement, je ne m'attendais pas à voir des résultats si rapidement ! Ma peau était terne et fatiguée, maintenant elle rayonne littéralement. La routine Velaura, c'est vraiment mon petit secret beauté maintenant !<br/><br/><br/>⭐⭐⭐⭐⭐<br/> <strong>Sarah M.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_FBQwmC": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/14_6f407380-84e1-418d-a3ef-a8a98ee862a2.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Peau ultra-réactive depuis toujours, j'appréhendais... Mais aucune irritation avec Velaura ! Au contraire, ma peau s'est apaisée. C'est doux, ça sent bon, et ça marche vraiment. Enfin une routine adaptée à ma peau capricieuse !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Yasmine B.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_zAA4qP": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/13_02b99d28-1683-4ce9-9275-cc622df0d440.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Six mois que j'utilise Velaura religieusement... Résultat : ma peau n'a jamais été aussi belle ! Plus besoin de fond de teint au quotidien. Mes amies pensent que j'ai fait des injections tellement l'effet est bluffant. Je ne changerai pour rien au monde !</p><p><br/>⭐⭐⭐⭐⭐ <br/><strong>Charlotte F.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_iQHxF7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/15_bcd04f7f-e657-40b5-aae1-1cb95be85348.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>Difficile à convaincre niveau cosmétiques... Mais Velaura m'a bluffée ! Ingrédients clean, résultats visibles, packaging élégant. Tout y est. Ma peau respire la santé maintenant. <br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Emma L.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_4dgjPN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/9_aae8d66e-16b2-415d-b145-3f7b787e8b36.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "<p>J'ai testé des centaines de produits... Velaura sort vraiment du lot ! L'effet \"glow\" est immédiat et durable. Ma routine du soir est devenue un vrai moment de plaisir. Je suis définitivement conquise et déjà en train de recommander !<br/><br/><br/>⭐⭐⭐⭐⭐ <br/><strong>Julie H.</strong></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_p4KbVT",
-        "item_FBQwmC",
-        "item_zAA4qP",
-        "item_iQHxF7",
-        "item_4dgjPN"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Elles en parlent mieux que nous ! ☘️",
-        "content": "<p>Rejoignez ces milliers de femmes qui ont adopté la routine Velaura pour une peau sans cellulite.</p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -1048,13 +1048,13 @@
     "text_with_icons_B33DrW",
     "scrolling-text",
     "featured-collection",
+    "multi_column_Fxc7Gw",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
     "media-grid",
     "impact-text",
     "video_fACYEQ",
     "multi_column_3t7d9N",
-    "multi_column_Fxc7Gw",
     "multiple-images-with-text",
     "image-with-text-overlay",
     "press",

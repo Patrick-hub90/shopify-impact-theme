@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_q4YtCL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 3px;\">\n  {% assign star_url = \"https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Star_2_30x30_3bc1a30d-4b80-4969-b9ad-63ef65b28905.svg?v=1750707797\" %}\n  \n  {% for i in (1..5) %}\n    <img src=\"{{ star_url }}\" alt=\"Étoile\" width=\"16\" height=\"16\" style=\"display: inline-block;\" />\n  {% endfor %}\n\n  <span style=\"font-weight: bold; font-size: 14px; color: #333;\">\n    4.9/5\n  </span>\n\n  <span style=\"font-size: 14px; color: #777;\">\n    (basé sur 1034 avis de femmes sans cellulite)\n  </span>\n</div>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -80,15 +86,10 @@
           "settings": {
             "liquid": "<div style=\"margin:15px 0; padding:12px; background:#f8f9fa; border-radius:8px; border:1px solid #e1e3e5; text-align:center;\">\n  <p style=\"margin:0 0 5px 0; font-size:14px; color:#5f6368;\">Livraison prévue entre :</p>\n  \n  {%- assign now = \"now\" | date: \"%s\" -%}\n  {%- assign min_days = 3 | times: 86400 -%}\n  {%- assign max_days = 5 | times: 86400 -%}\n  \n  {%- assign min_date = now | plus: min_days | date: \"%d %m\" | split: \" \" -%}\n  {%- assign max_date = now | plus: max_days | date: \"%d %m\" | split: \" \" -%}\n  \n  {%- assign months = \"janvier,février,mars,avril,mai,juin,juillet,août,septembre,octobre,novembre,décembre\" | split: \",\" -%}\n  {%- assign min_month_index = min_date[1] | plus: 0 | minus: 1 -%}\n  {%- assign max_month_index = max_date[1] | plus: 0 | minus: 1 -%}\n  \n  {%- assign min_day = min_date[0] | plus: 0 -%}\n  {%- assign min_month = months[min_month_index] -%}\n  {%- assign max_day = max_date[0] | plus: 0 -%}\n  {%- assign max_month = months[max_month_index] -%}\n  \n  <div style=\"display:flex; justify-content:center; align-items:center;\">\n    <div style=\"padding:8px 12px; background:#fff; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.05); margin:0 5px;\">\n      <div style=\"font-weight:600; font-size:16px;\">{{ min_day }} {{ min_month }}</div>\n    </div>\n    \n    <div style=\"color:#5f6368; font-size:14px;\">au</div>\n    \n    <div style=\"padding:8px 12px; background:#fff; border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,0.05); margin:0 5px;\">\n      <div style=\"font-weight:600; font-size:16px;\">{{ max_day }} {{ max_month }}</div>\n    </div>\n  </div>\n  \n  <p style=\"margin:8px 0 0 0; font-size:12px; color:#80868b;\">\n    <svg style=\"vertical-align:middle; margin-right:4px;\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\">\n      <circle cx=\"12\" cy=\"12\" r=\"10\" stroke-width=\"1.5\"></circle>\n      <polyline points=\"12 6 12 12 16 14\" stroke-width=\"1.5\"></polyline>\n    </svg>\n    Délai de traitement : 3-5 jours\n  </p>\n</div>"
           }
-        },
-        "liquid_q4YtCL": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .trustpilot-widget {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    background: white;\n    border-radius: 12px;\n    padding: 20px;\n    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);\n    max-width: 350px;\n    margin: 20px auto;\n    border: 1px solid #f0f0f0;\n    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  }\n  \n  .excellent {\n    font-size: 1.3rem;\n    font-weight: 700;\n    color: #00b67a;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n    margin-bottom: 12px;\n    text-align: center;\n  }\n  \n  .stars-container {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    margin-bottom: 15px;\n  }\n  \n  .stars {\n    width: 120px;\n    height: auto;\n  }\n  \n  .rating {\n    font-size: 1.1rem;\n    font-weight: 600;\n    color: #333;\n  }\n  \n  .trustpilot-logo-container {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n  }\n  \n  .trustpilot-logo {\n    width: 100px;\n    height: auto;\n  }\n  \n  .rating-text {\n    font-size: 0.95rem;\n    color: #666;\n  }\n  \n  .divider {\n    width: 100%;\n    height: 1px;\n    background: #f0f0f0;\n    margin: 15px 0;\n  }\n  \n  .review-count {\n    font-size: 0.9rem;\n    color: #666;\n    text-align: center;\n  }\n</style>\n\n<div class=\"trustpilot-widget\">\n  <span class=\"excellent\">\"EXCELLENT\"</span>\n  \n  <div class=\"stars-container\">\n    <img class=\"stars\" src=\"https://static.cdnlogo.com/logos/s/99/stars-5.svg\" alt=\"5 étoiles\">\n    <span class=\"rating\">4,9/5</span>\n  </div>\n  \n  <div class=\"trustpilot-logo-container\">\n    <span class=\"rating-text\">Noté sur</span>\n    <img class=\"trustpilot-logo\" src=\"https://cdn.shopify.com/s/files/1/0647/2148/6072/files/Trustpilot_Logo__2022_.svg_2.png?v=1687091440\" alt=\"Trustpilot\">\n  </div>\n  \n  <div class=\"divider\"></div>\n  \n  <div class=\"review-count\">Basé sur 1,234 avis</div>\n</div>"
-          }
         }
       },
       "block_order": [
+        "liquid_q4YtCL",
         "title",
         "badges",
         "price",
@@ -99,8 +100,7 @@
         "variant_picker",
         "buy_buttons",
         "liquid_AekBRP",
-        "liquid_K66d6C",
-        "liquid_q4YtCL"
+        "liquid_K66d6C"
       ],
       "settings": {
         "full_width": true,
