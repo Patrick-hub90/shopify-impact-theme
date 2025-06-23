@@ -350,6 +350,21 @@
         "button_text_color": ""
       }
     },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "L’excellence des soins parisiens chez vous, avec des accessoires de qualité médicale pour des soins d’institut à domicile.",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -455,21 +470,6 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "L’excellence des soins parisiens chez vous, avec des accessoires de qualité médicale pour des soins d’institut à domicile.",
-        "text_size": "medium",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
       }
     },
     "featured-collection": {
@@ -1046,10 +1046,10 @@
     "rich_text_f9M7cW",
     "image_link_blocks_43GrkJ",
     "text_with_icons_B33DrW",
+    "scrolling-text",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
     "media-grid",
-    "scrolling-text",
     "featured-collection",
     "impact-text",
     "video_fACYEQ",
