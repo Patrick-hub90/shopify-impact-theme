@@ -39,7 +39,7 @@
     color: #555;
     line-height: 1.6;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto 0;
   }
   
   .reviews-container {
@@ -201,7 +201,7 @@
   }
 </style>
 
-<div class="expert-reviews-section">
+<div class="expert-reviews-section" data-stack-mode="{{ section.settings.stack_on_mobile }}">
   <div class="section-header">
     {%- if section.settings.subheading != blank -%}
       <span class="subheading">{{ section.settings.subheading }}</span>
@@ -216,6 +216,7 @@
   
   <div class="reviews-container">
     {% if section.settings.stack_on_mobile %}
+      <!-- Mode Stack (grille) -->
       <div class="reviews-stack">
         {% for block in section.blocks %}
           <div class="review-card">
@@ -255,6 +256,7 @@
         {% endfor %}
       </div>
     {% else %}
+      <!-- Mode Carrousel -->
       <div class="swiper">
         <div class="swiper-wrapper">
           {% for block in section.blocks %}
@@ -307,7 +309,10 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    {% unless section.settings.stack_on_mobile %}
+    const section = document.querySelector('.expert-reviews-section');
+    const stackMode = section.dataset.stackMode === 'true';
+    
+    if (!stackMode) {
       const swiper = new Swiper('.swiper', {
         loop: true,
         slidesPerView: 1,
@@ -327,13 +332,15 @@
         breakpoints: {
           640: {
             slidesPerView: 2,
+            spaceBetween: 20
           },
           1024: {
             slidesPerView: 3,
+            spaceBetween: 30
           }
         }
       });
-    {% endunless %}
+    }
   });
 </script>
 
@@ -383,7 +390,8 @@
       "type": "checkbox",
       "id": "stack_on_mobile",
       "label": "Empiler verticalement sur mobile",
-      "default": false
+      "default": false,
+      "info": "Désactivé = mode carrousel horizontal"
     },
     {
       "type": "color",
