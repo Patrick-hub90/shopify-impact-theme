@@ -9,120 +9,72 @@
  */
 {
   "sections": {
-    "scrolling_text_mRT6GK": {
+    "scrolling_text_39EBVR": {
       "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 10,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "rich_text_6PmQaM": {
-      "type": "rich-text",
       "blocks": {
-        "subheading_CUb4XJ": {
-          "type": "subheading",
-          "disabled": true,
+        "text_8xjwyn": {
+          "type": "text",
           "settings": {
-            "text": "Statistiques depuis 2012"
+            "text": "🔬 Inspiré de la science pour raffermir votre peau"
           }
         },
-        "heading_jzebEk": {
-          "type": "heading",
+        "text_4PayEB": {
+          "type": "text",
           "settings": {
-            "text": "Velaura™ est bien plus qu'un soin : c'est un renouveau. Grâce à sa technologie sculptante avancée, il sublime votre peau en profondeur, pour une transformation visible et une confiance en soi retrouvée.",
-            "heading_tag": "h4",
-            "text_color": "#000000",
-            "gradient": ""
+            "text": "💡 Lumière rouge, chaleur et aspiration pour des résultats visibles"
+          }
+        },
+        "text_xVU7Yd": {
+          "type": "text",
+          "settings": {
+            "text": "🩹 Sans douleur, sans marques – 100 % confort"
           }
         }
       },
       "block_order": [
-        "subheading_CUb4XJ",
-        "heading_jzebEk"
+        "text_8xjwyn",
+        "text_4PayEB",
+        "text_xVU7Yd"
       ],
-      "name": "Rich text",
+      "name": "Texte Défilant",
       "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "bg_color": "#f7afaf",
+        "text_color": "#000000",
+        "speed": 15,
+        "font_size": 14,
+        "spacing": 25,
+        "padding": 28,
+        "font_weight": "400"
       }
     },
-    "impact_text_HhCW7h": {
-      "type": "impact-text",
-      "blocks": {
-        "item_4ELA8H": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1_4edbc4f6-e9d9-4368-a67e-52ca853b9c3d.png",
-            "title": "92%",
-            "subheading": "Des femmes ont remarqué un abdomen plus tonique et sculpté après une utilisation régulière",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "item_kPanm8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2_b7395655-83e5-4f5c-ba36-f2d9dbc331c0.png",
-            "title": "89 %",
-            "subheading": "Des femmes ont signalé une peau plus lisse avec des vergetures visiblement atténuées",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "item_pz9q7Y": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Avant_1440_x_751_px_2.png",
-            "title": "95 %",
-            "subheading": "Des femmes ont déclaré que leur peau était plus ferme, plus uniforme et plus éclatante",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "item_4ELA8H",
-        "item_kPanm8",
-        "item_pz9q7Y"
-      ],
-      "custom_css": [],
-      "name": "Impact text",
+    "featured_collection_a7zgYe": {
+      "type": "featured-collection",
+      "name": "Featured collection",
       "settings": {
+        "collection": "",
+        "products": [
+          "soin-pro-anti-cellulite-a-domicile",
+          "creme-anti-cellulite-velaura",
+          "brosse-anti-cellulite-velaura"
+        ],
         "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Meilleures Ventes",
+        "content": "<p>Explorez les favoris tendance</p>",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(60deg, rgba(255, 84, 110, 1) 84%, rgba(255, 249, 246, 1) 100%)",
         "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#fff9f6",
+        "product_card_text_color": ""
       }
     },
     "text_with_icons_B33DrW": {
@@ -787,9 +739,8 @@
     }
   },
   "order": [
-    "scrolling_text_mRT6GK",
-    "rich_text_6PmQaM",
-    "impact_text_HhCW7h",
+    "scrolling_text_39EBVR",
+    "featured_collection_a7zgYe",
     "text_with_icons_B33DrW",
     "media-grid",
     "impact-text",
