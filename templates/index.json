@@ -9,40 +9,45 @@
  */
 {
   "sections": {
-    "media_with_text_cR9k8d": {
-      "type": "media-with-text",
+    "slideshow_zDiYF3": {
+      "type": "slideshow",
       "blocks": {
-        "image_VMUdYV": {
+        "image_8WJ4Nf": {
           "type": "image",
           "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "background": "#fff9f6",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": "",
-            "mobile_order": "content_first",
-            "custom_liquid": ""
+            "image": "shopify://shop_images/aec3ee7d12f6857a1ff634155f5c9cc2_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Dites adieu à la cellulite pour de bon.",
+            "title": "Velaura™",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "image_VMUdYV"
+        "image_8WJ4Nf"
       ],
-      "name": "Media with text",
+      "name": "Slideshow",
       "settings": {
-        "full_width": false,
-        "spacing": "small"
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
       }
     },
     "scrolling_text_39EBVR": {
@@ -367,7 +372,7 @@
     }
   },
   "order": [
-    "media_with_text_cR9k8d",
+    "slideshow_zDiYF3",
     "scrolling_text_39EBVR",
     "featured_collection_a7zgYe",
     "media_with_text_Q6FLHk",
