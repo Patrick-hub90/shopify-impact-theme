@@ -1,370 +1,146 @@
-{% comment %}
-  Section: Expert Reviews Carousel
-  Description: Affiche des avis d'experts sous forme de carrousel ou de grille
-{% endcomment %}
+{%- if section.blocks.size > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
 
-{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
-
-<style>
-  .expert-reviews-section {
-    max-width: 1200px;
-    margin: 60px auto;
-    padding: 0 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  .section-header {
-    text-align: {{ section.settings.text_alignment }};
-    margin-bottom: 50px;
-  }
-  
-  .section-header .subheading {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 10px;
-    display: block;
-  }
-  
-  .section-header h2 {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 15px;
-    position: relative;
-    display: inline-block;
-  }
-  
-  .section-header .description {
-    font-size: 18px;
-    color: #555;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 20px auto 0;
-  }
-  
-  .reviews-container {
-    position: relative;
-    padding: 20px 0;
-  }
-  
-  .swiper {
-    padding: 30px 10px 60px;
-  }
-  
-  .review-card {
-    background: white;
-    border-radius: 15px;
-    overflow: hidden;
-    border: 1px solid #f0f0f0;
-    transition: all 0.4s ease;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .review-image {
-    height: 250px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #fff5f7 0%, #f8f9fa 100%);
-  }
-  
-  .review-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-  }
-  
-  .review-content {
-    padding: 30px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .review-text {
-    font-size: 16px;
-    line-height: 1.7;
-    color: #555;
-    margin-bottom: 25px;
-    flex-grow: 1;
-  }
-  
-  .review-text strong {
-    color: #ff6b6b;
-    font-weight: 600;
-  }
-  
-  .review-author {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-top: auto;
-  }
-  
-  .signature {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #fff5f7;
-    border-radius: 50%;
-    padding: 5px;
-  }
-  
-  .signature img {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .author-info h4 {
-    font-size: 18px;
-    color: #333;
-    margin: 0 0 5px 0;
-  }
-  
-  .author-info p {
-    font-size: 14px;
-    color: #666;
-    margin: 0;
-  }
-  
-  .swiper-button-prev,
-  .swiper-button-next {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: white;
-    border: 1px solid #ddd;
-    color: {{ section.settings.arrow_color }};
-    transition: all 0.3s ease;
-  }
-  
-  .swiper-button-prev:after,
-  .swiper-button-next:after {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .swiper-button-prev:hover,
-  .swiper-button-next:hover {
-    background: {{ section.settings.arrow_color }};
-    color: white;
-    border-color: {{ section.settings.arrow_color }};
-  }
-  
-  .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background: #ddd;
-    opacity: 1;
-  }
-  
-  .swiper-pagination-bullet-active {
-    background: {{ section.settings.arrow_color }};
-  }
-
-  /* Stack mode */
-  .reviews-stack {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-  }
-
-  @media (max-width: 1024px) {
-    .reviews-stack {
-      grid-template-columns: repeat(2, 1fr);
+  <style>
+    #shopify-section-{{ section.id }} {
+      --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
+      --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
     }
-  }
 
-  @media (max-width: 768px) {
-    .reviews-stack {
-      grid-template-columns: 1fr;
+    .expert-badge {
+      background: {{ section.settings.badge_color }};
+      color: {{ section.settings.badge_text_color }};
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 8px;
     }
-    
-    .section-header h2 {
-      font-size: 26px;
-    }
-    
-    .swiper {
-      padding: 30px 0 60px;
-    }
-    
-    .swiper-button-prev,
-    .swiper-button-next {
-      display: none;
-    }
-  }
-</style>
 
-<div class="expert-reviews-section" data-stack-mode="{{ section.settings.stack_on_mobile }}">
-  <div class="section-header">
-    {%- if section.settings.subheading != blank -%}
-      <span class="subheading">{{ section.settings.subheading }}</span>
-    {%- endif -%}
-    
-    <h2>{{ section.settings.section_title }}</h2>
-    
-    {%- if section.settings.description != blank -%}
-      <div class="description">{{ section.settings.description }}</div>
-    {%- endif -%}
-  </div>
-  
-  <div class="reviews-container">
-    {% if section.settings.stack_on_mobile %}
-      <!-- Mode Stack (grille) -->
-      <div class="reviews-stack">
-        {% for block in section.blocks %}
-          <div class="review-card">
-            <div class="review-image">
-              {% if block.settings.doctor_image %}
-                <img src="{{ block.settings.doctor_image | img_url: '600x600' }}" 
-                     alt="{{ block.settings.doctor_name }}" 
-                     loading="lazy">
-              {% else %}
-                <div style="background: #f0f0f0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #999;">
-                  Image de l'expert
-                </div>
-              {% endif %}
-            </div>
-            
-            <div class="review-content">
-              <div class="review-text">
-                {{ block.settings.review_text }}
-              </div>
-              
-              <div class="review-author">
-                {% if block.settings.signature_image %}
-                  <div class="signature">
-                    <img src="{{ block.settings.signature_image | img_url: '100x100' }}" 
-                         alt="Signature" 
-                         loading="lazy">
-                  </div>
-                {% endif %}
-                
-                <div class="author-info">
-                  <h4>{{ block.settings.doctor_name }}</h4>
-                  <p>{{ block.settings.doctor_specialty }}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    {% else %}
-      <!-- Mode Carrousel -->
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          {% for block in section.blocks %}
-            <div class="swiper-slide">
-              <div class="review-card">
-                <div class="review-image">
-                  {% if block.settings.doctor_image %}
-                    <img src="{{ block.settings.doctor_image | img_url: '600x600' }}" 
-                         alt="{{ block.settings.doctor_name }}" 
-                         loading="lazy">
-                  {% else %}
-                    <div style="background: #f0f0f0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #999;">
-                      Image de l'expert
+    .doctor-rating {
+      display: flex;
+      gap: 2px;
+      margin: 8px 0;
+    }
+
+    .star-full {
+      color: #FFD700;
+    }
+
+    .star-empty {
+      color: #e0e0e0;
+    }
+  </style>
+
+  <div {% render 'section-properties' %}>
+    <div class="section-stack">
+      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
+
+      <div class="multi-column scroll-area bleed md:unbleed">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'expert' -%}
+              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+                <div class="v-stack gap-6">
+                  {%- if block.settings.image != blank -%}
+                    {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
+                    <div class="rounded-full overflow-hidden" style="width: 120px; height: 120px; margin: 0 auto;">
+                      {{- block.settings.image | image_url: width: 240 | image_tag: loading: 'lazy', sizes: sizes, widths: '120,240,360', class: 'object-cover w-full h-full' -}}
                     </div>
-                  {% endif %}
-                </div>
-                
-                <div class="review-content">
-                  <div class="review-text">
-                    {{ block.settings.review_text }}
-                  </div>
-                  
-                  <div class="review-author">
-                    {% if block.settings.signature_image %}
-                      <div class="signature">
-                        <img src="{{ block.settings.signature_image | img_url: '100x100' }}" 
-                             alt="Signature" 
-                             loading="lazy">
+                  {%- endif -%}
+
+                  <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
+                    {%- if block.settings.title != blank -%}
+                      <p class="h4">{{ block.settings.title | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.specialty != blank -%}
+                      <p class="text-sm text-subdued">{{ block.settings.specialty | escape }}</p>
+                    {%- endif -%}
+
+                    {%- if block.settings.hospital != blank -%}
+                      <p class="text-xs">{{ block.settings.hospital | escape }}</p>
+                    {%- endif -%}
+
+                    <div class="expert-badge">EXPERT CERTIFIÉ</div>
+
+                    {%- if block.settings.rating > 0 -%}
+                      <div class="doctor-rating">
+                        {%- for i in (1..5) -%}
+                          {%- if i <= block.settings.rating -%}
+                            <span class="star-full">★</span>
+                          {%- else -%}
+                            <span class="star-empty">★</span>
+                          {%- endif -%}
+                        {%- endfor -%}
                       </div>
-                    {% endif %}
-                    
-                    <div class="author-info">
-                      <h4>{{ block.settings.doctor_name }}</h4>
-                      <p>{{ block.settings.doctor_specialty }}</p>
-                    </div>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      <div class="prose">
+                        <blockquote>{{ block.settings.content }}</blockquote>
+                      </div>
+                    {%- endif -%}
+
+                    {%- if block.settings.link_text != blank -%}
+                      <div>
+                        <a href="{{ block.settings.link_url }}" class="link text-sm">
+                          {{ block.settings.link_text | escape }}
+                        </a>
+                      </div>
+                    {%- endif -%}
                   </div>
                 </div>
               </div>
-            </div>
-          {% endfor %}
-        </div>
-        
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+          {%- endcase -%}
+        {%- endfor -%}
       </div>
-    {% endif %}
+    </div>
   </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const section = document.querySelector('.expert-reviews-section');
-    const stackMode = section.dataset.stackMode === 'true';
-    
-    if (!stackMode) {
-      const swiper = new Swiper('.swiper', {
-        loop: true,
-        slidesPerView: 1,
-        spaceBetween: 30,
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 30
-          }
-        }
-      });
-    }
-  });
-</script>
+{%- endif -%}
 
 {% schema %}
 {
-  "name": "Avis d'Experts",
+  "name": "Avis Expert Médical",
+  "class": "shopify-section--medical-experts",
+  "tag": "section",
   "settings": [
     {
-      "type": "text",
-      "id": "subheading",
-      "label": "Sous-titre",
-      "default": "Témoignages"
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Pleine largeur",
+      "default": true
     },
     {
-      "type": "text",
-      "id": "section_title",
-      "label": "Titre",
-      "default": "Ce que disent les experts à propos de SheVitality"
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Empiler sur mobile",
+      "default": false
     },
     {
-      "type": "richtext",
-      "id": "description",
-      "label": "Description",
-      "default": "<p>Découvrez ce que les professionnels de santé pensent de nos produits</p>"
+      "type": "select",
+      "id": "gap",
+      "label": "Espacement",
+      "options": [
+        {
+          "value": "small",
+          "label": "Petit"
+        },
+        {
+          "value": "medium",
+          "label": "Moyen"
+        },
+        {
+          "value": "large",
+          "label": "Grand"
+        },
+        {
+          "value": "x-large",
+          "label": "Très grand"
+        }
+      ],
+      "default": "medium"
     },
     {
       "type": "select",
@@ -372,7 +148,7 @@
       "label": "Alignement du texte",
       "options": [
         {
-          "value": "left",
+          "value": "start",
           "label": "Gauche"
         },
         {
@@ -380,66 +156,169 @@
           "label": "Centre"
         },
         {
-          "value": "right",
+          "value": "end",
           "label": "Droite"
         }
       ],
       "default": "center"
     },
     {
-      "type": "checkbox",
-      "id": "stack_on_mobile",
-      "label": "Empiler verticalement sur mobile",
-      "default": false,
-      "info": "Désactivé = mode carrousel horizontal"
+      "type": "text",
+      "id": "subheading",
+      "label": "Sous-titre",
+      "default": "Expertise médicale"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Avis de nos experts"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Description",
+      "default": "<p>Nos médecins spécialistes partagent leur expertise</p>"
     },
     {
       "type": "color",
-      "id": "arrow_color",
-      "label": "Couleur des flèches",
-      "default": "#ff6b6b"
+      "id": "badge_color",
+      "label": "Couleur du badge",
+      "default": "#0D9488"
+    },
+    {
+      "type": "color",
+      "id": "badge_text_color",
+      "label": "Couleur texte badge",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Arrière-plan",
+      "default": "#F9FAFB"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Texte",
+      "default": "#1F2937"
     }
   ],
   "blocks": [
     {
-      "type": "review",
-      "name": "Avis d'expert",
+      "type": "expert",
+      "name": "Expert Médical",
       "settings": [
         {
           "type": "image_picker",
-          "id": "doctor_image",
-          "label": "Photo du docteur"
+          "id": "image",
+          "label": "Photo du docteur",
+          "info": "Format portrait recommandé"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Nom du docteur",
+          "default": "Dr. Sophie Martin"
+        },
+        {
+          "type": "text",
+          "id": "specialty",
+          "label": "Spécialité",
+          "default": "Cardiologue"
+        },
+        {
+          "type": "text",
+          "id": "hospital",
+          "label": "Établissement",
+          "default": "Hôpital Saint-Louis, Paris"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Note (étoiles)",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 5
         },
         {
           "type": "richtext",
-          "id": "review_text",
-          "label": "Texte de l'avis",
-          "default": "<p>En tant que dermatologue certifié avec plus de 15 ans d'expérience clinique, je recommande le <strong>kit de soulagement de la cellulite</strong> aux patients à la recherche de solutions efficaces à domicile contre la cellulite et le relâchement cutané.</p>"
-        },
-        {
-          "type": "image_picker",
-          "id": "signature_image",
-          "label": "Image de signature"
+          "id": "content",
+          "label": "Avis",
+          "default": "<p>Ce produit représente une avancée significative dans son domaine. Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</p>"
         },
         {
           "type": "text",
-          "id": "doctor_name",
-          "label": "Nom du docteur",
-          "default": "Dr Emily Shaffer, MD, PhD"
+          "id": "link_text",
+          "label": "Texte du lien",
+          "default": "Voir le profil complet"
         },
         {
-          "type": "text",
-          "id": "doctor_specialty",
-          "label": "Spécialité",
-          "default": "Dermatologue spécialiste agréé"
+          "type": "url",
+          "id": "link_url",
+          "label": "Lien"
+        },
+        {
+          "type": "select",
+          "id": "column_size",
+          "label": "Largeur colonne",
+          "options": [
+            {
+              "value": "4",
+              "label": "25%"
+            },
+            {
+              "value": "3",
+              "label": "33%"
+            },
+            {
+              "value": "2",
+              "label": "50%"
+            }
+          ],
+          "default": "3"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Avis d'Experts",
-      "category": "Contenu"
+      "name": "Avis Expert Médical",
+      "blocks": [
+        {
+          "type": "expert",
+          "settings": {
+            "title": "Dr. Jean Dupont",
+            "specialty": "Dermatologue",
+            "hospital": "CHU de Bordeaux",
+            "content": "<p>Formulation exceptionnelle pour les peaux sensibles. Résultats cliniques très convaincants après 4 semaines d'utilisation.</p>"
+          }
+        },
+        {
+          "type": "expert",
+          "settings": {
+            "title": "Dr. Marie Legrand",
+            "specialty": "Pédiatre",
+            "hospital": "Hôpital Necker, Paris",
+            "content": "<p>Produit adapté aux enfants, testé sous contrôle médical. Absence d'effets secondaires notables dans notre étude.</p>"
+          }
+        },
+        {
+          "type": "expert",
+          "settings": {
+            "title": "Pr. Alain Petit",
+            "specialty": "Neurologue",
+            "hospital": "CHU de Lyon",
+            "content": "<p>Innovation remarquable dans le traitement des migraines chroniques. Efficacité démontrée dans 85% des cas.</p>"
+          }
+        }
+      ]
     }
   ]
 }
