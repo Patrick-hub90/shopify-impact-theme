@@ -1,23 +1,16 @@
-{%- if section.blocks.size > 0 -%}
+{%- if section.settings.text != blank -%}
   {%- render 'section-spacing-collapsing' -%}
 
   <style>
     #shopify-section-{{ section.id }} {
       --section-spacing-inline: 0;
       --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.125rem{% elsif section.settings.text_size == 'small' %}2.5rem{% elsif section.settings.text_size == 'medium' %}3.75rem{% elsif section.settings.text_size == 'large' %}5rem{% else %}7.5rem{% endif %};
-      --scrolling-text-gap: {% if section.settings.text_size == 'xsmall' %}1.5rem{% elsif section.settings.text_size == 'small' %}2rem{% elsif section.settings.text_size == 'medium' %}3rem{% elsif section.settings.text_size == 'large' %}4rem{% else %}6rem{% endif %};
     }
 
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
         --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.5rem{% elsif section.settings.text_size == 'small' %}3.75rem{% elsif section.settings.text_size == 'medium' %}5rem{% elsif section.settings.text_size == 'large' %}8.75rem{% else %}12.5rem{% endif %};
-        --scrolling-text-gap: {% if section.settings.text_size == 'xsmall' %}2rem{% elsif section.settings.text_size == 'small' %}3rem{% elsif section.settings.text_size == 'medium' %}4rem{% elsif section.settings.text_size == 'large' %}6rem{% else %}8rem{% endif %};
       }
-    }
-
-    .scrolling-text__item {
-      margin-right: var(--scrolling-text-gap);
-      flex-shrink: 0;
     }
   </style>
 
@@ -27,13 +20,10 @@
 
   <div {% render 'section-properties', tight: is_tight %}>
     {%- capture section_content -%}
-      {% comment %} Dupliquer le contenu pour une boucle fluide {% endcomment %}
-      {%- for i in (1..3) -%}
-        {%- for block in section.blocks -%}
-          <span class="scrolling-text__item heading" aria-hidden="true">
-            {%- render 'styled-text', content: block.settings.text, gradient: block.settings.text_gradient, style: block.settings.text_style -%}
-          </span>
-        {%- endfor -%}
+      {%- for i in (1..10) -%}
+        <span class="scrolling-text__text heading {% unless forloop.first %}motion-reduce:hidden{% endunless %}" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
+          {%- render 'styled-text', content: section.settings.text, gradient: section.settings.text_gradient, style: section.settings.text_style -%}
+        </span>
       {%- endfor -%}
     {%- endcapture -%}
 
@@ -42,12 +32,10 @@
         <visibility-progress class="scrolling-text__wrapper">
           {{- section_content -}}
         </visibility-progress>
-      {%- else -%}
-        <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="scrolling-text__wrapper">
-          <div class="scrolling-text__inner" style="display: flex;">
-            {{- section_content -}}
-          </div>
-        </marquee-text>
+       {%- else -%}
+         <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="scrolling-text__wrapper">
+           {{- section_content -}}
+         </marquee-text>
       {%- endif -%}
     </div>
   </div>
@@ -67,6 +55,12 @@
       "id": "full_width",
       "label": "Full width",
       "default": true
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "Promotion text"
     },
     {
       "type": "select",
@@ -95,6 +89,22 @@
         }
       ],
       "default": "large"
+    },
+    {
+      "type": "select",
+      "id": "text_style",
+      "label": "Text style",
+      "options": [
+        {
+          "value": "outline",
+          "label": "Outline"
+        },
+        {
+          "value": "fill",
+          "label": "Fill"
+        }
+      ],
+      "default": "fill"
     },
     {
       "type": "select",
@@ -141,67 +151,16 @@
       "type": "color",
       "id": "text_color",
       "label": "Text"
-    }
-  ],
-  "blocks": [
+    },
     {
-      "type": "text",
-      "name": "Text",
-      "limit": 3,
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Promotion text"
-        },
-        {
-          "type": "select",
-          "id": "text_style",
-          "label": "Text style",
-          "options": [
-            {
-              "value": "outline",
-              "label": "Outline"
-            },
-            {
-              "value": "fill",
-              "label": "Fill"
-            }
-          ],
-          "default": "fill"
-        },
-        {
-          "type": "color_background",
-          "id": "text_gradient",
-          "label": "Text gradient"
-        }
-      ]
+      "type": "color_background",
+      "id": "text_gradient",
+      "label": "Text gradient"
     }
   ],
   "presets": [
     {
-      "name": "Scrolling text",
-      "blocks": [
-        {
-          "type": "text",
-          "settings": {
-            "text": "First promotion text"
-          }
-        },
-        {
-          "type": "text",
-          "settings": {
-            "text": "Second promotion text"
-          }
-        },
-        {
-          "type": "text",
-          "settings": {
-            "text": "Third promotion text"
-          }
-        }
-      ]
+      "name": "Scrolling text"
     }
   ]
 }
