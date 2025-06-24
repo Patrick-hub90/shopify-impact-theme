@@ -9,6 +9,42 @@
  */
 {
   "sections": {
+    "media_with_text_cR9k8d": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_VMUdYV": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff9f6",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "",
+            "mobile_order": "content_first",
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VMUdYV"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
     "scrolling_text_39EBVR": {
       "type": "scrolling-text",
       "blocks": {
@@ -331,6 +367,7 @@
     }
   },
   "order": [
+    "media_with_text_cR9k8d",
     "scrolling_text_39EBVR",
     "featured_collection_a7zgYe",
     "media_with_text_Q6FLHk",
