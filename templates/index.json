@@ -113,11 +113,50 @@
         "full_width": true,
         "spacing": "none"
       }
+    },
+    "scrolling_text_YUYDpc": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_Fkp8m9": {
+          "type": "text",
+          "settings": {
+            "text": "Satisfait ou remboursé sous 30 jours"
+          }
+        },
+        "text_U83K8F": {
+          "type": "text",
+          "settings": {
+            "text": "Garantie d'un an"
+          }
+        },
+        "text_xVpyWw": {
+          "type": "text",
+          "settings": {
+            "text": "Expédition partout en Françe"
+          }
+        }
+      },
+      "block_order": [
+        "text_Fkp8m9",
+        "text_U83K8F",
+        "text_xVpyWw"
+      ],
+      "name": "Texte Défilant",
+      "settings": {
+        "bg_color": "#ff546e",
+        "text_color": "#ffffff",
+        "speed": 15,
+        "font_size": 22,
+        "spacing": 30,
+        "padding": 16,
+        "font_weight": "700"
+      }
     }
   },
   "order": [
     "scrolling_text_39EBVR",
     "featured_collection_a7zgYe",
-    "media_with_text_Q6FLHk"
+    "media_with_text_Q6FLHk",
+    "scrolling_text_YUYDpc"
   ]
 }
