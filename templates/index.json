@@ -171,50 +171,20 @@
         "expert_KN6zFt": {
           "type": "expert",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp-kep_2024-12-27_03.59.55_6d655fb3_2_2025-06-24_15-36-08.png",
-            "title": "Dr. Sophie Martin",
-            "specialty": "Cardiologue",
-            "hospital": "Hôpital Saint-Louis, Paris",
+            "image": "shopify://shop_images/0616.jpg",
+            "title": "Dr. John Willardsen, MD, PhD",
+            "specialty": "Dermatologue spécialiste agréé",
+            "hospital": "trustimplant.com",
             "rating": 0,
-            "content": "<h6>Ce produit représente une avancée significative dans son domaine. Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
+            "content": "<h6>Ce masseur représente une avancée significative dans le domaine du traitement de la cellulite . Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
             "link_text": "",
-            "link_url": "",
-            "column_size": "3"
-          }
-        },
-        "expert_yFdrXx": {
-          "type": "expert",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp-kep_2024-12-27_03.59.55_6d655fb3_2_2025-06-24_15-36-08.png",
-            "title": "Dr. Sophie Martin",
-            "specialty": "Cardiologue",
-            "hospital": "Hôpital Saint-Louis, Paris",
-            "rating": 0,
-            "content": "<h6>Ce produit représente une avancée significative dans son domaine. Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
-            "link_text": "Voir le profil complet",
-            "link_url": "",
-            "column_size": "3"
-          }
-        },
-        "expert_MwjLTb": {
-          "type": "expert",
-          "settings": {
-            "image": "shopify://shop_images/WhatsApp-kep_2024-12-27_03.59.55_6d655fb3_2_2025-06-24_15-36-08.png",
-            "title": "Dr. Sophie Martin",
-            "specialty": "Cardiologue",
-            "hospital": "Hôpital Saint-Louis, Paris",
-            "rating": 0,
-            "content": "<h6>Ce produit représente une avancée significative dans son domaine. Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
-            "link_text": "Voir le profil complet",
             "link_url": "",
             "column_size": "3"
           }
         }
       },
       "block_order": [
-        "expert_KN6zFt",
-        "expert_yFdrXx",
-        "expert_MwjLTb"
+        "expert_KN6zFt"
       ],
       "name": "Avis d'Experts",
       "settings": {
