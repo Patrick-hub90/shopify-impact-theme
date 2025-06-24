@@ -9,6 +9,40 @@
  */
 {
   "sections": {
+    "media_with_text_gwfhGd": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_iaCQXt": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iaCQXt"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -70,33 +104,6 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(141deg, rgba(247, 175, 175, 1), rgba(247, 175, 175, 1) 67%, rgba(26, 26, 26, 0.42) 98%)"
-      }
-    },
-    "rich_text_f9M7cW": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_FjN8Wg": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Vu dans",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_FjN8Wg"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "image_link_blocks_43GrkJ": {
@@ -1087,8 +1094,8 @@
     }
   },
   "order": [
+    "media_with_text_gwfhGd",
     "slideshow",
-    "rich_text_f9M7cW",
     "image_link_blocks_43GrkJ",
     "scrolling-text",
     "featured-collection",
