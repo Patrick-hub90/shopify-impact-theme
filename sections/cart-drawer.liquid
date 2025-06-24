@@ -145,21 +145,45 @@
         {%- endif -%}
       </div>
 
-      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
-        {%- assign checkout_label = 'cart.general.checkout' | t -%}
+      <!-- Optimisations CRO -->
+      <div class="trust-badges" style="display: flex; justify-content: center; gap: 15px; margin: 15px 0; flex-wrap: wrap;">
+        <div class="trust-badge" style="display: flex; align-items: center; gap: 5px;">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/shield-check.svg" alt="Paiement sécurisé" width="20" height="20">
+          <span style="font-size: 0.85em;">Paiement sécurisé</span>
+        </div>
+        <div class="trust-badge" style="display: flex; align-items: center; gap: 5px;">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/truck-fast.svg" alt="Livraison rapide" width="20" height="20">
+          <span style="font-size: 0.85em;">Livraison rapide</span>
+        </div>
+        <div class="trust-badge" style="display: flex; align-items: center; gap: 5px;">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/undo.svg" alt="Retours faciles" width="20" height="20">
+          <span style="font-size: 0.85em;">Retours faciles</span>
+        </div>
+      </div>
 
-        {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
-          <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>
-            {{- 'cart.general.view_cart' | t -}}
-          </a>
-        {%- endif -%}
-
-        {%- if section.settings.show_checkout_button -%}
-          {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
-        {%- endif -%}
+      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons">
+        <!-- Bouton unique pour maximiser la conversion -->
+        {%- render 'button', 
+          type: 'submit', 
+          content: 'Continuer vers le paiement sécurisé', 
+          icon: 'picto-lock', 
+          name: 'checkout', 
+          size: 'xl',
+          style: 'background-color: #4CAF50; color: white; font-weight: bold; width: 100%; margin-top: 10px;'
+        -%}
       </form>
+
+      <!-- Message d'urgence pour stimuler l'action -->
+      <div class="urgency-message" style="background-color: #FFF8E1; padding: 10px; border-radius: 4px; text-align: center; margin: 15px 0;">
+        <p style="margin: 0; font-weight: bold; color: #E65100;">
+          ⚡ Commandé aujourd'hui, expédié demain !
+          <span style="display: block; font-size: 0.9em; font-weight: normal; color: #333; margin-top: 5px;">
+            Plus que {{ 5 | minus: cart.item_count }} articles pour la livraison gratuite
+          </span>
+        </p>
+      </div>
       
-      <!-- Début des logos de paiement et garantie -->
+      <!-- Logos de paiement et garantie -->
       <div class="payment-icons-wrapper" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 15px;">
         <div class="payment-icon">
           <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_12_small_ba88b7ee-8809-49b7-b380-b932961e5adf.svg?v=1750452002" alt="Visa" width="40" height="25">
@@ -190,8 +214,9 @@
         </div>
       </div>
       
-      <p style="text-align: center; margin-top: 10px; font-size: 0.9em;">Retours sans risque pendant 30 jours | Assistance 24h/24 et 7j/7</p>
-      <!-- Fin des logos de paiement et garantie -->
+      <p style="text-align: center; margin-top: 10px; font-size: 0.9em; padding: 0 10px;">
+        🔒 Retours sans risque pendant 30 jours | Assistance 24h/24 et 7j/7
+      </p>
     </div>
   {%- endif -%}
 </cart-drawer>
@@ -220,6 +245,38 @@
     width: 40px;
     height: 25px;
     object-fit: contain;
+  }
+  
+  /* Animation pour le bouton principal */
+  .buy-buttons button {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .buy-buttons button:after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%
+    );
+  }
+  
+  .buy-buttons button:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition: all 0.7s ease;
   }
 </style>
 
@@ -251,7 +308,7 @@
       "type": "checkbox",
       "id": "show_view_cart_button",
       "label": "Show view cart button",
-      "default": true
+      "default": false
     },
     {
       "type": "checkbox",
