@@ -1,4 +1,4 @@
-{%- if section.settings.text != blank -%}
+{%- if section.blocks.size > 0 -%}
   {%- render 'section-spacing-collapsing' -%}
 
   <style>
@@ -12,6 +12,26 @@
         --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.5rem{% elsif section.settings.text_size == 'small' %}3.75rem{% elsif section.settings.text_size == 'medium' %}5rem{% elsif section.settings.text_size == 'large' %}8.75rem{% else %}12.5rem{% endif %};
       }
     }
+
+    .scrolling-text__item {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 2rem;
+      white-space: nowrap;
+    }
+
+    .scrolling-text__logo {
+      display: flex;
+      align-items: center;
+      height: calc(var(--scrolling-text-font-size) * 1.2);
+    }
+
+    .scrolling-text__logo img {
+      height: 100%;
+      width: auto;
+      max-width: 200px;
+      object-fit: contain;
+    }
   </style>
 
   {%- if section.settings.text_size == 'xsmall' -%}
@@ -20,30 +40,43 @@
 
   <div {% render 'section-properties', tight: is_tight %}>
     {%- capture section_content -%}
-      {%- for i in (1..10) -%}
-        <span class="scrolling-text__text heading {% unless forloop.first %}motion-reduce:hidden{% endunless %}" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
-          {%- render 'styled-text', content: section.settings.text, gradient: section.settings.text_gradient, style: section.settings.text_style -%}
+      {%- for block in section.blocks -%}
+        <span class="scrolling-text__item">
+          {%- case block.type -%}
+            {%- when 'text' -%}
+              <span class="scrolling-text__text heading">
+                {%- render 'styled-text', content: block.settings.text, gradient: section.settings.text_gradient, style: block.settings.text_style -%}
+              </span>
+            
+            {%- when 'logo' -%}
+              <div class="scrolling-text__logo">
+                {%- if block.settings.image != blank -%}
+                  {{ block.settings.image | image_url: width: 400 | image_tag: 
+                    loading: 'lazy', 
+                    alt: block.settings.image.alt | escape 
+                  }}
+                {%- endif -%}
+              </div>
+          {%- endcase -%}
         </span>
       {%- endfor -%}
     {%- endcapture -%}
 
-    <div class="scrolling-text {% if section.settings.scrolling_mode == 'scroll' %}scrolling-text--scroll{% else %}scrolling-text--auto{% endif %}">
-      {%- if section.settings.scrolling_mode == 'scroll' -%}
-        <visibility-progress class="scrolling-text__wrapper">
-          {{- section_content -}}
-        </visibility-progress>
-       {%- else -%}
-         <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="scrolling-text__wrapper">
-           {{- section_content -}}
-         </marquee-text>
-      {%- endif -%}
+    <div class="scrolling-text scrolling-text--auto">
+      <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="scrolling-text__wrapper">
+        {%- for i in (1..10) -%}
+          <span class="announcement-bar__item" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
+            {{- section_content -}}
+          </span>
+        {%- endfor -%}
+      </marquee-text>
     </div>
   </div>
 {%- endif -%}
 
 {% schema %}
 {
-  "name": "Scrolling text",
+  "name": "Scrolling bandeau",
   "class": "shopify-section--scrolling-text",
   "tag": "section",
   "disabled_on": {
@@ -53,74 +86,36 @@
     {
       "type": "checkbox",
       "id": "full_width",
-      "label": "Full width",
+      "label": "Pleine largeur",
       "default": true
-    },
-    {
-      "type": "text",
-      "id": "text",
-      "label": "Text",
-      "default": "Promotion text"
     },
     {
       "type": "select",
       "id": "text_size",
-      "label": "Text size",
+      "label": "Taille du texte",
       "options": [
         {
           "value": "xsmall",
-          "label": "X-Small"
+          "label": "Très petit"
         },
         {
           "value": "small",
-          "label": "Small"
+          "label": "Petit"
         },
         {
           "value": "medium",
-          "label": "Medium"
+          "label": "Moyen"
         },
         {
           "value": "large",
-          "label": "Large"
+          "label": "Grand"
         },
         {
           "value": "xlarge",
-          "label": "X-Large"
+          "label": "Très grand"
         }
       ],
       "default": "large"
-    },
-    {
-      "type": "select",
-      "id": "text_style",
-      "label": "Text style",
-      "options": [
-        {
-          "value": "outline",
-          "label": "Outline"
-        },
-        {
-          "value": "fill",
-          "label": "Fill"
-        }
-      ],
-      "default": "fill"
-    },
-    {
-      "type": "select",
-      "id": "scrolling_mode",
-      "label": "Scrolling mode",
-      "options": [
-        {
-          "value": "auto",
-          "label": "Automatic"
-        },
-        {
-          "value": "scroll",
-          "label": "On scroll"
-        }
-      ],
-      "default": "auto"
     },
     {
       "type": "range",
@@ -129,38 +124,104 @@
       "max": 20,
       "step": 1,
       "unit": "s",
-      "label": "Automatic scrolling speed",
+      "label": "Vitesse de défilement",
       "default": 10
     },
     {
       "type": "header",
-      "content": "Colors",
-      "info": "Gradient replaces solid colors when set. Gradient text outline and gradient background cannot be combined."
+      "content": "Couleurs",
+      "info": "Le dégradé remplace les couleurs unies lorsqu'il est défini."
     },
     {
       "type": "color",
       "id": "background",
-      "label": "Background"
+      "label": "Arrière-plan"
     },
     {
       "type": "color_background",
       "id": "background_gradient",
-      "label": "Background gradient"
+      "label": "Dégradé d'arrière-plan"
     },
     {
       "type": "color",
       "id": "text_color",
-      "label": "Text"
+      "label": "Texte"
     },
     {
       "type": "color_background",
       "id": "text_gradient",
-      "label": "Text gradient"
+      "label": "Dégradé de texte"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Texte",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texte",
+          "default": "Promotion"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Style de texte",
+          "options": [
+            {
+              "value": "outline",
+              "label": "Contour"
+            },
+            {
+              "value": "fill",
+              "label": "Rempli"
+            }
+          ],
+          "default": "fill"
+        }
+      ]
+    },
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Utilisez une image avec fond transparent pour de meilleurs résultats"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Scrolling text"
+      "name": "Bandeau défilant",
+      "blocks": [
+        {
+          "type": "text",
+          "settings": {
+            "text": "Nouvelle collection"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "• SOLDE •"
+          }
+        },
+        {
+          "type": "logo",
+          "settings": {}
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Livraison gratuite"
+          }
+        }
+      ]
     }
   ]
 }
