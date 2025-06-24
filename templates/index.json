@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "scrolling_text_mRT6GK": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "rich_text_6PmQaM": {
       "type": "rich-text",
       "blocks": {
@@ -771,6 +787,7 @@
     }
   },
   "order": [
+    "scrolling_text_mRT6GK",
     "rich_text_6PmQaM",
     "impact_text_HhCW7h",
     "text_with_icons_B33DrW",
