@@ -32,18 +32,31 @@ CSS
       }
     }
   {%- endfor -%}
+@media screen and (max-width: 999px) {
+    {%- for block in section.blocks -%}
+      #block-{{ section.id }}-{{ block.id }}.mobile-content-first {
+        --media-with-text-item-grid-template: "content" "media" / auto;
+      }
+    {%- endfor -%}
+  }
+@media screen and (max-width: 999px) {
+    {%- for block in section.blocks -%}
+      #block-{{ section.id }}-{{ block.id }}.mobile-content-first {
+        --media-with-text-item-grid-template: "content" "media" / auto;
+      }
+    {%- endfor -%}
+  }
 </style>
-
-{%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-LIQUID
-------------------------------------------------------------------------------------------------------------------------
-{%- endcomment -%}
 
 <div {% render 'section-properties' %}>
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
-      <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item" {{ block.shopify_attributes }}>
+      {%- assign mobile_class = '' -%}
+      {%- if block.settings.mobile_order == 'content_first' -%}
+        {%- assign mobile_class = 'mobile-content-first' -%}
+      {%- endif -%}
+      
+      <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item {{ mobile_class }}" {{ block.shopify_attributes }}>
         <div class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
           {%- if block.type == 'image' -%}
             {%- if block.settings.image != blank -%}
@@ -119,8 +132,13 @@ LIQUID
             {%- endif -%}
 
             {{- block.settings.content -}}
+ {% if block.settings.custom_liquid != blank %}
+    <div class="custom-liquid">
+      {{ block.settings.custom_liquid }}
+    </div>
+  {% endif %}
 
-            {%- if block.settings.link_text != blank -%}
+  {%- if block.settings.link_text != blank -%}
               {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'xl', background: block.settings.button_background, text_color: block.settings.button_text_color -%}
             {%- endif -%}
           </div>
@@ -599,7 +617,28 @@ LIQUID
           "type": "color",
           "id": "button_text_color",
           "label": "Button text"
+        },{
+      "type": "select",
+      "id": "mobile_order",
+      "label": "Ordre mobile",
+      "options": [
+        {
+          "value": "media_first",
+          "label": "Media d'abord"
+        },
+        {
+          "value": "content_first",
+          "label": "Contenu d'abord"
         }
+      ],
+      "default": "media_first"
+    },
+    {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "Liquid personnalisé",
+      "info": "Ajoutez du code Liquid personnalisé ici"
+    }
       ]
     },
     {
