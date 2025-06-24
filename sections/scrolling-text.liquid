@@ -1,15 +1,27 @@
-{%- if section.settings.text != blank -%}
+{%- if section.settings.text_1 != blank or section.settings.text_2 != blank or section.settings.text_3 != blank -%}
   {%- render 'section-spacing-collapsing' -%}
 
   <style>
     #shopify-section-{{ section.id }} {
       --section-spacing-inline: 0;
-      --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.125rem{% elsif section.settings.text_size == 'small' %}2.5rem{% elsif section.settings.text_size == 'medium' %}3.75rem{% elsif section.settings.text_size == 'large' %}5rem{% else %}7.5rem{% endif %};
+      --scrolling-text-font-size: {% case section.settings.text_size %}
+        {% when 'xsmall' %}1.125rem
+        {% when 'small' %}2.5rem
+        {% when 'medium' %}3.75rem
+        {% when 'large' %}5rem
+        {% else %}7.5rem
+      {% endcase %};
     }
 
     @media screen and (min-width: 700px) {
       #shopify-section-{{ section.id }} {
-        --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.5rem{% elsif section.settings.text_size == 'small' %}3.75rem{% elsif section.settings.text_size == 'medium' %}5rem{% elsif section.settings.text_size == 'large' %}8.75rem{% else %}12.5rem{% endif %};
+        --scrolling-text-font-size: {% case section.settings.text_size %}
+          {% when 'xsmall' %}1.5rem
+          {% when 'small' %}3.75rem
+          {% when 'medium' %}5rem
+          {% when 'large' %}8.75rem
+          {% else %}12.5rem
+        {% endcase %};
       }
     }
   </style>
@@ -20,10 +32,17 @@
 
   <div {% render 'section-properties', tight: is_tight %}>
     {%- capture section_content -%}
-      {%- for i in (1..10) -%}
-        <span class="scrolling-text__text heading {% unless forloop.first %}motion-reduce:hidden{% endunless %}" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
-          {%- render 'styled-text', content: section.settings.text, gradient: section.settings.text_gradient, style: section.settings.text_style -%}
-        </span>
+      {%- assign texts = '' | split: '' -%}
+      {%- if section.settings.text_1 != blank -%}{%- assign texts = texts | push: section.settings.text_1 -%}{%- endif -%}
+      {%- if section.settings.text_2 != blank -%}{%- assign texts = texts | push: section.settings.text_2 -%}{%- endif -%}
+      {%- if section.settings.text_3 != blank -%}{%- assign texts = texts | push: section.settings.text_3 -%}{%- endif -%}
+
+      {%- for text in texts -%}
+        {%- for i in (1..10) -%}
+          <span class="scrolling-text__text heading {% unless forloop.first %}motion-reduce:hidden{% endunless %}" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
+            {%- render 'styled-text', content: text, gradient: section.settings.text_gradient, style: section.settings.text_style -%}
+          </span>
+        {%- endfor -%}
       {%- endfor -%}
     {%- endcapture -%}
 
@@ -58,35 +77,32 @@
     },
     {
       "type": "text",
-      "id": "text",
-      "label": "Text",
-      "default": "Promotion text"
+      "id": "text_1",
+      "label": "Text 1",
+      "default": "Promotion text 1"
+    },
+    {
+      "type": "text",
+      "id": "text_2",
+      "label": "Text 2",
+      "default": "Promotion text 2"
+    },
+    {
+      "type": "text",
+      "id": "text_3",
+      "label": "Text 3",
+      "default": "Promotion text 3"
     },
     {
       "type": "select",
       "id": "text_size",
       "label": "Text size",
       "options": [
-        {
-          "value": "xsmall",
-          "label": "X-Small"
-        },
-        {
-          "value": "small",
-          "label": "Small"
-        },
-        {
-          "value": "medium",
-          "label": "Medium"
-        },
-        {
-          "value": "large",
-          "label": "Large"
-        },
-        {
-          "value": "xlarge",
-          "label": "X-Large"
-        }
+        { "value": "xsmall", "label": "X-Small" },
+        { "value": "small", "label": "Small" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "large", "label": "Large" },
+        { "value": "xlarge", "label": "X-Large" }
       ],
       "default": "large"
     },
@@ -95,14 +111,8 @@
       "id": "text_style",
       "label": "Text style",
       "options": [
-        {
-          "value": "outline",
-          "label": "Outline"
-        },
-        {
-          "value": "fill",
-          "label": "Fill"
-        }
+        { "value": "outline", "label": "Outline" },
+        { "value": "fill", "label": "Fill" }
       ],
       "default": "fill"
     },
@@ -111,14 +121,8 @@
       "id": "scrolling_mode",
       "label": "Scrolling mode",
       "options": [
-        {
-          "value": "auto",
-          "label": "Automatic"
-        },
-        {
-          "value": "scroll",
-          "label": "On scroll"
-        }
+        { "value": "auto", "label": "Automatic" },
+        { "value": "scroll", "label": "On scroll" }
       ],
       "default": "auto"
     },
