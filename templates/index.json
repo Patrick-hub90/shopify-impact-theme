@@ -168,41 +168,67 @@
     "avis_expert_r6rYXJ": {
       "type": "avis-expert",
       "blocks": {
-        "review_q7ymdJ": {
-          "type": "review",
+        "expert_KN6zFt": {
+          "type": "expert",
           "settings": {
-            "doctor_image": "shopify://shop_images/0616.jpg",
-            "review_text": "<p>En tant que dermatologue certifié avec plus de 15 ans d'expérience clinique, je recommande le <strong>kit de soulagement de la cellulite</strong> aux patients à la recherche de solutions efficaces à domicile contre la cellulite et le relâchement cutané.</p>",
-            "signature_image": "shopify://shop_images/Vector_1_small_0d864a32-4015-4142-922f-1e1acff76226.svg",
-            "doctor_name": "Dr Emily Shaffer, MD, PhD",
-            "doctor_specialty": "Dermatologue spécialiste agréé"
+            "image": "shopify://shop_images/WhatsApp-kep_2024-12-27_03.59.55_6d655fb3_2_2025-06-24_15-36-08.png",
+            "title": "Dr. Sophie Martin",
+            "specialty": "Cardiologue",
+            "hospital": "Hôpital Saint-Louis, Paris",
+            "rating": 0,
+            "content": "<h6>Ce produit représente une avancée significative dans son domaine. Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
+            "link_text": "Voir le profil complet",
+            "link_url": "",
+            "column_size": "3"
           }
         },
-        "review_BLjeeG": {
-          "type": "review",
+        "expert_yFdrXx": {
+          "type": "expert",
           "settings": {
-            "review_text": "<p>En tant que dermatologue certifié avec plus de 15 ans d'expérience clinique, je recommande le <strong>kit de soulagement de la cellulite</strong> aux patients à la recherche de solutions efficaces à domicile contre la cellulite et le relâchement cutané.</p>",
-            "doctor_name": "Dr Emily Shaffer, MD, PhD",
-            "doctor_specialty": "Dermatologue spécialiste agréé"
+            "image": "shopify://shop_images/WhatsApp-kep_2024-12-27_03.59.55_6d655fb3_2_2025-06-24_15-36-08.png",
+            "title": "Dr. Sophie Martin",
+            "specialty": "Cardiologue",
+            "hospital": "Hôpital Saint-Louis, Paris",
+            "rating": 0,
+            "content": "<h6>Ce produit représente une avancée significative dans son domaine. Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
+            "link_text": "Voir le profil complet",
+            "link_url": "",
+            "column_size": "3"
           }
         },
-        "review_EVV74g": {
-          "type": "review",
+        "expert_MwjLTb": {
+          "type": "expert",
           "settings": {
-            "review_text": "<p>En tant que dermatologue certifié avec plus de 15 ans d'expérience clinique, je recommande le <strong>kit de soulagement de la cellulite</strong> aux patients à la recherche de solutions efficaces à domicile contre la cellulite et le relâchement cutané.</p>",
-            "doctor_name": "Dr Emily Shaffer, MD, PhD",
-            "doctor_specialty": "Dermatologue spécialiste agréé"
+            "image": "shopify://shop_images/WhatsApp-kep_2024-12-27_03.59.55_6d655fb3_2_2025-06-24_15-36-08.png",
+            "title": "Dr. Sophie Martin",
+            "specialty": "Cardiologue",
+            "hospital": "Hôpital Saint-Louis, Paris",
+            "rating": 0,
+            "content": "<h6>Ce produit représente une avancée significative dans son domaine. Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
+            "link_text": "Voir le profil complet",
+            "link_url": "",
+            "column_size": "3"
           }
         }
       },
       "block_order": [
-        "review_q7ymdJ",
-        "review_BLjeeG",
-        "review_EVV74g"
+        "expert_KN6zFt",
+        "expert_yFdrXx",
+        "expert_MwjLTb"
       ],
       "name": "Avis d'Experts",
       "settings": {
-        "section_title": "Ce que disent les experts à propos de SheVitality"
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "Expertise médicale",
+        "title": "Avis de nos experts",
+        "content": "<p>Nos médecins spécialistes partagent leur expertise</p>",
+        "badge_color": "#0d9488",
+        "badge_text_color": "#ffffff",
+        "background": "#f9fafb",
+        "text_color": "#1f2937"
       }
     }
   },
