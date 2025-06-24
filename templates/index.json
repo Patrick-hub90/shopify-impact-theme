@@ -215,6 +215,119 @@
         "background": "#fff9f6",
         "text_color": "#1f2937"
       }
+    },
+    "rich_text_P3Vg8h": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_gjxYWE": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h2>Cibler <span style=\"color: #FF546E\">chaque</span> centimètre</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_gjxYWE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_D63p83": {
+      "type": "multi-column",
+      "blocks": {
+        "item_TR38gT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_e6cceda9-3422-4bb0-b56a-29d1177cc9bf.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_DcBAFt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_0c617c4d-93dc-4fbd-8242-09a137108b1c.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_7yD6TJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_c22c2e3f-c756-4bc8-9360-f1457bb5d8d6.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MWTLat": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5_c93c2f60-6093-4cdf-9f9d-548621a9c4da.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_9iVHNt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4_ee8380da-2bb1-47d9-a3f9-66cbe0164c9c.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_TR38gT",
+        "item_DcBAFt",
+        "item_7yD6TJ",
+        "item_MWTLat",
+        "item_9iVHNt"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -223,6 +336,8 @@
     "media_with_text_Q6FLHk",
     "scrolling_text_YUYDpc",
     "custom_liquid_kMdNiP",
-    "avis_expert_r6rYXJ"
+    "avis_expert_r6rYXJ",
+    "rich_text_P3Vg8h",
+    "multi_column_D63p83"
   ]
 }
