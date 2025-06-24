@@ -1,75 +1,279 @@
-{%- if section.blocks.size > 0 -%}
-  {%- render 'section-spacing-collapsing' -%}
+{% comment %}
+  Section: Expert Reviews Carousel
+  Description: Affiche des avis d'experts sous forme de carrousel horizontal
+{% endcomment %}
 
-  <style>
-    #shopify-section-{{ section.id }} {
-      --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
-      --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
+{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
+
+<style>
+  .expert-reviews-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-header h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-header h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #ff6b6b;
+  }
+  
+  .reviews-container {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .swiper {
+    padding: 30px 10px 60px;
+  }
+  
+  .review-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.4s ease;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(255, 107, 107, 0.15);
+  }
+  
+  .review-image {
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #fff5f7 0%, #f8f9fa 100%);
+  }
+  
+  .review-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .review-card:hover .review-image img {
+    transform: scale(1.05);
+  }
+  
+  .review-content {
+    padding: 30px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 25px;
+    flex-grow: 1;
+  }
+  
+  .review-text strong {
+    color: #ff6b6b;
+    font-weight: 600;
+  }
+  
+  .review-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: auto;
+  }
+  
+  .signature {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff5f7;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .signature img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .author-info h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 5px 0;
+  }
+  
+  .author-info p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    color: #ff6b6b;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background: #ff6b6b;
+    color: white;
+    border-color: #ff6b6b;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: #ddd;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #ff6b6b;
+  }
+  
+  @media (max-width: 768px) {
+    .section-header h2 {
+      font-size: 26px;
     }
     
-    /* Ajout des styles pour la couleur de fond des blocs */
-    {%- for block in section.blocks -%}
-      {%- if block.type == 'item' and block.settings.block_background != blank -%}
-        #shopify-section-{{ section.id }} .block-{{ block.id }} {
-          background-color: {{ block.settings.block_background }};
-          padding: 16px;
-          border-radius: 12px;
-        }
-      {%- endif -%}
-    {%- endfor -%}
-  </style>
+    .swiper {
+      padding: 30px 0 60px;
+    }
+    
+    .swiper-button-prev,
+    .swiper-button-next {
+      display: none;
+    }
+  }
+</style>
 
-  <div {% render 'section-properties' %}>
-    <div class="section-stack">
-      {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
-
-      <div class="multi-column scroll-area bleed md:unbleed">
-        {%- for block in section.blocks -%}
-          {%- case block.type -%}
-            {%- when 'item' -%}
-              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start block-{{ block.id }} {% if block.settings.block_background != blank %}has-background{% endif %}" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
-                {%- if block.settings.video != blank -%}
-                  <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
-                    {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
-                  </video-media>
-                {%- elsif block.settings.image != blank -%}
-                  {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
-                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
-                {%- endif -%}
-
-                {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
-                  <div class="v-stack gap-4 text-{{ section.settings.text_alignment }}">
-                    {%- if block.settings.title != blank -%}
-                      <p class="{{ block.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
-                    {%- endif -%}
-
-                    {%- if block.settings.content != blank or block.settings.link_text != blank -%}
-                      <div class="prose">
-                        {{- block.settings.content -}}
-
-                        {%- if block.settings.link_text != blank -%}
-                          <div>
-                            {%- if block.settings.link_style == 'link' -%}
-                              <a href="{{ block.settings.link_url }}" class="link">{{ block.settings.link_text | escape }}</a>
-                            {%- else -%}
-                              {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'lg' -%}
-                            {%- endif -%}
-                          </div>
-                        {%- endif -%}
-                      </div>
-                    {%- endif -%}
+<div class="expert-reviews-section">
+  <div class="section-header">
+    <h2>{{ section.settings.section_title }}</h2>
+  </div>
+  
+  <div class="reviews-container">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <div class="review-card">
+              <div class="review-image">
+                {% if block.settings.doctor_image %}
+                  <img src="{{ block.settings.doctor_image | img_url: '600x600' }}" 
+                       alt="{{ block.settings.doctor_name }}" 
+                       loading="lazy">
+                {% else %}
+                  <div style="background: #f0f0f0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #999;">
+                    Image de l'expert
                   </div>
-                {%- endif -%}
+                {% endif %}
               </div>
-
-            {%- when 'spacer' -%}
-              <div class="multi-column__item hidden md:block" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}></div>
-          {%- endcase -%}
-        {%- endfor -%}
+              
+              <div class="review-content">
+                <div class="review-text">
+                  {{ block.settings.review_text }}
+                </div>
+                
+                <div class="review-author">
+                  {% if block.settings.signature_image %}
+                    <div class="signature">
+                      <img src="{{ block.settings.signature_image | img_url: '100x100' }}" 
+                           alt="Signature" 
+                           loading="lazy">
+                    </div>
+                  {% endif %}
+                  
+                  <div class="author-info">
+                    <h4>{{ block.settings.doctor_name }}</h4>
+                    <p>{{ block.settings.doctor_specialty }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
+      
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
   </div>
-{%- endif -%}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        }
+      }
+    });
+  });
+</script>
 
 {% schema %}
 {
@@ -80,11 +284,6 @@
       "id": "section_title",
       "label": "Titre de la section",
       "default": "Ce que disent les experts à propos de SheVitality"
-    },{
-      "type": "color",
-      "id": "block_background",
-      "label": "Background color",
-      "default": "#ffffff"
     }
   ],
   "blocks": [
