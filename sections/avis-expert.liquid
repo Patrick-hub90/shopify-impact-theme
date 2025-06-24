@@ -1,6 +1,6 @@
 {% comment %}
   Section: Expert Reviews Carousel
-  Description: Affiche des avis d'experts sous forme de carrousel horizontal
+  Description: Affiche des avis d'experts sous forme de carrousel ou de grille
 {% endcomment %}
 
 {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
@@ -15,8 +15,15 @@
   }
   
   .section-header {
-    text-align: center;
+    text-align: {{ section.settings.text_alignment }};
     margin-bottom: 50px;
+  }
+  
+  .section-header .subheading {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+    display: block;
   }
   
   .section-header h2 {
@@ -27,15 +34,12 @@
     display: inline-block;
   }
   
-  .section-header h2:after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background: #ff6b6b;
+  .section-header .description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
   }
   
   .reviews-container {
@@ -51,16 +55,11 @@
     background: white;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    border: 1px solid #f0f0f0;
     transition: all 0.4s ease;
     height: auto;
     display: flex;
     flex-direction: column;
-  }
-  
-  .review-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(255, 107, 107, 0.15);
   }
   
   .review-image {
@@ -77,10 +76,6 @@
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
-  }
-  
-  .review-card:hover .review-image img {
-    transform: scale(1.05);
   }
   
   .review-content {
@@ -145,8 +140,7 @@
     border-radius: 50%;
     background: white;
     border: 1px solid #ddd;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    color: #ff6b6b;
+    color: {{ section.settings.arrow_color }};
     transition: all 0.3s ease;
   }
   
@@ -158,9 +152,9 @@
   
   .swiper-button-prev:hover,
   .swiper-button-next:hover {
-    background: #ff6b6b;
+    background: {{ section.settings.arrow_color }};
     color: white;
-    border-color: #ff6b6b;
+    border-color: {{ section.settings.arrow_color }};
   }
   
   .swiper-pagination-bullet {
@@ -171,10 +165,27 @@
   }
   
   .swiper-pagination-bullet-active {
-    background: #ff6b6b;
+    background: {{ section.settings.arrow_color }};
   }
-  
+
+  /* Stack mode */
+  .reviews-stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  @media (max-width: 1024px) {
+    .reviews-stack {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   @media (max-width: 768px) {
+    .reviews-stack {
+      grid-template-columns: 1fr;
+    }
+    
     .section-header h2 {
       font-size: 26px;
     }
@@ -192,86 +203,137 @@
 
 <div class="expert-reviews-section">
   <div class="section-header">
+    {%- if section.settings.subheading != blank -%}
+      <span class="subheading">{{ section.settings.subheading }}</span>
+    {%- endif -%}
+    
     <h2>{{ section.settings.section_title }}</h2>
+    
+    {%- if section.settings.description != blank -%}
+      <div class="description">{{ section.settings.description }}</div>
+    {%- endif -%}
   </div>
   
   <div class="reviews-container">
-    <div class="swiper">
-      <div class="swiper-wrapper">
+    {% if section.settings.stack_on_mobile %}
+      <div class="reviews-stack">
         {% for block in section.blocks %}
-          <div class="swiper-slide">
-            <div class="review-card">
-              <div class="review-image">
-                {% if block.settings.doctor_image %}
-                  <img src="{{ block.settings.doctor_image | img_url: '600x600' }}" 
-                       alt="{{ block.settings.doctor_name }}" 
-                       loading="lazy">
-                {% else %}
-                  <div style="background: #f0f0f0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #999;">
-                    Image de l'expert
-                  </div>
-                {% endif %}
+          <div class="review-card">
+            <div class="review-image">
+              {% if block.settings.doctor_image %}
+                <img src="{{ block.settings.doctor_image | img_url: '600x600' }}" 
+                     alt="{{ block.settings.doctor_name }}" 
+                     loading="lazy">
+              {% else %}
+                <div style="background: #f0f0f0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #999;">
+                  Image de l'expert
+                </div>
+              {% endif %}
+            </div>
+            
+            <div class="review-content">
+              <div class="review-text">
+                {{ block.settings.review_text }}
               </div>
               
-              <div class="review-content">
-                <div class="review-text">
-                  {{ block.settings.review_text }}
-                </div>
-                
-                <div class="review-author">
-                  {% if block.settings.signature_image %}
-                    <div class="signature">
-                      <img src="{{ block.settings.signature_image | img_url: '100x100' }}" 
-                           alt="Signature" 
-                           loading="lazy">
-                    </div>
-                  {% endif %}
-                  
-                  <div class="author-info">
-                    <h4>{{ block.settings.doctor_name }}</h4>
-                    <p>{{ block.settings.doctor_specialty }}</p>
+              <div class="review-author">
+                {% if block.settings.signature_image %}
+                  <div class="signature">
+                    <img src="{{ block.settings.signature_image | img_url: '100x100' }}" 
+                         alt="Signature" 
+                         loading="lazy">
                   </div>
+                {% endif %}
+                
+                <div class="author-info">
+                  <h4>{{ block.settings.doctor_name }}</h4>
+                  <p>{{ block.settings.doctor_specialty }}</p>
                 </div>
               </div>
             </div>
           </div>
         {% endfor %}
       </div>
-      
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
+    {% else %}
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <div class="review-card">
+                <div class="review-image">
+                  {% if block.settings.doctor_image %}
+                    <img src="{{ block.settings.doctor_image | img_url: '600x600' }}" 
+                         alt="{{ block.settings.doctor_name }}" 
+                         loading="lazy">
+                  {% else %}
+                    <div style="background: #f0f0f0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #999;">
+                      Image de l'expert
+                    </div>
+                  {% endif %}
+                </div>
+                
+                <div class="review-content">
+                  <div class="review-text">
+                    {{ block.settings.review_text }}
+                  </div>
+                  
+                  <div class="review-author">
+                    {% if block.settings.signature_image %}
+                      <div class="signature">
+                        <img src="{{ block.settings.signature_image | img_url: '100x100' }}" 
+                             alt="Signature" 
+                             loading="lazy">
+                      </div>
+                    {% endif %}
+                    
+                    <div class="author-info">
+                      <h4>{{ block.settings.doctor_name }}</h4>
+                      <p>{{ block.settings.doctor_specialty }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    {% endif %}
   </div>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const swiper = new Swiper('.swiper', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 30,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
+    {% unless section.settings.stack_on_mobile %}
+      const swiper = new Swiper('.swiper', {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
         },
-        1024: {
-          slidesPerView: 3,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          }
         }
-      }
-    });
+      });
+    {% endunless %}
   });
 </script>
 
@@ -281,9 +343,53 @@
   "settings": [
     {
       "type": "text",
+      "id": "subheading",
+      "label": "Sous-titre",
+      "default": "Témoignages"
+    },
+    {
+      "type": "text",
       "id": "section_title",
-      "label": "Titre de la section",
+      "label": "Titre",
       "default": "Ce que disent les experts à propos de SheVitality"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Découvrez ce que les professionnels de santé pensent de nos produits</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Alignement du texte",
+      "options": [
+        {
+          "value": "left",
+          "label": "Gauche"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        },
+        {
+          "value": "right",
+          "label": "Droite"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Empiler verticalement sur mobile",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "arrow_color",
+      "label": "Couleur des flèches",
+      "default": "#ff6b6b"
     }
   ],
   "blocks": [
