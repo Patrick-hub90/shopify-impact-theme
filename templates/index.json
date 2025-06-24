@@ -118,6 +118,147 @@
         "product_card_text_color": ""
       }
     },
+    "rich_text_bEcXrX": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_jHTwQV": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h2>Transformations avec <span style=\"color: #FF546E\">LE KIT VELAURA </span></h2>"
+          }
+        },
+        "richtext_CzVbF8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>VOYEZ LES RÉSULTATS APRES SEULEMENT 3 SEMAINES</p>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_jHTwQV",
+        "richtext_CzVbF8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "after_testimony_bfDxNe": {
+      "type": "after-testimony",
+      "blocks": {
+        "item_TG9wMa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/T4SJJR7GGX.jpg",
+            "column_size": "3",
+            "title": "Trop contente, je vous assure......",
+            "heading_tag": "h4",
+            "content": "<p>Alors là, je suis scotchée ! J'ai reçu mon kit il y a 3 semaines et franchement, je ne m'attendais pas à des résultats aussi rapides. Mes cuisses étaient un vrai complexe, impossible de porter des shorts sans collants opaques. La première semaine, ma peau d'orange a vraiment diminué, surtout sur l'arrière des cuisses. Mon mari l'a même remarqué sans que je lui dise ! La ventouse, c'est très efficace. L'huile sent super bon, ça me détend. je le RECOMMENDE à 100%</p>",
+            "rating": 5,
+            "author": "Chloé R.",
+            "date": "Il y a deux jours",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_xDPnrB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_8__2025-06-22_19-08-01.png",
+            "column_size": "3",
+            "title": "Marche comme prévu",
+            "heading_tag": "h4",
+            "content": "<p>Franchement, j'ai commandé un peu par hasard après avoir vu une pub sur Facebook. Meilleure décision de l'année ! En 15 jours, ma cellulite surmon ventre a quasi disparu ! C'est dingue ! Ma peau n'a jamais été aussi belle ! MERCI Velaura!</p>",
+            "rating": 5,
+            "author": "Céline R.",
+            "date": "Il y a 1 semaine",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Djky9E": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-26_at_16.43.49.jpg",
+            "column_size": "3",
+            "title": "Bon achat !",
+            "heading_tag": "h4",
+            "content": "<p>Bon achat ! J'ai commandé le kit il y a 1 mois et les résultats sont là. Ma cellulite sur les cuisses s'améliore progressivement. Ce n'est pas spectaculaire mais il y a une vraie différence. J'aime bien faire la routine le soir, ça me détend après le boulot. L'huile sent bon et hydrate bien sans être grasse. La brosse est parfaite pour stimuler la circulation. La ventouse est très efficace. Ma peau s'améliore ! Je pense continuer sur la durée.</p>",
+            "rating": 5,
+            "author": "Ingrid K.",
+            "date": "Aujourd'hui",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Mz7y76": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Avant_9.png",
+            "column_size": "3",
+            "title": "Très bon kit dans l'ensemble !",
+            "heading_tag": "h4",
+            "content": "<p>Très bon kit dans l'ensemble ! Reçu en 4 jours, parfait. J'utilise depuis 2 semaines et les résultats sont au rendez-vous. Ma cellulite sur les hanches et cuisses s'estompe progressivement.  La brosse est parfaite pour le massage à sec le matin. La ventouse, il faut s'habituer mais c'est efficace.</p>",
+            "rating": 5,
+            "author": "Laura M.",
+            "date": "Il y a 1 mois",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JqQRMD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/EDc7yMd5xn.jpg",
+            "column_size": "3",
+            "title": "Je suis FAN !!",
+            "heading_tag": "h4",
+            "content": "<p>WOW WOW WOW ! Les filles, si vous hésitez encore, arrêtez tout et commandez ! J'ai 35 ans, 2 enfants, et ma cellulite c'était mon cauchemar depuis mes grossesses. Cuisses, fesses, hanches... un vrai champ de bataille ! Avec Velaura, en moins d'un mois, transformation TOTALE ! Ma peau est lisse, ferme, tonique. Je me sens enfin bien dans mon corps ! Ce qui m'a convaincue c'est l'approche scientifique, on comprend pourquoi ça marche. Et c'est naturel, ça c'est important pour moi. La routine est facile, 5 minutes c'est rien. Résultat : je porte enfin des shorts cet été ! MERCI !</p>",
+            "rating": 5,
+            "author": "Sophie L.",
+            "date": "Il y a 1 semaine",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_TG9wMa",
+        "item_xDPnrB",
+        "item_Djky9E",
+        "item_Mz7y76",
+        "item_JqQRMD"
+      ],
+      "name": "Multi-column avec avis",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "truncate_limit": 300,
+        "read_more_text": "Lire la suite...",
+        "truncate_height": 150,
+        "star_color": "#ff546e",
+        "meta_color": "#000000",
+        "read_more_color": "#000000",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_Q6FLHk": {
       "type": "media-with-text",
       "blocks": {
@@ -375,6 +516,8 @@
     "slideshow_zDiYF3",
     "scrolling_text_39EBVR",
     "featured_collection_a7zgYe",
+    "rich_text_bEcXrX",
+    "after_testimony_bfDxNe",
     "media_with_text_Q6FLHk",
     "scrolling_text_YUYDpc",
     "custom_liquid_kMdNiP",
