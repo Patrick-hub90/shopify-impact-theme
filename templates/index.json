@@ -174,9 +174,23 @@
             "image": "shopify://shop_images/0616.jpg",
             "title": "Dr. John Willardsen, MD, PhD",
             "specialty": "Dermatologue spécialiste agréé",
-            "hospital": "trustimplant.com",
+            "hospital": "",
             "rating": 0,
             "content": "<h6>Ce masseur représente une avancée significative dans le domaine du traitement de la cellulite . Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
+            "link_text": "",
+            "link_url": "",
+            "column_size": "3"
+          }
+        },
+        "expert_4ibHUx": {
+          "type": "expert",
+          "settings": {
+            "image": "shopify://shop_images/image_47_2.png",
+            "title": "Dr. Sophie Martin",
+            "specialty": "Médecin esthétique spécialisé",
+            "hospital": "",
+            "rating": 0,
+            "content": "<h6>Ce dispositif combine intelligemment plusieurs technologies reconnues pour cibler efficacement la cellulite.</h6>",
             "link_text": "",
             "link_url": "",
             "column_size": "3"
@@ -184,7 +198,8 @@
         }
       },
       "block_order": [
-        "expert_KN6zFt"
+        "expert_KN6zFt",
+        "expert_4ibHUx"
       ],
       "name": "Avis d'Experts",
       "settings": {
