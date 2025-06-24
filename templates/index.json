@@ -164,6 +164,46 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "avis_expert_r6rYXJ": {
+      "type": "avis-expert",
+      "blocks": {
+        "review_q7ymdJ": {
+          "type": "review",
+          "settings": {
+            "doctor_image": "shopify://shop_images/0616.jpg",
+            "review_text": "<p>En tant que dermatologue certifié avec plus de 15 ans d'expérience clinique, je recommande le <strong>kit de soulagement de la cellulite</strong> aux patients à la recherche de solutions efficaces à domicile contre la cellulite et le relâchement cutané.</p>",
+            "signature_image": "shopify://shop_images/Vector_1_small_0d864a32-4015-4142-922f-1e1acff76226.svg",
+            "doctor_name": "Dr Emily Shaffer, MD, PhD",
+            "doctor_specialty": "Dermatologue spécialiste agréé"
+          }
+        },
+        "review_BLjeeG": {
+          "type": "review",
+          "settings": {
+            "review_text": "<p>En tant que dermatologue certifié avec plus de 15 ans d'expérience clinique, je recommande le <strong>kit de soulagement de la cellulite</strong> aux patients à la recherche de solutions efficaces à domicile contre la cellulite et le relâchement cutané.</p>",
+            "doctor_name": "Dr Emily Shaffer, MD, PhD",
+            "doctor_specialty": "Dermatologue spécialiste agréé"
+          }
+        },
+        "review_EVV74g": {
+          "type": "review",
+          "settings": {
+            "review_text": "<p>En tant que dermatologue certifié avec plus de 15 ans d'expérience clinique, je recommande le <strong>kit de soulagement de la cellulite</strong> aux patients à la recherche de solutions efficaces à domicile contre la cellulite et le relâchement cutané.</p>",
+            "doctor_name": "Dr Emily Shaffer, MD, PhD",
+            "doctor_specialty": "Dermatologue spécialiste agréé"
+          }
+        }
+      },
+      "block_order": [
+        "review_q7ymdJ",
+        "review_BLjeeG",
+        "review_EVV74g"
+      ],
+      "name": "Avis d'Experts",
+      "settings": {
+        "section_title": "Ce que disent les experts à propos de SheVitality"
+      }
     }
   },
   "order": [
@@ -171,6 +211,7 @@
     "featured_collection_a7zgYe",
     "media_with_text_Q6FLHk",
     "scrolling_text_YUYDpc",
-    "custom_liquid_kMdNiP"
+    "custom_liquid_kMdNiP",
+    "avis_expert_r6rYXJ"
   ]
 }
