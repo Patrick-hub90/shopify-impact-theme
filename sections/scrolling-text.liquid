@@ -1,4 +1,4 @@
-{%- if section.settings.text != blank -%}
+{%- if section.blocks.size > 0 -%}
   {%- render 'section-spacing-collapsing' -%}
 
   <style>
@@ -21,9 +21,11 @@
   <div {% render 'section-properties', tight: is_tight %}>
     {%- capture section_content -%}
       {%- for i in (1..10) -%}
-        <span class="scrolling-text__text heading {% unless forloop.first %}motion-reduce:hidden{% endunless %}" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
-          {%- render 'styled-text', content: section.settings.text, gradient: section.settings.text_gradient, style: section.settings.text_style -%}
-        </span>
+        {%- for block in section.blocks -%}
+          <span class="scrolling-text__text heading {% unless forloop.parentloop.first %}motion-reduce:hidden{% endunless %}" {% unless forloop.parentloop.first %}aria-hidden="true"{% endunless %}>
+            {%- render 'styled-text', content: block.settings.text, gradient: block.settings.text_gradient, style: block.settings.text_style -%}
+          </span>
+        {%- endfor -%}
       {%- endfor -%}
     {%- endcapture -%}
 
@@ -57,12 +59,6 @@
       "default": true
     },
     {
-      "type": "text",
-      "id": "text",
-      "label": "Text",
-      "default": "Promotion text"
-    },
-    {
       "type": "select",
       "id": "text_size",
       "label": "Text size",
@@ -89,22 +85,6 @@
         }
       ],
       "default": "large"
-    },
-    {
-      "type": "select",
-      "id": "text_style",
-      "label": "Text style",
-      "options": [
-        {
-          "value": "outline",
-          "label": "Outline"
-        },
-        {
-          "value": "fill",
-          "label": "Fill"
-        }
-      ],
-      "default": "fill"
     },
     {
       "type": "select",
@@ -151,16 +131,67 @@
       "type": "color",
       "id": "text_color",
       "label": "Text"
-    },
+    }
+  ],
+  "blocks": [
     {
-      "type": "color_background",
-      "id": "text_gradient",
-      "label": "Text gradient"
+      "type": "text",
+      "name": "Text",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Promotion text"
+        },
+        {
+          "type": "select",
+          "id": "text_style",
+          "label": "Text style",
+          "options": [
+            {
+              "value": "outline",
+              "label": "Outline"
+            },
+            {
+              "value": "fill",
+              "label": "Fill"
+            }
+          ],
+          "default": "fill"
+        },
+        {
+          "type": "color_background",
+          "id": "text_gradient",
+          "label": "Text gradient"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Scrolling text"
+      "name": "Scrolling text",
+      "blocks": [
+        {
+          "type": "text",
+          "settings": {
+            "text": "First promotion text"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Second promotion text"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Third promotion text"
+          }
+        }
+      ]
     }
   ]
 }
