@@ -3,15 +3,40 @@
 
   <style>
     #shopify-section-{{ section.id }} {
-      --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %}
+      --rich-text-max-width: {% if section.settings.content_width == 'small' %}650px{% elsif section.settings.content_width == 'medium' %}780px{% else %}100%{% endif %};
+      
+      /* Ajout pour le mode full width */
+      {% if section.settings.full_width %}
+        --section-outer-spacing: 0;
+      {% endif %}
     }
+    
+    /* Nouveau style pour l'alignement desktop */
+    {% if section.settings.desktop_image_alignment != 'top' %}
+      @media (min-width: 700px) {
+        #shopify-section-{{ section.id }} .desktop-layout {
+          display: grid;
+          grid-template-columns: {% if section.settings.desktop_image_alignment == 'left' %}auto 1fr{% else %}1fr auto{% endif %};
+          gap: 48px;
+          align-items: center;
+        }
+        
+        #shopify-section-{{ section.id }} .desktop-layout > .image-container {
+          width: {{ section.settings.image_width }}px;
+        }
+      }
+    {% endif %}
   </style>
 
   <div {% render 'section-properties' %}>
     {%- assign text_position = section.settings.text_position -%}
     {%- assign blocks_before_divider = '' -%}
     {%- assign blocks_after_divider = '' -%}
+    {%- assign has_image = false -%}
+    {%- assign image_block_content = '' -%}
+    {%- assign other_blocks_content = '' -%}
 
+    <!-- Nouveau traitement des blocs -->
     {%- for block in section.blocks -%}
       {%- capture block_content -%}
         {%- case block.type -%}
@@ -101,13 +126,44 @@
         {%- endcase -%}
       {%- endcapture -%}
 
-      {%- if divider_index == blank or forloop.index < divider_index -%}
-        {%- assign blocks_before_divider = blocks_before_divider | append: block_content -%}
+      
+      {%- if block.type == 'image' -%}
+        {%- assign has_image = true -%}
+        {%- capture image_block_content -%}
+          <div class="image-container" {{ block.shopify_attributes }}>
+            {{ block_content }}
+          </div>
+        {%- endcapture -%}
       {%- else -%}
-        {%- assign blocks_after_divider = blocks_after_divider | append: block_content -%}
+        {%- capture other_blocks_content -%}
+          {{ other_blocks_content }}
+          {{ block_content }}
+        {%- endcapture -%}
       {%- endif -%}
     {%- endfor -%}
-
+{%- if has_image and section.settings.desktop_image_alignment != 'top' -%}
+      <div class="desktop-layout">
+        {%- if section.settings.desktop_image_alignment == 'left' -%}
+          {{ image_block_content }}
+          <div class="prose justify-items-{{ text_position }} text-{{ text_position }}">
+            {{ other_blocks_content }}
+          </div>
+        {%- else -%}
+          <div class="prose justify-items-{{ text_position }} text-{{ text_position }}">
+            {{ other_blocks_content }}
+          </div>
+          {{ image_block_content }}
+        {%- endif -%}
+      </div>
+    {%- else -%}
+      <!-- Affichage par défaut -->
+      <div class="prose justify-items-{{ text_position }} text-{{ text_position }}">
+        {{ image_block_content }}
+        {{ other_blocks_content }}
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}
     {%- if blocks_before_divider != blank and blocks_after_divider != blank -%}
       <div class="split-rich-text">
         <div class="prose justify-items-{{ text_position }} text-{{ text_position }}">
@@ -128,8 +184,6 @@
         </div>
       </div>
     </div>
-  </div>
-{%- endif -%}
 
 {% schema %}
 {
@@ -205,6 +259,30 @@
       "type": "color",
       "id": "text_color",
       "label": "Text"
+    },{
+      "type": "header",
+      "content": "Image Layout"
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_alignment",
+      "label": "Desktop Image Position",
+      "options": [
+        {"value": "top", "label": "Top (default)"},
+        {"value": "left", "label": "Left"},
+        {"value": "right", "label": "Right"}
+      ],
+      "default": "top"
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "min": 200,
+      "max": 800,
+      "step": 20,
+      "unit": "px",
+      "label": "Image Width",
+      "default": 400
     }
   ],
   "blocks": [
