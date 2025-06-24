@@ -1,195 +1,166 @@
-{%- style -%}
-  #shopify-section-{{ section.id }} .marquee-slider {
-    padding: 45px 0;
-    background-color: {{ section.settings.bg_color }};
-  }
+{%- if section.settings.text != blank -%}
+  {%- render 'section-spacing-collapsing' -%}
 
-  #shopify-section-{{ section.id }} .marquee-slider ul.marquee-slider-list {
-    transition-timing-function: linear !important;
-    position: relative;
-    margin: 0;
-    padding: 0;
-  }
-
-  #shopify-section-{{ section.id }} .marquee-slider li.swiper-slide {
-    text-align: center;
-    font-size: {{ section.settings.font_size }}px;
-    line-height: 1.5;
-    color: {{ section.settings.text_color }};
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    position: relative;
-    overflow: hidden;
-    list-style-type: none;
-    margin-right: {{ section.settings.item_spacing }}px;
-  }
-
-  @media(max-width:749px) {
-    #shopify-section-{{ section.id }} .marquee-slider {
-      padding: 18px 0;
+  <style>
+    #shopify-section-{{ section.id }} {
+      --section-spacing-inline: 0;
+      --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.125rem{% elsif section.settings.text_size == 'small' %}2.5rem{% elsif section.settings.text_size == 'medium' %}3.75rem{% elsif section.settings.text_size == 'large' %}5rem{% else %}7.5rem{% endif %};
     }
-    #shopify-section-{{ section.id }} .marquee-slider li.swiper-slide {
-      font-size: {{ section.settings.mobile_font_size }}px;
-    }
-  }
-{%- endstyle -%}
 
-<div class="shopify-section marquee-slider marquee-{{ section.id }}">
-  <div class="marquee-slider-body">
-    <div class="marquee-slider-slider swiper">
-      <ul class="marquee-slider-list swiper-wrapper" aria-live="off">
-        {%- for block in section.blocks -%}
-          <li class="swiper-slide" role="group" aria-label="{{ forloop.index }} / {{ section.blocks.size }}">
-            <span>{{ block.settings.text }}</span>
-          </li>
-        {%- endfor -%}
-      </ul>
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        --scrolling-text-font-size: {% if section.settings.text_size == 'xsmall' %}1.5rem{% elsif section.settings.text_size == 'small' %}3.75rem{% elsif section.settings.text_size == 'medium' %}5rem{% elsif section.settings.text_size == 'large' %}8.75rem{% else %}12.5rem{% endif %};
+      }
+    }
+  </style>
+
+  {%- if section.settings.text_size == 'xsmall' -%}
+    {%- assign is_tight = true -%}
+  {%- endif -%}
+
+  <div {% render 'section-properties', tight: is_tight %}>
+    {%- capture section_content -%}
+      {%- for i in (1..10) -%}
+        <span class="scrolling-text__text heading {% unless forloop.first %}motion-reduce:hidden{% endunless %}" {% unless forloop.first %}aria-hidden="true"{% endunless %}>
+          {%- render 'styled-text', content: section.settings.text, gradient: section.settings.text_gradient, style: section.settings.text_style -%}
+        </span>
+      {%- endfor -%}
+    {%- endcapture -%}
+
+    <div class="scrolling-text {% if section.settings.scrolling_mode == 'scroll' %}scrolling-text--scroll{% else %}scrolling-text--auto{% endif %}">
+      {%- if section.settings.scrolling_mode == 'scroll' -%}
+        <visibility-progress class="scrolling-text__wrapper">
+          {{- section_content -}}
+        </visibility-progress>
+       {%- else -%}
+         <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="scrolling-text__wrapper">
+           {{- section_content -}}
+         </marquee-text>
+      {%- endif -%}
     </div>
   </div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  if (typeof Swiper !== 'undefined') {
-    new Swiper('#shopify-section-{{ section.id }} .marquee-slider-slider', {
-      spaceBetween: {{ section.settings.item_spacing }},
-      centeredSlides: true,
-      speed: {{ section.settings.speed }},
-      autoplay: {
-        delay: 1,
-        reverseDirection: false
-      },
-      loop: true,
-      loopedSlides: {{ section.blocks.size }},
-      slidesPerView: 'auto',
-      allowTouchMove: false,
-      disableOnInteraction: true,
-      breakpoints: {
-        749: {
-          spaceBetween: {{ section.settings.desktop_item_spacing }}
-        }
-      }
-    });
-  }
-});
-</script>
+{%- endif -%}
 
 {% schema %}
 {
-  "name": "Marquee Slider",
+  "name": "Scrolling text",
+  "class": "shopify-section--scrolling-text",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
   "settings": [
     {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "Promotion text"
+    },
+    {
+      "type": "select",
+      "id": "text_size",
+      "label": "Text size",
+      "options": [
+        {
+          "value": "xsmall",
+          "label": "X-Small"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "xlarge",
+          "label": "X-Large"
+        }
+      ],
+      "default": "large"
+    },
+    {
+      "type": "select",
+      "id": "text_style",
+      "label": "Text style",
+      "options": [
+        {
+          "value": "outline",
+          "label": "Outline"
+        },
+        {
+          "value": "fill",
+          "label": "Fill"
+        }
+      ],
+      "default": "fill"
+    },
+    {
+      "type": "select",
+      "id": "scrolling_mode",
+      "label": "Scrolling mode",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Automatic"
+        },
+        {
+          "value": "scroll",
+          "label": "On scroll"
+        }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "range",
+      "id": "scrolling_speed",
+      "min": 3,
+      "max": 20,
+      "step": 1,
+      "unit": "s",
+      "label": "Automatic scrolling speed",
+      "default": 10
+    },
+    {
       "type": "header",
-      "content": "Design Options"
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set. Gradient text outline and gradient background cannot be combined."
     },
     {
       "type": "color",
-      "id": "bg_color",
-      "label": "Background Color",
-      "default": "#fdd5d5"
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
     },
     {
       "type": "color",
       "id": "text_color",
-      "label": "Text Color",
-      "default": "#000000"
+      "label": "Text"
     },
     {
-      "type": "range",
-      "id": "font_size",
-      "min": 12,
-      "max": 24,
-      "step": 1,
-      "unit": "px",
-      "label": "Desktop Font Size",
-      "default": 18
-    },
-    {
-      "type": "range",
-      "id": "mobile_font_size",
-      "min": 10,
-      "max": 20,
-      "step": 1,
-      "unit": "px",
-      "label": "Mobile Font Size",
-      "default": 13
-    },
-    {
-      "type": "header",
-      "content": "Slider Settings"
-    },
-    {
-      "type": "range",
-      "id": "speed",
-      "min": 100,
-      "max": 1000,
-      "step": 50,
-      "unit": "ms",
-      "label": "Animation Speed",
-      "default": 500
-    },
-    {
-      "type": "range",
-      "id": "item_spacing",
-      "min": 20,
-      "max": 100,
-      "step": 5,
-      "unit": "px",
-      "label": "Mobile Item Spacing",
-      "default": 40
-    },
-    {
-      "type": "range",
-      "id": "desktop_item_spacing",
-      "min": 40,
-      "max": 150,
-      "step": 5,
-      "unit": "px",
-      "label": "Desktop Item Spacing",
-      "default": 70
-    }
-  ],
-  "blocks": [
-    {
-      "type": "text",
-      "name": "Slide Item",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "💡 Utilise la thérapie par lumière rouge, chaleur et aspiration"
-        }
-      ]
+      "type": "color_background",
+      "id": "text_gradient",
+      "label": "Text gradient"
     }
   ],
   "presets": [
     {
-      "name": "Marquee Slider",
-      "category": "Custom",
-      "blocks": [
-        {
-          "type": "text",
-          "settings": {
-            "text": "🔬 Développé avec des techniques soutenues par la science"
-          }
-        },
-        {
-          "type": "text",
-          "settings": {
-            "text": "💡 Utilise la thérapie par lumière rouge, chaleur et aspiration"
-          }
-        },
-        {
-          "type": "text",
-          "settings": {
-            "text": "🩹 Technologie douce et sans ecchymoses"
-          }
-        }
-      ]
+      "name": "Scrolling text"
     }
   ]
 }
