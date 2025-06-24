@@ -208,11 +208,11 @@
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "Expertise médicale",
-        "title": "Avis de nos experts",
-        "content": "<p>Nos médecins spécialistes partagent leur expertise</p>",
+        "title": "Avis les experts",
+        "content": "<p>Des médecins spécialistes partagent leur expertise.</p>",
         "badge_color": "#0d9488",
         "badge_text_color": "#ffffff",
-        "background": "#f9fafb",
+        "background": "#fff9f6",
         "text_color": "#1f2937"
       }
     }
