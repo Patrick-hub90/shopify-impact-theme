@@ -1,16 +1,25 @@
 <cart-drawer {% if request.design_mode %}handle-section-events{% endif %} class="cart-drawer drawer drawer--lg" id="cart-drawer">
   {%- if cart.item_count == 0 -%}
-    <!-- Contenu du panier vide inchangé -->
+    <button is="close-button" aria-label="{{ 'general.accessibility.close' | t | escape }}">
+      {%- render 'icon' with 'close' -%}
+    </button>
+
+    <div class="empty-state align-self-center">
+      <div class="empty-state__icon-wrapper">
+        {%- render 'icon' with 'cart', width: 32, height: 32, stroke_width: 1 -%}
+        <span class="count-bubble count-bubble--lg">0</span>
+      </div>
+
+      <div class="prose">
+        <p class="h5">{{ 'cart.general.empty' | t }}</p>
+
+        {%- assign button_content = 'cart.general.continue_shopping' | t -%}
+        {%- render 'button', href: settings.cart_empty_button_link, size: 'xl', content: button_content -%}
+      </div>
+    </div>
   {%- else -%}
     <div>
       <div class="cart-drawer__top">
-        <!-- Section Liquid ajoutée dans l'en-tête -->
-        {%- if section.settings.header_liquid != blank -%}
-          <div class="header-liquid-section">
-            {{ section.settings.header_liquid }}
-          </div>
-        {%- endif -%}
-
         <div class="h-stack items-center justify-between">
           <div class="h-stack grow gap-2 sm:gap-2.5">
             <p class="h5">{{- 'cart.general.title' | t -}}</p>
@@ -29,50 +38,165 @@
       </div>
 
       <div class="v-stack gap-6 sm:gap-8">
-        <!-- Contenu des articles inchangé -->
+        <div class="cart-drawer__line-items">
+          {%- for line_item in cart.items -%}
+            {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
+          {%- endfor -%}
+        </div>
+
+        {%- if section.settings.products.count > 0 -%}
+          <div class="cart-drawer__recommendations">
+            <div class="v-stack gap-2.5 sm:gap-4">
+              {%- capture carousel_id -%}cart-drawer-recommendations{%- endcapture -%}
+
+              {%- if section.settings.recommendations_title != blank or section.settings.products.count > 1 -%}
+                <div class="h-stack justify-between gap-4">
+                  {%- if section.settings.recommendations_title != blank -%}
+                    <p>{{ section.settings.recommendations_title | escape }}</p>
+                  {%- endif -%}
+
+                  {%- if section.settings.products.count > 1 -%}
+                    <div class="h-stack gap-2 hidden sm:flex">
+                      <button is="prev-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.previous' | t | escape }}" disabled>{%- render 'icon' with 'chevron-left-small', direction_aware: true -%}</button>
+                      <button is="next-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.next' | t | escape }}">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- assign horizontal_products_blends = true -%}
+              {%- assign product_card_background = section.settings.product_card_background | default: product.settings.product_card_background -%}
+
+              {%- if product_card_background != 'rgba(0,0,0,0)' and product_card_background != blank and product_card_background != settings.dialog_background -%}
+                {%- assign horizontal_products_blends = false -%}
+              {%- endif -%}
+
+              <scroll-carousel selector=".horizontal-product" id="{{ carousel_id }}" class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed">
+                <div class="horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                  {%- for recommended_product in section.settings.products -%}
+                    {%- render 'horizontal-product', product: recommended_product, show_add_to_cart: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color -%}
+                  {%- endfor -%}
+                </div>
+              </scroll-carousel>
+            </div>
+          </div>
+        {%- endif -%}
       </div>
     </div>
 
     <div class="v-stack gap-4 sm:gap-6" slot="footer">
       <div class="v-stack gap-1">
-        <!-- Suppression des textes sur les taxes et notes -->
+        {% for discount_application in cart.cart_level_discount_applications %}
+          <div class="h-stack gap-4 justify-between">
+            <div class="badge">
+              {%- render 'icon' with 'discount' -%} {{- discount_application.title -}}
+            </div>
+
+            <span class="text-subdued">-{{ discount_application.total_allocated_amount | money }}</span>
+          </div>
+        {% endfor %}
+
         <div class="h-stack gap-4 justify-between">
           <span class="h5">{{ 'cart.general.total' | t }}</span>
           <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
         </div>
+
+        {%- if section.settings.show_shipping_text -%}
+          {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}</p>
+          {%- elsif cart.taxes_included -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}</p>
+          {%- elsif shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}</p>
+          {%- else -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_cart_note -%}
+          <button type="button" class="justify-self-start" aria-controls="cart-drawer-note">
+            <span class="link text-sm text-subdued">
+              {%- if cart.note == blank -%}
+                {{- 'cart.general.add_order_note' | t -}}
+              {%- else -%}
+                {{- 'cart.general.edit_order_note' | t -}}
+              {%- endif -%}
+            </span>
+          </button>
+
+          <cart-note-dialog id="cart-drawer-note" class="cart-drawer__note">
+            <div class="cart-drawer__note-inner">
+              <div class="v-stack gap-4 sm:gap-6">
+                <p class="h5">{{ 'cart.general.order_note' | t }}</p>
+
+                <cart-note class="v-stack gap-4">
+                  {%- assign order_note = 'cart.general.order_note' | t -%}
+                  {%- assign order_save_label = 'cart.general.save_note' | t -%}
+
+                  {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
+
+                  <div class="justify-self-start">
+                    {%- render 'button', type: 'button', content: order_save_label, size: 'lg', is: 'close-button', secondary: true -%}
+                  </div>
+                </cart-note>
+              </div>
+            </div>
+          </cart-note-dialog>
+        {%- endif -%}
       </div>
 
-      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons">
-        <!-- Bouton checkout en pleine largeur -->
-        {%- render 'button', 
-          type: 'submit', 
-          content: section.settings.checkout_button_text,
-          custom_color: section.settings.checkout_button_color,
-          name: 'checkout', 
-          size: 'xl',
-          full_width: true 
-        -%}
+      <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
+        {%- assign checkout_label = 'cart.general.checkout' | t -%}
+
+        {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
+          <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>
+            {{- 'cart.general.view_cart' | t -}}
+          </a>
+        {%- endif -%}
+
+        {%- if section.settings.show_checkout_button -%}
+          {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
+        {%- endif -%}
       </form>
       
-      <!-- Logos de paiement et garantie -->
+      <!-- Début des logos de paiement et garantie -->
+      <div class="payment-icons-wrapper" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 15px;">
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_12_small_ba88b7ee-8809-49b7-b380-b932961e5adf.svg?v=1750452002" alt="Visa" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_7_small_1dc155ad-8e9b-4736-9840-2cd296364c1b.svg?v=1750452002" alt="Mastercard" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_8_small_ba0e64d5-6f9a-44e0-9876-b04822ec0d9d.svg?v=1750452002" alt="American Express" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003645_small_2d7474cc-1165-4117-bfb0-05762afd5d2d.svg?v=1750452002" alt="Apple Pay" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003644_small_0dca41cf-dfc8-4898-a7be-06a0613475ad.svg?v=1750452002" alt="Google Pay" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_9_small_e6cf4cd9-c7f8-44d8-8dda-6e601d4e702d.svg?v=1750452002" alt="PayPal" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003997_small_978567ae-f946-41c3-a08b-36a8a6a76403.svg?v=1750452002" alt="Klarna" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_10_small_b92b8686-9144-41d7-9317-0e256a221bde.svg?v=1750452002" alt="Maestro" width="40" height="25">
+        </div>
+        <div class="payment-icon">
+          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_11_small_23598d8c-6cd8-4a4b-b354-0b54a5dc794b.svg?v=1750452002" alt="Discover" width="40" height="25">
+        </div>
+      </div>
+      
       <p style="text-align: center; margin-top: 10px; font-size: 0.9em;"> 🔒 Retours sans risque pendant 30 jours | Assistance 24h/24 et 7j/7</p>
+      <!-- Fin des logos de paiement et garantie -->
     </div>
   {%- endif -%}
 </cart-drawer>
 
 <style>
-  .cart-drawer {
-    box-shadow: none !important;
-  }
-  
-  .header-liquid-section {
-    margin-bottom: 15px;
-  }
-
-  .buy-buttons {
-    width: 100%;
-  }
-
   .payment-icons-wrapper {
     display: flex;
     justify-content: center;
@@ -81,16 +205,21 @@
     margin-top: 15px;
   }
   
-  .payment-icon img {
-    width: 40px;
-    height: 25px;
-    object-fit: contain;
+  .payment-icon {
+    display: flex;
+    align-items: center;
     opacity: 0.8;
     transition: opacity 0.3s ease;
   }
   
-  .payment-icon:hover img {
+  .payment-icon:hover {
     opacity: 1;
+  }
+  
+  .payment-icon img {
+    width: 40px;
+    height: 25px;
+    object-fit: contain;
   }
 </style>
 
@@ -99,46 +228,63 @@
   "name": "Cart drawer",
   "settings": [
     {
+      "type": "paragraph",
+      "content": "Cart drawer won't appear to your customers if you have set the cart type to Page in the global theme settings."
+    },
+    {
+      "type": "paragraph",
+      "content": "Free shipping bar can be configured in global cart settings."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart_note",
+      "label": "Show cart note",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_text",
+      "label": "Show shipping text",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_view_cart_button",
+      "label": "Show view cart button",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_checkout_button",
+      "label": "Show checkout button",
+      "default": true
+    },
+    {
       "type": "header",
-      "content": "En-tête personnalisé"
-    },
-    {
-      "type": "liquid",
-      "id": "header_liquid",
-      "label": "Section Liquid",
-      "info": "Ajoutez du code Liquid personnalisé pour l'en-tête"
-    },
-    {
-      "type": "header",
-      "content": "Bouton de commande"
-    },
-    {
-      "type": "text",
-      "id": "checkout_button_text",
-      "label": "Texte du bouton",
-      "default": "Passer la commande"
-    },
-    {
-      "type": "color",
-      "id": "checkout_button_color",
-      "label": "Couleur du bouton",
-      "default": "#000000"
-    },
-    {
-      "type": "header",
-      "content": "Recommandations produits"
+      "content": "Product recommendations"
     },
     {
       "type": "text",
       "id": "recommendations_title",
-      "label": "Titre",
+      "label": "Heading",
       "default": "Trending this month"
     },
     {
       "type": "product_list",
       "id": "products",
-      "label": "Produits recommandés",
+      "label": "Recommendations",
+      "info": "Suggest additional products to your customers.",
       "limit": 10
+    },
+    {
+      "type": "color",
+      "id": "product_card_background",
+      "label": "Product card background"
+    },
+    {
+      "type": "color",
+      "id": "product_card_text_color",
+      "label": "Product card text"
     }
   ]
 }
