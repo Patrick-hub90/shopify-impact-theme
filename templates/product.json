@@ -889,6 +889,96 @@
         "testimonial_card_text_color": ""
       }
     },
+    "multi_column_VYrDKA": {
+      "type": "multi-column",
+      "blocks": {
+        "item_ijXBGh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_2025-06-25_10-02-09.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Q4RCGB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_2025-06-25_10-02-18.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_T3rBqJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_2025-06-25_10-02-23.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JhepNc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/5_2025-06-25_10-02-35.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_EKAQrE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4_2025-06-25_10-02-29.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_ijXBGh",
+        "item_Q4RCGB",
+        "item_T3rBqJ",
+        "item_JhepNc",
+        "item_EKAQrE"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "avis_expert_tK8Pf7": {
       "type": "avis-expert",
       "blocks": {
@@ -1069,6 +1159,29 @@
         "text_color": ""
       }
     },
+    "rich_text_FLXwQz": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_JdQB9f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h2>Cibler <span style=\"color: #FF546E\">chaque</span> centimètre</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_JdQB9f"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_dw4MHP": {
       "type": "multi-column",
       "blocks": {
@@ -1129,20 +1242,6 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#000000"
-      }
-    },
-    "custom_liquid_TWdK6z": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Velaura vs Concurrents</title>\n    <style>\n        * {\n            box-sizing: border-box;\n            margin: 0;\n            padding: 0;\n        }\n\n        body {\n            background: #fff5f5;\n            overflow-x: hidden;\n        }\n\n        .comparison-container {\n            width: 100%;\n            margin: 3rem 0;\n            padding: 0 0rem;\n        }\n\n        .comparison-table {\n            width: 100%;\n            border-collapse: collapse;\n            background: white;\n            box-shadow: 0 10px 30px rgba(247, 175, 175, 0.15);\n            table-layout: fixed;\n        }\n\n        .comparison-table th,\n        .comparison-table td {\n            padding: 1.5rem 1rem;\n            text-align: center;\n            color: #000000;\n            font-weight: 700;\n            font-size: 1em;\n            word-break: break-word;\n        }\n\n        .comparison-table thead {\n            background: linear-gradient(135deg, #FF546E 0%, #FF546E 100%);\n            color: white;\n        }\n\n        .comparison-table th:first-child {\n            text-align: left;\n            width: 40%;\n            min-width: 200px;\n            padding-left: 1.5rem;\n        }\n\n        .comparison-table tbody td {\n            border-bottom: 1px solid #ffe6e6;\n        }\n\n        .comparison-table tbody td:first-child {\n            text-align: left;\n            font-weight: 600;\n            padding-left: 1.5rem;\n        }\n\n        .feature-icon {\n            width: 32px;\n            height: 32px;\n            border-radius: 50%;\n            display: inline-flex;\n            align-items: center;\n            justify-content: center;\n            font-weight: bold;\n            font-size: 1.3em;\n            margin: 0 auto;\n        }\n\n        .check-mark {\n            background: #FF546E;\n            color: white;\n        }\n\n        .cross-mark {\n            background: #f0f0f0;\n            color: #a18888;\n        }\n\n        @media (max-width: 768px) {\n            .comparison-table th,\n            .comparison-table td {\n                padding: 1rem 0.5rem;\n                font-size: 0.9em;\n            }\n            \n            .feature-icon {\n                width: 28px;\n                height: 28px;\n                font-size: 1.1em;\n            }\n            \n            .comparison-table th:first-child {\n                min-width: 150px;\n                padding-left: 1rem;\n            }\n            \n            .comparison-table td:first-child {\n                padding-left: 1rem;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"comparison-container\">\n        <table class=\"comparison-table\">\n            <thead>\n                <tr>\n                    <th>Bénéfices clés</th>\n                    <th>Velaura</th>\n                    <th>Autres solutions</th>\n                </tr>\n            </thead>\n             <tbody>\n    <tr>\n        <td>PAYEZ UNE FOIS, UTILISEZ POUR TOUJOURS</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>RÉSULTATS VISIBLES GARANTIS</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>TECHNOLOGIE DE QUALITÉ MÉDICALE</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n    </tr>\n    <tr>\n        <td>GARANTIE DE REMBOURSEMENT SANS RISQUE</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n    </tr>\n    <tr>\n        <td>ÉLIMINE LA CELLULITE À LA SOURCE</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    <tr>\n        <td>SOLUTION À DOMICILE EN 5 MINUTES</td>\n        <td><div class=\"feature-icon check-mark\">✓</div></td>\n        <td><div class=\"feature-icon cross-mark\">✕</div></td>\n    </tr>\n    </tr>\n</tbody>\n        </table>\n    </div>\n</body>\n</html>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "faq_AacKYz": {
@@ -1336,12 +1435,13 @@
     "rich_text_qtpfBT",
     "multi_column_bJxqK3",
     "testimonials_UVWAxR",
+    "rich_text_FLXwQz",
+    "multi_column_VYrDKA",
     "avis_expert_tK8Pf7",
     "rich_text_a3RFhr",
     "before_after_image_CGRk7R",
     "text_with_icons_MTYJpD",
     "multi_column_dw4MHP",
-    "custom_liquid_TWdK6z",
     "faq_AacKYz",
     "faq_fFYAN9",
     "1749445869fb7437ce"
