@@ -1185,6 +1185,13 @@
     "faq_AacKYz": {
       "type": "faq",
       "blocks": {
+        "item_ATEbTV": {
+          "type": "item",
+          "settings": {
+            "title": "Vendez-vous sur Amazon ?",
+            "content": "<p><strong>Oui, nous vendons actuellement sur Amazon, mais uniquement aux États-Unis pour le moment.</strong><br/><br/>Nous prévoyons avoir du stock disponible en France dans les prochains mois.<br/><br/></p>"
+          }
+        },
         "item_LbBqyT": {
           "type": "item",
           "settings": {
@@ -1243,6 +1250,7 @@
         }
       },
       "block_order": [
+        "item_ATEbTV",
         "item_LbBqyT",
         "item_CGirKL",
         "item_yKxwp8",
