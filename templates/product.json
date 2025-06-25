@@ -889,6 +889,29 @@
         "testimonial_card_text_color": ""
       }
     },
+    "rich_text_FLXwQz": {
+      "type": "rich-text",
+      "blocks": {
+        "liquid_JdQB9f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<h2>Cibler <span style=\"color: #FF546E\">chaque</span> centimètre</h2>"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_JdQB9f"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_VYrDKA": {
       "type": "multi-column",
       "blocks": {
@@ -1159,29 +1182,6 @@
         "text_color": ""
       }
     },
-    "rich_text_FLXwQz": {
-      "type": "rich-text",
-      "blocks": {
-        "liquid_JdQB9f": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<h2>Cibler <span style=\"color: #FF546E\">chaque</span> centimètre</h2>"
-          }
-        }
-      },
-      "block_order": [
-        "liquid_JdQB9f"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "multi_column_dw4MHP": {
       "type": "multi-column",
       "blocks": {
@@ -1233,7 +1233,7 @@
       "name": "Multi-column",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
