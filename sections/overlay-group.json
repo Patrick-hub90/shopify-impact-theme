@@ -35,6 +35,7 @@
     "cart-drawer": {
       "type": "cart-drawer",
       "settings": {
+        "checkout_button_text": "CONTINUER VERS LE PAIEMENT SÉCURISÉ ⟶",
         "show_cart_note": false,
         "show_shipping_text": false,
         "show_view_cart_button": false,
