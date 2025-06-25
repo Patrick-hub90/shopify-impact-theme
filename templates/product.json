@@ -1182,68 +1182,6 @@
         "text_color": ""
       }
     },
-    "multi_column_dw4MHP": {
-      "type": "multi-column",
-      "blocks": {
-        "item_CpENdw": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0524.mp4",
-            "column_size": "3",
-            "title": "🌀 ÉTAPE 1 – ACTIVER LA CIRCULATION POUR BRISER LA STAGNATION",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : relancer la microcirculation sanguine et lymphatique.</p><p><strong>Pourquoi ?  </strong>La cellulite s’installe là où la circulation est paresseuse, les toxines stagnent, et les tissus s’asphyxient.<br/><br/><strong>Comment ?  </strong>En brossant votre peau à sec avec la <strong>brosse Velaura</strong>, vous stimulez immédiatement la circulation, activez la régénération cellulaire et préparez la peau aux soins.<br/><br/> <strong>Résultat : </strong> Une peau plus vive, décongestionnée et prête à absorber les actifs.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_X6KPBG": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0524(2).mp4",
-            "column_size": "3",
-            "title": "💧 ÉTAPE 2 – DRAINER POUR DÉGONFLER LA CELLULITE AQUEUSE",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : éliminer l’excès d’eau et les toxines accumulées.</p><p><strong>Pourquoi ? </strong> La <strong>cellulite aqueuse</strong> donne cet effet “gonflé” et bosselé.<br/><br/><strong>Comment ?  </strong>Appliquez la crème<strong> Velaura</strong>, enrichie en caféine, gingembre et romarin, avec des mouvements circulaires. Ces extraits botaniques favorisent le drainage et améliorent la texture de la peau.<br/><br/><strong>Résultat :</strong>  La peau devient plus souple, mieux hydratée et visiblement désengorgée.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_q4t3md": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0524(4).mp4",
-            "column_size": "3",
-            "title": "🔥 ÉTAPE 3 – CASSER LES GRAISSES INSTALLÉES",
-            "heading_tag": "h4",
-            "content": "<p><strong>Objectif</strong> : cibler les amas graisseux à l’origine de la cellulite fibreuse.</p><p><strong>Pourquoi ?</strong>  Les graisses comprimées par des fibres rigides forment les fameux capitons.<br/><br/><strong>Comment ? </strong> Grâce aux <strong>Masseur 3D Haute Fréquence</strong>, vous reproduisez l’effet du palper-rouler professionnel. Elle mobilise les graisses, libère les tissus comprimés et stimule le déstockage.<br/><br/><strong> Résultat :  L</strong>es irrégularités s’atténuent, la peau devient plus lisse et plus uniforme.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_CpENdw",
-        "item_X6KPBG",
-        "item_q4t3md"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "Utilisez le Kit Velaura en suivant une routine simple et efficace.",
-        "content": "",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#000000"
-      }
-    },
     "faq_AacKYz": {
       "type": "faq",
       "blocks": {
@@ -1441,7 +1379,6 @@
     "rich_text_a3RFhr",
     "before_after_image_CGRk7R",
     "text_with_icons_MTYJpD",
-    "multi_column_dw4MHP",
     "faq_AacKYz",
     "faq_fFYAN9",
     "1749445869fb7437ce"
