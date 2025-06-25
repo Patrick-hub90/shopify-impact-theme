@@ -503,18 +503,40 @@
     },
     "scrolling_text_HPdhxz": {
       "type": "scrolling-text",
+      "blocks": {
+        "text_etYhbG": {
+          "type": "text",
+          "settings": {
+            "text": "ÉXPEDITION PARTOUT EN FRANCE"
+          }
+        },
+        "text_YQchHz": {
+          "type": "text",
+          "settings": {
+            "text": "REMBOURSEMENT SOUS 30 JOURS"
+          }
+        },
+        "text_3WKdiB": {
+          "type": "text",
+          "settings": {
+            "text": "GARANTIE D'UN AN"
+          }
+        }
+      },
+      "block_order": [
+        "text_etYhbG",
+        "text_YQchHz",
+        "text_3WKdiB"
+      ],
       "name": "Scrolling text",
       "settings": {
-        "full_width": true,
-        "text": "GARANTIE 1 AN  -  EXPÉDITION PARTOUT EN FRANCE - SATISFAIT OU REMBOURSÉ 30 JOURS",
-        "text_size": "small",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 3,
-        "background": "#000000",
-        "background_gradient": "",
+        "bg_color": "#000000",
         "text_color": "#fff9f6",
-        "text_gradient": ""
+        "speed": 20,
+        "font_size": 24,
+        "spacing": 30,
+        "padding": 15,
+        "font_weight": "400"
       }
     },
     "rich_text_LgCAtK": {
@@ -867,81 +889,55 @@
         "testimonial_card_text_color": ""
       }
     },
-    "multi_column_dw4MHP": {
-      "type": "multi-column",
+    "avis_expert_tK8Pf7": {
+      "type": "avis-expert",
       "blocks": {
-        "item_CpENdw": {
-          "type": "item",
+        "expert_BW7iaU": {
+          "type": "expert",
           "settings": {
-            "video": "shopify://files/videos/0524.mp4",
-            "column_size": "3",
-            "title": "🌀 ÉTAPE 1 – ACTIVER LA CIRCULATION POUR BRISER LA STAGNATION",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : relancer la microcirculation sanguine et lymphatique.</p><p><strong>Pourquoi ?  </strong>La cellulite s’installe là où la circulation est paresseuse, les toxines stagnent, et les tissus s’asphyxient.<br/><br/><strong>Comment ?  </strong>En brossant votre peau à sec avec la <strong>brosse Velaura</strong>, vous stimulez immédiatement la circulation, activez la régénération cellulaire et préparez la peau aux soins.<br/><br/> <strong>Résultat : </strong> Une peau plus vive, décongestionnée et prête à absorber les actifs.</p>",
-            "link_url": "",
+            "image": "shopify://shop_images/0616.jpg",
+            "title": "Dr. John Willardsen",
+            "specialty": "Dermatologue spécialiste agréé",
+            "hospital": "",
+            "rating": 0,
+            "content": "<h6>Ce masseur représente une avancée significative dans le domaine du traitement de la cellulite . Je le recommande à mes patients pour son efficacité et sa sécurité d'utilisation.</h6>",
             "link_text": "",
-            "link_style": "link"
+            "link_url": "",
+            "column_size": "3"
           }
         },
-        "item_X6KPBG": {
-          "type": "item",
+        "expert_4eY8DR": {
+          "type": "expert",
           "settings": {
-            "video": "shopify://files/videos/0524(2).mp4",
-            "column_size": "3",
-            "title": "💧 ÉTAPE 2 – DRAINER POUR DÉGONFLER LA CELLULITE AQUEUSE",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : éliminer l’excès d’eau et les toxines accumulées.</p><p><strong>Pourquoi ? </strong> La <strong>cellulite aqueuse</strong> donne cet effet “gonflé” et bosselé.<br/><br/><strong>Comment ?  </strong>Appliquez la crème<strong> Velaura</strong>, enrichie en caféine, gingembre et romarin, avec des mouvements circulaires. Ces extraits botaniques favorisent le drainage et améliorent la texture de la peau.<br/><br/><strong>Résultat :</strong>  La peau devient plus souple, mieux hydratée et visiblement désengorgée.</p>",
-            "link_url": "",
+            "image": "shopify://shop_images/image_47_2.png",
+            "title": "Dr. Sophie Martin",
+            "specialty": "Médecin esthétique spécialisé",
+            "hospital": "",
+            "rating": 0,
+            "content": "<h6>Ce dispositif combine intelligemment plusieurs technologies reconnues pour cibler efficacement la cellulite.</h6>",
             "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_q4t3md": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/0524(4).mp4",
-            "column_size": "3",
-            "title": "🔥 ÉTAPE 3 – CASSER LES GRAISSES INSTALLÉES",
-            "heading_tag": "h4",
-            "content": "<p><strong>Objectif</strong> : cibler les amas graisseux à l’origine de la cellulite fibreuse.</p><p><strong>Pourquoi ?</strong>  Les graisses comprimées par des fibres rigides forment les fameux capitons.<br/><br/><strong>Comment ? </strong> Grâce aux <strong>Masseur 3D Haute Fréquence</strong>, vous reproduisez l’effet du palper-rouler professionnel. Elle mobilise les graisses, libère les tissus comprimés et stimule le déstockage.<br/><br/><strong> Résultat :  L</strong>es irrégularités s’atténuent, la peau devient plus lisse et plus uniforme.</p>",
             "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_HQ9WxN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Avant_2.png",
-            "column_size": "3",
-            "title": "💪 ÉTAPE 4 – RENFORCER VOS MUSCLES POUR TENDRE LA PEAU",
-            "heading_tag": "h6",
-            "content": "<p><strong>Objectif</strong> : retonifier les muscles sous-cutanés pour retendre la peau durablement.</p><p><strong>Pourquoi ?</strong> Une peau relâchée, même affinée, peut rester irrégulière.<br/><br/><strong>Comment ?</strong> Le <strong>programme d’exercices Velaura</strong> (inclus dans l’ebook offert) cible les fessiers, cuisses, hanches et ventre, en synergie avec la <strong>bande de résistance fournie</strong>.<br/><br/><strong>Résultat : </strong>un galbe redessiné, une peau plus ferme, un corps visiblement tonifié.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "column_size": "3"
           }
         }
       },
       "block_order": [
-        "item_CpENdw",
-        "item_X6KPBG",
-        "item_q4t3md",
-        "item_HQ9WxN"
+        "expert_BW7iaU",
+        "expert_4eY8DR"
       ],
-      "disabled": true,
-      "name": "Multi-column",
+      "name": "Avis d'Experts",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "Utilisez le Kit Velaura en suivant une routine simple et efficace.",
-        "content": "",
-        "background": "#2a555a",
-        "background_gradient": "",
-        "text_color": "#ffffff"
+        "text_alignment": "center",
+        "subheading": "Expertise médicale",
+        "title": "Avis les experts",
+        "content": "<p>Des médecins spécialistes partagent leur expertise.</p>",
+        "badge_color": "#0d9488",
+        "badge_text_color": "#ffffff",
+        "background": "#fff9f6",
+        "text_color": "#1f2937"
       }
     },
     "rich_text_a3RFhr": {
@@ -1073,8 +1069,71 @@
         "text_color": ""
       }
     },
+    "multi_column_dw4MHP": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CpENdw": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524.mp4",
+            "column_size": "3",
+            "title": "🌀 ÉTAPE 1 – ACTIVER LA CIRCULATION POUR BRISER LA STAGNATION",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : relancer la microcirculation sanguine et lymphatique.</p><p><strong>Pourquoi ?  </strong>La cellulite s’installe là où la circulation est paresseuse, les toxines stagnent, et les tissus s’asphyxient.<br/><br/><strong>Comment ?  </strong>En brossant votre peau à sec avec la <strong>brosse Velaura</strong>, vous stimulez immédiatement la circulation, activez la régénération cellulaire et préparez la peau aux soins.<br/><br/> <strong>Résultat : </strong> Une peau plus vive, décongestionnée et prête à absorber les actifs.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_X6KPBG": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524(2).mp4",
+            "column_size": "3",
+            "title": "💧 ÉTAPE 2 – DRAINER POUR DÉGONFLER LA CELLULITE AQUEUSE",
+            "heading_tag": "h6",
+            "content": "<p><strong>Objectif</strong> : éliminer l’excès d’eau et les toxines accumulées.</p><p><strong>Pourquoi ? </strong> La <strong>cellulite aqueuse</strong> donne cet effet “gonflé” et bosselé.<br/><br/><strong>Comment ?  </strong>Appliquez la crème<strong> Velaura</strong>, enrichie en caféine, gingembre et romarin, avec des mouvements circulaires. Ces extraits botaniques favorisent le drainage et améliorent la texture de la peau.<br/><br/><strong>Résultat :</strong>  La peau devient plus souple, mieux hydratée et visiblement désengorgée.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_q4t3md": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/0524(4).mp4",
+            "column_size": "3",
+            "title": "🔥 ÉTAPE 3 – CASSER LES GRAISSES INSTALLÉES",
+            "heading_tag": "h4",
+            "content": "<p><strong>Objectif</strong> : cibler les amas graisseux à l’origine de la cellulite fibreuse.</p><p><strong>Pourquoi ?</strong>  Les graisses comprimées par des fibres rigides forment les fameux capitons.<br/><br/><strong>Comment ? </strong> Grâce aux <strong>Masseur 3D Haute Fréquence</strong>, vous reproduisez l’effet du palper-rouler professionnel. Elle mobilise les graisses, libère les tissus comprimés et stimule le déstockage.<br/><br/><strong> Résultat :  L</strong>es irrégularités s’atténuent, la peau devient plus lisse et plus uniforme.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CpENdw",
+        "item_X6KPBG",
+        "item_q4t3md"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Utilisez le Kit Velaura en suivant une routine simple et efficace.",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
     "custom_liquid_TWdK6z": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -1084,41 +1143,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "media_with_text_tpbQEr": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_QLH8mQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0616.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Appuyé par des études cliniques",
-            "content": "<p><br/>Recommandé par le <strong>Dr John  Willardsen</strong>, spécialiste en soins de la peau, le <strong>Kit Velaura™</strong> associe massage par roulement, chaleur ciblée et stimulation du drainage lymphatique pour <strong>réduire visiblement la cellulite</strong> et <strong>atténuer les vergetures</strong>.<br/><br/>Une utilisation régulière aide à <strong>décomposer les graisses</strong>, <strong>raffermir les tissus cutanés</strong> et <strong>stimuler la microcirculation</strong>, pour une peau plus lisse, plus ferme et visiblement plus saine.<br/><br/>Testé et approuvé par de nombreuses utilisatrices, <strong>Velaura™</strong> offre des <strong>résultats cliniquement prouvés</strong> dès les premières semaines d’utilisation.<br/><br/></p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#fff9f6",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_QLH8mQ"
-      ],
-      "name": "Media with text",
-      "settings": {
-        "full_width": true,
-        "spacing": "none"
       }
     },
     "faq_AacKYz": {
@@ -1312,12 +1336,12 @@
     "rich_text_qtpfBT",
     "multi_column_bJxqK3",
     "testimonials_UVWAxR",
-    "multi_column_dw4MHP",
+    "avis_expert_tK8Pf7",
     "rich_text_a3RFhr",
     "before_after_image_CGRk7R",
     "text_with_icons_MTYJpD",
+    "multi_column_dw4MHP",
     "custom_liquid_TWdK6z",
-    "media_with_text_tpbQEr",
     "faq_AacKYz",
     "faq_fFYAN9",
     "1749445869fb7437ce"
