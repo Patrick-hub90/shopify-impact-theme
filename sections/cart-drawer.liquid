@@ -101,80 +101,66 @@
           <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
         </div>
 
-      
+        {%- if section.settings.show_shipping_text -%}
+          {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}</p>
+          {%- elsif cart.taxes_included -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_included_but_shipping_at_checkout' | t }}</p>
+          {%- elsif shop.shipping_policy.body != blank -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}</p>
+          {%- else -%}
+            <p class="text-subdued text-sm">{{ 'cart.general.taxes_and_shipping_at_checkout' | t }}</p>
+          {%- endif -%}
+        {%- endif -%}
+
+        {%- if section.settings.show_cart_note -%}
+          <button type="button" class="justify-self-start" aria-controls="cart-drawer-note">
+            <span class="link text-sm text-subdued">
+              {%- if cart.note == blank -%}
+                {{- 'cart.general.add_order_note' | t -}}
+              {%- else -%}
+                {{- 'cart.general.edit_order_note' | t -}}
+              {%- endif -%}
+            </span>
+          </button>
+
+          <cart-note-dialog id="cart-drawer-note" class="cart-drawer__note">
+            <div class="cart-drawer__note-inner">
+              <div class="v-stack gap-4 sm:gap-6">
+                <p class="h5">{{ 'cart.general.order_note' | t }}</p>
+
+                <cart-note class="v-stack gap-4">
+                  {%- assign order_note = 'cart.general.order_note' | t -%}
+                  {%- assign order_save_label = 'cart.general.save_note' | t -%}
+
+                  {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
+
+                  <div class="justify-self-start">
+                    {%- render 'button', type: 'button', content: order_save_label, size: 'lg', is: 'close-button', secondary: true -%}
+                  </div>
+                </cart-note>
+              </div>
+            </div>
+          </cart-note-dialog>
+        {%- endif -%}
       </div>
 
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
 
+        {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
+          <a href="{{ routes.cart_url }}" class="button button--xl {% if section.settings.show_checkout_button %}button--secondary{% endif %}" data-no-instant>
+            {{- 'cart.general.view_cart' | t -}}
+          </a>
+        {%- endif -%}
+
         {%- if section.settings.show_checkout_button -%}
           {%- render 'button', type: 'submit', content: checkout_label, icon: 'picto-lock', name: 'checkout', size: 'xl' -%}
         {%- endif -%}
       </form>
-      
-      <!-- Début des logos de paiement et garantie -->
-      <div class="payment-icons-wrapper" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 15px;">
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_12_small_ba88b7ee-8809-49b7-b380-b932961e5adf.svg?v=1750452002" alt="Visa" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_7_small_1dc155ad-8e9b-4736-9840-2cd296364c1b.svg?v=1750452002" alt="Mastercard" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_8_small_ba0e64d5-6f9a-44e0-9876-b04822ec0d9d.svg?v=1750452002" alt="American Express" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003645_small_2d7474cc-1165-4117-bfb0-05762afd5d2d.svg?v=1750452002" alt="Apple Pay" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003644_small_0dca41cf-dfc8-4898-a7be-06a0613475ad.svg?v=1750452002" alt="Google Pay" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_9_small_e6cf4cd9-c7f8-44d8-8dda-6e601d4e702d.svg?v=1750452002" alt="PayPal" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_1000003997_small_978567ae-f946-41c3-a08b-36a8a6a76403.svg?v=1750452002" alt="Klarna" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_10_small_b92b8686-9144-41d7-9317-0e256a221bde.svg?v=1750452002" alt="Maestro" width="40" height="25">
-        </div>
-        <div class="payment-icon">
-          <img src="https://cdn.shopify.com/s/files/1/0943/3740/0905/files/Group_11_small_23598d8c-6cd8-4a4b-b354-0b54a5dc794b.svg?v=1750452002" alt="Discover" width="40" height="25">
-        </div>
-      </div>
-      
-      <p style="text-align: center; margin-top: 10px; font-size: 0.9em;"> 🔒 Retours sans risque pendant 30 jours | Assistance 24h/24 et 7j/7</p>
-      <!-- Fin des logos de paiement et garantie -->
     </div>
   {%- endif -%}
 </cart-drawer>
-
-<style>
-  .payment-icons-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 15px;
-  }
-  
-  .payment-icon {
-    display: flex;
-    align-items: center;
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-  }
-  
-  .payment-icon:hover {
-    opacity: 1;
-  }
-  
-  .payment-icon img {
-    width: 40px;
-    height: 25px;
-    object-fit: contain;
-  }
-</style>
 
 {% schema %}
 {
