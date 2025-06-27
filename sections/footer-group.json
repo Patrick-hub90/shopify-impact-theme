@@ -22,6 +22,14 @@
             "enable_follow_on_shop": false
           }
         },
+        "text_gKr37L": {
+          "type": "text",
+          "settings": {
+            "title": "Contactez-nous",
+            "content": "<p>Vous pouvez nous contacter via le chat en ligne ou par e-mail à l'adresse suivante : <a>support@velaura.fr</a>.</p>",
+            "enable_follow_on_shop": false
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -39,6 +47,7 @@
       },
       "block_order": [
         "text_a9GBJm",
+        "text_gKr37L",
         "links",
         "links_4faYzd"
       ],
