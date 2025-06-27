@@ -88,36 +88,6 @@
         "font_weight": "400"
       }
     },
-    "featured_collection_a7zgYe": {
-      "type": "featured-collection",
-      "name": "Featured collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "soin-pro-anti-cellulite-a-domicile",
-          "creme-anti-cellulite-velaura",
-          "brosse-anti-cellulite-velaura"
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Meilleures Ventes",
-        "content": "<p>Explorez les favoris tendance</p>",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#fff9f6",
-        "product_card_text_color": ""
-      }
-    },
     "rich_text_bEcXrX": {
       "type": "rich-text",
       "blocks": {
@@ -515,7 +485,6 @@
   "order": [
     "slideshow_zDiYF3",
     "scrolling_text_39EBVR",
-    "featured_collection_a7zgYe",
     "rich_text_bEcXrX",
     "after_testimony_bfDxNe",
     "media_with_text_Q6FLHk",
