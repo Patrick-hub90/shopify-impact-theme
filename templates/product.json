@@ -539,63 +539,6 @@
         "font_weight": "400"
       }
     },
-    "rich_text_LgCAtK": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Ejm3me": {
-          "type": "heading",
-          "settings": {
-            "text": "NOTRE APPAREIL CONÇU POUR CIBLER EFFICACEMENT LA CELLULITE",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "heading_3rYjhX": {
-          "type": "heading",
-          "settings": {
-            "text": "COMMENT ÇA MARCHE ?",
-            "heading_tag": "h3",
-            "text_color": "#ff546e",
-            "gradient": ""
-          }
-        },
-        "richtext_TVgR6N": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Contrairement aux crèmes et traitements qui masquent le problème, Velaura attaque la cellulite là où elle commence - dans les couches structurelles sous votre peau SANS chirurgie invasive.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Ejm3me",
-        "heading_3rYjhX",
-        "richtext_TVgR6N"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_bc8YXi": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "rich_text_RyjWrF": {
       "type": "rich-text",
       "blocks": {
@@ -1373,8 +1316,6 @@
     "rich_text_yXCpyU",
     "after_testimony_YBCdiC",
     "scrolling_text_HPdhxz",
-    "rich_text_LgCAtK",
-    "video_bc8YXi",
     "rich_text_RyjWrF",
     "impact_text_8NwX3c",
     "1750111911718b5641",
