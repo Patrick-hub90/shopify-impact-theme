@@ -94,7 +94,9 @@
       "settings": {
         "collection": "",
         "products": [
-          "soin-pro-anti-cellulite-a-domicile"
+          "soin-pro-anti-cellulite-a-domicile",
+          "creme-anti-cellulite-velaura",
+          "brosse-anti-cellulite-velaura"
         ],
         "full_width": true,
         "stack_products": false,
@@ -103,8 +105,8 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Meilleur vente",
-        "content": "",
+        "title": "Meilleure Vente",
+        "content": "<p>Explorez les favoris tendance</p>",
         "link_url": "",
         "link_text": "",
         "background": "",
