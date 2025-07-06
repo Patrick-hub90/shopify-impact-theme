@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "easysell_cod_form_app_block_mjkaat": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "easysell_cod_form_app_block_mjkaat"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "media_with_text_6VWG4P": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_JMUtRM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0703_1.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "✨ Transformez chaque écoute en affirmation de style",
+            "content": "<p>Oubliez les écouteurs fades et impersonnels. Avec les <strong>Écouteurs-Bijoux Brillants™</strong>, vous ne cachez plus votre technologie… <strong>vous la portez fièrement comme un bijou.</strong></p><p>Chaque détail scintille pour refléter votre féminité assumée. Vous ne vous contentez pas d'écouter — <strong>vous rayonnez.</strong></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_XF7hdg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0703_2.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "🔥 Pourquoi vous allez vraiment les adorer ?",
+            "content": "<ul><li><strong>Libérez votre élégance en toute circonstance :</strong> Dans la rue, au bureau, dans les transports… Vous n’êtes plus une parmi tant d’autres — vous êtes celle qu’on remarque.<br/></li><li><strong>Devenez confiante et stylée, sans compromis :</strong> Une qualité audio qui enveloppe, une réduction de bruit qui vous isole du stress… Et toujours ce petit éclat qui attire les regards.<br/></li><li><strong>Revivez le plaisir de recevoir un vrai compliment :</strong> Vous serez surprise du nombre de fois où l’on vous dira : « Tes écouteurs sont magnifiques ! »<br/></li><li><strong>Offrez-vous ou offrez-lui un bijou utile : </strong>Plus qu’un accessoire, c’est un geste attentionné qui dit : “Tu mérites ce qu’il y a de plus raffiné.”</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_qygyXx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0703.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "💫 Ce que vous ressentez en les portant",
+            "content": "<ul><li>Fierté : parce que vous avez du goût.</li><li>Joie : à chaque compliment inattendu.</li><li>Pouvoir : celui de rester connectée au monde sans renoncer à votre style.</li><li>Sérénité : grâce à une technologie fiable et discrète, qui vous suit partout.</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_JMUtRM",
+        "image_XF7hdg",
+        "image_qygyXx"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_6VWG4P"
+  ]
+}
