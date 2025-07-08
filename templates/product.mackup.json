@@ -95,6 +95,28 @@
     "media_with_text_6VWG4P": {
       "type": "media-with-text",
       "blocks": {
+        "image_XF7hdg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20ddd9b971d137902580f59ce2d9fe42_2025-07-08_19-24-36.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Teint unifié, sans taches ni brillances",
+            "content": "<p>Ce baume est conçu pour corriger les petits défauts visibles sur le visage : taches, boutons, rougeurs, zones sombres... Il donne à ta peau un aspect uniforme, naturel et frais. Tu n’as pas besoin d’en mettre beaucoup pour voir la différence. C’est l’idéal si tu veux simplement avoir l’air propre et bien présentée au travail, en sortie ou même en vidéo.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "image_JMUtRM": {
           "type": "image",
           "settings": {
@@ -107,28 +129,6 @@
             "subheading": "",
             "title": "Un teint net, uniforme et sans brillance, même sous la chaleur ou la pluie",
             "content": "<p>Tu veux avoir bonne mine sans passer des heures devant le miroir ? Le <strong>Stick Teint Parfait</strong> est fait pour toi. C’est un baume teinté facile à appliquer, qui unifie ta peau, cache les imperfections et tient toute la journée, même quand il fait chaud ou humide. Tu n’as pas besoin d’être maquilleuse pour avoir une peau propre et soignée.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_XF7hdg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0708_1.gif",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Teint unifié, sans taches ni brillances",
-            "content": "<p>Ce baume est conçu pour corriger les petits défauts visibles sur le visage : taches, boutons, rougeurs, zones sombres... Il donne à ta peau un aspect uniforme, naturel et frais. Tu n’as pas besoin d’en mettre beaucoup pour voir la différence. C’est l’idéal si tu veux simplement avoir l’air propre et bien présentée au travail, en sortie ou même en vidéo.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -163,8 +163,8 @@
         }
       },
       "block_order": [
-        "image_JMUtRM",
         "image_XF7hdg",
+        "image_JMUtRM",
         "image_qygyXx"
       ],
       "name": "Media with text",
