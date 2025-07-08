@@ -92,6 +92,32 @@
         "input_text_color": ""
       }
     },
+    "rich_text_8LkgT8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XGdK6x": {
+          "type": "heading",
+          "settings": {
+            "text": "Aide ton enfant à transformer ses idées en objets réels avec un simple stylo",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XGdK6x"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_6VWG4P": {
       "type": "media-with-text",
       "blocks": {
@@ -105,8 +131,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Le cadeau parfait pour femmes modernes et élégantes",
-            "content": "<p>Combien de fois avez-vous traité vos bijoux comme de simples objets, jetés dans une trousse ou oubliés au fond d’un sac ? Cette boîte vous oblige à ralentir, à poser chaque bijou comme un geste sacré. 9 femmes sur 10 disent se sentir plus alignées depuis qu’elles l’utilisent. Vous ne rangez pas : <strong>vous vous considérez enfin à votre juste valeur</strong>.</p>",
+            "title": "🎨 Laisse ton enfant créer avec ses mains",
+            "content": "<p>Ton enfant peut dessiner des animaux, des maisons, des bijoux ou même réparer un jouet cassé… mais en 3D ! Ce stylo 3D lui permet de créer ce qu’il imagine, sans machine compliquée. Il regarde un dessin… et il le fabrique avec ses doigts. Une vraie fierté pour lui, et un bon moment pour vous deux.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -176,6 +202,7 @@
   },
   "order": [
     "main",
+    "rich_text_8LkgT8",
     "media_with_text_6VWG4P"
   ]
 }
