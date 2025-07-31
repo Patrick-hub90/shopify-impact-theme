@@ -55,7 +55,7 @@
         "easysell_cod_form_app_block_mjkaat": {
           "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
-            "product": ""
+            "product": "boucle-doreille-a-bluetooth"
           }
         }
       },
@@ -85,6 +85,45 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "media_grid_ULWc7W": {
+      "type": "media-grid",
+      "blocks": {
+        "image_RTNMm8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/39518340369e0d907888904db263cd05.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_RTNMm8"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "media_with_text_6VWG4P": {
@@ -171,6 +210,7 @@
   },
   "order": [
     "main",
+    "media_grid_ULWc7W",
     "media_with_text_6VWG4P"
   ]
 }
