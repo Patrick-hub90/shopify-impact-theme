@@ -42,6 +42,12 @@
           "type": "separator",
           "settings": {}
         },
+        "text_JJk6t4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🎧 Écoutez votre musique sans fil<br/>📞 Passez vos appels WhatsApp<br/>💃 Se porte comme une boucle d'oreille de luxe<br/>✅ Paiement à la livraison<br/>🚚 Livraison Gratuite et rapide a Dakar</p>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -66,6 +72,7 @@
         "rating",
         "payment_terms",
         "separator",
+        "text_JJk6t4",
         "variant_picker",
         "easysell_cod_form_app_block_mjkaat"
       ],
@@ -87,43 +94,30 @@
         "input_text_color": ""
       }
     },
-    "media_grid_ULWc7W": {
-      "type": "media-grid",
+    "video_kcHECh": {
+      "type": "video",
       "blocks": {
-        "image_RTNMm8": {
-          "type": "image",
+        "subheading_69rKUX": {
+          "type": "subheading",
           "settings": {
-            "image": "shopify://shop_images/39518340369e0d907888904db263cd05.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "text": "Meilleur cadeau pour Femme"
           }
         }
       },
       "block_order": [
-        "image_RTNMm8"
+        "subheading_69rKUX"
       ],
-      "name": "Media grid",
+      "name": "Video",
       "settings": {
         "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/WeChat_20250715161519.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "rich_text_yCBeNf": {
@@ -243,7 +237,7 @@
   },
   "order": [
     "main",
-    "media_grid_ULWc7W",
+    "video_kcHECh",
     "rich_text_yCBeNf",
     "media_with_text_6VWG4P"
   ]
