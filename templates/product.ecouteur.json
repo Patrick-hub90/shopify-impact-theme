@@ -126,6 +126,39 @@
         "background_gradient": ""
       }
     },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WXPLkn": {
+          "type": "heading",
+          "settings": {
+            "text": "Caractéristiques",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li>Bluetooth dernière génération, connexion stable</li><li>Autonomie : environ 8h d’écoute</li><li>Charge complète en 30min</li><li>Compatible Android et iOS</li><li>Design unisexe</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WXPLkn",
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "media_with_text_6VWG4P": {
       "type": "media-with-text",
       "blocks": {
@@ -211,6 +244,7 @@
   "order": [
     "main",
     "media_grid_ULWc7W",
+    "rich_text_yCBeNf",
     "media_with_text_6VWG4P"
   ]
 }
