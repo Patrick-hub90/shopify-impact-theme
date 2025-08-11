@@ -42,12 +42,6 @@
           "type": "separator",
           "settings": {}
         },
-        "text_JJk6t4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>🎧 Écoutez votre musique sans fil<br/>📞 Passez vos appels WhatsApp<br/>💃 Se porte comme une boucle d'oreille de luxe<br/>✅ Paiement à la livraison<br/>🚚 Livraison Gratuite et rapide a Dakar</p>"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -72,7 +66,6 @@
         "rating",
         "payment_terms",
         "separator",
-        "text_JJk6t4",
         "variant_picker",
         "easysell_cod_form_app_block_mjkaat"
       ],
