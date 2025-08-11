@@ -150,28 +150,6 @@
     "media_with_text_6VWG4P": {
       "type": "media-with-text",
       "blocks": {
-        "image_JMUtRM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0703_1.gif",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "📞 Des appels clairs, même en plein bruit",
-            "content": "<p>Profitez d’une qualité sonore nette pour vos conversations WhatsApp, Messenger ou appels téléphoniques, même dans les rues animées de Dakar.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
         "image_XF7hdg": {
           "type": "image",
           "settings": {
@@ -183,7 +161,29 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Des écouteurs qui complètent votre look comme un bijou",
-            "content": "<p>Oubliez les écouteurs blancs sans âme. Ici, chaque détail est pensé pour sublimer votre féminité. Les pierres scintillantes attirent le regard, le design chic se fond dans vos tenues. Élégance sonore assumée.</p>",
+            "content": "<p>Fini les écouteurs ordinaires qui gâchent votre look. Grâce à ce bijou technologique, vous transformez un simple accessoire en véritable pièce de mode. Chaque écouteur est orné de pierres scintillantes, pour une touche de glamour qui sublime vos tenues, du bureau aux soirées. Vous ne porterez plus jamais vos écouteurs de la même façon.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_JMUtRM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0703_1.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "📞 Des appels clairs, même en plein bruit",
+            "content": "<p>Écoutez votre musique et passez vos appels  avec une qualité sonore exceptionnelle. Ces écouteurs ne sont pas seulement beaux, ils offrent également un son clair, immersif, et une réduction de bruit efficace. Vous passez d’un quotidien ordinaire à une expérience auditive haut de gamme, sans jamais sacrifier votre style.<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "background": "#000000",
@@ -218,8 +218,8 @@
         }
       },
       "block_order": [
-        "image_JMUtRM",
         "image_XF7hdg",
+        "image_JMUtRM",
         "image_qygyXx"
       ],
       "name": "Media with text",
