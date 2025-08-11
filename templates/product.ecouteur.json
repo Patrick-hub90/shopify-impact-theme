@@ -143,6 +143,7 @@
         "heading_WXPLkn",
         "richtext_xN7wFj"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
