@@ -57,12 +57,6 @@
           "settings": {
             "product": "boucle-doreille-a-bluetooth"
           }
-        },
-        "text_MjkhkF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Économisez 5000 FCFA sur chaque nouvelle écouteur que vous achetez jusqu’à la fin des 30 en stock.</p>"
-          }
         }
       },
       "block_order": [
@@ -73,8 +67,7 @@
         "payment_terms",
         "separator",
         "variant_picker",
-        "easysell_cod_form_app_block_mjkaat",
-        "text_MjkhkF"
+        "easysell_cod_form_app_block_mjkaat"
       ],
       "settings": {
         "full_width": true,
