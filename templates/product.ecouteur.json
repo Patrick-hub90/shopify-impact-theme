@@ -89,17 +89,6 @@
     },
     "video_kcHECh": {
       "type": "video",
-      "blocks": {
-        "subheading_69rKUX": {
-          "type": "subheading",
-          "settings": {
-            "text": "Meilleur cadeau pour Femme"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_69rKUX"
-      ],
       "name": "Video",
       "settings": {
         "full_width": true,
