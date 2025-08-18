@@ -222,6 +222,7 @@
         "image_JMUtRM",
         "image_qygyXx"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": true,
