@@ -102,6 +102,29 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Description</h2><p><strong>Connectez-vous au monde extérieur :</strong></p><p>Percevez votre environnement tout en faisant l’expérience privée d’un son profond et riche. La conception ouverte des écouteurs montre à tous que vous êtes disponible pour une conversation, tandis que la technologie OpenAudio vous offre l’expérience privée d’un son de qualité supérieure.</p><p><strong>Vivez en musique, où que vous soyez :</strong></p><p>Partez pour un footing, flirtez avec quelqu’un, vivez votre journée. Faites tout ce que vous voulez sans jamais interrompre votre musique. Faire un compromis ? Jamais ! Avec le son immersif Bose, ces écouteurs Bluetooth ne sont pas seulement esthétiques et agréables à porter, ils vous plongent aussi dans votre musique. Le son immersif Bose occupe tout l’espace pour que vous n’ayez pas simplement l’impression d’écouter votre musique, mais aussi de la vivre.</p><p><strong>Une révolution pour les oreilles sensibles :</strong></p><p>Conçus pour être portés toute la journée, ce sont des écouteurs que vous ne voudrez plus quitter. Les écouteurs oreilles libres Bose Ultra sont dotés d’une jointure flexible et leur port est si léger que vous oublierez bientôt que vous les avez. Il suffit de les clipser délicatement à l’arrière de votre oreille pour rester attentif au monde qui vous entoure.</p><p><strong>Ne craignez plus d’être à court de batterie :</strong></p><p>De plus, leur autonomie est ultra-longue : 7,5 heures d’écoute et 48 heures de mode veille. Et l’étui de chargement inclus contient aussi 19,5 heures de temps d’écoute, pour pouvoir charger même quand vous n’êtes pas à la maison.</p><p><strong>Appuyez, jouez, profitez :</strong></p><p>Les touches de commande sont très simples à utiliser pour pouvoir alterner entre les modes stéréo et immersif. Vous contrôlez votre expérience sonore. Du bout des doigts, gérez simplement votre musique et répondez aux appels. De plus, la fonction de contrôle automatique du volume ajuste comme par magie la musique en fonction du son produit par votre environnement. Il vous suffit de l’activer sur l’application Bose pour continuer à vous déplacer sans plus avoir à régler quoi que ce soit.</p><p><strong>Étanchéité d’indice IPX4 :</strong></p><p>Éclaboussures, transpiration, averses… pas de souci, les écouteurs oreilles libres Bose Ultra sauront y faire face. Leur maillage acoustique les protège de l’humidité et des saletés, pour que vous puissiez continuer votre écoute sans encombre.</p><p><strong>S’appaire sans difficulté avec les autres produits Bose :</strong></p><p>Profitez de votre téléviseur sans déranger personne. Grâce à la technologie Bose SimpleSync, vous pouvez désormais appairer vos écouteurs ouverts sans fil avec les enceintes et les barres de son intelligentes Bose pour une expérience audiovisuelle individuelle, la commande du volume étant indépendante.</p><p><strong>Connectez-vous facilement avec la connexion Bluetooth 5.3 avancée :</strong></p><p>La technologie Bluetooth® 5.3 avancée garantit une connexion fiable et ininterrompue dans un rayon de neuf mètres autour de l’appareil.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "1755556264a8a01548": {
       "type": "apps",
       "blocks": {
@@ -125,40 +148,6 @@
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
-      }
-    },
-    "rich_text_yCBeNf": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WXPLkn": {
-          "type": "heading",
-          "settings": {
-            "text": "Caractéristiques",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_xN7wFj": {
-          "type": "richtext",
-          "settings": {
-            "content": "<ul><li>Bluetooth dernière génération, connexion stable</li><li>Autonomie : environ 8h d’écoute</li><li>Charge complète en 30min</li><li>Compatible Android et iOS</li><li>Design unisexe</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_WXPLkn",
-        "richtext_xN7wFj"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "media_with_text_6VWG4P": {
@@ -247,8 +236,8 @@
   "order": [
     "main",
     "video_kcHECh",
-    "1755556264a8a01548",
     "rich_text_yCBeNf",
+    "1755556264a8a01548",
     "media_with_text_6VWG4P"
   ]
 }
