@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -64,7 +60,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "badges",
         "price",
@@ -90,6 +85,39 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "rich_text_repwMK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CL3WBX": {
+          "type": "heading",
+          "settings": {
+            "text": "Découvrez LA Solution Magique Qui Fait des Miracles",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_mR4kJ6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vous voulez vraiment savoir <strong>pourquoi vos chevilles vous font souffrir </strong>et comment ce petit appareil va <strong>changer votre vie </strong>complètement ? Écoutez bien !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CL3WBX",
+        "richtext_mR4kJ6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "media_with_text_6VWG4P": {
@@ -176,6 +204,7 @@
   },
   "order": [
     "main",
+    "rich_text_repwMK",
     "media_with_text_6VWG4P"
   ]
 }
