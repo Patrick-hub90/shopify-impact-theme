@@ -1,0 +1,243 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "easysell_cod_form_app_block_mjkaat": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": "boucle-doreille-a-bluetooth"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "easysell_cod_form_app_block_mjkaat"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "video_kcHECh": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/ssstik.io_1755519956832.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Description</h2><p><strong>Connectez-vous au monde extérieur :</strong></p><p>Percevez votre environnement tout en faisant l’expérience privée d’un son profond et riche. La conception ouverte des écouteurs montre à tous que vous êtes disponible pour une conversation, tandis que la technologie OpenAudio vous offre l’expérience privée d’un son de qualité supérieure.</p><p><strong>Vivez en musique, où que vous soyez :</strong></p><p>Partez pour un footing, flirtez avec quelqu’un, vivez votre journée. Faites tout ce que vous voulez sans jamais interrompre votre musique. Faire un compromis ? Jamais ! Avec le son immersif Bose, ces écouteurs Bluetooth ne sont pas seulement esthétiques et agréables à porter, ils vous plongent aussi dans votre musique. Le son immersif Bose occupe tout l’espace pour que vous n’ayez pas simplement l’impression d’écouter votre musique, mais aussi de la vivre.</p><p><strong>Une révolution pour les oreilles sensibles :</strong></p><p>Conçus pour être portés toute la journée, ce sont des écouteurs que vous ne voudrez plus quitter. Les écouteurs oreilles libres Bose Ultra sont dotés d’une jointure flexible et leur port est si léger que vous oublierez bientôt que vous les avez. Il suffit de les clipser délicatement à l’arrière de votre oreille pour rester attentif au monde qui vous entoure.</p><p><strong>Ne craignez plus d’être à court de batterie :</strong></p><p>De plus, leur autonomie est ultra-longue : 7,5 heures d’écoute et 48 heures de mode veille. Et l’étui de chargement inclus contient aussi 19,5 heures de temps d’écoute, pour pouvoir charger même quand vous n’êtes pas à la maison.</p><p><strong>Appuyez, jouez, profitez :</strong></p><p>Les touches de commande sont très simples à utiliser pour pouvoir alterner entre les modes stéréo et immersif. Vous contrôlez votre expérience sonore. Du bout des doigts, gérez simplement votre musique et répondez aux appels. De plus, la fonction de contrôle automatique du volume ajuste comme par magie la musique en fonction du son produit par votre environnement. Il vous suffit de l’activer sur l’application Bose pour continuer à vous déplacer sans plus avoir à régler quoi que ce soit.</p><p><strong>Étanchéité d’indice IPX4 :</strong></p><p>Éclaboussures, transpiration, averses… pas de souci, les écouteurs oreilles libres Bose Ultra sauront y faire face. Leur maillage acoustique les protège de l’humidité et des saletés, pour que vous puissiez continuer votre écoute sans encombre.</p><p><strong>S’appaire sans difficulté avec les autres produits Bose :</strong></p><p>Profitez de votre téléviseur sans déranger personne. Grâce à la technologie Bose SimpleSync, vous pouvez désormais appairer vos écouteurs ouverts sans fil avec les enceintes et les barres de son intelligentes Bose pour une expérience audiovisuelle individuelle, la commande du volume étant indépendante.</p><p><strong>Connectez-vous facilement avec la connexion Bluetooth 5.3 avancée :</strong></p><p>La technologie Bluetooth® 5.3 avancée garantit une connexion fiable et ininterrompue dans un rayon de neuf mètres autour de l’appareil.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1755556264a8a01548": {
+      "type": "apps",
+      "blocks": {
+        "appio_amazon_reviews_reviews_widget_dAbYCq": {
+          "type": "shopify://apps/appio-amazon-reviews/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "appio_amazon_reviews_reviews_widget_dAbYCq"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "media_with_text_6VWG4P": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_XF7hdg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0731.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Des écouteurs qui complètent votre look comme un bijou",
+            "content": "<p>Fini les écouteurs ordinaires qui gâchent votre look. Grâce à ce bijou technologique, vous transformez un simple accessoire en véritable pièce de mode. Chaque écouteur est orné de pierres scintillantes, pour une touche de glamour qui sublime vos tenues, du bureau aux soirées. Vous ne porterez plus jamais vos écouteurs de la même façon.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_JMUtRM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0703_1.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "🎧 Une expérience audio sans compromis",
+            "content": "<p>Écoutez votre musique et passez vos appels  avec une qualité sonore exceptionnelle. Ces écouteurs ne sont pas seulement beaux, ils offrent également un son clair, immersif, et une réduction de bruit efficace. Vous passez d’un quotidien ordinaire à une expérience auditive haut de gamme, sans jamais sacrifier votre style.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_qygyXx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0703.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Le cadeau parfait pour femmes modernes et élégantes",
+            "content": "<p>Utile, raffiné et original, ce coffret d'écouteurs-bijoux coche toutes les cases d’un excellent cadeau : il surprend, il séduit et il sert au quotidien. Offrez quelque chose qui dure… et qui brille.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XF7hdg",
+        "image_JMUtRM",
+        "image_qygyXx"
+      ],
+      "disabled": true,
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_kcHECh",
+    "rich_text_yCBeNf",
+    "1755556264a8a01548",
+    "media_with_text_6VWG4P"
+  ]
+}
