@@ -178,7 +178,7 @@
         "richtext_9z86Q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>🏆 <strong>3 RAISONS POURQUOI MIGRAKAP SURPASSE TOUT LE RESTE</strong></h3><h2>💊 <strong>SECTION 1 : FINI LES MÉDICAMENTS ET LEURS EFFETS SECONDAIRES</strong></h2><p><strong>Vous en avez marre d'avaler des cachets ?</strong> Paracétamol, Aspirine, Ibuprofène... Ces médicaments :</p><ul><li>❌ Abîment votre estomac à long terme</li><li>❌ Créent une dépendance</li><li>❌ Ne traitent que les symptômes</li><li>❌ Coûtent cher (5,000 FCFA/mois minimum)</li></ul><p><strong>Avec MigraKap :</strong></p><ul><li>✅ <strong>100% naturel</strong> - Aucun produit chimique</li><li>✅ <strong>Réutilisable à vie</strong> - Un seul achat</li><li>✅ <strong>Action ciblée</strong> sur la cause réelle</li><li>✅ <strong>Soulagement en 15 minutes</strong> garanti</li></ul><h2>⚡ <strong>SECTION 2 : PLUS RAPIDE QUE TOUT CE QUE VOUS CONNAISSEZ</strong></h2><p><strong>Combien de temps perdez-vous avec vos migraines ?</strong></p><ul><li>😫 Médicaments classiques : <strong>45 minutes à 2 heures</strong></li><li>😫 Massages : <strong>30-60 minutes</strong> (si ça marche)</li><li>😫 Repos au noir : <strong>Toute la journée</strong> fichue</li></ul><p><strong>MigraKap vous libère en 15 minutes :</strong></p><ul><li>⚡ <strong>Action immédiate</strong> dès application</li><li>⚡ <strong>Portable partout</strong> : bureau, maison, voyage</li><li>⚡ <strong>Discret</strong> sous un foulard si besoin</li><li>⚡ <strong>Continuez vos activités</strong> pendant le traitement</li></ul><h2>💰 <strong>SECTION 3 : L'INVESTISSEMENT LE PLUS RENTABLE DE VOTRE VIE</strong></h2><p><strong>Calculons ensemble vos dépenses migraines actuelles :</strong></p><ul><li>Médicaments : <strong>60,000 FCFA/an</strong></li><li>Consultations médecin : <strong>30,000 FCFA/an</strong></li><li>Journées de travail perdues : <strong>INESTIMABLE</strong></li><li><strong>TOTAL : Plus de 90,000 FCFA par an !</strong></li></ul><p><strong>MigraKap coûte 15,000 FCFA UNE SEULE FOIS</strong></p><ul><li>✅ <strong>Amortissement en 2 mois</strong></li><li>✅ <strong>Économie de 75,000 FCFA/an</strong></li><li>✅ <strong>Solution à vie</strong> - Dure des années</li><li>✅ <strong>Partageable</strong> en famille</li></ul>"
+            "content": "<h3>🏆 <strong>3 RAISONS POURQUOI MIGRAKAP SURPASSE TOUT LE RESTE</strong></h3><h2>💊 <strong>FINI LES MÉDICAMENTS ET LEURS EFFETS SECONDAIRES</strong></h2><p><strong>Vous en avez marre d'avaler des cachets ?</strong> Paracétamol, Aspirine, Ibuprofène... Ces médicaments :</p><ul><li>❌ Abîment votre estomac à long terme</li><li>❌ Créent une dépendance</li><li>❌ Ne traitent que les symptômes</li><li>❌ Coûtent cher (5,000 FCFA/mois minimum)</li></ul><p><strong>Avec MigraKap :</strong></p><ul><li>✅ <strong>100% naturel</strong> - Aucun produit chimique</li><li>✅ <strong>Réutilisable à vie</strong> - Un seul achat</li><li>✅ <strong>Action ciblée</strong> sur la cause réelle</li><li>✅ <strong>Soulagement en 15 minutes</strong> garanti</li></ul><h2>⚡ <strong> PLUS RAPIDE QUE TOUT CE QUE VOUS CONNAISSEZ</strong></h2><p><strong>Combien de temps perdez-vous avec vos migraines ?</strong></p><ul><li>😫 Médicaments classiques : <strong>45 minutes à 2 heures</strong></li><li>😫 Massages : <strong>30-60 minutes</strong> (si ça marche)</li><li>😫 Repos au noir : <strong>Toute la journée</strong> fichue</li></ul><p><strong>MigraKap vous libère en 15 minutes :</strong></p><ul><li>⚡ <strong>Action immédiate</strong> dès application</li><li>⚡ <strong>Portable partout</strong> : bureau, maison, voyage</li><li>⚡ <strong>Discret</strong> sous un foulard si besoin</li><li>⚡ <strong>Continuez vos activités</strong> pendant le traitement</li></ul><h2>💰<strong>L'INVESTISSEMENT LE PLUS RENTABLE DE VOTRE VIE</strong></h2><p><strong>Calculons ensemble vos dépenses migraines actuelles :</strong></p><ul><li>Médicaments : <strong>60,000 FCFA/an</strong></li><li>Consultations médecin : <strong>30,000 FCFA/an</strong></li><li>Journées de travail perdues : <strong>INESTIMABLE</strong></li><li><strong>TOTAL : Plus de 90,000 FCFA par an !</strong></li></ul><p><strong>MigraKap coûte 15,000 FCFA UNE SEULE FOIS</strong></p><ul><li>✅ <strong>Amortissement en 2 mois</strong></li><li>✅ <strong>Économie de 75,000 FCFA/an</strong></li><li>✅ <strong>Solution à vie</strong> - Dure des années</li><li>✅ <strong>Partageable</strong> en famille</li></ul>"
           }
         }
       },
@@ -195,111 +195,64 @@
         "text_color": ""
       }
     },
-    "1755556264a8a01548": {
-      "type": "apps",
+    "testimonials_9HhBci": {
+      "type": "testimonials",
       "blocks": {
-        "appio_amazon_reviews_reviews_widget_dAbYCq": {
-          "type": "shopify://apps/appio-amazon-reviews/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
-          "settings": {}
+        "testimonial_fkiHH9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Fatou, 34 ans, Comptable",
+            "title": "28 août",
+            "content": "<p><em>Je souffrais de migraines plusieurs fois dans la semaine. Depuis MigraKap, je vis enfin normalement ! Plus besoin de Doliprane.</em></p>"
+          }
+        },
+        "testimonial_naCEiF": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Aïssatou, 28 ans, Enseignante",
+            "title": "28 août",
+            "content": "<p><em>Sceptique au début, mais ça marche vraiment ! En 10 minutes, ma migraine disparaît. Je le recommande à toutes mes amies.</em></p>"
+          }
+        },
+        "testimonial_KpjK4k": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Marème, 41 ans, Commerçante",
+            "title": "28 août",
+            "content": "<p><em>Meilleur achat de l'année ! Fini les journées gâchées par les maux de tête. Je l'emmène partout.</em></p>"
+          }
         }
       },
       "block_order": [
-        "appio_amazon_reviews_reviews_widget_dAbYCq"
+        "testimonial_fkiHH9",
+        "testimonial_naCEiF",
+        "testimonial_KpjK4k"
       ],
+      "name": "Testimonials",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Ce que disent nos clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "media_with_text_6VWG4P": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_XF7hdg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0731.gif",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Des écouteurs qui complètent votre look comme un bijou",
-            "content": "<p>Fini les écouteurs ordinaires qui gâchent votre look. Grâce à ce bijou technologique, vous transformez un simple accessoire en véritable pièce de mode. Chaque écouteur est orné de pierres scintillantes, pour une touche de glamour qui sublime vos tenues, du bureau aux soirées. Vous ne porterez plus jamais vos écouteurs de la même façon.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_JMUtRM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0703_1.gif",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "🎧 Une expérience audio sans compromis",
-            "content": "<p>Écoutez votre musique et passez vos appels  avec une qualité sonore exceptionnelle. Ces écouteurs ne sont pas seulement beaux, ils offrent également un son clair, immersif, et une réduction de bruit efficace. Vous passez d’un quotidien ordinaire à une expérience auditive haut de gamme, sans jamais sacrifier votre style.<br/><br/></p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_qygyXx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/0703.gif",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Le cadeau parfait pour femmes modernes et élégantes",
-            "content": "<p>Utile, raffiné et original, ce coffret d'écouteurs-bijoux coche toutes les cases d’un excellent cadeau : il surprend, il séduit et il sert au quotidien. Offrez quelque chose qui dure… et qui brille.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_XF7hdg",
-        "image_JMUtRM",
-        "image_qygyXx"
-      ],
-      "disabled": true,
-      "name": "Media with text",
-      "settings": {
-        "full_width": true,
-        "spacing": "none"
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     }
   },
@@ -310,7 +263,6 @@
     "rich_text_wnFqhR",
     "image_with_text_overlay_Dajbgt",
     "rich_text_ztBdyy",
-    "1755556264a8a01548",
-    "media_with_text_6VWG4P"
+    "testimonials_9HhBci"
   ]
 }
