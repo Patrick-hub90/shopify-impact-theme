@@ -156,17 +156,16 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_Dajbgt": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_rNL7Kx": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/0830.gif",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/calmigraine_7512767079846563094.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -261,7 +260,7 @@
     "rich_text_yCBeNf",
     "image_with_text_overlay_UJhKnr",
     "rich_text_wnFqhR",
-    "image_with_text_overlay_Dajbgt",
+    "video_rNL7Kx",
     "rich_text_ztBdyy",
     "testimonials_9HhBci"
   ]
