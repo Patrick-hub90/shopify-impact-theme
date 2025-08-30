@@ -139,7 +139,7 @@
         "richtext_RW9cKz": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>❄️ <strong>COMMENT ÇA MARCHE ? LA SCIENCE DERRIÈRE LE MIRACLE</strong></h2><p>Le <strong>MigraKap</strong> utilise la <strong>thérapie par le froid</strong> (cryothérapie), une méthode approuvée par les médecins :</p><p>✅ <strong>Le froid engourdit les nerfs</strong> responsables de la douleur<br/>✅ <strong>Réduit l'inflammation</strong> des vaisseaux sanguins<br/>✅ <strong>Bloque les signaux de douleur</strong> vers le cerveau<br/>✅ <strong>Relaxe les muscles</strong> tendus du cou et des épaules</p><p><strong>Résultat : Soulagement rapide et naturel en 10-15 minutes !</strong></p>"
+            "content": "<h2>❄️ <strong>COMMENT ÇA MARCHE ? LA SCIENCE DERRIÈRE LE MIRACLE</strong></h2><p>Le <strong>MigraKap</strong> utilise la <strong>thérapie par le froid</strong> (cryothérapie), une méthode approuvée par les médecins :</p><p>✅ <strong>Le froid engourdit les nerfs</strong> responsables de la douleur<br/>✅ <strong>Réduit l'inflammation</strong> des vaisseaux sanguins<br/>✅ <strong>Bloque les signaux de douleur</strong> vers le cerveau<br/>✅ <strong>Relaxe les muscles</strong> tendus du cou et des épaules</p><p><strong>Résultat : Soulagement rapide et naturel en 2-3 minutes !</strong></p>"
           }
         }
       },
@@ -154,6 +154,22 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "image_with_text_overlay_Dajbgt": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/0830.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "1755556264a8a01548": {
@@ -269,6 +285,7 @@
     "rich_text_yCBeNf",
     "image_with_text_overlay_UJhKnr",
     "rich_text_wnFqhR",
+    "image_with_text_overlay_Dajbgt",
     "1755556264a8a01548",
     "media_with_text_6VWG4P"
   ]
