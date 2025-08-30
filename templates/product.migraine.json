@@ -18,6 +18,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_dbUxnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Dites ADIEU aux migraines en 15 minutes - Sans médicament, Sans effet secondaire.</em></p>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -61,6 +67,7 @@
       },
       "block_order": [
         "title",
+        "text_dbUxnm",
         "badges",
         "price",
         "rating",
@@ -87,33 +94,57 @@
         "input_text_color": ""
       }
     },
-    "video_kcHECh": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/ssstik.io_1755519956832.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "rich_text_yCBeNf": {
       "type": "rich-text",
       "blocks": {
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Description</h2><p><strong>Connectez-vous au monde extérieur :</strong></p><p>Percevez votre environnement tout en faisant l’expérience privée d’un son profond et riche. La conception ouverte des écouteurs montre à tous que vous êtes disponible pour une conversation, tandis que la technologie OpenAudio vous offre l’expérience privée d’un son de qualité supérieure.</p><p><strong>Vivez en musique, où que vous soyez :</strong></p><p>Partez pour un footing, flirtez avec quelqu’un, vivez votre journée. Faites tout ce que vous voulez sans jamais interrompre votre musique. Faire un compromis ? Jamais ! Avec le son immersif Bose, ces écouteurs Bluetooth ne sont pas seulement esthétiques et agréables à porter, ils vous plongent aussi dans votre musique. Le son immersif Bose occupe tout l’espace pour que vous n’ayez pas simplement l’impression d’écouter votre musique, mais aussi de la vivre.</p><p><strong>Une révolution pour les oreilles sensibles :</strong></p><p>Conçus pour être portés toute la journée, ce sont des écouteurs que vous ne voudrez plus quitter. Les écouteurs oreilles libres Bose Ultra sont dotés d’une jointure flexible et leur port est si léger que vous oublierez bientôt que vous les avez. Il suffit de les clipser délicatement à l’arrière de votre oreille pour rester attentif au monde qui vous entoure.</p><p><strong>Ne craignez plus d’être à court de batterie :</strong></p><p>De plus, leur autonomie est ultra-longue : 7,5 heures d’écoute et 48 heures de mode veille. Et l’étui de chargement inclus contient aussi 19,5 heures de temps d’écoute, pour pouvoir charger même quand vous n’êtes pas à la maison.</p><p><strong>Appuyez, jouez, profitez :</strong></p><p>Les touches de commande sont très simples à utiliser pour pouvoir alterner entre les modes stéréo et immersif. Vous contrôlez votre expérience sonore. Du bout des doigts, gérez simplement votre musique et répondez aux appels. De plus, la fonction de contrôle automatique du volume ajuste comme par magie la musique en fonction du son produit par votre environnement. Il vous suffit de l’activer sur l’application Bose pour continuer à vous déplacer sans plus avoir à régler quoi que ce soit.</p><p><strong>Étanchéité d’indice IPX4 :</strong></p><p>Éclaboussures, transpiration, averses… pas de souci, les écouteurs oreilles libres Bose Ultra sauront y faire face. Leur maillage acoustique les protège de l’humidité et des saletés, pour que vous puissiez continuer votre écoute sans encombre.</p><p><strong>S’appaire sans difficulté avec les autres produits Bose :</strong></p><p>Profitez de votre téléviseur sans déranger personne. Grâce à la technologie Bose SimpleSync, vous pouvez désormais appairer vos écouteurs ouverts sans fil avec les enceintes et les barres de son intelligentes Bose pour une expérience audiovisuelle individuelle, la commande du volume étant indépendante.</p><p><strong>Connectez-vous facilement avec la connexion Bluetooth 5.3 avancée :</strong></p><p>La technologie Bluetooth® 5.3 avancée garantit une connexion fiable et ininterrompue dans un rayon de neuf mètres autour de l’appareil.</p>"
+            "content": "<h2>🎯 <strong>VOUS SOUFFREZ DE MIGRAINES ? CETTE SOLUTION VA CHANGER VOTRE VIE</strong></h2><p>Imaginez-vous : Il est 14h, vous êtes au bureau ou à la maison, et soudain cette <strong>douleur lancinante</strong> commence à marteler votre tempe. Vous connaissez ce sentiment... Cette migraine qui va gâcher le reste de votre journée.</p><p><strong>Et si je vous disais qu'il existe une solution naturelle qui peut stopper vos migraines en 2-3 minutes ?</strong></p>"
           }
         }
       },
       "block_order": [
         "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_UJhKnr": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/COLD_AND_HOT_GEL_CAP_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_wnFqhR": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_RW9cKz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>❄️ <strong>COMMENT ÇA MARCHE ? LA SCIENCE DERRIÈRE LE MIRACLE</strong></h2><p>Le <strong>MigraKap</strong> utilise la <strong>thérapie par le froid</strong> (cryothérapie), une méthode approuvée par les médecins :</p><p>✅ <strong>Le froid engourdit les nerfs</strong> responsables de la douleur<br/>✅ <strong>Réduit l'inflammation</strong> des vaisseaux sanguins<br/>✅ <strong>Bloque les signaux de douleur</strong> vers le cerveau<br/>✅ <strong>Relaxe les muscles</strong> tendus du cou et des épaules</p><p><strong>Résultat : Soulagement rapide et naturel en 10-15 minutes !</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_RW9cKz"
       ],
       "name": "Rich text",
       "settings": {
@@ -235,8 +266,9 @@
   },
   "order": [
     "main",
-    "video_kcHECh",
     "rich_text_yCBeNf",
+    "image_with_text_overlay_UJhKnr",
+    "rich_text_wnFqhR",
     "1755556264a8a01548",
     "media_with_text_6VWG4P"
   ]
