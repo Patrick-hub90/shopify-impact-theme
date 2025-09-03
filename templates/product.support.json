@@ -218,9 +218,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Fatou, 34 ans, Comptable",
-            "title": "28 août",
-            "content": "<p><em>Je souffrais de migraines plusieurs fois dans la semaine. Depuis MigraKap, je vis enfin normalement ! Plus besoin de Doliprane.</em></p>"
+            "author": "Fatou",
+            "title": "",
+            "content": "<p><em>Franchement je doutais au début, encore un gadget chinois... Mais là c'est différent ! Hier soir j'ai regardé  Stranger Things saison complète, mon iPhone est resté à 100% tout le temps.</em></p>"
           }
         },
         "testimonial_naCEiF": {
@@ -229,27 +229,15 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Aïssatou, 28 ans, Enseignante",
-            "title": "28 août",
-            "content": "<p><em>Sceptique au début, mais ça marche vraiment ! En 10 minutes, ma migraine disparaît. Je le recommande à toutes mes amies.</em></p>"
-          }
-        },
-        "testimonial_KpjK4k": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Marème, 41 ans, Commerçante",
-            "title": "28 août",
-            "content": "<p><em>Meilleur achat de l'année ! Fini les journées gâchées par les maux de tête. Je l'emmène partout.</em></p>"
+            "author": "Gueye",
+            "title": "",
+            "content": "<p><em>Ce qui est fou c'est la batterie. L'autre jour panne de courant à la maison 6h, j'ai regardé YouTube non-stop, mon phone a jamais bougé de 100%.</em></p>"
           }
         }
       },
       "block_order": [
         "testimonial_fkiHH9",
-        "testimonial_naCEiF",
-        "testimonial_KpjK4k"
+        "testimonial_naCEiF"
       ],
       "name": "Testimonials",
       "settings": {
