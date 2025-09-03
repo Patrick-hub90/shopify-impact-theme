@@ -117,17 +117,16 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_UJhKnr": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_CTfRFR": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/COLD_AND_HOT_GEL_CAP_1.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0903(1) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -158,13 +157,29 @@
     },
     "video_rNL7Kx": {
       "type": "video",
+      "blocks": {
+        "play_WXCDh6": {
+          "type": "play",
+          "settings": {}
+        },
+        "richtext_aXNLkN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Écoutez la différence sonore</p>"
+          }
+        }
+      },
+      "block_order": [
+        "play_WXCDh6",
+        "richtext_aXNLkN"
+      ],
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/calmigraine_7512767079846563094.mp4",
+        "autoplay": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/0903(2) (1).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -177,7 +192,7 @@
         "richtext_9z86Q8": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Demain soir :</strong>Vous lancez Netflix, posez votre téléphone sur PowerStand. 6h plus tard, fin de saison, batterie TOUJOURS à 100%. Son qui vous transporte. Vous souriez.</p>"
+            "content": "<p><strong>Demain :</strong>Vous lancez Netflix, posez votre téléphone sur PowerStand. 6h plus tard, fin de saison, batterie TOUJOURS à 100%. Son qui vous transporte. Vous souriez.</p>"
           }
         }
       },
@@ -258,7 +273,7 @@
   "order": [
     "main",
     "rich_text_yCBeNf",
-    "image_with_text_overlay_UJhKnr",
+    "video_CTfRFR",
     "rich_text_wnFqhR",
     "video_rNL7Kx",
     "rich_text_ztBdyy",
