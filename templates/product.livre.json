@@ -119,13 +119,29 @@
     },
     "video_CVg6hT": {
       "type": "video",
+      "blocks": {
+        "play_yjKG8j": {
+          "type": "play",
+          "settings": {}
+        },
+        "richtext_Q4ptda": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "play_yjKG8j",
+        "richtext_Q4ptda"
+      ],
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "lg",
-        "video": "shopify://files/videos/c4270631f3254c718b33296807d3c1d0 (1).mp4",
+        "video": "shopify://files/videos/video_3c66a673b61e8d842b9eacf94f12dbc6.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
