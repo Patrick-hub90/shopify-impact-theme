@@ -21,7 +21,7 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Dites ADIEU aux migraines en 2-3 minutes - Sans médicament, Sans effet secondaire.</em></p>"
+            "text": "<p><strong>Offrir le meilleur départ possible à votre enfant pour parler couramment l'anglais.</strong></p>"
           }
         },
         "badges": {
@@ -100,7 +100,7 @@
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🎯 <strong>VOUS SOUFFREZ DE MIGRAINES ? CETTE SOLUTION VA CHANGER VOTRE VIE</strong></h2><p>Imaginez-vous : Il est 14h, vous êtes au bureau ou à la maison, et soudain cette <strong>douleur lancinante</strong> commence à marteler votre tempe. Vous connaissez ce sentiment... Cette migraine qui va gâcher le reste de votre journée.</p><p><strong>Et si je vous disais qu'il existe une solution naturelle qui peut stopper vos migraines en 2-3 minutes ?</strong></p>"
+            "content": "<h2><strong>Donnez à votre enfant toutes les chances de surpasser ses camarades à l'école.</strong></h2><p>Connaissez-vous déjà des enfants qui maîtrisent plus de 470 noms d'animaux, d'objets, de verbes, etc... et ceci en les prononçant dès leur bas âge avec un accent américain authentique ? C'est ce que ce livre lui permettra d'accomplir tout en s'amusant et en apprenant.</p>"
           }
         }
       },
@@ -117,17 +117,16 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_UJhKnr": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_CVg6hT": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/COLD_AND_HOT_GEL_CAP_1.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": false,
+        "video_size": "lg",
+        "video": "shopify://files/videos/c4270631f3254c718b33296807d3c1d0 (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -139,7 +138,7 @@
         "richtext_RW9cKz": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>❄️ <strong>COMMENT ÇA MARCHE ? LA SCIENCE DERRIÈRE LE MIRACLE</strong></h2><p>Le <strong>MigraKap</strong> utilise la <strong>thérapie par le froid</strong> (cryothérapie), une méthode approuvée par les médecins :</p><p>✅ <strong>Le froid engourdit les nerfs</strong> responsables de la douleur<br/>✅ <strong>Réduit l'inflammation</strong> des vaisseaux sanguins<br/>✅ <strong>Bloque les signaux de douleur</strong> vers le cerveau<br/>✅ <strong>Relaxe les muscles</strong> tendus du cou et des épaules</p><p><strong>Résultat : Soulagement rapide et naturel en 2-3 minutes !</strong></p>"
+            "content": "<h2><strong>Un outil qui va aider votre enfant mais qui va aussi vous faire économiser dans le bon sens.</strong></h2><p>Si vous avez déjà pensé à investir sur votre enfant pour qu'il puisse parler l'anglais, ce livre fera pour lui ce qu'aucun maître d'étude ou 10 ans passés à l'école primaire ne pourra faire : Énoncer correctement avec un accent américain authentique tous les noms d'animaux, de moyens de transport, des scènes de la vie quotidienne et bien d'autres, tout cela dès son bas âge et en s'amusant.</p>"
           }
         }
       },
@@ -164,7 +163,7 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "lg",
-        "video": "shopify://files/videos/calmigraine_7512767079846563094.mp4",
+        "video": "shopify://files/videos/video_3c66a673b61e8d842b9eacf94f12dbc6.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -177,7 +176,7 @@
         "richtext_9z86Q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>🏆 <strong>3 RAISONS POURQUOI MIGRAKAP SURPASSE TOUT LE RESTE</strong></h3><h2>💊 <strong>FINI LES MÉDICAMENTS ET LEURS EFFETS SECONDAIRES</strong></h2><p><strong>Vous en avez marre d'avaler des cachets ?</strong> Paracétamol, Aspirine, Ibuprofène... Ces médicaments :</p><ul><li>❌ Abîment votre estomac à long terme</li><li>❌ Créent une dépendance</li><li>❌ Ne traitent que les symptômes</li><li>❌ Coûtent cher (5,000 FCFA/mois minimum)</li></ul><p><strong>Avec MigraKap :</strong></p><ul><li>✅ <strong>100% naturel</strong> - Aucun produit chimique</li><li>✅ <strong>Réutilisable à vie</strong> - Un seul achat</li><li>✅ <strong>Action ciblée</strong> sur la cause réelle</li><li>✅ <strong>Soulagement en 2-3 minutes</strong> garanti</li></ul><h2>⚡ <strong> PLUS RAPIDE QUE TOUT CE QUE VOUS CONNAISSEZ</strong></h2><p><strong>Combien de temps perdez-vous avec vos migraines ?</strong></p><ul><li>😫 Médicaments classiques : <strong>45 minutes à 2 heures</strong></li><li>😫 Massages : <strong>30-60 minutes</strong> (si ça marche)</li><li>😫 Repos au noir : <strong>Toute la journée</strong> fichue</li></ul><p><strong>MigraKap vous libère en 2-3 minutes :</strong></p><ul><li>⚡ <strong>Action immédiate</strong> dès application</li><li>⚡ <strong>Portable partout</strong> : bureau, maison, voyage</li><li>⚡ <strong>Discret</strong> sous un foulard si besoin</li><li>⚡ <strong>Continuez vos activités</strong> pendant le traitement</li></ul>"
+            "content": "<h2><strong>Mais qui a dit que ce livre était réservé uniquement aux adultes ?</strong></h2><p>Ce livre destiné à tous est l'occasion aussi pour les adultes de renforcer leur vocabulaire ainsi que la prononciation. Ce qui en fait un livre destiné à toute la famille et présent à chaque année par besoin d'en acheter un autre.</p>"
           }
         }
       },
@@ -258,7 +257,7 @@
   "order": [
     "main",
     "rich_text_yCBeNf",
-    "image_with_text_overlay_UJhKnr",
+    "video_CVg6hT",
     "rich_text_wnFqhR",
     "video_rNL7Kx",
     "rich_text_ztBdyy",
