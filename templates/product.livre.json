@@ -123,17 +123,10 @@
         "play_yjKG8j": {
           "type": "play",
           "settings": {}
-        },
-        "richtext_Q4ptda": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.</p>"
-          }
         }
       },
       "block_order": [
-        "play_yjKG8j",
-        "richtext_Q4ptda"
+        "play_yjKG8j"
       ],
       "name": "Video",
       "settings": {
@@ -171,31 +164,24 @@
         "text_color": ""
       }
     },
-    "video_rNL7Kx": {
+    "video_HBfidT": {
       "type": "video",
       "blocks": {
-        "play_AbmCPp": {
+        "play_NijpkE": {
           "type": "play",
           "settings": {}
-        },
-        "richtext_mAWgT3": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.</p>"
-          }
         }
       },
       "block_order": [
-        "play_AbmCPp",
-        "richtext_mAWgT3"
+        "play_NijpkE"
       ],
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/video_3c66a673b61e8d842b9eacf94f12dbc6.mp4",
+        "autoplay": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/video_675b306a9f556b4fa57bfcaf31b7af35.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -291,7 +277,7 @@
     "rich_text_yCBeNf",
     "video_CVg6hT",
     "rich_text_wnFqhR",
-    "video_rNL7Kx",
+    "video_HBfidT",
     "rich_text_ztBdyy",
     "testimonials_9HhBci"
   ]
