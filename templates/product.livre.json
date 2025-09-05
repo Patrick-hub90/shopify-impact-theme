@@ -173,6 +173,22 @@
     },
     "video_rNL7Kx": {
       "type": "video",
+      "blocks": {
+        "play_AbmCPp": {
+          "type": "play",
+          "settings": {}
+        },
+        "richtext_mAWgT3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use video to showcase product features or to create a unique atmosphere on your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "play_AbmCPp",
+        "richtext_mAWgT3"
+      ],
       "name": "Video",
       "settings": {
         "full_width": true,
