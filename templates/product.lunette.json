@@ -21,7 +21,7 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Offrir le meilleur départ possible à votre enfant pour parler couramment l'anglais.</strong></p>"
+            "text": "<p><strong>La seule paire de lunettes qui s'adapte à votre style ET à votre environnement - Contrôle total de la luminosité, élégance garantie. </strong></p>"
           }
         },
         "badges": {
@@ -100,7 +100,7 @@
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Donnez à votre enfant toutes les chances de surpasser ses camarades à l'école.</strong></h2><p>Connaissez-vous déjà des enfants qui maîtrisent plus de 470 noms d'animaux, d'objets, de verbes, etc... et ceci en les prononçant dès leur bas âge avec un accent américain authentique ? C'est ce que ce livre lui permettra d'accomplir tout en s'amusant et en apprenant.</p>"
+            "content": "<h2><strong>Controlez l'intensité et le contraste !!</strong></h2><p>Ces lunettes vous protègent efficacement contre les lumières agressives des écrans et du soleil. Conservez une vision nette en toutes circonstances, sans jamais avoir besoin de les retirer.<br/><br/>Fini la fatigue oculaire et les maux de tête – profitez d'un confort visuel optimal tout au long de la journée. Le filtre ND intégré sublime même les couchers de soleil, révélant des nuances exceptionnelles.</p>"
           }
         }
       },
@@ -132,83 +132,13 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
+        "autoplay": true,
         "video_size": "lg",
-        "video": "shopify://files/videos/video_3c66a673b61e8d842b9eacf94f12dbc6.mp4",
+        "video": "shopify://files/videos/chrissoniaiyg_7538034553252941063.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
-      }
-    },
-    "rich_text_wnFqhR": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_RW9cKz": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>Un outil qui va aider votre enfant mais qui va aussi vous faire économiser dans le bon sens.</strong></h2><p>Si vous avez déjà pensé à investir sur votre enfant pour qu'il puisse parler l'anglais, ce livre fera pour lui ce qu'aucun maître d'étude ou 10 ans passés à l'école primaire ne pourra faire : Énoncer correctement avec un accent américain authentique tous les noms d'animaux, de moyens de transport, des scènes de la vie quotidienne et bien d'autres, tout cela dès son bas âge et en s'amusant.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_RW9cKz"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_HBfidT": {
-      "type": "video",
-      "blocks": {
-        "play_NijpkE": {
-          "type": "play",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "play_NijpkE"
-      ],
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "md",
-        "video": "shopify://files/videos/video_675b306a9f556b4fa57bfcaf31b7af35.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_ztBdyy": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_9z86Q8": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>Mais qui a dit que ce livre était réservé uniquement aux adultes ?</strong></h2><p>Ce livre destiné à tous est l'occasion aussi pour les adultes de renforcer leur vocabulaire ainsi que la prononciation. Ce qui en fait un livre destiné à toute la famille et présent à chaque année par besoin d'en acheter un autre.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_9z86Q8"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "testimonials_9HhBci": {
@@ -276,9 +206,6 @@
     "main",
     "rich_text_yCBeNf",
     "video_CVg6hT",
-    "rich_text_wnFqhR",
-    "video_HBfidT",
-    "rich_text_ztBdyy",
     "testimonials_9HhBci"
   ]
 }
