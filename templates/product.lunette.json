@@ -94,29 +94,6 @@
         "input_text_color": ""
       }
     },
-    "rich_text_yCBeNf": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_xN7wFj": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>Controlez l'intensité et le contraste !!</strong></h2><p>Ces lunettes vous protègent efficacement contre les lumières agressives des écrans et du soleil. Conservez une vision nette en toutes circonstances, sans jamais avoir besoin de les retirer.<br/><br/>Fini la fatigue oculaire et les maux de tête – profitez d'un confort visuel optimal tout au long de la journée. Le filtre ND intégré sublime même les couchers de soleil, révélant des nuances exceptionnelles.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_xN7wFj"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "video_CVg6hT": {
       "type": "video",
       "blocks": {
@@ -139,6 +116,29 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Controlez l'intensité et le contraste !!</strong></h2><p>Ces lunettes vous protègent efficacement contre les lumières agressives des écrans et du soleil. Conservez une vision nette en toutes circonstances, sans jamais avoir besoin de les retirer.<br/><br/>Fini la fatigue oculaire et les maux de tête – profitez d'un confort visuel optimal tout au long de la journée. Le filtre ND intégré sublime même les couchers de soleil, révélant des nuances exceptionnelles.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "testimonials_9HhBci": {
@@ -204,8 +204,8 @@
   },
   "order": [
     "main",
-    "rich_text_yCBeNf",
     "video_CVg6hT",
+    "rich_text_yCBeNf",
     "testimonials_9HhBci"
   ]
 }
