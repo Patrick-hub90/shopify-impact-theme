@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "text_dbUxnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Offrir le meilleur départ possible à votre enfant pour parler couramment l'anglais.</strong></p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "easysell_cod_form_app_block_mjkaat": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": "boucle-doreille-a-bluetooth"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_dbUxnm",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "easysell_cod_form_app_block_mjkaat"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Donnez à votre enfant toutes les chances de surpasser ses camarades à l'école.</strong></h2><p>Connaissez-vous déjà des enfants qui maîtrisent plus de 470 noms d'animaux, d'objets, de verbes, etc... et ceci en les prononçant dès leur bas âge avec un accent américain authentique ? C'est ce que ce livre lui permettra d'accomplir tout en s'amusant et en apprenant.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_CVg6hT": {
+      "type": "video",
+      "blocks": {
+        "play_yjKG8j": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_yjKG8j"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "lg",
+        "video": "shopify://files/videos/video_3c66a673b61e8d842b9eacf94f12dbc6.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_wnFqhR": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_RW9cKz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Un outil qui va aider votre enfant mais qui va aussi vous faire économiser dans le bon sens.</strong></h2><p>Si vous avez déjà pensé à investir sur votre enfant pour qu'il puisse parler l'anglais, ce livre fera pour lui ce qu'aucun maître d'étude ou 10 ans passés à l'école primaire ne pourra faire : Énoncer correctement avec un accent américain authentique tous les noms d'animaux, de moyens de transport, des scènes de la vie quotidienne et bien d'autres, tout cela dès son bas âge et en s'amusant.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_RW9cKz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_HBfidT": {
+      "type": "video",
+      "blocks": {
+        "play_NijpkE": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_NijpkE"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/video_675b306a9f556b4fa57bfcaf31b7af35.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_ztBdyy": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_9z86Q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Mais qui a dit que ce livre était réservé uniquement aux adultes ?</strong></h2><p>Ce livre destiné à tous est l'occasion aussi pour les adultes de renforcer leur vocabulaire ainsi que la prononciation. Ce qui en fait un livre destiné à toute la famille et présent à chaque année par besoin d'en acheter un autre.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_9z86Q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_9HhBci": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fkiHH9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Fatou, 34 ans,",
+            "title": "",
+            "content": "<p><em>Ce livre est vraiment très éfficace. Mon enfant prononce bien les mots, il n'a que 6 ans et il arrive déja à  nommé facilement tous les objets de la maison.</em></p>"
+          }
+        },
+        "testimonial_naCEiF": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Aïssatou, 28 ans",
+            "title": "",
+            "content": "<p><em>Je suis </em>enseignante<em> et j'ai acheté ce livre pour les enfants de la </em>maternelle, je vous recommande vraiment ce livre. C'est très éducatif</p>"
+          }
+        },
+        "testimonial_KpjK4k": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gueye, 41 ans",
+            "title": "",
+            "content": "<p><em>Super livre!</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fkiHH9",
+        "testimonial_naCEiF",
+        "testimonial_KpjK4k"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Ce que disent nos clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_yCBeNf",
+    "video_CVg6hT",
+    "rich_text_wnFqhR",
+    "video_HBfidT",
+    "rich_text_ztBdyy",
+    "testimonials_9HhBci"
+  ]
+}
