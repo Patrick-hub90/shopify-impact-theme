@@ -156,6 +156,44 @@
         "text_color": ""
       }
     },
+    "video_BeyG44": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0911 (1)(2) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ces lunettes ne sont pas un gadget pour impressionner - c'est l'outil de l'homme mature qui refuse les compromis. Comme votre montre ou votre costume sur-mesure, chaque détail a été pensé pour celui qui comprend que la vraie distinction ne crie pas, elle s'impose naturellement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_CVg6hT": {
       "type": "video",
       "blocks": {
@@ -180,10 +218,10 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_yCBeNf": {
+    "rich_text_AEAtMf": {
       "type": "rich-text",
       "blocks": {
-        "richtext_xN7wFj": {
+        "richtext_apaJeq": {
           "type": "richtext",
           "settings": {
             "content": "<h2><strong>Controlez l'intensité et le contraste !!</strong></h2><p>Ces lunettes vous protègent efficacement contre les lumières agressives des écrans et du soleil. Conservez une vision nette en toutes circonstances, sans jamais avoir besoin de les retirer.<br/><br/>Fini la fatigue oculaire et les maux de tête – profitez d'un confort visuel optimal tout au long de la journée. Le filtre ND intégré sublime même les couchers de soleil, révélant des nuances exceptionnelles.</p>"
@@ -191,7 +229,7 @@
         }
       },
       "block_order": [
-        "richtext_xN7wFj"
+        "richtext_apaJeq"
       ],
       "name": "Rich text",
       "settings": {
@@ -291,8 +329,10 @@
   "order": [
     "main",
     "multi_column_x47rbG",
-    "video_CVg6hT",
+    "video_BeyG44",
     "rich_text_yCBeNf",
+    "video_CVg6hT",
+    "rich_text_AEAtMf",
     "video_wpjkLg",
     "testimonials_9HhBci"
   ]
