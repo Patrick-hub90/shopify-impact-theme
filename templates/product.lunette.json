@@ -94,6 +94,68 @@
         "input_text_color": ""
       }
     },
+    "multi_column_x47rbG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_KRYJ6k": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/imgi_162_Sc2516ace68ad48209522fafe3fae4771G.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wtU9Yw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/imgi_76_freepik__background__95745.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VUdTrq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/imgi_39_Design_ohne_Titel_16.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_KRYJ6k",
+        "item_wtU9Yw",
+        "item_VUdTrq"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_CVg6hT": {
       "type": "video",
       "blocks": {
@@ -204,6 +266,7 @@
   },
   "order": [
     "main",
+    "multi_column_x47rbG",
     "video_CVg6hT",
     "rich_text_yCBeNf",
     "testimonials_9HhBci"
