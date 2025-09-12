@@ -21,7 +21,7 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>La seule paire de lunettes qui s'adapte à votre style ET à votre environnement - Contrôle total de la luminosité, élégance garantie. </strong></p>"
+            "text": "<p><em>Fini la fatigue oculaire - Lunettes qui s'adaptent automatiquement à TOUTE luminosité.</em></p>"
           }
         },
         "badges": {
@@ -307,6 +307,7 @@
         "testimonial_naCEiF",
         "testimonial_KpjK4k"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": true,
