@@ -60,6 +60,12 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Dynamic Order Count</title>\n  <style>\n    #dynamicText {\n      color: #6E72F0;\n      font-size: 15px;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <p id=\"dynamicText\"></p>\n\n  <script>\n    function updateOrderCount() {\n      // Générez un nombre aléatoire pour le nombre de commandes (N)\n      const numberOfOrders = Math.floor(Math.random() * 2) + 1; // Chiffre aléatoire entre 1 et 5\n\n      // Déterminez si le nombre est égal à 1 pour ajuster l'orthographe\n      const orderText = numberOfOrders === 1 ? 'commande' : 'commandes';\n\n      // Mettez à jour le texte avec le nouveau nombre de commandes et l'orthographe correcte\n      document.getElementById('dynamicText').innerHTML = `<span style=\"color: #000000; font-weight: bold;\">${numberOfOrders}</span> ${orderText} vien${numberOfOrders === 1 ? 't' : 'nnent'} d'être effectué${numberOfOrders === 1 ? 'e' : 's'}.`;\n    }\n\n    // Définissez un intervalle de temps variable entre 3 et 8 secondes (5000 et 15000 millisecondes)\n    const randomInterval = () => Math.floor(Math.random() * (9000 - 3000 + 1)) + 3000;\n    \n    // Mettez à jour les chiffres à des intervalles de temps aléatoires\n    setInterval(updateOrderCount, randomInterval());\n\n    // Appelez la fonction une fois au début pour afficher les chiffres initiaux\n    updateOrderCount();\n  </script>\n\n</body>\n</html>"
           }
         },
+        "text_ELXQm3": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li><li>✅ <strong>Échange gratuit</strong> si la taille ne convient pas</li></ul>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -75,6 +81,10 @@
           "settings": {
             "product": "boucle-doreille-a-bluetooth"
           }
+        },
+        "separator_BwTEfW": {
+          "type": "separator",
+          "settings": {}
         }
       },
       "block_order": [
@@ -87,8 +97,10 @@
         "separator",
         "text_3MJaEN",
         "liquid_Jpizga",
+        "text_ELXQm3",
         "variant_picker",
-        "easysell_cod_form_app_block_mjkaat"
+        "easysell_cod_form_app_block_mjkaat",
+        "separator_BwTEfW"
       ],
       "settings": {
         "full_width": true,
