@@ -1,0 +1,441 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "text_dbUxnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Fini la fatigue oculaire - Lunettes qui s'adaptent automatiquement à TOUTE luminosité.</em></p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_3MJaEN": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>⚡ RÉVOLUTIONNAIRE : Les SEULES lunettes qui éliminent 100% de la fatigue oculaire - Plus que 120 paires en stock !</em></p>"
+          }
+        },
+        "liquid_Jpizga": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Dynamic Order Count</title>\n  <style>\n    #dynamicText {\n      color: #6E72F0;\n      font-size: 15px;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <p id=\"dynamicText\"></p>\n\n  <script>\n    function updateOrderCount() {\n      // Générez un nombre aléatoire pour le nombre de commandes (N)\n      const numberOfOrders = Math.floor(Math.random() * 2) + 1; // Chiffre aléatoire entre 1 et 5\n\n      // Déterminez si le nombre est égal à 1 pour ajuster l'orthographe\n      const orderText = numberOfOrders === 1 ? 'commande' : 'commandes';\n\n      // Mettez à jour le texte avec le nouveau nombre de commandes et l'orthographe correcte\n      document.getElementById('dynamicText').innerHTML = `<span style=\"color: #000000; font-weight: bold;\">${numberOfOrders}</span> ${orderText} vien${numberOfOrders === 1 ? 't' : 'nnent'} d'être effectué${numberOfOrders === 1 ? 'e' : 's'}.`;\n    }\n\n    // Définissez un intervalle de temps variable entre 3 et 8 secondes (5000 et 15000 millisecondes)\n    const randomInterval = () => Math.floor(Math.random() * (9000 - 3000 + 1)) + 3000;\n    \n    // Mettez à jour les chiffres à des intervalles de temps aléatoires\n    setInterval(updateOrderCount, randomInterval());\n\n    // Appelez la fonction une fois au début pour afficher les chiffres initiaux\n    updateOrderCount();\n  </script>\n\n</body>\n</html>"
+          }
+        },
+        "text_ELXQm3": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li><li>✅ <strong>Échange gratuit</strong> si la taille ne convient pas</li></ul>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "easysell_cod_form_app_block_mjkaat": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": "boucle-doreille-a-bluetooth"
+          }
+        },
+        "separator_BwTEfW": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_zywWY6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>TOTAL À PAYER À LA LIVRAISON : 13 900 CFA </strong><em>(au lieu de 25 000 CFA)</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_dbUxnm",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "text_3MJaEN",
+        "liquid_Jpizga",
+        "text_ELXQm3",
+        "variant_picker",
+        "easysell_cod_form_app_block_mjkaat",
+        "separator_BwTEfW",
+        "text_zywWY6"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "scrolling_text_nbJFE8": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Plus de 5 000 clients satisfaits à Dakar | Livraison en 2h | Paiement sécurisé",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "1757608418ec914bc0": {
+      "type": "apps",
+      "blocks": {
+        "appio_amazon_reviews_reviews_widget_DKCmdb": {
+          "type": "shopify://apps/appio-amazon-reviews/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "appio_amazon_reviews_reviews_widget_DKCmdb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "multi_column_x47rbG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_KRYJ6k": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/imgi_162_Sc2516ace68ad48209522fafe3fae4771G.webp",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wtU9Yw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/imgi_76_freepik__background__95745.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VUdTrq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/imgi_39_Design_ohne_Titel_16.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_KRYJ6k",
+        "item_wtU9Yw",
+        "item_VUdTrq"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_wpjkLg": {
+      "type": "video",
+      "blocks": {
+        "play_RPd8Nh": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_RPd8Nh"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0911 (1)(1) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>FINI LA FATIGUE OCULAIRE POUR TOUJOURS</strong></h2><h3>Vos yeux méritent une protection intelligente.</h3><p>Vous en avez assez de :</p><ul><li>Plisser les yeux face à votre écran d'ordinateur ?</li><li>Avoir des maux de tête après une journée de travail ?</li><li>Changer constamment de lunettes entre intérieur et extérieur ?</li></ul><p><strong>NOTRE SOLUTION :</strong> Nos lunettes élégant possède 9 niveau d'intensité pour s'adapté à tout changement de luminosité. Que vous passiez du bureau ensoleillé à une pièce sombre, vos yeux restent parfaitement protégés.</p><p><strong>RÉSULTAT IMMÉDIAT :</strong> 85% de réduction de la fatigue oculaire dès le premier jour d'utilisation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_CVg6hT": {
+      "type": "video",
+      "blocks": {
+        "play_yjKG8j": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_yjKG8j"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0911 (1) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AEAtMf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_apaJeq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>UNE SEULE PAIRE POUR TOUTE LA JOURNÉE</strong></h2><h3>La liberté de ne plus jamais changer de lunettes.</h3><p>Imaginez pouvoir :</p><ul><li>✅ Travailler sur écran sans fatigue</li><li>✅ Conduire sous un soleil éclatant</li><li>✅ Profiter d'un coucher de soleil sublime</li><li>✅ Regarder votre téléphone le soir</li></ul><p><strong>TOUT CELA AVEC LA MÊME PAIRE !</strong></p><p>Grâce à notre <strong>technologie de filtrage adaptatif brevetée</strong>, ces lunettes remplacent vos lunettes de vue, vos lunettes anti-lumière bleue ET vos lunettes de soleil. C'est 3 paires en 1 !</p><p><strong>ÉCONOMIE RÉELLE :</strong> Plus besoin d'acheter plusieurs paires - une seule vous suffit pour toute l'année.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_apaJeq"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_BeyG44": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0911 (1)(2) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_BzbCac": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KFimte": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>STYLE PREMIUM POUR L'HOMME  ET LA FEMME MODERNE</strong></h2><h3>L'élégance qui impose le respect.</h3><p>Ces lunettes ne sont pas un gadget - c'est l'accessoire de l'homme qui :</p><ul><li>Refuse les compromis sur la qualité</li><li>Apprécie l'innovation discrète mais efficace</li><li>Comprend que les détails font la différence</li></ul><p><strong>DESIGN PENSÉ POUR VOUS :</strong></p><ul><li>Monture en alliage premium ultra-légère</li><li>Finitions sophistiquées qui s'accordent à tout style</li><li>Confort parfait même après 12h de port</li><li>Résistance aux rayures et aux chocs</li></ul><p><strong>L'IMPACT :</strong> Comme votre montre suisse ou votre costume sur-mesure, ces lunettes révèlent votre attention aux détails et votre goût pour l'excellence.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KFimte"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_9HhBci": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fkiHH9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Fatou, 34 ans,",
+            "title": "",
+            "content": "<p><em>Ce livre est vraiment très éfficace. Mon enfant prononce bien les mots, il n'a que 6 ans et il arrive déja à  nommé facilement tous les objets de la maison.</em></p>"
+          }
+        },
+        "testimonial_naCEiF": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Aïssatou, 28 ans",
+            "title": "",
+            "content": "<p><em>Je suis </em>enseignante<em> et j'ai acheté ce livre pour les enfants de la </em>maternelle, je vous recommande vraiment ce livre. C'est très éducatif</p>"
+          }
+        },
+        "testimonial_KpjK4k": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gueye, 41 ans",
+            "title": "",
+            "content": "<p><em>Super livre!</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fkiHH9",
+        "testimonial_naCEiF",
+        "testimonial_KpjK4k"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Ce que disent nos clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling_text_nbJFE8",
+    "1757608418ec914bc0",
+    "multi_column_x47rbG",
+    "video_wpjkLg",
+    "rich_text_yCBeNf",
+    "video_CVg6hT",
+    "rich_text_AEAtMf",
+    "video_BeyG44",
+    "rich_text_BzbCac",
+    "testimonials_9HhBci"
+  ]
+}
