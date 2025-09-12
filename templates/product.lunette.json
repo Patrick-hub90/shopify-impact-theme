@@ -48,6 +48,18 @@
           "type": "separator",
           "settings": {}
         },
+        "text_3MJaEN": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>⚡ RÉVOLUTIONNAIRE : Les SEULES lunettes qui éliminent 100% de la fatigue oculaire - Plus que 120 paires en stock !</em></p>"
+          }
+        },
+        "liquid_Jpizga": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Dynamic Order Count</title>\n  <style>\n    #dynamicText {\n      color: #6E72F0;\n      font-size: 15px;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <p id=\"dynamicText\"></p>\n\n  <script>\n    function updateOrderCount() {\n      // Générez un nombre aléatoire pour le nombre de commandes (N)\n      const numberOfOrders = Math.floor(Math.random() * 2) + 1; // Chiffre aléatoire entre 1 et 5\n\n      // Déterminez si le nombre est égal à 1 pour ajuster l'orthographe\n      const orderText = numberOfOrders === 1 ? 'commande' : 'commandes';\n\n      // Mettez à jour le texte avec le nouveau nombre de commandes et l'orthographe correcte\n      document.getElementById('dynamicText').innerHTML = `<span style=\"color: #000000; font-weight: bold;\">${numberOfOrders}</span> ${orderText} vien${numberOfOrders === 1 ? 't' : 'nnent'} d'être effectué${numberOfOrders === 1 ? 'e' : 's'}.`;\n    }\n\n    // Définissez un intervalle de temps variable entre 3 et 8 secondes (5000 et 15000 millisecondes)\n    const randomInterval = () => Math.floor(Math.random() * (9000 - 3000 + 1)) + 3000;\n    \n    // Mettez à jour les chiffres à des intervalles de temps aléatoires\n    setInterval(updateOrderCount, randomInterval());\n\n    // Appelez la fonction une fois au début pour afficher les chiffres initiaux\n    updateOrderCount();\n  </script>\n\n</body>\n</html>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -73,6 +85,8 @@
         "rating",
         "payment_terms",
         "separator",
+        "text_3MJaEN",
+        "liquid_Jpizga",
         "variant_picker",
         "easysell_cod_form_app_block_mjkaat"
       ],
@@ -177,7 +191,7 @@
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Lunettes d'Exception pour Homme</strong></h2><p>Ces lunettes ne sont pas un gadget pour impressionner - c'est l'outil de l'homme mature qui refuse les compromis. Comme votre montre ou votre costume sur-mesure, chaque détail a été pensé pour celui qui comprend que la vraie distinction ne crie pas, elle s'impose naturellement.</p>"
+            "content": "<h2><strong>FINI LA FATIGUE OCULAIRE POUR TOUJOURS</strong></h2><h3>Vos yeux méritent une protection intelligente.</h3><p>Vous en avez assez de :</p><ul><li>Plisser les yeux face à votre écran d'ordinateur ?</li><li>Avoir des maux de tête après une journée de travail ?</li><li>Changer constamment de lunettes entre intérieur et extérieur ?</li></ul><p><strong>NOTRE SOLUTION :</strong> Nos lunettes élégant possède 9 niveau d'intensité pour s'adapté à tout changement de luminosité. Que vous passiez du bureau ensoleillé à une pièce sombre, vos yeux restent parfaitement protégés.</p><p><strong>RÉSULTAT IMMÉDIAT :</strong> 85% de réduction de la fatigue oculaire dès le premier jour d'utilisation.</p>"
           }
         }
       },
