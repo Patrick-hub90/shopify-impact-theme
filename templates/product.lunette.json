@@ -119,6 +119,7 @@
       "block_order": [
         "appio_amazon_reviews_reviews_widget_DKCmdb"
       ],
+      "custom_css": [],
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
