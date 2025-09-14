@@ -79,12 +79,6 @@
         "separator_BwTEfW": {
           "type": "separator",
           "settings": {}
-        },
-        "text_zywWY6": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>TOTAL À PAYER À LA LIVRAISON : 9 900 CFA </strong><em>(au lieu de 25 000 CFA)</em></p>"
-          }
         }
       },
       "block_order": [
@@ -99,8 +93,7 @@
         "text_ELXQm3",
         "variant_picker",
         "easysell_cod_form_app_block_mjkaat",
-        "separator_BwTEfW",
-        "text_zywWY6"
+        "separator_BwTEfW"
       ],
       "settings": {
         "full_width": true,
@@ -134,32 +127,6 @@
         "background_gradient": "",
         "text_color": "#ffffff",
         "text_gradient": ""
-      }
-    },
-    "1757608418ec914bc0": {
-      "type": "apps",
-      "blocks": {
-        "appio_amazon_reviews_reviews_widget_DKCmdb": {
-          "type": "shopify://apps/appio-amazon-reviews/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "appio_amazon_reviews_reviews_widget_DKCmdb"
-      ],
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
       }
     },
     "video_pnJUKR": {
@@ -344,7 +311,6 @@
   "order": [
     "main",
     "scrolling_text_nbJFE8",
-    "1757608418ec914bc0",
     "video_pnJUKR",
     "rich_text_yCBeNf",
     "image_with_text_overlay_aY8gMj",
