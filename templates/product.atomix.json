@@ -21,7 +21,7 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p>Une seule prise pour tous vos appareils - Adaptateur qui transforme 1 prise en 5 ports de charge rapide.</p>"
+            "text": "<p>Convient parfaitement pour les bureaux, les bibliothèques, les salons ou comme centre de table, apportant une touche décorative unique.</p>"
           }
         },
         "badges": {
@@ -48,12 +48,6 @@
           "type": "separator",
           "settings": {}
         },
-        "text_3MJaEN": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>⚡ RÉVOLUTIONNAIRE : </em>Le SEUL adaptateur qui charge 5 appareils à pleine vitesse - Plus que 85 pièces en stock !</p>"
-          }
-        },
         "liquid_Jpizga": {
           "type": "liquid",
           "settings": {
@@ -63,7 +57,7 @@
         "text_ELXQm3": {
           "type": "text",
           "settings": {
-            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li><li>✅ <strong>Échange gratuit</strong> si la taille ne convient pas</li></ul>"
+            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li></ul>"
           }
         },
         "variant_picker": {
@@ -101,7 +95,6 @@
         "rating",
         "payment_terms",
         "separator",
-        "text_3MJaEN",
         "liquid_Jpizga",
         "text_ELXQm3",
         "variant_picker",
@@ -169,82 +162,6 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "multi_column_x47rbG": {
-      "type": "multi-column",
-      "blocks": {
-        "item_KRYJ6k": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_3_140-1.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_wtU9Yw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_7_IMG8.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_VUdTrq": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_12_IMG3_13f69974-71dc-4a0f-8b56-9493e1311b95.webp",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_LaWqH3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_11_IMG4.webp",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_KRYJ6k",
-        "item_wtU9Yw",
-        "item_VUdTrq",
-        "item_LaWqH3"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_with_text_overlay_WRFaPH": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -267,7 +184,7 @@
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>FINI LES GALÈRES DE PRISES AU BUREAU</strong></h2><h2>Une solution intelligente pour tous vos appareils.</h2><p>Vous en avez assez de :</p><ul><li>• Chercher des prises libres partout où vous allez ?</li><li>• Devoir débrancher un appareil pour en charger un autre ?</li><li>• Attendre des heures que vos appareils se rechargent ?</li></ul><p><strong>NOTRE SOLUTION :</strong> Notre adaptateur transforme n'importe quelle prise en station de charge complète. 4 ports USB (2 USB-C + 2 USB-A) + 1 prise secteur universelle. Tous vos appareils chargent simultanément à pleine vitesse.</p><p><strong>RÉSULTAT IMMÉDIAT :</strong> 5 appareils chargés en même temps, 3x plus vite qu'un chargeur classique.</p>"
+            "content": "<h3><strong>Un design innovant à rotation perpétuelle</strong></h3><p>Ce décor unique s’inspire de la structure atomique pour apporter une touche scientifique et moderne à votre intérieur. Sa finition dorée brillante s'intègre parfaitement dans n'importe quel style de décoration, qu'il s'agisse d'un bureau élégant ou d'une bibliothèque stylée. En plus d'être un élément esthétique, il offre également un effet de rotation apaisant à 360° qui crée une atmosphère relaxante, idéal pour réduire le stress et stimuler la créativité. Facile à placer sur n’importe quel meuble, il s’adapte à tous les espaces, que ce soit dans un bureau ou comme centre de table.</p>"
           }
         }
       },
@@ -306,7 +223,7 @@
         "richtext_apaJeq": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🔋 <strong>TECHNOLOGIE DE CHARGE RAPIDE INTELLIGENTE</strong></h2><p><strong>Comment ça fonctionne :</strong></p><ol><li><strong>Détection automatique</strong> - L'adaptateur identifie chaque appareil connecté</li><li><strong>Optimisation de puissance</strong> - Distribue la charge optimale pour chaque device</li><li><strong>Charge simultanée</strong> - Aucune perte de vitesse même avec 5 appareils branchés</li></ol>"
+            "content": "<h3>.<strong>Durabilité, simplicité et praticité au quotidien</strong></h3><p>Fabriqué en métal et plastique de qualité supérieure, ce décor est conçu pour durer. Sa structure robuste assure une stabilité parfaite sur n’importe quelle surface, évitant tout risque de chute ou de déséquilibre. De plus, sa légèreté permet de le déplacer facilement, tout en restant suffisamment stable pour un usage quotidien. Ce produit est aussi d’une grande simplicité d'entretien, vous garantissant une durée de vie prolongée tout en conservant son éclat au fil du temps. Son design fonctionnel et pratique s'associe à une facilité d'utilisation, parfait pour les espaces de travail.</p>"
           }
         }
       },
@@ -345,7 +262,7 @@
         "richtext_KFimte": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>UNE SEULE PRISE POUR TOUS VOS BESOINS</strong></h2><h3>La liberté de ne plus jamais manquer de prise.</h3><p>Imaginez pouvoir :</p><ul><li>• ✅ Charger votre laptop ET téléphone au bureau</li><li>• ✅ Brancher tous vos appareils au restaurant</li><li>• ✅ Avoir une station de charge complète à la maison</li><li>• ✅ Ne plus jamais attendre qu'une prise se libère</li></ul><p><strong>TOUT CELA AVEC UN SEUL ADAPTATEUR !</strong></p><p>Grâce à notre <strong>technologie multi-ports intelligente</strong>, cet adaptateur remplace 5 chargeurs différents. Compatible avec TOUTES les formes de prises : européennes, américaines, britanniques, et etc...</p>"
+            "content": "<h3><strong>Le cadeau parfait pour les passionnés de science et d'innovation</strong></h3><p>Offrez un cadeau original et utile aux amateurs de science ou aux étudiants avec ce décor inspiré de la structure atomique. Ce produit est non seulement un accessoire décoratif, mais il est aussi une véritable source d'inspiration pour les passionnés de physique, de chimie et de mathématiques. Idéal pour les enseignants, chercheurs ou toute personne curieuse de l'univers scientifique, ce décor allie à la fois beauté et connaissance, tout en devenant un sujet de conversation captivant dans n’importe quel espace.</p>"
           }
         }
       },
@@ -428,7 +345,6 @@
     "main",
     "scrolling_text_nbJFE8",
     "1757608418ec914bc0",
-    "multi_column_x47rbG",
     "image_with_text_overlay_WRFaPH",
     "rich_text_yCBeNf",
     "image_with_text_overlay_aY8gMj",
