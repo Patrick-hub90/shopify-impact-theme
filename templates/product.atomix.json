@@ -162,17 +162,16 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "image_with_text_overlay_WRFaPH": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_pnJUKR": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imgi_90_GIF_02.gif",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/ssstik.io_@alvishomedecor_1757870445740.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -210,6 +209,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/imgi_6_IMG6.png",
+        "mobile_image": "shopify://shop_images/imgi_125_13ed3b4366141130ba724251d39d47be.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -248,7 +248,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imgi_89_GIF_01.gif",
+        "image": "shopify://shop_images/imgi_124_72ffadd4efdd7b9c9a9a4792bc74de80.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -345,7 +345,7 @@
     "main",
     "scrolling_text_nbJFE8",
     "1757608418ec914bc0",
-    "image_with_text_overlay_WRFaPH",
+    "video_pnJUKR",
     "rich_text_yCBeNf",
     "image_with_text_overlay_aY8gMj",
     "rich_text_AEAtMf",
