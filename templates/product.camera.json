@@ -135,7 +135,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
+        "autoplay": true,
         "video_size": "md",
         "video": "shopify://files/videos/0915 (1)(2).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -173,7 +173,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
+        "autoplay": true,
         "video_size": "md",
         "video": "shopify://files/videos/0915 (1)(4).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -211,7 +211,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
+        "autoplay": true,
         "video_size": "md",
         "video": "shopify://files/videos/0915 (1)(3).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
