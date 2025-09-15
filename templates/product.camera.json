@@ -1,0 +1,319 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "text_dbUxnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Convient parfaitement pour les bureaux, les bibliothèques, les salons ou comme centre de table, apportant une touche décorative unique.</p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_Jpizga": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Dynamic Order Count</title>\n  <style>\n    #dynamicText {\n      color: #6E72F0;\n      font-size: 15px;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <p id=\"dynamicText\"></p>\n\n  <script>\n    function updateOrderCount() {\n      // Générez un nombre aléatoire pour le nombre de commandes (N)\n      const numberOfOrders = Math.floor(Math.random() * 2) + 1; // Chiffre aléatoire entre 1 et 5\n\n      // Déterminez si le nombre est égal à 1 pour ajuster l'orthographe\n      const orderText = numberOfOrders === 1 ? 'commande' : 'commandes';\n\n      // Mettez à jour le texte avec le nouveau nombre de commandes et l'orthographe correcte\n      document.getElementById('dynamicText').innerHTML = `<span style=\"color: #000000; font-weight: bold;\">${numberOfOrders}</span> ${orderText} vien${numberOfOrders === 1 ? 't' : 'nnent'} d'être effectué${numberOfOrders === 1 ? 'e' : 's'}.`;\n    }\n\n    // Définissez un intervalle de temps variable entre 3 et 8 secondes (5000 et 15000 millisecondes)\n    const randomInterval = () => Math.floor(Math.random() * (9000 - 3000 + 1)) + 3000;\n    \n    // Mettez à jour les chiffres à des intervalles de temps aléatoires\n    setInterval(updateOrderCount, randomInterval());\n\n    // Appelez la fonction une fois au début pour afficher les chiffres initiaux\n    updateOrderCount();\n  </script>\n\n</body>\n</html>"
+          }
+        },
+        "text_ELXQm3": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li></ul>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "easysell_cod_form_app_block_mjkaat": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": "boucle-doreille-a-bluetooth"
+          }
+        },
+        "separator_BwTEfW": {
+          "type": "separator",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "text_dbUxnm",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "liquid_Jpizga",
+        "text_ELXQm3",
+        "variant_picker",
+        "easysell_cod_form_app_block_mjkaat",
+        "separator_BwTEfW"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "scrolling_text_nbJFE8": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Plus de 5 000 clients satisfaits à Dakar | Livraison en 2h | Paiement sécurisé",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "video_NPAFeN": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/0914 (1)(1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>SÉCURITÉ & CONFORT </strong></p><p>L'Aspirateur d'Oreille Automatique EarCare Pro révolutionne l'hygiène auriculaire grâce à sa technologie de protection intégrée. Son design intelligent incorpore une longueur de sécurité calculée qui empêche l'insertion trop profonde, protégeant ainsi le tympan des perforations accidentelles. Les embouts en silicone souple s'adaptent parfaitement aux différentes morphologies d'oreilles, des enfants aux adultes, garantissant un confort maximal sans douleur. La vibration douce procure même un effet de massage relaxant sur les parois du conduit auditif, transformant une corvée désagréable en véritable moment de détente. Contrairement aux cotons-tiges qui peuvent causer des dommages graves, cette solution familiale offre une sécurité totale avec ses matériaux de qualité médicale sans BPA.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_wptaXi": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/0914 (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AEAtMf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_apaJeq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>EFFICACITÉ & TECHNOLOGIE </strong></p><p> L'Aspirateur d'Oreille Automatique EarCare Pro combine intelligemment la technologie à double action - vibration et aspiration simultanée - pour une efficacité révolutionnaire. Cette approche innovante décolle d'abord le cérumen tenace grâce aux vibrations douces, puis l'évacue efficacement via l'aspiration circulaire à 360 degrés. Fini les cotons-tiges inefficaces qui poussent la cire vers l'intérieur ! Cette technologie, inspirée des techniques de microaspiration professionnelles utilisées par les médecins, vous offre un standard médical à domicile. Les utilisateurs rapportent une amélioration immédiate de leur audition après utilisation, avec une élimination complète des bouchons en quelques minutes seulement, là où les méthodes traditionnelles échouent souvent.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_apaJeq"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_pnJUKR": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/0914 (1)(2).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_BzbCac": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KFimte": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>PRATICITÉ & ÉCONOMIE </p><p>L'Aspirateur d'Oreille Automatique EarCare Pro représente l'investissement intelligent pour votre hygiène auriculaire. Avec seulement 75g et ses dimensions ultra-compactes (13 x 2,8 cm), il se glisse facilement dans votre trousse de voyage, alimenté par une simple pile AAA pour une autonomie sans contrainte. Son fonctionnement silencieux mais puissant vous permet de l'utiliser à tout moment sans déranger votre entourage. Les embouts amovibles et lavables garantissent une hygiène parfaite, tandis que les embouts de rechange fournis assurent un usage familial optimal. Cette solution écologique et économique remplace définitivement l'achat récurrent de cotons-tiges, se rentabilisant rapidement tout en prévenant les complications auditives comme les infections, les bouchons et la perte auditive temporaire. Un seul dispositif pour toute la famille, une économie garantie à long terme !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KFimte"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_9HhBci": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fkiHH9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Fatou, 34 ans,",
+            "title": "",
+            "content": "<p><em>Ce livre est vraiment très éfficace. Mon enfant prononce bien les mots, il n'a que 6 ans et il arrive déja à  nommé facilement tous les objets de la maison.</em></p>"
+          }
+        },
+        "testimonial_naCEiF": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Aïssatou, 28 ans",
+            "title": "",
+            "content": "<p><em>Je suis </em>enseignante<em> et j'ai acheté ce livre pour les enfants de la </em>maternelle, je vous recommande vraiment ce livre. C'est très éducatif</p>"
+          }
+        },
+        "testimonial_KpjK4k": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gueye, 41 ans",
+            "title": "",
+            "content": "<p><em>Super livre!</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fkiHH9",
+        "testimonial_naCEiF",
+        "testimonial_KpjK4k"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Ce que disent nos clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling_text_nbJFE8",
+    "video_NPAFeN",
+    "rich_text_yCBeNf",
+    "video_wptaXi",
+    "rich_text_AEAtMf",
+    "video_pnJUKR",
+    "rich_text_BzbCac",
+    "testimonials_9HhBci"
+  ]
+}
