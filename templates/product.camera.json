@@ -21,7 +21,7 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p>Convient parfaitement pour les bureaux, les bibliothèques, les salons ou comme centre de table, apportant une touche décorative unique.</p>"
+            "text": "<p>Surveillez n'importe où, même sans WiFi ni électricité.</p>"
           }
         },
         "badges": {
@@ -57,7 +57,7 @@
         "text_ELXQm3": {
           "type": "text",
           "settings": {
-            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li></ul>"
+            "text": "<h4> 🎁 OFFRE COMPLÈTE INCLUSE </h4><ul><li>✅Mini caméra 4G<strong> remboursé</strong></li><li>✅ <strong>Carte Mémoire 8G (Gratuit)</strong></li><li>✅ Support rotation 360°</li><li>✅Câble de charge + adaptateurs</li><li>✅Guide d'installation  ou Assistance par le livreur</li><li>✅ Application mobile gratuite à vie</li></ul>"
           }
         },
         "variant_picker": {
@@ -150,7 +150,7 @@
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>SÉCURITÉ & CONFORT </strong></p><p>L'Aspirateur d'Oreille Automatique EarCare Pro révolutionne l'hygiène auriculaire grâce à sa technologie de protection intégrée. Son design intelligent incorpore une longueur de sécurité calculée qui empêche l'insertion trop profonde, protégeant ainsi le tympan des perforations accidentelles. Les embouts en silicone souple s'adaptent parfaitement aux différentes morphologies d'oreilles, des enfants aux adultes, garantissant un confort maximal sans douleur. La vibration douce procure même un effet de massage relaxant sur les parois du conduit auditif, transformant une corvée désagréable en véritable moment de détente. Contrairement aux cotons-tiges qui peuvent causer des dommages graves, cette solution familiale offre une sécurité totale avec ses matériaux de qualité médicale sans BPA.<br/><br/></p>"
+            "content": "<p>Contrairement aux autres camera disponible sur le marché qui fonctionne sur wifi  cette caméra fonctionne  PARTOUT où il y a du réseau mobile (Carte sim Orange, Free, etc..). Apres une charge complete, elle peut durer plusieurs mois d'autonomie grâce à la technologie de veille intelligente qui ne consomme que lors des détections de mouvement. De plus <br/>l'installation se fait en 5 minutes chrono, sans percer, sans câbles, sans électricien - posez et c'est parti !</p><p><strong>Vous n'êtes plus limité par l'emplacement de votre box internet ou des prises électriques. Protégez enfin votre résidence secondaire, votre atelier, votre camping-car, ou surveillez temporairement un déménagement - impossible avec les caméras WiFi classiques.</strong><br/></p>"
           }
         }
       },
@@ -188,7 +188,7 @@
         "richtext_apaJeq": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>EFFICACITÉ & TECHNOLOGIE </strong></p><p> L'Aspirateur d'Oreille Automatique EarCare Pro combine intelligemment la technologie à double action - vibration et aspiration simultanée - pour une efficacité révolutionnaire. Cette approche innovante décolle d'abord le cérumen tenace grâce aux vibrations douces, puis l'évacue efficacement via l'aspiration circulaire à 360 degrés. Fini les cotons-tiges inefficaces qui poussent la cire vers l'intérieur ! Cette technologie, inspirée des techniques de microaspiration professionnelles utilisées par les médecins, vous offre un standard médical à domicile. Les utilisateurs rapportent une amélioration immédiate de leur audition après utilisation, avec une élimination complète des bouchons en quelques minutes seulement, là où les méthodes traditionnelles échouent souvent.</p>"
+            "content": "<h2><strong>Pourquoi c'est votre meilleur garde du corps ?</strong></h2><p>Cette caméra intelligente est concu pour avoir un vision clair pendant la nuit grace a ses 6 LED infrarouges 90nm qui voient dans le noir absolu - les intrus ne peuvent donc plus se cacher. De plus ils arrivent à distinguer les personnes des animaux/véhicules - fini les fausses alertes à 3h du matin. Et ce n'est pas tout : avec ca fonction haut parleur et micro ( 5 mètres de distance ) vous pouvez parler directement aux intrus pour les faire fuir, ou rassurez vos proches à distance.<br/><br/><strong>Dormez tranquille : votre Caméra est plus vigilant qu'un vigile humain, ne fatigue jamais, et fait fuir 9 cambrioleurs sur 10 avant même qu'ils agissent.</strong></p>"
           }
         }
       },
@@ -226,7 +226,7 @@
         "richtext_KFimte": {
           "type": "richtext",
           "settings": {
-            "content": "<p>PRATICITÉ & ÉCONOMIE </p><p>L'Aspirateur d'Oreille Automatique EarCare Pro représente l'investissement intelligent pour votre hygiène auriculaire. Avec seulement 75g et ses dimensions ultra-compactes (13 x 2,8 cm), il se glisse facilement dans votre trousse de voyage, alimenté par une simple pile AAA pour une autonomie sans contrainte. Son fonctionnement silencieux mais puissant vous permet de l'utiliser à tout moment sans déranger votre entourage. Les embouts amovibles et lavables garantissent une hygiène parfaite, tandis que les embouts de rechange fournis assurent un usage familial optimal. Cette solution écologique et économique remplace définitivement l'achat récurrent de cotons-tiges, se rentabilisant rapidement tout en prévenant les complications auditives comme les infections, les bouchons et la perte auditive temporaire. Un seul dispositif pour toute la famille, une économie garantie à long terme !</p>"
+            "content": "<h2>Pourquoi même votre grand-mère peut l'utiliser ?</h2><p>Pour l'utiliser vous avez juste à scanner le code QR et suivre les instructions. Vous pourrez aussi nous contactez pas whatsapp pour plus d'assistance ou notre livreur vous aideras à l'installer. Vous obtenez en bonus une Carte Memoire de 8G GRATUIT pour stocker en video les dernieres 24 heures sans payer de connection internete</p>"
           }
         }
       },
