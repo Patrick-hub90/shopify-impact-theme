@@ -129,21 +129,6 @@
         "text_gradient": ""
       }
     },
-    "video_NPAFeN": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/0914 (1)(1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "rich_text_yCBeNf": {
       "type": "rich-text",
       "blocks": {
@@ -167,21 +152,6 @@
         "text_color": ""
       }
     },
-    "video_wptaXi": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/0914 (1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "rich_text_AEAtMf": {
       "type": "rich-text",
       "blocks": {
@@ -203,21 +173,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "video_pnJUKR": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/0914 (1)(2).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "rich_text_BzbCac": {
@@ -308,11 +263,8 @@
   "order": [
     "main",
     "scrolling_text_nbJFE8",
-    "video_NPAFeN",
     "rich_text_yCBeNf",
-    "video_wptaXi",
     "rich_text_AEAtMf",
-    "video_pnJUKR",
     "rich_text_BzbCac",
     "testimonials_9HhBci"
   ]
