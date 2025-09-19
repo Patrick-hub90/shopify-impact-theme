@@ -1,0 +1,341 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "liquid_Jpizga": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Dynamic Order Count</title>\n  <style>\n    #dynamicText {\n      color: #6E72F0;\n      font-size: 15px;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <p id=\"dynamicText\"></p>\n\n  <script>\n    function updateOrderCount() {\n      // Générez un nombre aléatoire pour le nombre de commandes (N)\n      const numberOfOrders = Math.floor(Math.random() * 2) + 1; // Chiffre aléatoire entre 1 et 5\n\n      // Déterminez si le nombre est égal à 1 pour ajuster l'orthographe\n      const orderText = numberOfOrders === 1 ? 'commande' : 'commandes';\n\n      // Mettez à jour le texte avec le nouveau nombre de commandes et l'orthographe correcte\n      document.getElementById('dynamicText').innerHTML = `<span style=\"color: #000000; font-weight: bold;\">${numberOfOrders}</span> ${orderText} vien${numberOfOrders === 1 ? 't' : 'nnent'} d'être effectué${numberOfOrders === 1 ? 'e' : 's'}.`;\n    }\n\n    // Définissez un intervalle de temps variable entre 3 et 8 secondes (5000 et 15000 millisecondes)\n    const randomInterval = () => Math.floor(Math.random() * (9000 - 3000 + 1)) + 3000;\n    \n    // Mettez à jour les chiffres à des intervalles de temps aléatoires\n    setInterval(updateOrderCount, randomInterval());\n\n    // Appelez la fonction une fois au début pour afficher les chiffres initiaux\n    updateOrderCount();\n  </script>\n\n</body>\n</html>"
+          }
+        },
+        "text_ELXQm3": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li></ul>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "easysell_cod_form_app_block_mjkaat": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": "boucle-doreille-a-bluetooth"
+          }
+        },
+        "separator_BwTEfW": {
+          "type": "separator",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "liquid_Jpizga",
+        "text_ELXQm3",
+        "variant_picker",
+        "easysell_cod_form_app_block_mjkaat",
+        "separator_BwTEfW"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "scrolling_text_nbJFE8": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Plus de 5 000 clients satisfaits à Dakar | Livraison en 2h | Paiement sécurisé",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "1757608418ec914bc0": {
+      "type": "apps",
+      "blocks": {
+        "appio_amazon_reviews_reviews_widget_DKCmdb": {
+          "type": "shopify://apps/appio-product-reviews/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "appio_amazon_reviews_reviews_widget_DKCmdb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "video_UrXVBL": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/1e2a28c21ee55473c90541466b18238c.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Votre anti-stress au bureau !!</strong></h2><p>Apportez une touche <strong>décorative </strong>à votre espace de travail. La danse hypnotique des méduses et leur lumière douce et changeante sont parfaites pour <strong>réduire le stress </strong>et améliorer la <strong>concentration</strong>. Elle ajoute une touche d’élégance et de design à votre bureau, qui reflète votre personnalité. Donnez à votre espace de travail une signature unique, alliant <strong>modernité et sérénité</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_PFFYjq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_73.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AEAtMf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_apaJeq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>L'ambiance magique de l'océan dans votre salon !!</strong></h2><p>Cette méduse lumineuse crée une <strong>ambiance lumineuse adaptée </strong>à chaque occasion : dîners en famille, soirées cinéma ou moments de détente. Télécommande en main, adaptez les couleurs selon l’événement – du bleu océan apaisant aux mauves et verts énergisants des aurores boréales. Elle sert de <strong>veilleuse élégante </strong>pour une lumière douce en soirée et devient une <strong>pièce décorative moderne </strong>et intrigante qui captive le regard de vos invités, apportant une <strong>poésie marine </strong>dans votre salon. C'est l'élément décoratif dont tout le monde vous parlera ! Elle fascine autant les enfants que les adultes.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_apaJeq"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_NxDgtf": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imageye___-_imgi_36_1738708190__1738708176436-61kxkzwpatl__original.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_BzbCac": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KFimte": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Un design qui impressionne, un cadeau qui marque !!</strong></h2><p>Avec ses <strong>dimensions imposantes</strong>, cette méduse lumineuse n’est pas un accessoire discret : elle s’impose avec <strong>élégance</strong> dans votre espace, attire naturellement le regard et devient un <strong>point de conversation captivant</strong>. Son envergure généreuse et sa présence affirmée en font bien plus qu’une simple décoration. Idéale pour offrir, elle marque les esprits et s’adapte à toutes les envies – que ce soit pour illuminer un bureau, apporter une touche magique à un salon ou pour <strong>cadeau original et raffiné</strong> à offrir pour toute occasion.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KFimte"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_9HhBci": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fkiHH9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Fatou, 34 ans,",
+            "title": "",
+            "content": "<p><em>Ce livre est vraiment très éfficace. Mon enfant prononce bien les mots, il n'a que 6 ans et il arrive déja à  nommé facilement tous les objets de la maison.</em></p>"
+          }
+        },
+        "testimonial_naCEiF": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Aïssatou, 28 ans",
+            "title": "",
+            "content": "<p><em>Je suis </em>enseignante<em> et j'ai acheté ce livre pour les enfants de la </em>maternelle, je vous recommande vraiment ce livre. C'est très éducatif</p>"
+          }
+        },
+        "testimonial_KpjK4k": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gueye, 41 ans",
+            "title": "",
+            "content": "<p><em>Super livre!</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fkiHH9",
+        "testimonial_naCEiF",
+        "testimonial_KpjK4k"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Ce que disent nos clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "scrolling_text_nbJFE8",
+    "1757608418ec914bc0",
+    "video_UrXVBL",
+    "rich_text_yCBeNf",
+    "image_with_text_overlay_PFFYjq",
+    "rich_text_AEAtMf",
+    "image_with_text_overlay_NxDgtf",
+    "rich_text_BzbCac",
+    "testimonials_9HhBci"
+  ]
+}
