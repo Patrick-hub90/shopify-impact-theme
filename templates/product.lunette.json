@@ -127,22 +127,6 @@
         "input_text_color": ""
       }
     },
-    "scrolling_text_nbJFE8": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
-      "settings": {
-        "full_width": true,
-        "text": "Plus de 5 000 clients satisfaits à Dakar | Livraison en 2h | Paiement sécurisé",
-        "text_size": "small",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 3,
-        "background": "#1a1a1a",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "text_gradient": ""
-      }
-    },
     "1757608418ec914bc0": {
       "type": "apps",
       "blocks": {
@@ -427,7 +411,6 @@
   },
   "order": [
     "main",
-    "scrolling_text_nbJFE8",
     "1757608418ec914bc0",
     "multi_column_x47rbG",
     "video_wpjkLg",
