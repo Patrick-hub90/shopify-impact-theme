@@ -85,12 +85,6 @@
         "separator_BwTEfW": {
           "type": "separator",
           "settings": {}
-        },
-        "text_zywWY6": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>TOTAL À PAYER À LA LIVRAISON : 13 900 CFA </strong><em>(au lieu de 25 000 CFA)</em></p>"
-          }
         }
       },
       "block_order": [
@@ -106,8 +100,7 @@
         "text_ELXQm3",
         "variant_picker",
         "easysell_cod_form_app_block_mjkaat",
-        "separator_BwTEfW",
-        "text_zywWY6"
+        "separator_BwTEfW"
       ],
       "settings": {
         "full_width": true,
@@ -261,7 +254,7 @@
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>FINI LA FATIGUE OCULAIRE POUR TOUJOURS</strong></h2><h3>Vos yeux méritent une protection intelligente.</h3><p>Vous en avez assez de :</p><ul><li>Plisser les yeux face à votre écran d'ordinateur ?</li><li>Avoir des maux de tête après une journée de travail ?</li><li>Changer constamment de lunettes entre intérieur et extérieur ?</li></ul><p><strong>NOTRE SOLUTION :</strong> Nos lunettes élégant possède 9 niveau d'intensité pour s'adapté à tout changement de luminosité. Que vous passiez du bureau ensoleillé à une pièce sombre, vos yeux restent parfaitement protégés.</p><p><strong>RÉSULTAT IMMÉDIAT :</strong> 85% de réduction de la fatigue oculaire dès le premier jour d'utilisation.</p>"
+            "content": "<h2><strong>Votre anti-stress au bureau !!</strong></h2><p>Apportez une touche <strong>décorative </strong>à votre espace de travail. La danse hypnotique des méduses et leur lumière douce et changeante sont parfaites pour <strong>réduire le stress </strong>et améliorer la <strong>concentration</strong>. Elle ajoute une touche d’élégance et de design à votre bureau, qui reflète votre personnalité. Donnez à votre espace de travail une signature unique, alliant <strong>modernité et sérénité</strong>.</p>"
           }
         }
       },
@@ -308,7 +301,7 @@
         "richtext_apaJeq": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>UNE SEULE PAIRE POUR TOUTE LA JOURNÉE</strong></h2><h3>La liberté de ne plus jamais changer de lunettes.</h3><p>Imaginez pouvoir :</p><ul><li>✅ Travailler sur écran sans fatigue</li><li>✅ Conduire sous un soleil éclatant</li><li>✅ Profiter d'un coucher de soleil sublime</li><li>✅ Regarder votre téléphone le soir</li></ul><p><strong>TOUT CELA AVEC LA MÊME PAIRE !</strong></p><p>Grâce à notre <strong>technologie de filtrage adaptatif brevetée</strong>, ces lunettes remplacent vos lunettes de vue, vos lunettes anti-lumière bleue ET vos lunettes de soleil. C'est 3 paires en 1 !</p><p><strong>ÉCONOMIE RÉELLE :</strong> Plus besoin d'acheter plusieurs paires - une seule vous suffit pour toute l'année.</p>"
+            "content": "<h2><strong>L'ambiance magique de l'océan dans votre salon !!</strong></h2><p>Cette méduse lumineuse crée une <strong>ambiance lumineuse adaptée </strong>à chaque occasion : dîners en famille, soirées cinéma ou moments de détente. Télécommande en main, adaptez les couleurs selon l’événement – du bleu océan apaisant aux mauves et verts énergisants des aurores boréales. Elle sert de <strong>veilleuse élégante </strong>pour une lumière douce en soirée et devient une <strong>pièce décorative moderne </strong>et intrigante qui captive le regard de vos invités, apportant une <strong>poésie marine </strong>dans votre salon. C'est l'élément décoratif dont tout le monde vous parlera ! Elle fascine autant les enfants que les adultes.</p>"
           }
         }
       },
@@ -346,7 +339,7 @@
         "richtext_KFimte": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>STYLE PREMIUM POUR L'HOMME  ET LA FEMME MODERNE</strong></h2><h3>L'élégance qui impose le respect.</h3><p>Ces lunettes ne sont pas un gadget - c'est l'accessoire de l'homme qui :</p><ul><li>Refuse les compromis sur la qualité</li><li>Apprécie l'innovation discrète mais efficace</li><li>Comprend que les détails font la différence</li></ul><p><strong>DESIGN PENSÉ POUR VOUS :</strong></p><ul><li>Monture en alliage premium ultra-légère</li><li>Finitions sophistiquées qui s'accordent à tout style</li><li>Confort parfait même après 12h de port</li><li>Résistance aux rayures et aux chocs</li></ul><p><strong>L'IMPACT :</strong> Comme votre montre suisse ou votre costume sur-mesure, ces lunettes révèlent votre attention aux détails et votre goût pour l'excellence.</p>"
+            "content": "<h2><strong>Un design qui impressionne, un cadeau qui marque !!</strong></h2><p>Avec ses <strong>dimensions imposantes</strong>, cette méduse lumineuse n’est pas un accessoire discret : elle s’impose avec <strong>élégance</strong> dans votre espace, attire naturellement le regard et devient un <strong>point de conversation captivant</strong>. Son envergure généreuse et sa présence affirmée en font bien plus qu’une simple décoration. Idéale pour offrir, elle marque les esprits et s’adapte à toutes les envies – que ce soit pour illuminer un bureau, apporter une touche magique à un salon ou pour <strong>cadeau original et raffiné</strong> à offrir pour toute occasion.</p>"
           }
         }
       },
