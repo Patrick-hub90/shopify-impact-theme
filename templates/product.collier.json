@@ -148,16 +148,17 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "video_UrXVBL": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_PFFYjq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/1e2a28c21ee55473c90541466b18238c.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imageye___-_imgi_29_2_800x_720x720_e7653c1a-a877-4ab5-8f8d-37059f8290ca.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -169,7 +170,7 @@
         "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Votre anti-stress au bureau !!</strong></h2><p>Apportez une touche <strong>décorative </strong>à votre espace de travail. La danse hypnotique des méduses et leur lumière douce et changeante sont parfaites pour <strong>réduire le stress </strong>et améliorer la <strong>concentration</strong>. Elle ajoute une touche d’élégance et de design à votre bureau, qui reflète votre personnalité. Donnez à votre espace de travail une signature unique, alliant <strong>modernité et sérénité</strong>.</p>"
+            "content": "<h2><strong>L'Amour Éternel et Tangible !!</strong></h2><p>Transformez un sentiment éphémère en un bijou précieux et durable. Ce n'est pas qu'un accessoire, c'est un symbole concret de votre amour que l'on peut porter près de son cœur tous les jours.</p>"
           }
         }
       },
@@ -186,7 +187,7 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_PFFYjq": {
+    "image_with_text_overlay_iQbpV3": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
@@ -194,7 +195,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_73.jpg",
+        "image": "shopify://shop_images/ily-n-opt.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -208,7 +209,7 @@
         "richtext_apaJeq": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>L'ambiance magique de l'océan dans votre salon !!</strong></h2><p>Cette méduse lumineuse crée une <strong>ambiance lumineuse adaptée </strong>à chaque occasion : dîners en famille, soirées cinéma ou moments de détente. Télécommande en main, adaptez les couleurs selon l’événement – du bleu océan apaisant aux mauves et verts énergisants des aurores boréales. Elle sert de <strong>veilleuse élégante </strong>pour une lumière douce en soirée et devient une <strong>pièce décorative moderne </strong>et intrigante qui captive le regard de vos invités, apportant une <strong>poésie marine </strong>dans votre salon. C'est l'élément décoratif dont tout le monde vous parlera ! Elle fascine autant les enfants que les adultes.</p>"
+            "content": "<h2><strong>Le Message Secret & Intime !!</strong></h2><p>Portez un message discret qui n'appartient qu'à vous deux. Un secret doux et précieux contre la peau, un rappel constant de votre connexion unique.</p>"
           }
         }
       },
@@ -233,12 +234,12 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imageye___-_imgi_36_1738708190__1738708176436-61kxkzwpatl__original.jpg",
+        "image": "shopify://shop_images/526acd39cd984cbc934f1c1afbc52c21_480x480_1_480x480_a8de9ced-7803-4330-bd38-2b368585064a.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_BzbCac": {
@@ -247,7 +248,7 @@
         "richtext_KFimte": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Un design qui impressionne, un cadeau qui marque !!</strong></h2><p>Avec ses <strong>dimensions imposantes</strong>, cette méduse lumineuse n’est pas un accessoire discret : elle s’impose avec <strong>élégance</strong> dans votre espace, attire naturellement le regard et devient un <strong>point de conversation captivant</strong>. Son envergure généreuse et sa présence affirmée en font bien plus qu’une simple décoration. Idéale pour offrir, elle marque les esprits et s’adapte à toutes les envies – que ce soit pour illuminer un bureau, apporter une touche magique à un salon ou pour <strong>cadeau original et raffiné</strong> à offrir pour toute occasion.</p>"
+            "content": "<h2><strong>Le Cadeau Porteur de Sens !!</strong></h2><p>Offrez bien plus qu'un objet, offrez une émotion. C'est le cadeau parfait pour dire <em>Je t'aime</em>, <em>Merci</em> ou <em>Tu comptes pour moi</em> sans avoir à prononcer un mot.</p>"
           }
         }
       },
@@ -330,9 +331,9 @@
     "main",
     "scrolling_text_nbJFE8",
     "1757608418ec914bc0",
-    "video_UrXVBL",
-    "rich_text_yCBeNf",
     "image_with_text_overlay_PFFYjq",
+    "rich_text_yCBeNf",
+    "image_with_text_overlay_iQbpV3",
     "rich_text_AEAtMf",
     "image_with_text_overlay_NxDgtf",
     "rich_text_BzbCac",
