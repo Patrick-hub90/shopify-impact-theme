@@ -18,12 +18,6 @@
             "heading_tag": "h2"
           }
         },
-        "text_dbUxnm": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Fini la fatigue oculaire - Lunettes qui s'adaptent automatiquement à TOUTE luminosité.</em></p>"
-          }
-        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -47,12 +41,6 @@
         "separator": {
           "type": "separator",
           "settings": {}
-        },
-        "text_3MJaEN": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>⚡ RÉVOLUTIONNAIRE : Les SEULES lunettes qui éliminent 100% de la fatigue oculaire - Plus que 120 paires en stock !</em></p>"
-          }
         },
         "liquid_Jpizga": {
           "type": "liquid",
@@ -89,13 +77,11 @@
       },
       "block_order": [
         "title",
-        "text_dbUxnm",
         "badges",
         "price",
         "rating",
         "payment_terms",
         "separator",
-        "text_3MJaEN",
         "liquid_Jpizga",
         "text_ELXQm3",
         "variant_picker",
