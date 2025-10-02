@@ -18,21 +18,21 @@
             "heading_tag": "h2"
           }
         },
-        "text_dbUxnm": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Obtenez un support de téléphone 360°- Un power bank et un haut-parleur puissant dans le </em><em><strong>PowerStand.</strong></em></p>"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
+        },
+        "text_dbUxnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>✅ Pourquoi vous allez l’adorer :</strong></p><ul><li>3 fonctions en 1 : support + enceinte + chargeur</li><li>Design compact et élégant</li><li>Très facile à utiliser, même pour les ceux qui ne sont pas habitué à la technologie</li><li>Idéal pour le télétravail, la plage, les restaurants, les voyages ou comme cadeau</li></ul>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
         },
         "rating": {
           "type": "rating",
@@ -67,9 +67,9 @@
       },
       "block_order": [
         "title",
+        "price",
         "text_dbUxnm",
         "badges",
-        "price",
         "rating",
         "payment_terms",
         "separator",
