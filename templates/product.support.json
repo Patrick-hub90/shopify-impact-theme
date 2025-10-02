@@ -94,6 +94,37 @@
         "input_text_color": ""
       }
     },
+    "video_rNL7Kx": {
+      "type": "video",
+      "blocks": {
+        "play_WXCDh6": {
+          "type": "play",
+          "settings": {}
+        },
+        "richtext_aXNLkN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Écoutez la différence sonore</p>"
+          }
+        }
+      },
+      "block_order": [
+        "play_WXCDh6",
+        "richtext_aXNLkN"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/0903(2) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "rich_text_yCBeNf": {
       "type": "rich-text",
       "blocks": {
@@ -155,31 +186,15 @@
         "text_color": ""
       }
     },
-    "video_rNL7Kx": {
+    "video_GXdjHK": {
       "type": "video",
-      "blocks": {
-        "play_WXCDh6": {
-          "type": "play",
-          "settings": {}
-        },
-        "richtext_aXNLkN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Écoutez la différence sonore</p>"
-          }
-        }
-      },
-      "block_order": [
-        "play_WXCDh6",
-        "richtext_aXNLkN"
-      ],
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "md",
-        "video": "shopify://files/videos/0903(2) (1).mp4",
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/1001(3).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -260,10 +275,11 @@
   },
   "order": [
     "main",
+    "video_rNL7Kx",
     "rich_text_yCBeNf",
     "video_CTfRFR",
     "rich_text_wnFqhR",
-    "video_rNL7Kx",
+    "video_GXdjHK",
     "rich_text_ztBdyy",
     "testimonials_9HhBci"
   ]
