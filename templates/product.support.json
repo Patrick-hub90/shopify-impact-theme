@@ -156,7 +156,7 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "lg",
-        "video": "shopify://files/videos/0903(1) (1).mp4",
+        "video": "shopify://files/videos/1001(2).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -277,9 +277,9 @@
     "main",
     "video_rNL7Kx",
     "rich_text_yCBeNf",
-    "video_CTfRFR",
-    "rich_text_wnFqhR",
     "video_GXdjHK",
+    "rich_text_wnFqhR",
+    "video_CTfRFR",
     "rich_text_ztBdyy",
     "testimonials_9HhBci"
   ]
