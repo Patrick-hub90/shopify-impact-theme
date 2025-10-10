@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/merchant-taking-sale-with-chip-and-swipe-reader.jpg",
+            "image": "shopify://shop_images/rack-of-womens-clothing.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
