@@ -45,16 +45,6 @@
         "type": "shopify://apps/easysell-cod-form/blocks/app-embed/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
         "disabled": false,
         "settings": {}
-      },
-      "8563257222199239999": {
-        "type": "shopify://apps/avada-seo-suite/blocks/avada-seo/15507c6e-1aa3-45d3-b698-7e175e033440",
-        "disabled": false,
-        "settings": {}
-      },
-      "16420725565331586169": {
-        "type": "shopify://apps/appio-amazon-reviews/blocks/integration/569167b3-e5d6-4314-9866-f51281b506d7",
-        "disabled": false,
-        "settings": {}
       }
     }
   },
