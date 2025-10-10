@@ -18,6 +18,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_dk6B8X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>blabamanjalkbzfjlbhjezke fnr customers about your products.</p>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -58,24 +64,16 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "easysell_cod_form_app_block_hxBrgb": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "product": ""
           }
         }
       },
       "block_order": [
         "title",
+        "text_dk6B8X",
         "badges",
         "price",
         "rating",
@@ -83,8 +81,7 @@
         "separator",
         "description",
         "variant_picker",
-        "quantity_selector",
-        "buy_buttons"
+        "easysell_cod_form_app_block_hxBrgb"
       ],
       "settings": {
         "full_width": true,
@@ -125,10 +122,89 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "media_with_text_kmB4A4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_kbyP4j": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_wjpfRm": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_HDt8bi": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kbyP4j",
+        "image_wjpfRm",
+        "image_HDt8bi"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "media_with_text_kmB4A4"
   ]
 }
