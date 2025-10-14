@@ -124,6 +124,63 @@
         "review_button_text_color": "#ffffff"
       }
     },
+    "video_nMDc7W": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/70c99bbf-4a39-4b48-adc9-6ed324cb2cd5.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_Bg4VMB": {
+      "type": "rich-text",
+      "blocks": {
+        "image_yd8WWb": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "heading_4fNrDG": {
+          "type": "heading",
+          "settings": {
+            "text": "🥇 1ère place – Mamadou sarr (91/100 pts)",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qFrrkE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fidélité au Model Original : 48 pts<br/>Temps de réalisation : (10 jours ) 43 pts<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_yd8WWb",
+        "heading_4fNrDG",
+        "richtext_qFrrkE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_NfLyGU": {
       "type": "video",
       "name": "Video",
@@ -136,7 +193,7 @@
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_yCBeNf": {
@@ -174,7 +231,7 @@
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_AEAtMf": {
@@ -183,7 +240,7 @@
         "richtext_apaJeq": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Relevez le défi, partagez votre œuvre, recevez votre récompense.</strong></h2><p><strong>Une fois votre bibliothèque terminée, envoyez-nous une photo via WhatsApp.</strong><br/><br/>Vous recevrez par email votre <strong>badge officiel de félicitations</strong>, ainsi que votre <strong>classement parmi les constructeurs de Dakar</strong>.<br/><br/>C’est notre manière de saluer votre talent, votre patience et votre esprit brillant.<br/><br/>Parce que chaque création mérite d’être reconnue… et célébrée.</p>"
+            "content": "<h2><strong>Relevez le défi, partagez votre œuvre, recevez votre récompense.</strong></h2><p><strong>Une fois votre bibliothèque terminée, envoyez-nous une photo via WhatsApp.</strong><br/><br/>Vous recevrez par email votre <strong>badge officiel de félicitations</strong>, ainsi que votre <strong>classement parmi les constructeurs de Dakar selon:</strong></p><p>- Respect du modèle (50 pts) : fidélité au design original<br/>- Temps de réalisation (50 pts) <br/><br/>C’est notre manière de saluer votre talent, votre patience et votre esprit brillant.<br/><br/>Parce que chaque création mérite d’être reconnue… et célébrée.</p>"
           }
         }
       },
@@ -212,7 +269,7 @@
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_BzbCac": {
@@ -303,6 +360,8 @@
   "order": [
     "main",
     "1757608418ec914bc0",
+    "video_nMDc7W",
+    "rich_text_Bg4VMB",
     "video_NfLyGU",
     "rich_text_yCBeNf",
     "video_DKzzir",
