@@ -130,7 +130,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
+        "autoplay": true,
         "video_size": "md",
         "video": "shopify://files/videos/c84d73e377034580849c9ed4409af60a.HD-1080p-3.3Mbps-41435455 (1).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
