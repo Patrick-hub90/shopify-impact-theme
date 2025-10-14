@@ -124,22 +124,6 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "image_with_text_overlay_PFFYjq": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imageye___-_imgi_29_2_800x_720x720_e7653c1a-a877-4ab5-8f8d-37059f8290ca.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "video_NfLyGU": {
       "type": "video",
       "name": "Video",
@@ -319,7 +303,6 @@
   "order": [
     "main",
     "1757608418ec914bc0",
-    "image_with_text_overlay_PFFYjq",
     "video_NfLyGU",
     "rich_text_yCBeNf",
     "video_DKzzir",
