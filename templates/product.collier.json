@@ -54,6 +54,12 @@
             "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li></ul>"
           }
         },
+        "easysell_cod_form_app_block_yqRVnK": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -62,12 +68,6 @@
             "selector_mode": "block",
             "color_mode": "color",
             "size_chart_page": ""
-          }
-        },
-        "easysell_cod_form_app_block_mjkaat": {
-          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
-          "settings": {
-            "product": "boucle-doreille-a-bluetooth"
           }
         },
         "separator_BwTEfW": {
@@ -84,8 +84,8 @@
         "separator",
         "liquid_Jpizga",
         "text_ELXQm3",
+        "easysell_cod_form_app_block_yqRVnK",
         "variant_picker",
-        "easysell_cod_form_app_block_mjkaat",
         "separator_BwTEfW"
       ],
       "settings": {
@@ -108,15 +108,6 @@
     },
     "1757608418ec914bc0": {
       "type": "apps",
-      "blocks": {
-        "appio_amazon_reviews_reviews_widget_DKCmdb": {
-          "type": "shopify://apps/appio-product-reviews/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "appio_amazon_reviews_reviews_widget_DKCmdb"
-      ],
       "disabled": true,
       "custom_css": [],
       "settings": {
@@ -180,7 +171,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ily-n-opt.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -219,7 +209,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/526acd39cd984cbc934f1c1afbc52c21_480x480_1_480x480_a8de9ced-7803-4330-bd38-2b368585064a.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
