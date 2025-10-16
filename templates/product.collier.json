@@ -165,6 +165,7 @@
     },
     "image_with_text_overlay_iQbpV3": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -191,6 +192,7 @@
       "block_order": [
         "richtext_apaJeq"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -203,6 +205,7 @@
     },
     "image_with_text_overlay_NxDgtf": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -229,6 +232,7 @@
       "block_order": [
         "richtext_KFimte"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
