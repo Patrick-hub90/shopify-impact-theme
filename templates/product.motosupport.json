@@ -123,7 +123,8 @@
         "image_fFm6nL": {
           "type": "image",
           "settings": {
-            "width_mode": "custom",
+            "image": "shopify://shop_images/imgi_7_support-telephone-moto-coque-etanche-tactile-le-pratique-du-motard-786276.jpg",
+            "width_mode": "full_width",
             "max_width": 600,
             "mobile_max_width": 400
           }
