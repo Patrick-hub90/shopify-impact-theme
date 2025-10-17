@@ -132,7 +132,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imageye___-_imgi_29_2_800x_720x720_e7653c1a-a877-4ab5-8f8d-37059f8290ca.webp",
+        "image": "shopify://shop_images/imgi_16_ILYN1_720x_f76e21a8-1841-4fd8-99dc-1ed0eba9b7a7.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -165,13 +165,13 @@
     },
     "image_with_text_overlay_iQbpV3": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/imgi_8_ily-n-opt.gif",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -192,7 +192,6 @@
       "block_order": [
         "richtext_apaJeq"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -205,13 +204,13 @@
     },
     "image_with_text_overlay_NxDgtf": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/imgi_20_ILoveYou1_540x_3f5153c0-5984-436d-b0c5-d8b53b7fe218.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -232,7 +231,6 @@
       "block_order": [
         "richtext_KFimte"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
