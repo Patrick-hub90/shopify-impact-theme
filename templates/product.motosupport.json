@@ -57,12 +57,6 @@
             "color_mode": "color",
             "size_chart_page": ""
           }
-        },
-        "easysell_cod_form_app_block_mjkaat": {
-          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
-          "settings": {
-            "product": "boucle-doreille-a-bluetooth"
-          }
         }
       },
       "block_order": [
@@ -73,8 +67,7 @@
         "rating",
         "payment_terms",
         "separator",
-        "variant_picker",
-        "easysell_cod_form_app_block_mjkaat"
+        "variant_picker"
       ],
       "settings": {
         "full_width": true,
@@ -94,13 +87,28 @@
         "input_text_color": ""
       }
     },
+    "image_with_text_overlay_QR4rTk": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/1_480x480_480x480_7fde9d68-98ea-44c3-80b0-fc192d4196e3.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_yCBeNf": {
       "type": "rich-text",
       "blocks": {
         "image_zqyq4K": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/imgi_19_m0hdOz2XDV1Ohmx8sYz_1100082168703_mp4_264_sd-_online-video-cutter.com_480x480_fb70ea4d-7fdd-4aa6-a7d6-4591e46e137c.gif",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -115,7 +123,6 @@
         "image_fFm6nL": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ezgif.com-gif-maker_56_480x480_0b72564e-e019-44e9-9c45-ebd933a55872.gif",
             "width_mode": "custom",
             "max_width": 600,
             "mobile_max_width": 400
@@ -195,6 +202,7 @@
   },
   "order": [
     "main",
+    "image_with_text_overlay_QR4rTk",
     "rich_text_yCBeNf",
     "testimonials_9HhBci"
   ]
