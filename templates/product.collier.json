@@ -106,6 +106,21 @@
         "input_text_color": ""
       }
     },
+    "video_P4eyyj": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/8133e487198040318003fd276b4c4e63.SD-480p-1.5Mbps-39995145.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "1757608418ec914bc0": {
       "type": "apps",
       "disabled": true,
@@ -122,22 +137,6 @@
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
-      }
-    },
-    "image_with_text_overlay_PFFYjq": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imgi_16_ILYN1_720x_f76e21a8-1841-4fd8-99dc-1ed0eba9b7a7.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "rich_text_yCBeNf": {
@@ -305,8 +304,8 @@
   },
   "order": [
     "main",
+    "video_P4eyyj",
     "1757608418ec914bc0",
-    "image_with_text_overlay_PFFYjq",
     "rich_text_yCBeNf",
     "image_with_text_overlay_iQbpV3",
     "rich_text_AEAtMf",
