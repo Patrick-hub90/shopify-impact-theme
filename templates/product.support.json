@@ -104,6 +104,137 @@
         "input_text_color": ""
       }
     },
+    "video_JPPCPA": {
+      "type": "video",
+      "blocks": {
+        "play_eWF9ia": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_h7YEEz": {
+          "type": "heading",
+          "settings": {
+            "text": "Écoutez le song",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_eWF9ia",
+        "heading_h7YEEz"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0903(2) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🔊 Un son puissant, sans compromis</h2><p>Profitez d’un son de meilleure qualité grâce à la connectivité Bluetooth 5.3, avec une portée jusqu’à 10 mètres. Que ce soit pour écouter votre musique, passer des appels ou regarder des vidéos ou des films, l’enceinte intégrée vous offre une expérience audio stable et immersive. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_7hwjt7": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/1001(3).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>⚡ Rechargez où que vous soyez</h2><p>Doté d’une batterie intégrée de 1200 mAh et d’un port Type-C, le SonicDock vous permet de recharger votre téléphone ou tablette en déplacement. Compact (12 x 7,5 cm) et léger, il se glisse facilement dans un sac pour vous accompagner partout.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_3WRFiA": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/1001(2).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>📱 Support universel et confortable</h2><p>Compatible avec tous les smartphones et tablettes jusqu’à 12.9 pouces, le support ajustable offre un angle de vision optimal pour les appels vidéo, le streaming ou le travail mains libres. Les patins antidérapants assurent une stabilité parfaite, même en mouvement.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -129,6 +260,12 @@
   },
   "order": [
     "main",
+    "video_JPPCPA",
+    "rich_text_pezP7C",
+    "video_7hwjt7",
+    "rich_text_AKNFD7",
+    "video_3WRFiA",
+    "rich_text_VrrQih",
     "related-products"
   ]
 }
