@@ -28,6 +28,12 @@
             "show_taxes_notice": false
           }
         },
+        "text_pd7fDB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>✅ Pourquoi vous allez l’adorer :</strong></p><ul><li>3 fonctions en 1 : support + enceinte + chargeur</li><li>Design compact et élégant</li><li>Très facile à utiliser, même pour les ceux qui ne sont pas habitué à la technologie</li><li>Idéal pour le télétravail, la plage, les restaurants, les voyages ou comme cadeau</li></ul>"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -57,34 +63,18 @@
             "color_mode": "color",
             "size_chart_page": ""
           }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
         }
       },
       "block_order": [
         "title",
         "badges",
         "price",
+        "text_pd7fDB",
         "rating",
         "payment_terms",
         "separator",
         "description",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons"
+        "variant_picker"
       ],
       "settings": {
         "full_width": true,
