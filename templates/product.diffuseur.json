@@ -1,0 +1,261 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_pd7fDB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Le soleil devient votre prise électrique.</strong></p>"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "text_pd7fDB",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "video_JPPCPA": {
+      "type": "video",
+      "blocks": {
+        "play_eWF9ia": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_h7YEEz": {
+          "type": "heading",
+          "settings": {
+            "text": "Écoutez le song",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_eWF9ia",
+        "heading_h7YEEz"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0903(2) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Batterie de secours fiable pour les journées longue</strong></h2><p><strong>Vous êtes à la recherche d’un powerbank qui vous mérite ?</strong><br/><br/>Cette batterie externe vous accompagne du matin jusqu’au soir, avec une capacité de <strong>15 000mAh</strong> capable de recharger plusieurs fois les derniers modèles des grandes marques :</p><ul><li><strong>iPhone 17 Pro Max</strong> (5 088 mAh)</li><li><strong>Samsung Galaxy S23</strong> (3 900 mAh)</li><li><strong>Google Pixel 8</strong> (4 575 mAh)</li></ul><p>Grâce à sa puissance, vous pouvez recharger votre téléphone <strong>2 à 3 fois dans la journée</strong>, selon le modèle. C’est un investissement intelligent pour ceux qui veulent un outil <strong>complet, durable et économique</strong>. Parfait pour les <strong>budgets serrés</strong> et les <strong>usages intensifs</strong> : commerçants, fonctionnaires, ouvriers, livreurs, étudiants… tout le monde y gagne en autonomie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_7hwjt7": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/1001(3).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Recharge solaire = autonomie même sans électricité</h2><p><strong>Si vous recherchez un bon powerbank, pourquoi ne pas choisir celui qui fait mieux le travail?</strong><br/><br/>Ce powerbank ne perd jamais sa propre charge — au contraire, il maintient votre téléphone bien chargé tout au long de la journée. Grâce à son <strong>panneau solaire</strong>, il se <strong>recharge automatiquement à la lumière du jour</strong>, sans prise ni courant. C’est une <strong>forme d’énergie renouvelable</strong> qui vous donne une vraie autonomie, même en déplacement ou en cas de coupure.<br/><br/>Dans les marchés, sur les chantiers, en tournée ou au bureau, c’est le <strong>powerbank le plus utile du marché</strong> : fiable, durable, et toujours prêt à vous dépanner quand vous en avez le plus besoin.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_3WRFiA": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/1001(2).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Multi-câbles intégrés</h2><p>Que vous utilisiez Android, iPhone ou écouteurs Bluetooth, tout est déjà là. Cette batterie intègre directement plusieurs types de câbles compatibles avec la majorité des téléphones et accessoires.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_JPPCPA",
+    "rich_text_pezP7C",
+    "video_7hwjt7",
+    "rich_text_AKNFD7",
+    "video_3WRFiA",
+    "rich_text_VrrQih",
+    "related-products"
+  ]
+}
