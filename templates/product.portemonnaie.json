@@ -31,7 +31,7 @@
         "text_pd7fDB": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Perdre son portefeuille ? Impossible. Oublier son style ? Jamais. Ce portefeuille vous suit, protège votre argent, et porte votre nom.</strong></p>"
+            "text": "<p><strong>Perdre son portefeuille ? Impossible.  Ce portefeuille vous suit, protège votre argent, et porte votre nom.</strong></p>"
           }
         },
         "rating": {
@@ -109,7 +109,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imgi_32_35379518566211418_900x_550x_19c01d4d-ba35-4128-a528-680bf1392216.jpg",
+        "image": "shopify://shop_images/telechargement_59.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
