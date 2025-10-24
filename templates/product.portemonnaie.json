@@ -31,7 +31,7 @@
         "text_pd7fDB": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>✅ Pourquoi il plaît autant au Sénégal</strong></p><ul><li>✔️ Il embellit la maison, même éteint</li><li>✔️ Il crée une ambiance chaleureuse pour recevoir</li><li>✔️ Il purifie l’air pendant les périodes chaudes et sèches</li><li>✔️ Il s’offre facilement, sans se tromper</li><li>✔️ Il montre que vous avez du goû</li></ul>"
+            "text": "<p><strong>Perdre son portefeuille ? Impossible. Oublier son style ? Jamais. Ce portefeuille vous suit, protège votre argent, et porte votre nom.</strong></p>"
           }
         },
         "rating": {
@@ -101,36 +101,20 @@
         "input_text_color": ""
       }
     },
-    "video_JPPCPA": {
-      "type": "video",
-      "blocks": {
-        "play_eWF9ia": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_h7YEEz": {
-          "type": "heading",
-          "settings": {
-            "text": "Écoutez le song",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_eWF9ia",
-        "heading_h7YEEz"
-      ],
-      "name": "Video",
+    "image_with_text_overlay_dm8a7J": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "lg",
-        "video": "shopify://files/videos/0903(2) (1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_32_35379518566211418_900x_550x_19c01d4d-ba35-4128-a528-680bf1392216.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_pezP7C": {
@@ -139,7 +123,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🏠 L’objet qui transforme votre pièce en espace de bien-être</h2><p>Dans un salon, une chambre ou un bureau, ce diffuseur ne passe jamais inaperçu. Sa lumière douce, ses formes épurées et ses couleurs changeantes en font un <strong>élément de décoration à part entière</strong>. Il attire le regard, apaise l’ambiance et donne du cachet à votre espace — sans effort</p>"
+            "content": "<h2><strong>Géolocalisation intégrée + alerte sonore</strong></h2><p>Grâce à sa technologie embarquée, votre portefeuille connecté à votre télephone vous signale sa position  en cas d’oubli ou de perte. Dans les lieux les plus cachés, un simple signal sonore vous guide vers lui pour le retrouver facilement. <em>Discret, </em>efficace<em>, rassurant.</em></p>"
           }
         }
       },
@@ -156,19 +140,20 @@
         "text_color": ""
       }
     },
-    "video_7hwjt7": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_x4mrRg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/1001(3).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_40_Untitled-1_36390568-5375-4d28-8807-fb05332fd147.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_AKNFD7": {
@@ -177,7 +162,7 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🌈 7 couleurs LED pour créer l’ambiance qui vous ressemble</h2><p>Changez d’atmosphère selon votre humeur : lumière chaude pour les soirées détentes, bleu apaisant pour le sommeil, rose doux pour une touche romantique. Ce diffuseur devient <strong>votre chef d’ambiance personnel</strong>, sans télécommande ni complication.</p>"
+            "content": "<h2>🔖 Le Portefeuille Porte Le Nom de son Propriétaire</h2><p>Notre portefeuille porte le nom du propriétaire…<br/>Parce qu’un accessoire ne devrait jamais être anonyme.<br/>Chaque pièce est gravée avec soin, directement sur le cuir, pour refléter votre identité, votre style, votre histoire.<br/><br/><strong>Ce n’est pas juste un portefeuille — c’est une signature.<br/></strong><br/>Un détail subtil qui transforme un objet du quotidien en symbole de distinction.<br/><br/>Et si c’est un cadeau ? Il devient inoubliable.</p>"
           }
         }
       },
@@ -194,19 +179,20 @@
         "text_color": ""
       }
     },
-    "video_3WRFiA": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_eGY9zk": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/1001(2).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_6_Hb6d41c9f9d1149bcade1034179b011a5O.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_VrrQih": {
@@ -215,35 +201,12 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🌿 Élégance utile : un design qui prend soin de vous</h2><p>Derrière son look raffiné, ce diffuseur cache une double fonction : <strong>humidifier l’air</strong> et <strong>diffuser vos huiles essentielles préférées</strong>. Résultat : un air plus sain, une respiration plus fluide, et une sensation de fraîcheur naturelle — même pendant la saison sèche ou sous la climatisation.</p>"
+            "content": "<h2>🐂 Un Cuir Qui Ne Se Contente Pas d’Être Beau</h2><p>Ce portefeuille ne se contente pas d’un cuir quelconque.<br/><br/>Il est façonné dans un cuir au grain naturel, sélectionné pour sa texture vivante et son patin évolutif.<br/><br/>Chaque pièce raconte une histoire — la vôtre — qui s’imprime au fil du temps, des gestes, des aventures.<br/><br/>Au toucher, une sensation de matière noble. À la vue, une élégance brute et assumée.<br/><br/>Ce cuir ne cherche pas à briller artificiellement : il respire l’authenticité, la durabilité, le caractère.<br/><br/>Et comme chaque peau est unique, <em>votre portefeuille l’est aussi.</em></p>"
           }
         }
       },
       "block_order": [
         "richtext_dp3ceY"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_H8MVVW": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_7ydYHn": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>🎁 Le cadeau chic et accessible qui fait toujours plaisir</h2><p>Mariage, pendaison de crémaillère, remerciement ou simple attention : ce diffuseur est <strong>le petit luxe abordable</strong> qui fait briller les yeux. Il montre que vous avez du goût, sans casser votre budget.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_7ydYHn"
       ],
       "name": "Rich text",
       "settings": {
@@ -280,13 +243,12 @@
   },
   "order": [
     "main",
-    "video_JPPCPA",
+    "image_with_text_overlay_dm8a7J",
     "rich_text_pezP7C",
-    "video_7hwjt7",
+    "image_with_text_overlay_x4mrRg",
     "rich_text_AKNFD7",
-    "video_3WRFiA",
+    "image_with_text_overlay_eGY9zk",
     "rich_text_VrrQih",
-    "rich_text_H8MVVW",
     "related-products"
   ]
 }
