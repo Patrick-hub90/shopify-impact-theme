@@ -101,36 +101,19 @@
         "input_text_color": ""
       }
     },
-    "video_JPPCPA": {
+    "video_Rhaxg6": {
       "type": "video",
-      "blocks": {
-        "play_eWF9ia": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_h7YEEz": {
-          "type": "heading",
-          "settings": {
-            "text": "Écoutez le song",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_eWF9ia",
-        "heading_h7YEEz"
-      ],
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "lg",
-        "video": "shopify://files/videos/0903(2) (1).mp4",
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/1024.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_pezP7C": {
@@ -156,54 +139,16 @@
         "text_color": ""
       }
     },
-    "video_7hwjt7": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_6af3aR": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/1001(3).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_AKNFD7": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_a3tjWm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>Facile à installer, simple à utiliser — et pensé pour toute la famille.</strong></h2><p>Un seul bouton suffit pour lancer la stérilisation, et la lumière bleue vous confirme que tout se passe bien. Même les enfants peuvent l’utiliser sans aide. C’est l’hygiène sans prise de tête.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_a3tjWm"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_3WRFiA": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/1001(2).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -232,18 +177,33 @@
         "text_color": ""
       }
     },
-    "rich_text_H8MVVW": {
+    "image_with_text_overlay_4gAJPN": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_AKNFD7": {
       "type": "rich-text",
       "blocks": {
-        "richtext_7ydYHn": {
+        "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🎁 Le cadeau chic et accessible qui fait toujours plaisir</h2><p>Mariage, pendaison de crémaillère, remerciement ou simple attention : ce diffuseur est <strong>le petit luxe abordable</strong> qui fait briller les yeux. Il montre que vous avez du goût, sans casser votre budget.</p>"
+            "content": "<h2><strong>Facile à installer, simple à utiliser — et pensé pour toute la famille.</strong></h2><p>Un seul bouton suffit pour lancer la stérilisation, et la lumière bleue vous confirme que tout se passe bien. Même les enfants peuvent l’utiliser sans aide. C’est l’hygiène sans prise de tête.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_7ydYHn"
+        "richtext_a3tjWm"
       ],
       "name": "Rich text",
       "settings": {
@@ -280,12 +240,11 @@
   },
   "order": [
     "main",
-    "video_JPPCPA",
+    "video_Rhaxg6",
     "rich_text_pezP7C",
-    "video_7hwjt7",
-    "rich_text_H8MVVW",
-    "video_3WRFiA",
+    "image_with_text_overlay_6af3aR",
     "rich_text_VrrQih",
+    "image_with_text_overlay_4gAJPN",
     "rich_text_AKNFD7",
     "related-products"
   ]
