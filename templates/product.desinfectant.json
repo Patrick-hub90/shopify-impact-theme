@@ -1,0 +1,292 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_pd7fDB": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>✅ Pourquoi il plaît autant au Sénégal</strong></p><ul><li>✔️ Il embellit la maison, même éteint</li><li>✔️ Il crée une ambiance chaleureuse pour recevoir</li><li>✔️ Il purifie l’air pendant les périodes chaudes et sèches</li><li>✔️ Il s’offre facilement, sans se tromper</li><li>✔️ Il montre que vous avez du goû</li></ul>"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "easysell_cod_form_app_block_rrhTyh": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "text_pd7fDB",
+        "rating",
+        "payment_terms",
+        "easysell_cod_form_app_block_rrhTyh",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "video_JPPCPA": {
+      "type": "video",
+      "blocks": {
+        "play_eWF9ia": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_h7YEEz": {
+          "type": "heading",
+          "settings": {
+            "text": "Écoutez le song",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_eWF9ia",
+        "heading_h7YEEz"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0903(2) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🏠 L’objet qui transforme votre pièce en espace de bien-être</h2><p>Dans un salon, une chambre ou un bureau, ce diffuseur ne passe jamais inaperçu. Sa lumière douce, ses formes épurées et ses couleurs changeantes en font un <strong>élément de décoration à part entière</strong>. Il attire le regard, apaise l’ambiance et donne du cachet à votre espace — sans effort</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_7hwjt7": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/1001(3).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🌈 7 couleurs LED pour créer l’ambiance qui vous ressemble</h2><p>Changez d’atmosphère selon votre humeur : lumière chaude pour les soirées détentes, bleu apaisant pour le sommeil, rose doux pour une touche romantique. Ce diffuseur devient <strong>votre chef d’ambiance personnel</strong>, sans télécommande ni complication.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_3WRFiA": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/1001(2).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🌿 Élégance utile : un design qui prend soin de vous</h2><p>Derrière son look raffiné, ce diffuseur cache une double fonction : <strong>humidifier l’air</strong> et <strong>diffuser vos huiles essentielles préférées</strong>. Résultat : un air plus sain, une respiration plus fluide, et une sensation de fraîcheur naturelle — même pendant la saison sèche ou sous la climatisation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_H8MVVW": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_7ydYHn": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🎁 Le cadeau chic et accessible qui fait toujours plaisir</h2><p>Mariage, pendaison de crémaillère, remerciement ou simple attention : ce diffuseur est <strong>le petit luxe abordable</strong> qui fait briller les yeux. Il montre que vous avez du goût, sans casser votre budget.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_7ydYHn"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_JPPCPA",
+    "rich_text_pezP7C",
+    "video_7hwjt7",
+    "rich_text_AKNFD7",
+    "video_3WRFiA",
+    "rich_text_VrrQih",
+    "rich_text_H8MVVW",
+    "related-products"
+  ]
+}
