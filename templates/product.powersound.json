@@ -28,12 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "text_pd7fDB": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Protégez votre bouche des bactéries invisibles grâce à une technologie UV puissante. </strong></p>"
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -75,7 +69,6 @@
         "title",
         "badges",
         "price",
-        "text_pd7fDB",
         "rating",
         "payment_terms",
         "easysell_cod_form_app_block_rrhTyh",
@@ -123,7 +116,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Protégez votre santé buccale, sans effort</h2><p>Chaque jour, votre brosse à dents accumule des milliers de bactéries. Ce stérilisateur UV élimine jusqu’à 100% des germes en seulement 3 minutes — sans produit chimique, sans manipulation complexe. Offrez à votre bouche ce qu’elle mérite : une hygiène irréprochable, sans compromis.</p>"
+            "content": "<h2>Ne cherchez plus entre powerbank et bons écouteurs : tout est réuni ici.</h2><p>Le <strong>PowerSound</strong> est une batterie externe puissante de <strong>8000 mAh</strong>, capable de recharger deux fois un iPhone 13 de 0 à 100 %. Mais ce n’est pas tout : il intègre aussi des <strong>écouteurs Bluetooth</strong> rangés dans le boîtier, entièrement contrôlables via son <strong>écran tactile</strong>. Profitez d’un son de haute qualité et de la <strong>réduction de bruit</strong> pour des appels clairs, même dans les environnements bruyants.</p>"
           }
         }
       },
@@ -161,7 +154,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>💧 L’eau ne suffit pas. La lumière UV, oui.</h2><p>Rincer sa brosse à dents à l’eau ou la ranger dans une boîte fermée ne suffit pas à éliminer les bactéries. Au contraire, l’humidité favorise leur prolifération. Ce stérilisateur UV agit là où l’eau échoue : il neutralise les germes invisibles en quelques minutes, sans effort. C’est une solution moderne, efficace et réutilisable — pour une hygiène vraiment complète, jour après jour.</p>"
+            "content": "<h2>Bien plus qu’une batterie : un mini-univers dans votre poche.</h2><p>Ce n’est pas un simple powerbank. C’est un concentré de technologie qui combine écran couleur 2,8’’, appels HD avec réduction de bruit, jeux intégrés, musique avec affichage des paroles, lampe torche et même une fonction pour retrouver votre téléphone. Là où les autres accessoires se limitent à une seule fonction, ce boîtier devient votre compagnon numérique complet, pensé pour vous simplifier la vie et vous divertir partout.</p>"
           }
         }
       },
@@ -199,7 +192,7 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Facile à installer, simple à utiliser — et pensé pour toute la famille.</strong></h2><p>Un seul bouton suffit pour lancer la stérilisation, et la lumière bleue vous confirme que tout se passe bien. Même les enfants peuvent l’utiliser sans aide. C’est l’hygiène sans prise de tête.</p>"
+            "content": "<h2>Un accessoire pratique qui vous accompagne partout.</h2><p>Compact, élégant et disponible en <strong>noir ou blanc</strong>, le PowerSound se glisse facilement dans une poche ou un sac. Que vous soyez en déplacement, au bureau ou en voyage, il vous assure <strong>énergie, musique et divertissement</strong> sans effort. </p>"
           }
         }
       },
