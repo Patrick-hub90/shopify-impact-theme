@@ -94,17 +94,16 @@
         "input_text_color": ""
       }
     },
-    "image_with_text_overlay_6af3aR": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_nFHbzR": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/S7cc5cc60b69041f68b24b4be4db060104.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/1025(1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -234,7 +233,7 @@
   },
   "order": [
     "main",
-    "image_with_text_overlay_6af3aR",
+    "video_nFHbzR",
     "rich_text_pezP7C",
     "video_Rhaxg6",
     "rich_text_VrrQih",
