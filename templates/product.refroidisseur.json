@@ -28,12 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "text_pd7fDB": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Protégez votre bouche des bactéries invisibles grâce à une technologie UV puissante. </strong></p>"
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -75,7 +69,6 @@
         "title",
         "badges",
         "price",
-        "text_pd7fDB",
         "rating",
         "payment_terms",
         "easysell_cod_form_app_block_rrhTyh",
@@ -101,20 +94,45 @@
         "input_text_color": ""
       }
     },
-    "image_with_text_overlay_6af3aR": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "Gardez votre smartphone au frais, plus longtemps et sans effort.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_hQH9JK": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/S7cc5cc60b69041f68b24b4be4db060104.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/1027 (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 30
       }
     },
     "rich_text_pezP7C": {
@@ -123,7 +141,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Protégez votre santé buccale, sans effort</h2><p>Chaque jour, votre brosse à dents accumule des milliers de bactéries. Ce stérilisateur UV élimine jusqu’à 100% des germes en seulement 3 minutes — sans produit chimique, sans manipulation complexe. Offrez à votre bouche ce qu’elle mérite : une hygiène irréprochable, sans compromis.</p>"
+            "content": "<h2>🌡️ Préservez la santé de votre téléphone sans vous soucier de comment vous l'utilisez !!!</h2><p>Un smartphone qui chauffe trop vite peut perdre en performance et voir sa batterie s’user prématurément. Ce ventilateur agit comme une barrière de protection : il garde l’appareil à une température stable, prolonge sa durée de vie et évite les désagréments liés à la surchauffe. Pour l’utilisateur, c’est la garantie d’un téléphone plus fiable, qui reste performant au quotidien sans risque de ralentissement ni de panne coûteuse.</p>"
           }
         }
       },
@@ -140,16 +158,17 @@
         "text_color": ""
       }
     },
-    "video_Rhaxg6": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_hPYUtC": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/1024.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_63.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -161,7 +180,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>💧 L’eau ne suffit pas. La lumière UV, oui.</h2><p>Rincer sa brosse à dents à l’eau ou la ranger dans une boîte fermée ne suffit pas à éliminer les bactéries. Au contraire, l’humidité favorise leur prolifération. Ce stérilisateur UV agit là où l’eau échoue : il neutralise les germes invisibles en quelques minutes, sans effort. C’est une solution moderne, efficace et réutilisable — pour une hygiène vraiment complète, jour après jour.</p>"
+            "content": "<h2>Le secret pour garder votre smartphone (et vos mains) au frais !!</h2><p>Regarder une série, passer un long appel vidéo ou utiliser le GPS en plein soleil devient plus agréable grâce à ce petit accessoire. Le ventilateur assure une utilisation fluide et confortable, sans sensation de chaleur désagréable dans la main. Il transforme ainsi chaque moment d’utilisation en une expérience plus plaisante, en particulier pour ceux qui passent beaucoup de temps sur leur téléphone pour se divertir, travailler ou rester connectés.</p>"
           }
         }
       },
@@ -185,8 +204,8 @@
         "full_width": true,
         "allow_transparent_header": false,
         "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/1024(1).mp4",
+        "video_size": "md",
+        "video": "shopify://files/videos/1027(1) (1).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -199,7 +218,7 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Facile à installer, simple à utiliser — et pensé pour toute la famille.</strong></h2><p>Un seul bouton suffit pour lancer la stérilisation, et la lumière bleue vous confirme que tout se passe bien. Même les enfants peuvent l’utiliser sans aide. C’est l’hygiène sans prise de tête.</p>"
+            "content": "<h2>Compact, pratique… et étonnamment indispensable !!!</h2><p>Compact, léger et facile à installer, ce ventilateur s’adapte à la majorité des smartphones et se transporte partout. C’est un gadget malin qui combine utilité et originalité, parfait pour ceux qui aiment les solutions simples et efficaces. Avec son prix abordable et son design moderne, il se positionne comme une innovation accessible à tous, aussi bien pour un usage personnel que comme idée cadeau pratique et surprenante.</p>"
           }
         }
       },
@@ -241,9 +260,10 @@
   },
   "order": [
     "main",
-    "image_with_text_overlay_6af3aR",
+    "rich_text_Xk6L6A",
+    "video_hQH9JK",
     "rich_text_pezP7C",
-    "video_Rhaxg6",
+    "image_with_text_overlay_hPYUtC",
     "rich_text_VrrQih",
     "video_iPqPYH",
     "rich_text_AKNFD7",
