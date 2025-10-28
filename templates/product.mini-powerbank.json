@@ -28,6 +28,12 @@
             "show_taxes_notice": false
           }
         },
+        "text_EPiAcW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>👉 <strong>Ultra-compact, ultra-puissant et ultra-pratique</strong>, ce powerbank de 30.000 mAh est l’allié parfait pour ne jamais manquer de charge durant la semaine...</p>"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -69,6 +75,7 @@
         "title",
         "badges",
         "price",
+        "text_EPiAcW",
         "rating",
         "payment_terms",
         "easysell_cod_form_app_block_rrhTyh",
@@ -100,7 +107,7 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "Gardez votre smartphone au frais, plus longtemps et sans effort.",
+            "text": "Profitez d’une capacité exceptionnelle de 30.000 mAh sans trimballer un powerbank lourd et encombrant.",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -141,7 +148,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🌡️ Préservez la santé de votre téléphone sans vous soucier de comment vous l'utilisez !!!</h2><p>Un smartphone qui chauffe trop vite peut perdre en performance et voir sa batterie s’user prématurément. Ce ventilateur agit comme une barrière de protection : il garde l’appareil à une température stable, prolonge sa durée de vie et évite les désagréments liés à la surchauffe. Pour l’utilisateur, c’est la garantie d’un téléphone plus fiable, qui reste performant au quotidien sans risque de ralentissement ni de panne coûteuse.</p>"
+            "content": "<h2>Le problème avec les powerbanks actuels</h2><p>La plupart des powerbanks posent un dilemme :</p><ul><li><strong>Petits et légers</strong> → faible capacité (3.000 à 5.000 mAh).</li><li><strong>Grande capacité (10.000 à 20.000 mAh)</strong> → lourds et volumineux, donc peu pratiques en déplacement.</li></ul><p>Ce mini powerbank change complètement la donne : avec ses <strong>30.000 mAh</strong>, il offre une capacité largement supérieure aux modèles classiques, tout en restant <strong>ultra-léger</strong>. Vous pouvez l’accrocher à votre porte-clés, le glisser dans votre poche et l’utiliser facilement partout.</p>"
           }
         }
       },
@@ -180,7 +187,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Le secret pour garder votre smartphone (et vos mains) au frais !!</h2><p>Regarder une série, passer un long appel vidéo ou utiliser le GPS en plein soleil devient plus agréable grâce à ce petit accessoire. Le ventilateur assure une utilisation fluide et confortable, sans sensation de chaleur désagréable dans la main. Il transforme ainsi chaque moment d’utilisation en une expérience plus plaisante, en particulier pour ceux qui passent beaucoup de temps sur leur téléphone pour se divertir, travailler ou rester connectés.</p>"
+            "content": "<h2>Que représente 30.000 mAh ?</h2><p>Imaginez : cette capacité colossale, concentrée dans un powerbank de seulement <strong>320 g</strong>, équivaut à <strong>6 recharges complètes (0 à 100%) d’un iPhone 17 Pro Max</strong>.<br/><br/>En clair, une seule charge du powerbank le dimanche soir peut suffire à maintenir votre téléphone alimenté <strong>toute la semaine</strong>.</p>"
           }
         }
       },
@@ -218,7 +225,7 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Compact, pratique… et étonnamment indispensable !!!</h2><p>Compact, léger et facile à installer, ce ventilateur s’adapte à la majorité des smartphones et se transporte partout. C’est un gadget malin qui combine utilité et originalité, parfait pour ceux qui aiment les solutions simples et efficaces. Avec son prix abordable et son design moderne, il se positionne comme une innovation accessible à tous, aussi bien pour un usage personnel que comme idée cadeau pratique et surprenante.</p>"
+            "content": "<h2>En quoi est-il vraiment utile ?</h2><p>Au-delà de sa capacité impressionnante, ce powerbank délivre une puissance de <strong>66 W</strong>, contre seulement 22,5 W en moyenne pour les modèles classiques. Résultat :</p><ul><li>Recharge <strong>3 fois plus rapide</strong> → de 0 à 100% en environ <strong>30 minutes</strong>.</li><li>Compatibilité universelle → il intègre directement <strong>tous les câbles nécessaires</strong> (Android, Type-C, iPhone, USB).</li></ul>"
           }
         }
       },
