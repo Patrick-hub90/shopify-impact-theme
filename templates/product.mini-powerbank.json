@@ -1,0 +1,272 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "easysell_cod_form_app_block_rrhTyh": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "easysell_cod_form_app_block_rrhTyh",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "Gardez votre smartphone au frais, plus longtemps et sans effort.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_hQH9JK": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/1027 (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🌡️ Préservez la santé de votre téléphone sans vous soucier de comment vous l'utilisez !!!</h2><p>Un smartphone qui chauffe trop vite peut perdre en performance et voir sa batterie s’user prématurément. Ce ventilateur agit comme une barrière de protection : il garde l’appareil à une température stable, prolonge sa durée de vie et évite les désagréments liés à la surchauffe. Pour l’utilisateur, c’est la garantie d’un téléphone plus fiable, qui reste performant au quotidien sans risque de ralentissement ni de panne coûteuse.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_hPYUtC": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_63.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Le secret pour garder votre smartphone (et vos mains) au frais !!</h2><p>Regarder une série, passer un long appel vidéo ou utiliser le GPS en plein soleil devient plus agréable grâce à ce petit accessoire. Le ventilateur assure une utilisation fluide et confortable, sans sensation de chaleur désagréable dans la main. Il transforme ainsi chaque moment d’utilisation en une expérience plus plaisante, en particulier pour ceux qui passent beaucoup de temps sur leur téléphone pour se divertir, travailler ou rester connectés.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_iPqPYH": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/1027(1) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Compact, pratique… et étonnamment indispensable !!!</h2><p>Compact, léger et facile à installer, ce ventilateur s’adapte à la majorité des smartphones et se transporte partout. C’est un gadget malin qui combine utilité et originalité, parfait pour ceux qui aiment les solutions simples et efficaces. Avec son prix abordable et son design moderne, il se positionne comme une innovation accessible à tous, aussi bien pour un usage personnel que comme idée cadeau pratique et surprenante.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Xk6L6A",
+    "video_hQH9JK",
+    "rich_text_pezP7C",
+    "image_with_text_overlay_hPYUtC",
+    "rich_text_VrrQih",
+    "video_iPqPYH",
+    "rich_text_AKNFD7",
+    "related-products"
+  ]
+}
