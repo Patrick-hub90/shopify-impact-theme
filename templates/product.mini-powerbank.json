@@ -89,7 +89,7 @@
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
@@ -127,19 +127,20 @@
         "text_color": ""
       }
     },
-    "video_hQH9JK": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_JNWHyg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/1027 (1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/fae4576f-ee81-4f56-a605-7f551f75049e.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_pezP7C": {
@@ -173,7 +174,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_63.jpg",
+        "image": "shopify://shop_images/6c8cf40b-68da-406a-93b5-ca98655c7f91.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -204,16 +205,17 @@
         "text_color": ""
       }
     },
-    "video_iPqPYH": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_Nm7iL4": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/1027(1) (1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -268,11 +270,11 @@
   "order": [
     "main",
     "rich_text_Xk6L6A",
-    "video_hQH9JK",
+    "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
     "image_with_text_overlay_hPYUtC",
     "rich_text_VrrQih",
-    "video_iPqPYH",
+    "image_with_text_overlay_Nm7iL4",
     "rich_text_AKNFD7",
     "related-products"
   ]
