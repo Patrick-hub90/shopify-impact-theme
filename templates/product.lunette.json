@@ -34,6 +34,18 @@
             "text": "<p><em>Fini la fatigue oculaire - Lunettes qui s'adaptent automatiquement à TOUTE luminosité.</em></p>"
           }
         },
+        "text_HrJ7GA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>⚡ RÉVOLUTIONNAIRE : Les SEULES lunettes qui éliminent 100% de la fatigue oculaire - Plus que 120 paires en stock !</em></p>"
+          }
+        },
+        "text_AQ4Adb": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li></ul>"
+          }
+        },
         "easysell_cod_form_app_block_zVEzzR": {
           "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
@@ -72,6 +84,8 @@
         "badges",
         "price",
         "text_EPiAcW",
+        "text_HrJ7GA",
+        "text_AQ4Adb",
         "easysell_cod_form_app_block_zVEzzR",
         "rating",
         "separator",
