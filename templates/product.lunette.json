@@ -34,15 +34,17 @@
             "text": "<p>👉 <strong>Ultra-compact, ultra-puissant et ultra-pratique</strong>, ce powerbank de 30.000 mAh est l’allié parfait pour ne jamais manquer de charge durant la semaine...</p>"
           }
         },
+        "easysell_cod_form_app_block_zVEzzR": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
             "show_empty": false
           }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
         },
         "separator": {
           "type": "separator",
@@ -70,8 +72,8 @@
         "badges",
         "price",
         "text_EPiAcW",
+        "easysell_cod_form_app_block_zVEzzR",
         "rating",
-        "payment_terms",
         "separator",
         "description",
         "variant_picker"
@@ -94,60 +96,42 @@
         "input_text_color": ""
       }
     },
-    "rich_text_Xk6L6A": {
-      "type": "rich-text",
+    "video_J7eGkx": {
+      "type": "video",
       "blocks": {
-        "heading_M36whR": {
-          "type": "heading",
-          "settings": {
-            "text": "Profitez d’une capacité exceptionnelle de 30.000 mAh sans trimballer un powerbank lourd et encombrant.",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
+        "play_jmiUPJ": {
+          "type": "play",
+          "settings": {}
         }
       },
       "block_order": [
-        "heading_M36whR"
+        "play_jmiUPJ"
       ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_JNWHyg": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/fae4576f-ee81-4f56-a605-7f551f75049e.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0911 (1)(1) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
-    "rich_text_pezP7C": {
+    "rich_text_iwqzBE": {
       "type": "rich-text",
       "blocks": {
-        "richtext_wEM4q8": {
+        "richtext_xHzLaY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Le problème avec les powerbanks actuels</h2><p>La plupart des powerbanks posent un dilemme :</p><ul><li><strong>Petits et légers</strong> → faible capacité (3.000 à 5.000 mAh).</li><li><strong>Grande capacité (10.000 à 20.000 mAh)</strong> → lourds et volumineux, donc peu pratiques en déplacement.</li></ul><p>Ce mini powerbank change complètement la donne : avec ses <strong>30.000 mAh</strong>, il offre une capacité largement supérieure aux modèles classiques, tout en restant <strong>ultra-léger</strong>. Vous pouvez l’accrocher à votre porte-clés, le glisser dans votre poche et l’utiliser facilement partout.</p>"
+            "content": "<h2><strong>FINI LA FATIGUE OCULAIRE POUR TOUJOURS</strong></h2><h3>Vos yeux méritent une protection intelligente.</h3><p>Vous en avez assez de :</p><ul><li>Plisser les yeux face à votre écran d'ordinateur ?</li><li>Avoir des maux de tête après une journée de travail ?</li><li>Changer constamment de lunettes entre intérieur et extérieur ?</li></ul><p><strong>NOTRE SOLUTION :</strong> Nos lunettes élégant possède 9 niveau d'intensité pour s'adapté à tout changement de luminosité. Que vous passiez du bureau ensoleillé à une pièce sombre, vos yeux restent parfaitement protégés.</p><p><strong>RÉSULTAT IMMÉDIAT :</strong> 85% de réduction de la fatigue oculaire dès le premier jour d'utilisation.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_wEM4q8"
+        "richtext_xHzLaY"
       ],
       "name": "Rich text",
       "settings": {
@@ -159,34 +143,42 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_hPYUtC": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_f4Y7Cn": {
+      "type": "video",
+      "blocks": {
+        "play_dFATGm": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_dFATGm"
+      ],
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/6c8cf40b-68da-406a-93b5-ca98655c7f91.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0911 (1) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
-    "rich_text_VrrQih": {
+    "rich_text_nybDwd": {
       "type": "rich-text",
       "blocks": {
-        "richtext_dp3ceY": {
+        "richtext_9VeYnN": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Que représente 30.000 mAh ?</h2><p>Imaginez : cette capacité colossale, concentrée dans un powerbank de seulement <strong>320 g</strong>, équivaut à <strong>6 recharges complètes (0 à 100%) d’un iPhone 17 Pro Max</strong>.<br/><br/>En clair, une seule charge du powerbank le dimanche soir peut suffire à maintenir votre téléphone alimenté <strong>toute la semaine</strong>.</p>"
+            "content": "<h2><strong>UNE SEULE PAIRE POUR TOUTE LA JOURNÉE</strong></h2><h3>La liberté de ne plus jamais changer de lunettes.</h3><p>Imaginez pouvoir :</p><ul><li>✅ Travailler sur écran sans fatigue</li><li>✅ Conduire sous un soleil éclatant</li><li>✅ Profiter d'un coucher de soleil sublime</li><li>✅ Regarder votre téléphone le soir</li></ul><p><strong>TOUT CELA AVEC LA MÊME PAIRE !</strong></p><p>Grâce à notre <strong>technologie de filtrage adaptatif brevetée</strong>, ces lunettes remplacent vos lunettes de vue, vos lunettes anti-lumière bleue ET vos lunettes de soleil. C'est 3 paires en 1 !</p><p><strong>ÉCONOMIE RÉELLE :</strong> Plus besoin d'acheter plusieurs paires - une seule vous suffit pour toute l'année.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_dp3ceY"
+        "richtext_9VeYnN"
       ],
       "name": "Rich text",
       "settings": {
@@ -198,34 +190,33 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_Nm7iL4": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_QCQqXf": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0911 (1)(2) (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
-    "rich_text_AKNFD7": {
+    "rich_text_8dP3db": {
       "type": "rich-text",
       "blocks": {
-        "richtext_a3tjWm": {
+        "richtext_P8wrEY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>En quoi est-il vraiment utile ?</h2><p>Au-delà de sa capacité impressionnante, ce powerbank délivre une puissance de <strong>66 W</strong>, contre seulement 22,5 W en moyenne pour les modèles classiques. Résultat :</p><ul><li>Recharge <strong>3 fois plus rapide</strong> → de 0 à 100% en environ <strong>30 minutes</strong>.</li><li>Compatibilité universelle → il intègre directement <strong>tous les câbles nécessaires</strong> (Android, Type-C, iPhone, USB).</li></ul>"
+            "content": "<h2><strong>STYLE PREMIUM POUR L'HOMME  ET LA FEMME MODERNE</strong></h2><h3>L'élégance qui impose le respect.</h3><p>Ces lunettes ne sont pas un gadget - c'est l'accessoire de l'homme qui :</p><ul><li>Refuse les compromis sur la qualité</li><li>Apprécie l'innovation discrète mais efficace</li><li>Comprend que les détails font la différence</li></ul><p><strong>DESIGN PENSÉ POUR VOUS :</strong></p><ul><li>Monture en alliage premium ultra-légère</li><li>Finitions sophistiquées qui s'accordent à tout style</li><li>Confort parfait même après 12h de port</li><li>Résistance aux rayures et aux chocs</li></ul><p><strong>L'IMPACT :</strong> Comme votre montre suisse ou votre costume sur-mesure, ces lunettes révèlent votre attention aux détails et votre goût pour l'excellence.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_a3tjWm"
+        "richtext_P8wrEY"
       ],
       "name": "Rich text",
       "settings": {
@@ -235,40 +226,16 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "rich_text_Xk6L6A",
-    "image_with_text_overlay_JNWHyg",
-    "rich_text_pezP7C",
-    "image_with_text_overlay_hPYUtC",
-    "rich_text_VrrQih",
-    "image_with_text_overlay_Nm7iL4",
-    "rich_text_AKNFD7",
-    "related-products"
+    "video_J7eGkx",
+    "rich_text_iwqzBE",
+    "video_f4Y7Cn",
+    "rich_text_nybDwd",
+    "video_QCQqXf",
+    "rich_text_8dP3db"
   ]
 }
