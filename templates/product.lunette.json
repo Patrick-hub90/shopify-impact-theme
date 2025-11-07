@@ -43,13 +43,19 @@
         "text_AQ4Adb": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>⚠️<strong> Passe ta commande uniquement si tu es vraiment prêt à recevoir ton colis.<br/></strong> <strong>Le prix ne change pas !</strong><br/><br/>Nous payons les frais de livraison pour chaque envoi, donc merci d’être sérieux 🙏</p>"
+            "text": "<p><br/>⚠️ Passe ta commande uniquement si tu es vraiment prêt à recevoir ton colis.<strong><br/></strong> **<strong>Le prix ne change pas !**</strong></p><p><br/><strong>Les frais d'expéditions pour toutes les commandes hors de Cotonou et Calavi sont à la charge du client.</strong><br/></p>"
           }
         },
         "easysell_cod_form_app_block_zVEzzR": {
           "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
             "product": ""
+          }
+        },
+        "text_j9xjDr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si vous souhaitez posez des questions contactez-nous par whatsapp au <strong>+22991301809</strong> !</p>"
           }
         },
         "rating": {
@@ -87,6 +93,7 @@
         "text_HrJ7GA",
         "text_AQ4Adb",
         "easysell_cod_form_app_block_zVEzzR",
+        "text_j9xjDr",
         "rating",
         "separator",
         "description",
