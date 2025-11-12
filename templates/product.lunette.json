@@ -40,12 +40,6 @@
             "text": "<p><em>⚡ RÉVOLUTIONNAIRE : Les SEULES lunettes qui éliminent 100% de la fatigue oculaire - Plus que 120 paires en stock !</em></p>"
           }
         },
-        "text_AQ4Adb": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br/>⚠️ Passe ta commande uniquement si tu es vraiment prêt à recevoir ton colis.<strong><br/></strong> **<strong>Le prix ne change pas !**</strong></p><p><strong>NB:</strong>  <em><strong>Lunettes livrées sans étui — nous avons privilégié la qualité des verres pour un prix plus accessible.</strong></em><br/><br/><strong>Les frais d'expéditions pour toutes les commandes hors de Cotonou et Calavi sont à la charge du client.</strong><br/></p>"
-          }
-        },
         "easysell_cod_form_app_block_zVEzzR": {
           "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
@@ -91,7 +85,6 @@
         "price",
         "text_EPiAcW",
         "text_HrJ7GA",
-        "text_AQ4Adb",
         "easysell_cod_form_app_block_zVEzzR",
         "text_j9xjDr",
         "rating",
