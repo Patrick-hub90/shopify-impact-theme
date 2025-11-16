@@ -27,7 +27,13 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p>💡 <strong>Idéal pour les cyclistes urbains, taxis-moto, les motards, les livreurs et les aventuriers.</strong><br/><br/>🛒 <strong>Prêt à rouler ? Commandez-le dès maintenant et transformez vos trajets </strong></p>"
+            "text": "<p><strong>Soulage efficacement les douleurs qui limitent vos mouvements et vous empêchent de monter les escaliers ou de vous déplacer librement.</strong></p>"
+          }
+        },
+        "easysell_cod_form_app_block_gViFpy": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
           }
         },
         "badges": {
@@ -63,6 +69,7 @@
         "title",
         "price",
         "text_dbUxnm",
+        "easysell_cod_form_app_block_gViFpy",
         "badges",
         "rating",
         "payment_terms",
