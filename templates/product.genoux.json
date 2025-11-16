@@ -94,6 +94,82 @@
         "input_text_color": ""
       }
     },
+    "multi_column_3NXtcQ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Fjgp3M": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_4.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RFiHia": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hBLWh6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_5.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JFhBa4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_3.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Fjgp3M",
+        "item_RFiHia",
+        "item_hBLWh6",
+        "item_JFhBa4"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Témoignages Clients",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_QR4rTk": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -239,92 +315,16 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "multi_column_3NXtcQ": {
-      "type": "multi-column",
-      "blocks": {
-        "item_Fjgp3M": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_4.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_RFiHia": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_2.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_hBLWh6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_5.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_JFhBa4": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_3.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_Fjgp3M",
-        "item_RFiHia",
-        "item_hBLWh6",
-        "item_JFhBa4"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Témoignages Clients",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "main",
+    "multi_column_3NXtcQ",
     "image_with_text_overlay_QR4rTk",
     "rich_text_Txk6YL",
     "video_HtgWNA",
     "rich_text_6Jy6Ar",
     "image_with_text_overlay_gKrE6n",
-    "rich_text_rCmnLR",
-    "multi_column_3NXtcQ"
+    "rich_text_rCmnLR"
   ]
 }
