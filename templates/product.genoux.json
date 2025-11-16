@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_dbUxnm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>💡 <strong>Idéal pour les cyclistes urbains, taxis-moto, les motards, les livreurs et les aventuriers.</strong><br/><br/>🛒 <strong>Prêt à rouler ? Commandez-le dès maintenant et transformez vos trajets </strong></p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "text_dbUxnm",
+        "badges",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "image_with_text_overlay_QR4rTk": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/1_480x480_480x480_7fde9d68-98ea-44c3-80b0-fc192d4196e3.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_yCBeNf": {
+      "type": "rich-text",
+      "blocks": {
+        "image_zqyq4K": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "richtext_wEkc3y": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🚀 Fixation Express en 1 Seconde</h2><p>Installez ou retirez votre téléphone en un clin d’œil grâce au bouton de commutation rapide. Une seule main suffit, même en pleine conduite.</p><h2>🌧️ Protection Totale Contre les Intempéries</h2><p>Conçu pour résister à la pluie, à la poussière et aux conditions extrêmes. Gardez votre téléphone au sec et en sécurité, peu importe la météo.</p><h2>📱 Écran Tactile Haute Sensibilité</h2><p>Cette coque a été spécialement conçue pour fournir une <strong>visibilité maximale</strong> de l’écran tactile.<br/><strong>100% étanche IPX6</strong>, la coque est spécialement prévue pour la conduite moto/scooter/VTT avec protection contre les chocs.</p><p><strong>La coque de téléphone XK2</strong> est équipé d’un écran arrière transparent permettant à la caméra de votre smartphone de pouvoir filmer facilement votre route ou loisir (tout terrain/VTT etc).</p><p>Avec le support téléphone moto, vous pourrez mener votre conversation sans avoir besoin de mettre votre téléphone dans votre sac à dos.</p><p>Et si l’envie vous prend de répondre à un texto ou d’envoyer un email, vous n’aurez qu’à écrire à l’écran tactile. </p>"
+          }
+        },
+        "image_fFm6nL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/imgi_7_support-telephone-moto-coque-etanche-tactile-le-pratique-du-motard-786276.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "richtext_xN7wFj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>🔄 Rotation 360° + Inclinaison 15°</h2><p>Adaptez l’angle de vue selon vos préférences : horizontal, vertical ou incliné. Accès complet à tous les boutons, caméra, reconnaissance faciale et ports.</p><h2>🎧 Liberté Audio Intégrée</h2><p>Un trou pour écouteurs dissimulé vous permet d’écouter de la musique ou de répondre aux appels en toute liberté pendant vos trajets.</p><h2>📏 Hauteur Réglable & Design Ergonomique</h2><p>Ajustez la hauteur pour un confort optimal. Design moderne et robuste, pensé pour les cyclistes et motards exigeants.</p><h2>🔧 Installation Sans Outil</h2><p>Fixez-le simplement au guidon en serrant les vis. Aucun outil requis, aucune complication.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_zqyq4K",
+        "richtext_wEkc3y",
+        "image_fFm6nL",
+        "richtext_xN7wFj"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_9HhBci": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fkiHH9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Fatou",
+            "title": "",
+            "content": "<p>Je l’ai testé  sur des chemins de terre et en descente… il n’a jamais bougé. Le réglage de l’angle est super pratique pour lire la carte sans s’arrêter. Et le design est vraiment bien pensé. Solide, pratique, et compatible avec mon vieux téléphone !</p>"
+          }
+        },
+        "testimonial_naCEiF": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gueye",
+            "title": "",
+            "content": "<p>Enfin un support qui ne bloque ni la caméra ni les boutons ! Je peux filmer mes trajets, répondre aux appels et suivre mon GPS sans galère. L’installation est ultra simple, et il reste stable même à grande vitesse. Je recommande à 100 %.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fkiHH9",
+        "testimonial_naCEiF"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Ce que disent nos clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_QR4rTk",
+    "rich_text_yCBeNf",
+    "testimonials_9HhBci"
+  ]
+}
