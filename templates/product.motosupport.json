@@ -27,7 +27,7 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p>💡 <strong>Idéal pour les cyclistes urbains, taxis-moto, les motards, les livreurs et les aventuriers.</strong><br/><br/>🛒 <strong>Prêt à rouler ? Commandez-le dès maintenant et transformez vos trajets </strong></p>"
+            "text": "<p>🔴 <strong>Offre Spéciale</strong> : Livraison Gratuite sur Dakar + Paiement à la réception.<br/><em>Protégez votre gagne-pain (votre téléphone) contre la pluie, la poussière et les vols.</em></p>"
           }
         },
         "badges": {
@@ -87,19 +87,20 @@
         "input_text_color": ""
       }
     },
-    "video_TGfrqT": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_QR4rTk": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/1004(4).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/1_480x480_480x480_7fde9d68-98ea-44c3-80b0-fc192d4196e3.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "rich_text_yCBeNf": {
@@ -202,7 +203,7 @@
   },
   "order": [
     "main",
-    "video_TGfrqT",
+    "image_with_text_overlay_QR4rTk",
     "rich_text_yCBeNf",
     "testimonials_9HhBci"
   ]
