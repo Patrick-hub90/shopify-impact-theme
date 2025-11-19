@@ -27,7 +27,13 @@
         "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<p>🔴 <strong>Offre Spéciale</strong> : Livraison Gratuite sur Dakar + Paiement à la réception.<br/><em>Protégez votre gagne-pain (votre téléphone) contre la pluie, la poussière et les vols.</em></p>"
+            "text": "<p>🔴 <strong>Offre Spéciale</strong> : Livraison Gratuite sur Dakar + Paiement à la réception.<br/><em>Protégez votre gagne-pain (votre téléphone) contre la pluie, la poussière et les vols.</em></p><p></p><h4><strong>Pourquoi c'est indispensable à Dakar ?</strong></h4><p></p><ul><li><strong>Pour les Livreurs & Tiak-Tiak :</strong> Gagnez du temps sur vos courses. Suivez le GPS en gardant les deux mains sur le guidon.</li><li><strong>Contre la Poussière :</strong> Protège votre caméra et votre port de charge contre la poussière rouge qui abîme les téléphones.</li><li><strong>Caméra Libre :</strong> L'arrière est transparent ! Filmez vos trajets pour  indiquez des destinations.</li></ul><p></p><h4><strong>Caractéristiques Techniques :</strong></h4><p></p><ul><li>📱 <strong>Compatibilité :</strong> Universel (iPhone, Samsung, Tecno, Infinix, Xiaomi... jusqu'à 6.7 pouces).</li><li>🔄 <strong>Rotation :</strong> 360° (Mettez le GPS en mode Paysage ou Portrait).</li><li>🛠 <strong>Installation :</strong> Se fixe sur n'importe quel guidon en 30 secondes (pas besoin d'outils).</li></ul><h4><strong>Notre Garantie \"Satisfait ou Remboursé\"</strong></h4><p>Nous savons que c'est la jungle dehors. C'est pourquoi nous vous proposons :</p><ol><li><strong>Testez avant de payer :</strong> Le livreur vous laisse vérifier la qualité.</li><li><strong>Garantie 30 jours :</strong> S'il casse, on vous le remplace.</li></ol>"
+          }
+        },
+        "easysell_cod_form_app_block_JHjT3i": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
           }
         },
         "badges": {
@@ -63,6 +69,7 @@
         "title",
         "price",
         "text_dbUxnm",
+        "easysell_cod_form_app_block_JHjT3i",
         "badges",
         "rating",
         "payment_terms",
@@ -85,22 +92,6 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
-      }
-    },
-    "image_with_text_overlay_QR4rTk": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/1_480x480_480x480_7fde9d68-98ea-44c3-80b0-fc192d4196e3.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "rich_text_yCBeNf": {
@@ -126,6 +117,22 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_eaBHPm": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/1_480x480_480x480_7fde9d68-98ea-44c3-80b0-fc192d4196e3.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_VekGEj": {
       "type": "rich-text",
       "blocks": {
@@ -148,85 +155,12 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "rich_text_7Ttiyh": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_PQ8jMq": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><br/>Vous êtes <strong>Livreur, Tiak-Tiak ou Motard</strong> ? Vous en avez assez de devoir vous arrêter pour regarder votre GPS ? Vous avez peur qu'on vous arrache votre téléphone au feu rouge ou qu'il tombe ?<br/>Ne prenez plus de risques avec votre smartphone à  olus de 100 000 FCFA sur un support en plastique bon marché.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_PQ8jMq"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "testimonials_9HhBci": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_fkiHH9": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Fatou",
-            "title": "",
-            "content": "<p>Je l’ai testé  sur des chemins de terre et en descente… il n’a jamais bougé. Le réglage de l’angle est super pratique pour lire la carte sans s’arrêter. Et le design est vraiment bien pensé. Solide, pratique, et compatible avec mon vieux téléphone !</p>"
-          }
-        },
-        "testimonial_naCEiF": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Gueye",
-            "title": "",
-            "content": "<p>Enfin un support qui ne bloque ni la caméra ni les boutons ! Je peux filmer mes trajets, répondre aux appels et suivre mon GPS sans galère. L’installation est ultra simple, et il reste stable même à grande vitesse. Je recommande à 100 %.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_fkiHH9",
-        "testimonial_naCEiF"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Ce que disent nos clients",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
-      }
     }
   },
   "order": [
     "main",
-    "image_with_text_overlay_QR4rTk",
     "rich_text_yCBeNf",
-    "rich_text_VekGEj",
-    "rich_text_7Ttiyh",
-    "testimonials_9HhBci"
+    "image_with_text_overlay_eaBHPm",
+    "rich_text_VekGEj"
   ]
 }
