@@ -28,12 +28,6 @@
             "show_taxes_notice": false
           }
         },
-        "text_EPiAcW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>👉 <strong>Ultra-compact, ultra-puissant et ultra-pratique</strong>, ce powerbank de 30.000 mAh est l’allié parfait pour ne jamais manquer de charge durant la semaine...</p>"
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -75,7 +69,6 @@
         "title",
         "badges",
         "price",
-        "text_EPiAcW",
         "rating",
         "payment_terms",
         "easysell_cod_form_app_block_rrhTyh",
@@ -107,7 +100,7 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "Profitez d’une capacité exceptionnelle de 30.000 mAh sans trimballer un powerbank lourd et encombrant.",
+            "text": "Mini Power Bank Anti-Coupure : La Puissance de 5 Recharges qui Tient dans Votre Poche.",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -135,7 +128,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/fae4576f-ee81-4f56-a605-7f551f75049e.jpg",
+        "image": "shopify://shop_images/Gemini_Generated_Image_7jwalz7jwalz7jwa.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -149,7 +142,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Le problème avec les powerbanks actuels</h2><p>La plupart des powerbanks posent un dilemme :</p><ul><li><strong>Petits et légers</strong> → faible capacité (3.000 à 5.000 mAh).</li><li><strong>Grande capacité (10.000 à 20.000 mAh)</strong> → lourds et volumineux, donc peu pratiques en déplacement.</li></ul><p>Ce mini powerbank change complètement la donne : avec ses <strong>30.000 mAh</strong>, il offre une capacité largement supérieure aux modèles classiques, tout en restant <strong>ultra-léger</strong>. Vous pouvez l’accrocher à votre porte-clés, le glisser dans votre poche et l’utiliser facilement partout.</p>"
+            "content": "<h3><strong>Ne laissez plus jamais une batterie faible bloquer vos affaires !!</strong></h3><p><br/>Imaginez rater un appel important ou ne pas pouvoir payer par Wave/Orange Money simplement parce que votre téléphone s'est éteint. Avec une capacité réelle de <strong>20 000 mAh</strong>, cette batterie est votre assurance-vie au quotidien.<br/>Elle contient assez d'énergie pour recharger votre smartphone <strong>4 à 6 fois d'affilée</strong>. Que ce soit pour les longs trajets, les journées de travail intenses ou les coupures de courant à la maison, vous restez connecté 24h/24.</p>"
           }
         }
       },
@@ -174,7 +167,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6c8cf40b-68da-406a-93b5-ca98655c7f91.jpg",
+        "image": "shopify://shop_images/telechargement_65.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -188,7 +181,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Que représente 30.000 mAh ?</h2><p>Imaginez : cette capacité colossale, concentrée dans un powerbank de seulement <strong>320 g</strong>, équivaut à <strong>6 recharges complètes (0 à 100%) d’un iPhone 17 Pro Max</strong>.<br/><br/>En clair, une seule charge du powerbank le dimanche soir peut suffire à maintenir votre téléphone alimenté <strong>toute la semaine</strong>.</p>"
+            "content": "<h3><strong>Une puissance colossale de 20.000mAh qui tient dans votre poche</strong></h3><p><br/>La plupart des batteries de cette puissance ressemblent à des briques. La nôtre utilise une <strong>technologie haute densité</strong> pour rester ultra-compacte et légère. Elle se glisse discrètement dans votre poche ou votre sac.<br/>De plus, grâce à ses <strong>deux ports USB (2.1A)</strong>, vous ne choisissez plus : rechargez deux téléphones en même temps à pleine vitesse. C'est l'idéal pour partager de l'énergie avec un ami ou recharger vos écouteurs en même temps que votre téléphone.</p>"
           }
         }
       },
@@ -227,7 +220,7 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>En quoi est-il vraiment utile ?</h2><p>Au-delà de sa capacité impressionnante, ce powerbank délivre une puissance de <strong>66 W</strong>, contre seulement 22,5 W en moyenne pour les modèles classiques. Résultat :</p><ul><li>Recharge <strong>3 fois plus rapide</strong> → de 0 à 100% en environ <strong>30 minutes</strong>.</li><li>Compatibilité universelle → il intègre directement <strong>tous les câbles nécessaires</strong> (Android, Type-C, iPhone, USB).</li></ul>"
+            "content": "<h3><strong>Vitesse Turbo : Passez de 0% à 50% en un temps record</strong></h3><p><br/>Le temps, c'est de l'argent. Ne restez pas collé à une prise pendant des heures.<br/>Grâce à sa sortie <strong>Double USB 2.1 Ampères</strong>, cette batterie délivre un courant <strong>2 fois plus puissant</strong> qu'un chargeur standard (généralement 1A).</p><p>Concrètement, cela signifie que vous pouvez récupérer environ <strong>50% de batterie en seulement 30 à 40 minutes</strong>* (selon le modèle de téléphone). Que vous ayez un iPhone, un Samsung ou un Tecno, branchez-le pendant votre pause déjeuner et repartez avec une batterie prête pour le reste de la journée.<br/><em>Système intelligent de gestion du courant pour protéger votre batterie contre la surchauffe.</em></p>"
           }
         }
       },
@@ -243,28 +236,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
@@ -275,7 +246,6 @@
     "image_with_text_overlay_hPYUtC",
     "rich_text_VrrQih",
     "image_with_text_overlay_Nm7iL4",
-    "rich_text_AKNFD7",
-    "related-products"
+    "rich_text_AKNFD7"
   ]
 }
