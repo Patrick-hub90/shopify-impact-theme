@@ -18,6 +18,12 @@
             "heading_tag": "h2"
           }
         },
+        "text_zPUVHJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Garantie 30 jours :</strong> Satisfait ou remboursé<br/><strong>Tester avant de Payez: </strong>Vous avez le droit de tester le produit avant de payer à la livraison.</p>"
+          }
+        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -67,6 +73,7 @@
       },
       "block_order": [
         "title",
+        "text_zPUVHJ",
         "badges",
         "price",
         "rating",
