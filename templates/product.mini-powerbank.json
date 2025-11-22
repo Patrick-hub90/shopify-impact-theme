@@ -101,6 +101,96 @@
         "input_text_color": ""
       }
     },
+    "multi_column_DYGcr8": {
+      "type": "multi-column",
+      "blocks": {
+        "item_7BnqBd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_10.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nVxNVA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_9.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jqCTyd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_8.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_aGU4GB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_7.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pnNR6D": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_11.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_7BnqBd",
+        "item_nVxNVA",
+        "item_jqCTyd",
+        "item_aGU4GB",
+        "item_pnNR6D"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Témoignage de nos clients",
+        "content": "<p>Retrouvez les retours des utilisateurs du mini powerbank</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_Xk6L6A": {
       "type": "rich-text",
       "blocks": {
@@ -247,6 +337,7 @@
   },
   "order": [
     "main",
+    "multi_column_DYGcr8",
     "rich_text_Xk6L6A",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
