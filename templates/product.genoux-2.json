@@ -197,15 +197,22 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "Tenez votre téléphone et votre powerbank de 20,000 mAh ... d'une seule main !",
-            "heading_tag": "h2",
+            "text": "💦 Ultimate Battle Blaster : Le Maître Absolu des Batailles d'Eau Électriques 🔫",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
+          }
+        },
+        "richtext_8mFjLP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Les vacances commencent, le soleil tape... Préparez-vous pour la <strong>BATAILLE D'EAU ÉLECTRIQUE</strong> la plus folle du Sénégal !</p>"
           }
         }
       },
       "block_order": [
-        "heading_M36whR"
+        "heading_M36whR",
+        "richtext_8mFjLP"
       ],
       "name": "Rich text",
       "settings": {
@@ -225,7 +232,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Gemini_Generated_Image_7jwalz7jwalz7jwa.png",
+        "image": "shopify://shop_images/20240629-142426.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -239,7 +246,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Ne laissez plus jamais une batterie faible bloquer vos affaires !!</strong></h3><p> Avec une capacité réelle de <strong>20 000 mAh</strong>, cette batterie est votre assurance-vie au quotidien.<br/>Elle contient assez d'énergie pour recharger votre smartphone <strong>4 à 6 fois d'affilée</strong>. Que ce soit pour les longs trajets, les journées de travail intenses ou les coupures de courant à la maison, vous restez connecté 24h/24.</p>"
+            "content": "<h4><strong>Puissance Électrique et Portée Inégalée</strong></h4><p>Grâce à son <strong>moteur électrique amélioré</strong>, vous bénéficiez d'une pression d'eau constante et supérieure, vous permettant de toucher vos cibles de loin.</p><ul><li><strong>Tir Longue Portée :</strong> Atteignez des adversaires jusqu'à <strong>8-10 mètres</strong> de distance.</li><li><strong>Modes de Tir Double :<br/>* Tir de Précision :</strong> Une simple pression du doigt pour un jet ciblé.<br/><strong>* Rafale Continue :</strong> Maintenez la gâchette enfoncée pour une pluie incessante, forçant vos adversaires à battre en retraite !</li></ul>"
           }
         }
       },
@@ -264,7 +271,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_65.jpg",
+        "image": "shopify://shop_images/20240629-142359.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -278,7 +285,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Une puissance colossale de 20.000mAh qui tient dans votre poche</strong></h3><p><br/>La plupart des batteries de cette puissance ressemblent à des briques. La nôtre utilise une <strong>technologie haute densité</strong> pour rester ultra-compacte et légère. Elle se glisse discrètement dans votre poche ou votre sac.<br/>De plus, grâce à ses <strong>deux ports USB (2.1A)</strong>, vous ne choisissez plus : rechargez deux téléphones en même temps à pleine vitesse. C'est l'idéal pour partager de l'énergie avec un ami ou recharger vos écouteurs en même temps que votre téléphone.</p>"
+            "content": "<h4><strong>Endurance de Combat Maximale : Double Réservoir et Batterie Longue Durée</strong></h4><p></p><p>Votre jeu ne sera plus jamais interrompu par des recharges constantes.</p><ul><li><strong>Capacité Colossale :</strong> Profitez d'un immense <strong>réservoir tambour de 500 ml</strong> pour une autonomie de jeu prolongée, complété par un <strong>chargeur de secours de 50 ml</strong> facilement transportable.</li><li><strong>Batterie Haute Performance :</strong> La batterie rechargeable de <strong>1200 mAh</strong> offre <strong>1 heure complète de jeu continu</strong> par charge, surpassant largement les modèles concurrents.</li></ul>"
           }
         }
       },
@@ -303,7 +310,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
+        "image": "shopify://shop_images/20240629-142423.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -317,7 +324,7 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Vitesse Turbo : Passez de 0% à 50% en un temps record</strong></h3><p><br/>Le temps, c'est de l'argent. Ne restez pas collé à une prise pendant des heures.<br/>Grâce à sa sortie <strong>Double USB 2.1 Ampères</strong>, cette batterie délivre un courant <strong>2 fois plus puissant</strong> qu'un chargeur standard (généralement 1A).</p><p>Concrètement, cela signifie que vous pouvez récupérer environ <strong>50% de batterie en seulement 30 à 40 minutes</strong>* (selon le modèle de téléphone). Que vous ayez un iPhone, un Samsung ou un Tecno, branchez-le pendant votre pause déjeuner et repartez avec une batterie prête pour le reste de la journée.<br/><em><strong>Système intelligent de gestion du courant pour protéger votre batterie contre la surchauffe.</strong></em></p>"
+            "content": "<h4><strong>Design Futuriste et Immersif</strong></h4><p></p><p>Le Blaster n'est pas seulement puissant, il est spectaculaire.</p><ul><li><strong>Effets Lumineux Éclatants :</strong> Des lumières LED vibrantes et sans danger pour les yeux s'activent à chaque tir, ajoutant une dimension épique à vos <strong>batailles en soirée</strong>.</li><li><strong>Esthétique Révolutionnaire :</strong> Son corps entièrement <strong>transparent</strong> met en valeur la technologie interne, vous permettant d'observer le niveau d'eau et le mécanisme de tir en temps réel.</li></ul>"
           }
         }
       },
