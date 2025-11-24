@@ -177,6 +177,7 @@
         "item_aGU4GB",
         "item_pnNR6D"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
