@@ -198,7 +198,7 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "💦 Ultimate Battle Blaster : Le Maître Absolu des Batailles d'Eau Électriques 🔫",
+            "text": "La version mini des caméras d'usine et d'entreprise",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -207,7 +207,7 @@
         "richtext_8mFjLP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Transformez la bataille en victoire grâce à l'avantage électrique. <strong>Tir en rafale, rechargement ultra-rapide</strong>, et une <strong>portée maximale</strong> qui ne laisse aucune chance à la concurrence.</p>"
+            "content": "<p>Oubliez les systèmes de surveillance coûteux, encombrants et dépendants d'une connexion Wi-Fi fragile. Cette <strong>Mini Caméra 4G</strong> est la preuve qu'une sécurité de niveau professionnel n'a pas besoin d'un budget colossal ou d'une installation complexe. Elle intègre les <strong>mêmes technologies de pointe</strong> que les caméras d'entreprise (Haute Définition, Vision Nocturne, Détection de Mouvement), mais dans un format mini qui vous permet de le déplacer facilement et de placer dans n'importe qu'elle endroit</p>"
           }
         }
       },
@@ -233,7 +233,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/20240629-142426.webp",
+        "image": "shopify://shop_images/Gemini_Generated_Image_72lehb72lehb72le.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
