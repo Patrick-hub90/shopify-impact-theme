@@ -235,6 +235,138 @@
         "text_color": ""
       }
     },
+    "multi_column_NdUnhG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_z9TaQR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_1o4zkv1o4zkv1o4z.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hwqpe4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_uul107uul107uul1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RBmXMU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_dtr5vedtr5vedtr5.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cTmALQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_mm0jlkmm0jlkmm0j.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FxhLyq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_q7wz3tq7wz3tq7wz.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Affijc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_hhnh0ahhnh0ahhnh.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CKxGAC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_13g0jm13g0jm13g0.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Y9WpYp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_6jqou56jqou56jqo.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_z9TaQR",
+        "item_hwqpe4",
+        "item_RBmXMU",
+        "item_cTmALQ",
+        "item_FxhLyq",
+        "item_Affijc",
+        "item_CKxGAC",
+        "item_Y9WpYp"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "Caractéristiques",
+        "title": "Mini Caméra T9",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_JNWHyg": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -257,7 +389,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p><br/>La <strong>Caméra T9</strong> prend une <strong>puce locale</strong> (Orange, Free,...) et fonctionne sur batterie <strong>pendant des jours</strong> sur chantier isolé. En plus, nous vous offrons une carte mémoire de <strong>128Go</strong> pour <strong>3 mois d’enregistrement GRATUIT</strong>, sans abonnement coûteux.<br/><br/></p>"
+            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p><br/>La <strong>Caméra T9</strong> prend une <strong>puce locale</strong> (Orange, Free,...) et fonctionne sur batterie <strong>pendant 8 à 12 jours</strong> sur chantier isolé. En plus, nous vous offrons une carte mémoire de <strong>128Go</strong> pour <strong>1 mois d’enregistrement GRATUIT</strong>, sans abonnement coûteux.<br/><br/></p>"
           }
         }
       },
@@ -318,6 +450,7 @@
     "main",
     "multi_column_DYGcr8",
     "rich_text_Xk6L6A",
+    "multi_column_NdUnhG",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
     "image_with_text_overlay_hPYUtC",
