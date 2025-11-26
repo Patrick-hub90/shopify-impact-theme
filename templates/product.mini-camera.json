@@ -204,6 +204,15 @@
             "gradient": ""
           }
         },
+        "image_AVV7zj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_72lehb72lehb72le.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
         "richtext_8mFjLP": {
           "type": "richtext",
           "settings": {
@@ -213,13 +222,14 @@
       },
       "block_order": [
         "heading_M36whR",
+        "image_AVV7zj",
         "richtext_8mFjLP"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
