@@ -198,7 +198,7 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "La version mini des caméras d'usine et d'entreprise",
+            "text": "Toute la Puissance d'une Caméra d'Usine,  Dans la Taille d'une Gomme.",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -208,7 +208,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Gemini_Generated_Image_72lehb72lehb72le.png",
-            "width_mode": "custom",
+            "width_mode": "full_width",
             "max_width": 600,
             "mobile_max_width": 400
           }
@@ -229,7 +229,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -257,7 +257,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h4><strong>Puissance Électrique et Portée Inégalée</strong></h4><p>Grâce à son <strong>moteur électrique amélioré</strong>, vous bénéficiez d'une pression d'eau constante et supérieure, vous permettant de toucher vos cibles de loin.</p><ul><li><strong>Tir Longue Portée :</strong> Atteignez des adversaires jusqu'à <strong>8-10 mètres</strong> de distance.</li><li><strong>Modes de Tir Double :<br/>* Tir de Précision :</strong> Une simple pression du doigt pour un jet ciblé.<br/><strong>* Rafale Continue :</strong> Maintenez la gâchette enfoncée pour une pluie incessante, forçant vos adversaires à battre en retraite !</li></ul>"
+            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p>Contrairement aux caméras Wi-Fi qui ne fonctionnent que lorsqu'il y a du courant ou qu'elles sont proches du routeur, cette caméra 4G prend une puce (Orange, Free, Expresso, etc.) et peut être placée sur un chantier loin de toute source d'électricité. Grâce à sa batterie intégrée, elle est <strong>totalement autonome</strong> et continue de surveiller pendant des jours. De plus, vous n'avez pas besoin de payer des abonnements coûteux pour stocker vos vidéos sur un serveur, car nous vous offrons une carte mémoire d'une capacité de <strong>128Go</strong> garantissant un enregistrement continu <strong>24h/24 pendant 3 mois</strong>. <br/><br/></p>"
           }
         }
       },
@@ -296,7 +296,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h4><strong>Endurance de Combat Maximale : Double Réservoir et Batterie Longue Durée</strong></h4><p></p><p>Votre jeu ne sera plus jamais interrompu par des recharges constantes.</p><ul><li><strong>Capacité Colossale :</strong> Profitez d'un immense <strong>réservoir tambour de 500 ml</strong> pour une autonomie de jeu prolongée, complété par un <strong>chargeur de secours de 50 ml</strong> facilement transportable.</li><li><strong>Batterie Haute Performance :</strong> La batterie rechargeable de <strong>1200 mAh</strong> offre <strong>1 heure complète de jeu continu</strong> par charge, surpassant largement les modèles concurrents.</li></ul>"
+            "content": "<h4><strong>Nos caméra sont prêtes pour l'utilisation</strong></h4><p><br/>Nos équipes ont déjà réglé la qualité d'image, le micro et tous les réglages cruciaux. Vous recevez une Mini Caméra T9<strong> prêt à l'emploi</strong> : il vous suffit de le connecter à votre téléphone en quelques clics. Et si vous avez besoin d'aide pour cette dernière étape, notre <strong>Support WhatsApp est inclus et disponible gratuitement</strong> pour vous assister personnellement. Nous vous garantissons : <strong>zéro stress technique et une surveillance opérationnelle en moins de 5 minutes.</strong></p>"
           }
         }
       },
