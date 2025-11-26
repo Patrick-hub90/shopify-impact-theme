@@ -403,7 +403,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p><br/>La <strong>Caméra T9</strong> prend une <strong>puce locale</strong> (Orange, Free,...) et fonctionne sur batterie <strong>pendant 8 à 12 jours</strong> sur chantier isolé. En plus, nous vous offrons une carte mémoire de <strong>128Go</strong> pour <strong>1 mois d’enregistrement GRATUIT</strong>, sans abonnement coûteux.<br/><br/></p>"
+            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p><br/>La <strong>Caméra T9</strong> prend une <strong>puce locale</strong> (Orange, Free,...) et fonctionne sur batterie <strong>pendant 8 à 12 jours</strong> sur chantier isolé. En plus, nous vous offrons une carte mémoire de <strong>128Go</strong> pour <strong>1 mois d’enregistrement GRATUIT</strong>, sans abonnement coûteux.</p><p></p><p>NB: L'utilisation de la fonction 4G nécessite un forfait internet sur la carte Sim de l'opérateur.</p>"
           }
         }
       },
