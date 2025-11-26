@@ -241,11 +241,24 @@
         "item_z9TaQR": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_122pf1122pf1122p.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Grâce à son support magnétique pivotant et ses accessoires adhésifs, elle peut être placée ou fixée très facilement sur diverses surfaces (étagères, murs, surfaces inclinées) sans nécessiter de perçage ni de câblage complexe.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_EAHcxL": {
+          "type": "item",
+          "settings": {
             "image": "shopify://shop_images/Gemini_Generated_Image_1o4zkv1o4zkv1o4z.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>L'interface du téléphone montre comment accéder facilement à l'historique vidéo pour revoir des événements passés.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -258,7 +271,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>Lorsqu'une intrusion est détectée (comme le personnage masqué encadré en vert), la caméra envoie des notifications instantanées sur votre mobile (visibles sur l'écran à droite) et peut déclencher une sirène intégrée pour faire fuir l'intrus avant qu'il ne commette un méfait.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -271,7 +284,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>Le système combine un capteur PIR et l'intelligence artificielle pour distinguer spécifiquement les formes humaines (encadrées en rouge sur l'image du bas) et réduire drastiquement les fausses alertes causées par des animaux ou des objets.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -284,7 +297,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>Grâce au microphone et au haut-parleur intégrés de haute qualité, vous pouvez non seulement voir, mais aussi dialoguer en temps réel avec les personnes présentes près de la caméra (enfants, animaux, personnes âgées) directement depuis votre smartphone, où que vous soyez.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -297,7 +310,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>Cette fonctionnalité permet de définir précisément les zones de surveillance actives sur l'écran de votre smartphone. En masquant les zones non pertinentes (comme illustré par la grille sur l'image), vous évitez les fausses alarmes et économisez la batterie, ne recevant des notifications que pour les mouvements dans les secteurs qui comptent vraiment pour vous.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -310,7 +323,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>La caméra reste en veille prolongée (image de droite) pour préserver au maximum la batterie. Elle ne s'active instantanément (\"réveil\") pour enregistrer que lorsqu'un mouvement est détecté (image de gauche, avec la détection en rouge), avant de se rendormir rapidement.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -323,7 +336,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>Les écrans de téléphone montrent que la caméra capture une vidéo Full HD 1080P nette en journée (en couleur), et bascule automatiquement sur une vision nocturne claire (en noir et blanc) grâce à des LEDs infrarouges de 940nm qui sont invisibles à l'œil nu et ne perturbent pas le sommeil.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -336,7 +349,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "",
+            "content": "<p>L'application permet d'afficher simultanément le flux vidéo de quatre caméras différentes sur un seul écran (quadrillage). De plus, l'accès aux caméras peut être partagé avec de nombreux autres utilisateurs autorisés, comme les membres de la famille.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -345,6 +358,7 @@
       },
       "block_order": [
         "item_z9TaQR",
+        "item_EAHcxL",
         "item_hwqpe4",
         "item_RBmXMU",
         "item_cTmALQ",
