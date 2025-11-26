@@ -381,16 +381,17 @@
         "text_color": ""
       }
     },
-    "video_An4kNV": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_kmPg6U": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "lg",
-        "video": "shopify://files/videos/0915 (1)(1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_p1zjdpp1zjdpp1zj.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -463,7 +464,7 @@
     "multi_column_DYGcr8",
     "rich_text_Xk6L6A",
     "multi_column_NdUnhG",
-    "video_An4kNV",
+    "image_with_text_overlay_kmPg6U",
     "rich_text_pezP7C",
     "video_VA93Ht",
     "rich_text_VrrQih"
