@@ -216,7 +216,7 @@
         "richtext_8mFjLP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Oubliez les systèmes de surveillance coûteux, encombrants et dépendants d'une connexion Wi-Fi fragile. Cette <strong>Mini Caméra 4G</strong> est la preuve qu'une sécurité de niveau professionnel n'a pas besoin d'un budget colossal ou d'une installation complexe. Elle intègre les <strong>mêmes technologies de pointe</strong> que les caméras d'entreprise (Haute Définition, Vision Nocturne, Détection de Mouvement), mais dans un format mini qui vous permet de le déplacer facilement et de placer dans n'importe qu'elle endroit</p>"
+            "content": "<p>Oubliez les caméras <strong>coûteuses</strong> et dépendantes du Wi-Fi. Cette Mini Caméra 4G offre la <strong>sécurité de niveau professionnel</strong> (HD, Vision Nocturne, Détection de Mouvement) dans un <strong>format mini</strong> qui vous permet de la <strong>déplacer facilement</strong> et de la placer n'importe où.</p>"
           }
         }
       },
@@ -257,7 +257,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p>Contrairement aux caméras Wi-Fi qui ne fonctionnent que lorsqu'il y a du courant ou qu'elles sont proches du routeur, cette caméra 4G prend une puce (Orange, Free, Expresso, etc.) et peut être placée sur un chantier loin de toute source d'électricité. Grâce à sa batterie intégrée, elle est <strong>totalement autonome</strong> et continue de surveiller pendant des jours. De plus, vous n'avez pas besoin de payer des abonnements coûteux pour stocker vos vidéos sur un serveur, car nous vous offrons une carte mémoire d'une capacité de <strong>128Go</strong> garantissant un enregistrement continu <strong>24h/24 pendant 3 mois</strong>. <br/><br/></p>"
+            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p><br/>La <strong>Caméra T9</strong> prend une <strong>puce locale</strong> (Orange, Free,...) et fonctionne sur batterie <strong>pendant des jours</strong> sur chantier isolé. En plus, nous vous offrons une carte mémoire de <strong>128Go</strong> pour <strong>3 mois d’enregistrement GRATUIT</strong>, sans abonnement coûteux.<br/><br/></p>"
           }
         }
       },
@@ -268,7 +268,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
