@@ -312,45 +312,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "image_with_text_overlay_Nm7iL4": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/20240629-142423.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_AKNFD7": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_a3tjWm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h4><strong>Design Futuriste et Immersif</strong></h4><p></p><p>Le Blaster n'est pas seulement puissant, il est spectaculaire.</p><ul><li><strong>Effets Lumineux Éclatants :</strong> Des lumières LED vibrantes et sans danger pour les yeux s'activent à chaque tir, ajoutant une dimension épique à vos <strong>batailles en soirée</strong>.</li><li><strong>Esthétique Révolutionnaire :</strong> Son corps entièrement <strong>transparent</strong> met en valeur la technologie interne, vous permettant d'observer le niveau d'eau et le mécanisme de tir en temps réel.</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_a3tjWm"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -360,8 +321,6 @@
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
     "image_with_text_overlay_hPYUtC",
-    "rich_text_VrrQih",
-    "image_with_text_overlay_Nm7iL4",
-    "rich_text_AKNFD7"
+    "rich_text_VrrQih"
   ]
 }
