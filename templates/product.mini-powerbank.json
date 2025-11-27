@@ -319,10 +319,17 @@
           "settings": {
             "content": "<h3><strong>Vitesse Turbo : Passez de 0% à 50% en un temps record</strong></h3><p><br/>Le temps, c'est de l'argent. Ne restez pas collé à une prise pendant des heures.<br/>Grâce à sa sortie <strong>Double USB 2.1 Ampères</strong>, cette batterie délivre un courant <strong>2 fois plus puissant</strong> qu'un chargeur standard (généralement 1A).</p><p>Concrètement, cela signifie que vous pouvez récupérer environ <strong>50% de batterie en seulement 30 à 40 minutes</strong>* (selon le modèle de téléphone). Que vous ayez un iPhone, un Samsung ou un Tecno, branchez-le pendant votre pause déjeuner et repartez avec une batterie prête pour le reste de la journée.<br/><em><strong>Système intelligent de gestion du courant pour protéger votre batterie contre la surchauffe.</strong></em></p>"
           }
+        },
+        "richtext_H4ACbN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em><strong>⚠️⚠️ NB: Une batterie externe neuve contient toujours un peu d’électricité “fausse”.<br/>Il faut d’abord utiliser toute l’énergie de la batterie externe, puis la recharger.<br/>Après l’avoir utilisée et rechargée complètement deux fois ou plus, elle atteindra son état de pleine capacité.<br/>Ensuite, son nombre d’utilisations sera plus élevé et deviendra normal.</strong></em></p>"
+          }
         }
       },
       "block_order": [
-        "richtext_a3tjWm"
+        "richtext_a3tjWm",
+        "richtext_H4ACbN"
       ],
       "name": "Rich text",
       "settings": {
