@@ -1,0 +1,472 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "text_zPUVHJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Garantie 30 jours :</strong> Satisfait ou remboursé<br/><strong>Tester avant de Payez: </strong>Vous avez le droit de tester le produit avant de payer à la livraison.</p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "easysell_cod_form_app_block_rrhTyh": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_zPUVHJ",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "easysell_cod_form_app_block_rrhTyh",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "multi_column_DYGcr8": {
+      "type": "multi-column",
+      "blocks": {
+        "item_7BnqBd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_10.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nVxNVA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_9.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jqCTyd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_8.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_aGU4GB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_7.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pnNR6D": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_11.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_7BnqBd",
+        "item_nVxNVA",
+        "item_jqCTyd",
+        "item_aGU4GB",
+        "item_pnNR6D"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Témoignage de nos clients",
+        "content": "<p>Retrouvez les retours des utilisateurs du AQUA-FURY 3000™ : Le Blaster Électrique</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "Toute la Puissance d'une Caméra d'Usine,  Dans la Taille d'une Gomme.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "image_AVV7zj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_72lehb72lehb72le.png",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "richtext_8mFjLP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Oubliez les caméras <strong>coûteuses</strong> et dépendantes du Wi-Fi. Cette Mini Caméra 4G offre la <strong>sécurité de niveau professionnel</strong> (HD, Vision Nocturne, Détection de Mouvement) dans un <strong>format mini</strong> qui vous permet de la <strong>déplacer facilement</strong> et de la placer n'importe où.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR",
+        "image_AVV7zj",
+        "richtext_8mFjLP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_NdUnhG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_z9TaQR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_122pf1122pf1122p.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Grâce à son support magnétique pivotant et ses accessoires adhésifs, elle peut être placée ou fixée très facilement sur diverses surfaces (étagères, murs, surfaces inclinées) sans nécessiter de perçage ni de câblage complexe.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_EAHcxL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_1o4zkv1o4zkv1o4z.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>L'interface du téléphone montre comment accéder facilement à l'historique vidéo pour revoir des événements passés.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hwqpe4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_uul107uul107uul1.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Lorsqu'une intrusion est détectée (comme le personnage masqué encadré en vert), la caméra envoie des notifications instantanées sur votre mobile (visibles sur l'écran à droite) et peut déclencher une sirène intégrée pour faire fuir l'intrus avant qu'il ne commette un méfait.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_RBmXMU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_dtr5vedtr5vedtr5.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Le système combine un capteur PIR et l'intelligence artificielle pour distinguer spécifiquement les formes humaines (encadrées en rouge sur l'image du bas) et réduire drastiquement les fausses alertes causées par des animaux ou des objets.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cTmALQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_mm0jlkmm0jlkmm0j.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Grâce au microphone et au haut-parleur intégrés de haute qualité, vous pouvez non seulement voir, mais aussi dialoguer en temps réel avec les personnes présentes près de la caméra (enfants, animaux, personnes âgées) directement depuis votre smartphone, où que vous soyez.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_FxhLyq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_q7wz3tq7wz3tq7wz.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Cette fonctionnalité permet de définir précisément les zones de surveillance actives sur l'écran de votre smartphone. En masquant les zones non pertinentes (comme illustré par la grille sur l'image), vous évitez les fausses alarmes et économisez la batterie, ne recevant des notifications que pour les mouvements dans les secteurs qui comptent vraiment pour vous.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Affijc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_hhnh0ahhnh0ahhnh.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>La caméra reste en veille prolongée (image de droite) pour préserver au maximum la batterie. Elle ne s'active instantanément (\"réveil\") pour enregistrer que lorsqu'un mouvement est détecté (image de gauche, avec la détection en rouge), avant de se rendormir rapidement.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_CKxGAC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_13g0jm13g0jm13g0.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>Les écrans de téléphone montrent que la caméra capture une vidéo Full HD 1080P nette en journée (en couleur), et bascule automatiquement sur une vision nocturne claire (en noir et blanc) grâce à des LEDs infrarouges de 940nm qui sont invisibles à l'œil nu et ne perturbent pas le sommeil.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Y9WpYp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_6jqou56jqou56jqo.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<p>L'application permet d'afficher simultanément le flux vidéo de quatre caméras différentes sur un seul écran (quadrillage). De plus, l'accès aux caméras peut être partagé avec de nombreux autres utilisateurs autorisés, comme les membres de la famille.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_z9TaQR",
+        "item_EAHcxL",
+        "item_hwqpe4",
+        "item_RBmXMU",
+        "item_cTmALQ",
+        "item_FxhLyq",
+        "item_Affijc",
+        "item_CKxGAC",
+        "item_Y9WpYp"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "Caractéristiques",
+        "title": "Mini Caméra T9",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_kmPg6U": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_p1zjdpp1zjdpp1zj.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Cette caméra ne joue pas sur le même terrain que les cameras à wifi.</strong></h2><p><br/>La <strong>Caméra T9</strong> prend une <strong>puce locale</strong> (Orange, Free,...) et fonctionne sur batterie <strong>pendant 8 à 12 jours</strong> sur chantier isolé. En plus, nous vous offrons une carte mémoire de <strong>128Go</strong> pour <strong>1 mois d’enregistrement GRATUIT</strong>, sans abonnement coûteux.</p><p></p><p>NB: L'utilisation de la fonction 4G nécessite un forfait internet sur la carte Sim de l'opérateur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_VA93Ht": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/0915 (1)(3).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4><strong>Nos caméra sont prêtes pour l'utilisation</strong></h4><p><br/>Nos équipes ont déjà réglé la qualité d'image, le micro et tous les réglages cruciaux. Vous recevez une Mini Caméra T9<strong> prêt à l'emploi</strong> : il vous suffit de le connecter à votre téléphone en quelques clics. Et si vous avez besoin d'aide pour cette dernière étape, notre <strong>Support WhatsApp est inclus et disponible gratuitement</strong> pour vous assister personnellement. Nous vous garantissons : <strong>zéro stress technique et une surveillance opérationnelle en moins de 5 minutes.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_DYGcr8",
+    "rich_text_Xk6L6A",
+    "multi_column_NdUnhG",
+    "image_with_text_overlay_kmPg6U",
+    "rich_text_pezP7C",
+    "video_VA93Ht",
+    "rich_text_VrrQih"
+  ]
+}
