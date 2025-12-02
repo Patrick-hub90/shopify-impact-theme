@@ -299,14 +299,24 @@
     "rich_text_VrrQih": {
       "type": "rich-text",
       "blocks": {
+        "heading_AXfdjh": {
+          "type": "heading",
+          "settings": {
+            "text": "L'extension XXL rend votre 🍆 dure comme du béton et endurant comme une machine.",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Une puissance colossale de 20.000mAh qui tient dans votre poche</strong></h3><p><br/>La plupart des batteries de cette puissance ressemblent à des briques. La nôtre utilise une <strong>technologie haute densité</strong> pour rester ultra-compacte et légère. Elle se glisse discrètement dans votre poche ou votre sac.<br/>De plus, grâce à ses <strong>deux ports USB (2.1A)</strong>, vous ne choisissez plus : rechargez deux téléphones en même temps à pleine vitesse. C'est l'idéal pour partager de l'énergie avec un ami ou recharger vos écouteurs en même temps que votre téléphone.</p>"
+            "content": "<p><strong>Comment ça marche ?</strong> C'est simple. Le manchon agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
           }
         }
       },
       "block_order": [
+        "heading_AXfdjh",
         "richtext_dp3ceY"
       ],
       "name": "Rich text",
@@ -338,22 +348,25 @@
     "rich_text_AKNFD7": {
       "type": "rich-text",
       "blocks": {
+        "heading_cQMrYp": {
+          "type": "heading",
+          "settings": {
+            "text": "Elle va crier de joie toute la nuit..",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Vitesse Turbo : Passez de 0% à 50% en un temps record</strong></h3><p><br/>Le temps, c'est de l'argent. Ne restez pas collé à une prise pendant des heures.<br/>Grâce à sa sortie <strong>Double USB 2.1 Ampères</strong>, cette batterie délivre un courant <strong>2 fois plus puissant</strong> qu'un chargeur standard (généralement 1A).</p><p>Concrètement, cela signifie que vous pouvez récupérer environ <strong>50% de batterie en seulement 30 à 40 minutes</strong>* (selon le modèle de téléphone). Que vous ayez un iPhone, un Samsung ou un Tecno, branchez-le pendant votre pause déjeuner et repartez avec une batterie prête pour le reste de la journée.<br/><em><strong>Système intelligent de gestion du courant pour protéger votre batterie contre la surchauffe.</strong></em></p>"
-          }
-        },
-        "richtext_H4ACbN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><em><strong>⚠️⚠️ NB: Une batterie externe neuve contient toujours un peu d’électricité “fausse”.<br/>Il faut d’abord utiliser toute l’énergie de la batterie externe, puis la recharger.<br/>Après l’avoir utilisée et rechargée complètement deux fois ou plus, elle atteindra son état de pleine capacité.<br/>Ensuite, son nombre d’utilisations sera plus élevé et deviendra normal.</strong></em></p>"
+            "content": "<p>Ne vous contentez plus de rapports \"classiques\". Ce dispositif transforme l'intimité en une expérience explosive pour elle. En combinant <strong>33% de volume supplémentaire</strong> pour une sensation de plénitude absolue, une <strong>texture nervurée</strong> qui frotte les zones sensibles, et <strong>10 modes de vibration</strong> stimulant son point G en continu, vous lui offrez un cocktail de sensations impossible à reproduire naturellement. C'est l'assurance de la satisfaire pleinement, de déclencher des orgasmes intenses et de renforcer votre complicité de couple à chaque utilisation.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_a3tjWm",
-        "richtext_H4ACbN"
+        "heading_cQMrYp",
+        "richtext_a3tjWm"
       ],
       "name": "Rich text",
       "settings": {
