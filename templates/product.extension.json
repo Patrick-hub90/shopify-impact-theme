@@ -1,0 +1,363 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "text_zPUVHJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Garantie 30 jours :</strong> Satisfait ou remboursé<br/><strong>Tester avant de Payez: </strong>Vous avez le droit de tester le produit avant de payer à la livraison.</p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "easysell_cod_form_app_block_rrhTyh": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_zPUVHJ",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "easysell_cod_form_app_block_rrhTyh",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "multi_column_DYGcr8": {
+      "type": "multi-column",
+      "blocks": {
+        "item_7BnqBd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_10.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nVxNVA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_9.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jqCTyd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_8.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_aGU4GB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_7.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pnNR6D": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_11.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_7BnqBd",
+        "item_nVxNVA",
+        "item_jqCTyd",
+        "item_aGU4GB",
+        "item_pnNR6D"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Témoignage de nos clients",
+        "content": "<p>Retrouvez les retours des utilisateurs du mini powerbank</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "Tenez votre téléphone et votre powerbank de 20,000 mAh ... d'une seule main !",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JNWHyg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_7jwalz7jwalz7jwa.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>Ne laissez plus jamais une batterie faible bloquer vos affaires !!</strong></h3><p> Avec une capacité réelle de <strong>20 000 mAh</strong>, cette batterie est votre assurance-vie au quotidien.<br/>Elle contient assez d'énergie pour recharger votre smartphone <strong>4 à 6 fois d'affilée</strong>. Que ce soit pour les longs trajets, les journées de travail intenses ou les coupures de courant à la maison, vous restez connecté 24h/24.</p>"
+          }
+        },
+        "richtext_py8kJn": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em><strong>NB: Vous bénéficiez d'une garantir de 7 jours après réception de votre produit, durée au cours de laquelle vous pouvez retournez le produit si il ne correspond pas à la description. Contactez le ( +221 785906444)</strong></em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8",
+        "richtext_py8kJn"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_hPYUtC": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_65.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>Une puissance colossale de 20.000mAh qui tient dans votre poche</strong></h3><p><br/>La plupart des batteries de cette puissance ressemblent à des briques. La nôtre utilise une <strong>technologie haute densité</strong> pour rester ultra-compacte et légère. Elle se glisse discrètement dans votre poche ou votre sac.<br/>De plus, grâce à ses <strong>deux ports USB (2.1A)</strong>, vous ne choisissez plus : rechargez deux téléphones en même temps à pleine vitesse. C'est l'idéal pour partager de l'énergie avec un ami ou recharger vos écouteurs en même temps que votre téléphone.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_Nm7iL4": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>Vitesse Turbo : Passez de 0% à 50% en un temps record</strong></h3><p><br/>Le temps, c'est de l'argent. Ne restez pas collé à une prise pendant des heures.<br/>Grâce à sa sortie <strong>Double USB 2.1 Ampères</strong>, cette batterie délivre un courant <strong>2 fois plus puissant</strong> qu'un chargeur standard (généralement 1A).</p><p>Concrètement, cela signifie que vous pouvez récupérer environ <strong>50% de batterie en seulement 30 à 40 minutes</strong>* (selon le modèle de téléphone). Que vous ayez un iPhone, un Samsung ou un Tecno, branchez-le pendant votre pause déjeuner et repartez avec une batterie prête pour le reste de la journée.<br/><em><strong>Système intelligent de gestion du courant pour protéger votre batterie contre la surchauffe.</strong></em></p>"
+          }
+        },
+        "richtext_H4ACbN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em><strong>⚠️⚠️ NB: Une batterie externe neuve contient toujours un peu d’électricité “fausse”.<br/>Il faut d’abord utiliser toute l’énergie de la batterie externe, puis la recharger.<br/>Après l’avoir utilisée et rechargée complètement deux fois ou plus, elle atteindra son état de pleine capacité.<br/>Ensuite, son nombre d’utilisations sera plus élevé et deviendra normal.</strong></em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm",
+        "richtext_H4ACbN"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_DYGcr8",
+    "rich_text_Xk6L6A",
+    "image_with_text_overlay_JNWHyg",
+    "rich_text_pezP7C",
+    "image_with_text_overlay_hPYUtC",
+    "rich_text_VrrQih",
+    "image_with_text_overlay_Nm7iL4",
+    "rich_text_AKNFD7"
+  ]
+}
