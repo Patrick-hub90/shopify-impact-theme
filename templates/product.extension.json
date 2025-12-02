@@ -386,6 +386,48 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/6694f938-f631-4e51-859f-5c475d8c6a7e.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_phnTbQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TFqVRJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Il possède 10 niveaux de vibrations pour stimuler le point G en continu durant la pénétration.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TFqVRJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_3TYddb": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
         "image": "shopify://shop_images/BGCAGFC53VHPXDVHHQ63ICF424_9cb66275-db4e-4a4a-b522-4e98b99e1c6e.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -402,20 +444,10 @@
           "settings": {
             "content": "<p>Ne vous contentez plus de rapports \"classiques\". Ce dispositif transforme l'intimité en une expérience explosive pour elle. En combinant <strong>33% de volume supplémentaire</strong> pour une sensation de plénitude absolue, une <strong>texture nervurée</strong> qui frotte les zones sensibles, et <strong>10 modes de vibration</strong> stimulant son point G en continu, vous lui offrez un cocktail de sensations impossible à reproduire naturellement. C'est l'assurance de la satisfaire pleinement, de déclencher des orgasmes intenses et de renforcer votre complicité de couple à chaque utilisation.</p>"
           }
-        },
-        "image_kTdVwY": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/6694f938-f631-4e51-859f-5c475d8c6a7e.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
         }
       },
       "block_order": [
-        "richtext_a3tjWm",
-        "image_kTdVwY"
+        "richtext_a3tjWm"
       ],
       "name": "Rich text",
       "settings": {
@@ -439,6 +471,8 @@
     "video_qJqhG7",
     "rich_text_QjfPtU",
     "image_with_text_overlay_Nm7iL4",
+    "rich_text_phnTbQ",
+    "image_with_text_overlay_3TYddb",
     "rich_text_AKNFD7"
   ]
 }
