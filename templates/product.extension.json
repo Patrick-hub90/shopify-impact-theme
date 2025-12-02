@@ -289,7 +289,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_65.jpg",
+        "image": "shopify://shop_images/034392f9-4e0b-46e7-bdba-f6a7c456d8fd.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -314,17 +314,65 @@
           "settings": {
             "content": "<p><strong>Comment ça marche ?</strong> C'est simple. Le manchon agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
           }
+        },
+        "richtext_mp466W": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em><strong>NB: L'utilisation de l'extension XXL n'est possible qu'avec un lubrifiant.</strong></em></p>"
+          }
         }
       },
       "block_order": [
         "heading_AXfdjh",
-        "richtext_dp3ceY"
+        "richtext_dp3ceY",
+        "richtext_mp466W"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
         "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_qJqhG7": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/1202.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_QjfPtU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GzEThi": {
+          "type": "heading",
+          "settings": {
+            "text": "Elle va crier de joie toute la nuit...",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzEThi"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -338,7 +386,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
+        "image": "shopify://shop_images/BGCAGFC53VHPXDVHHQ63ICF424_9cb66275-db4e-4a4a-b522-4e98b99e1c6e.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -349,15 +397,6 @@
     "rich_text_AKNFD7": {
       "type": "rich-text",
       "blocks": {
-        "heading_cQMrYp": {
-          "type": "heading",
-          "settings": {
-            "text": "Elle va crier de joie toute la nuit..",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
@@ -366,7 +405,6 @@
         }
       },
       "block_order": [
-        "heading_cQMrYp",
         "richtext_a3tjWm"
       ],
       "name": "Rich text",
@@ -388,6 +426,8 @@
     "rich_text_pezP7C",
     "image_with_text_overlay_hPYUtC",
     "rich_text_VrrQih",
+    "video_qJqhG7",
+    "rich_text_QjfPtU",
     "image_with_text_overlay_Nm7iL4",
     "rich_text_AKNFD7"
   ]
