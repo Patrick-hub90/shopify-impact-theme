@@ -197,15 +197,22 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "Tenez votre téléphone et votre powerbank de 20,000 mAh ... d'une seule main !",
-            "heading_tag": "h2",
+            "text": "Le dispositif qui rend votre 🍆instantanément Plus Gros, Plus Endurant et Plus Performant.",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
+          }
+        },
+        "richtext_4FD9AE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Avec l'extension XXL, vous allez impressionner et prolonger le plaisir de votre femme comme jamais auparavant.</p>"
           }
         }
       },
       "block_order": [
-        "heading_M36whR"
+        "heading_M36whR",
+        "richtext_4FD9AE"
       ],
       "name": "Rich text",
       "settings": {
@@ -236,10 +243,19 @@
     "rich_text_pezP7C": {
       "type": "rich-text",
       "blocks": {
+        "heading_jtKiJU": {
+          "type": "heading",
+          "settings": {
+            "text": "Augmentez Instantanément le Volume de votre 🍆 (Sans Pilules, Sans Attente)",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Ne laissez plus jamais une batterie faible bloquer vos affaires !!</strong></h3><p> Avec une capacité réelle de <strong>20 000 mAh</strong>, cette batterie est votre assurance-vie au quotidien.<br/>Elle contient assez d'énergie pour recharger votre smartphone <strong>4 à 6 fois d'affilée</strong>. Que ce soit pour les longs trajets, les journées de travail intenses ou les coupures de courant à la maison, vous restez connecté 24h/24.</p>"
+            "content": "<p><strong>Comment ça marche ? </strong><br/>Dès l'instant où vous l'enfilez, vous ajoutez mécaniquement une couche de silicone épais autour de votre anatomie.</p><ol><li><strong>L'Épaisseur des Parois :</strong> L'extension XXL possède des parois charnues qui ajoutent immédiatement <strong>+33% d'épaisseur</strong> à votre pénis.</li><li><strong>Le Remplissage :</strong> Votre partenaire ne sentira plus \"d'espace vide\". La circonférence augmentée garantit une sensation de plénitude totale pour elle à chaque mouvement.</li></ol><p><strong>Est-ce que ça m'ira ? (Compatibilité Universelle)</strong><br/>Beaucoup d'hommes ont peur que ce soit trop serré ou trop large. Nous avons résolu ce problème grâce au <strong>Silicone Liquide Extensible</strong>.</p><ul><li><strong>Technologie \"Flex-Fit\" :</strong> Contrairement aux plastiques rigides, notre silicone s'étire et s'adapte comme une seconde peau.</li><li><strong>Pour toutes les tailles :</strong> Que vous soyez fin ou moyen, le design est étudié pour s'ajuster parfaitement à toute anatomie ayant une <strong>circonférence de base de 10 cm ou plus</strong>. Il se moule à votre forme sans glisser, transformant votre taille naturelle en un calibre impressionnant.</li></ul>"
           }
         },
         "richtext_py8kJn": {
@@ -250,6 +266,7 @@
         }
       },
       "block_order": [
+        "heading_jtKiJU",
         "richtext_wEM4q8",
         "richtext_py8kJn"
       ],
