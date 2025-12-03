@@ -474,7 +474,7 @@
         "richtext_bUjm9A": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>1 Extension Achetée = 1 Lubrifiant \"Arôme Fresh\" OFFERT</strong></h3><p>Nous avons pensé à tout pour vous. En cadeau, nous vous offrons un lubrifiant de très haute qualité au parfum exotique, conçu pour sublimer vos moments intimes. Il garantit une glisse parfaite et des sensations explosives que votre partenaire n'oubliera jamais. Profitez d'une qualité de rapport exceptionnelle dès ce soir !<br/><br/></p>"
+            "content": "<h3><strong>1 Extension Achetée = 1 Lubrifiant \"Arôme Fresh\" OFFERT</strong></h3><p>Nous avons pensé à tout pour vous. En cadeau, nous vous offrons un lubrifiant de très haute qualité au <strong>parfum exotique</strong>, conçu pour sublimer vos moments intimes. Il garantit une glisse parfaite et des <strong>sensations explosives</strong> que votre partenaire n'oubliera jamais. Profitez d'une qualité de rapport exceptionnelle dès ce soir !<br/><br/></p>"
           }
         }
       },
