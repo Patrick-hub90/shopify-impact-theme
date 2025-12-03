@@ -314,18 +314,11 @@
           "settings": {
             "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
           }
-        },
-        "richtext_mp466W": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><em><strong>NB: L'utilisation de l'extension XXL n'est possible qu'avec un lubrifiant.</strong></em></p>"
-          }
         }
       },
       "block_order": [
         "heading_AXfdjh",
-        "richtext_dp3ceY",
-        "richtext_mp466W"
+        "richtext_dp3ceY"
       ],
       "name": "Rich text",
       "settings": {
@@ -345,7 +338,7 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
-        "video": "shopify://files/videos/1202.mp4",
+        "video": "shopify://files/videos/1202(3).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
