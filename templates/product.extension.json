@@ -312,7 +312,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
+            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p><p></p><p>NB: Nous vous offrons en plus un lubrifiannt arome fresh pour améliorer la qualité du</p>"
           }
         }
       },
@@ -451,6 +451,45 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "image_with_text_overlay_jfiqVt": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_8ri13g8ri13g8ri1_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_LBy8Fi": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_bUjm9A": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>🎁 BONUS EXCLUSIF : Le Kit Plaisir Complet</p><p>Nous savons que pour que votre nouvelle Extension XXL soit pleinement efficace et agréable, elle doit s'accompagner d'un confort optimal.</p><p>C'est pourquoi, uniquement aujourd'hui, nous vous offrons le complément idéal :</p><p>VOTRE LUBRIFIANT AROME FRESH (OFFERT)</p><p>Ce lubrifiant n'est pas un accessoire : c'est l'ingrédient secret pour une expérience ultime.</p><p><strong>Confort Maximal :</strong> Sa texture premium garantit une glisse parfaite, éliminant toute friction ou inconfort, même lors des utilisations les plus intenses ou prolongées.</p><p><strong>Sensations Multipliées :</strong> Son arôme fresh ajoute une dimension sensorielle excitante et un côté ludique à vos moments intimes. Il augmente la sensibilité et multiplie le plaisir.</p><p><strong>Compatibilité Silicone :</strong> Formulé pour être sûr et idéal pour une utilisation avec votre Extension en silicone.</p><p>Recevez GRATUITEMENT ce lubrifiant indispensable pour vous assurer que votre première nuit avec l'Extension XXL soit absolument inoubliable.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bUjm9A"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -466,6 +505,8 @@
     "image_with_text_overlay_Nm7iL4",
     "rich_text_phnTbQ",
     "image_with_text_overlay_3TYddb",
-    "rich_text_AKNFD7"
+    "rich_text_AKNFD7",
+    "image_with_text_overlay_jfiqVt",
+    "rich_text_LBy8Fi"
   ]
 }
