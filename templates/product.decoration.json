@@ -101,32 +101,6 @@
         "input_text_color": ""
       }
     },
-    "rich_text_Xk6L6A": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_M36whR": {
-          "type": "heading",
-          "settings": {
-            "text": "Terminez chacune de vos tâches avant que le sable ne s'écoule complètement.",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_M36whR"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_with_text_overlay_JNWHyg": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -295,7 +269,6 @@
   },
   "order": [
     "main",
-    "rich_text_Xk6L6A",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
     "video_EPzeaw",
