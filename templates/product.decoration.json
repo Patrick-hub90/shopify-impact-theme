@@ -101,96 +101,6 @@
         "input_text_color": ""
       }
     },
-    "multi_column_DYGcr8": {
-      "type": "multi-column",
-      "blocks": {
-        "item_7BnqBd": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_10.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_nVxNVA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_9.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_jqCTyd": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_8.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_aGU4GB": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_7.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_pnNR6D": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_11.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_7BnqBd",
-        "item_nVxNVA",
-        "item_jqCTyd",
-        "item_aGU4GB",
-        "item_pnNR6D"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "Témoignage de nos clients",
-        "content": "<p>Retrouvez les retours des utilisateurs du mini powerbank</p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_Xk6L6A": {
       "type": "rich-text",
       "blocks": {
@@ -225,7 +135,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Gemini_Generated_Image_7jwalz7jwalz7jwa.png",
+        "image": "shopify://shop_images/Gemini_Generated_Image_qkb9jrqkb9jrqkb9_9c9eb4c2-fc72-4b41-bedf-01e3d43834b7.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -239,41 +149,33 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Ne laissez plus jamais une batterie faible bloquer vos affaires !!</strong></h3><p> Avec une capacité réelle de <strong>20 000 mAh</strong>, cette batterie est votre assurance-vie au quotidien.<br/>Elle contient assez d'énergie pour recharger votre smartphone <strong>4 à 6 fois d'affilée</strong>. Que ce soit pour les longs trajets, les journées de travail intenses ou les coupures de courant à la maison, vous restez connecté 24h/24.</p>"
-          }
-        },
-        "richtext_py8kJn": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><em><strong>NB: Vous bénéficiez d'une garantir de 7 jours après réception de votre produit, durée au cours de laquelle vous pouvez retournez le produit si il ne correspond pas à la description. Contactez le ( +221 785906444)</strong></em></p>"
+            "content": "<h3><strong>🧘 Effet Anti-Stress Immédiat </strong></h3><p>Idéal pour le bureau ou le salon. Regarder le sable tomber apaise l'esprit, réduit l'anxiété et repose les yeux après des heures devant un écran.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_wEM4q8",
-        "richtext_py8kJn"
+        "richtext_wEM4q8"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "image_with_text_overlay_hPYUtC": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_EPzeaw": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_65.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/1204(2).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -285,7 +187,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Une puissance colossale de 20.000mAh qui tient dans votre poche</strong></h3><p><br/>La plupart des batteries de cette puissance ressemblent à des briques. La nôtre utilise une <strong>technologie haute densité</strong> pour rester ultra-compacte et légère. Elle se glisse discrètement dans votre poche ou votre sac.<br/>De plus, grâce à ses <strong>deux ports USB (2.1A)</strong>, vous ne choisissez plus : rechargez deux téléphones en même temps à pleine vitesse. C'est l'idéal pour partager de l'énergie avec un ami ou recharger vos écouteurs en même temps que votre téléphone.</p>"
+            "content": "<h3><strong>🎨 Une Pièce Unique </strong></h3><p>Contrairement aux tableaux fixes, vous ne verrez jamais deux fois le même paysage. Vous êtes le créateur de votre propre décor.</p>"
           }
         }
       },
@@ -296,7 +198,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -310,7 +212,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
+        "image": "shopify://shop_images/Gemini_Generated_Image_xm3wluxm3wluxm3w.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -324,25 +226,57 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>Vitesse Turbo : Passez de 0% à 50% en un temps record</strong></h3><p><br/>Le temps, c'est de l'argent. Ne restez pas collé à une prise pendant des heures.<br/>Grâce à sa sortie <strong>Double USB 2.1 Ampères</strong>, cette batterie délivre un courant <strong>2 fois plus puissant</strong> qu'un chargeur standard (généralement 1A).</p><p>Concrètement, cela signifie que vous pouvez récupérer environ <strong>50% de batterie en seulement 30 à 40 minutes</strong>* (selon le modèle de téléphone). Que vous ayez un iPhone, un Samsung ou un Tecno, branchez-le pendant votre pause déjeuner et repartez avec une batterie prête pour le reste de la journée.<br/><em><strong>Système intelligent de gestion du courant pour protéger votre batterie contre la surchauffe.</strong></em></p>"
-          }
-        },
-        "richtext_H4ACbN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><em><strong>⚠️⚠️ NB: Une batterie externe neuve contient toujours un peu d’électricité “fausse”.<br/>Il faut d’abord utiliser toute l’énergie de la batterie externe, puis la recharger.<br/>Après l’avoir utilisée et rechargée complètement deux fois ou plus, elle atteindra son état de pleine capacité.<br/>Ensuite, son nombre d’utilisations sera plus élevé et deviendra normal.</strong></em></p>"
+            "content": "<h2><strong>L'Art du Sable 2.0</strong> </h2><p>Une touche moderne et luxueuse qui s'intègre parfaitement aux intérieurs sénégalais, du salon marocain au bureau design.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_a3tjWm",
-        "richtext_H4ACbN"
+        "richtext_a3tjWm"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_KKKaNY": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_wqeo1iwqeo1iwqeo_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_BTTYKf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_NPADG8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>🎁 Le Cadeau Parfait </strong></h3><p>Élégant et fascinant, c'est le cadeau idéal pour un collègue, un mariage, ou une crémaillère.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_NPADG8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -351,13 +285,14 @@
   },
   "order": [
     "main",
-    "multi_column_DYGcr8",
     "rich_text_Xk6L6A",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
-    "image_with_text_overlay_hPYUtC",
+    "video_EPzeaw",
     "rich_text_VrrQih",
     "image_with_text_overlay_Nm7iL4",
-    "rich_text_AKNFD7"
+    "rich_text_AKNFD7",
+    "image_with_text_overlay_KKKaNY",
+    "rich_text_BTTYKf"
   ]
 }
