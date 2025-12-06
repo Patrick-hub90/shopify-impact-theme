@@ -146,14 +146,24 @@
     "rich_text_pezP7C": {
       "type": "rich-text",
       "blocks": {
+        "heading_yhM7re": {
+          "type": "heading",
+          "settings": {
+            "text": "Travaillez dans la paix",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>🧘 Effet Anti-Stress Immédiat </strong></h3><p>Idéal pour le bureau ou le salon. Regarder le sable tomber apaise l'esprit, réduit l'anxiété et repose les yeux après des heures devant un écran.</p>"
+            "content": "<p>Admirer l'écoulement du sable pendant que vous travaillez réduit le stress et crée un environnement de paix et de détente au bureau.</p>"
           }
         }
       },
       "block_order": [
+        "heading_yhM7re",
         "richtext_wEM4q8"
       ],
       "name": "Rich text",
