@@ -150,16 +150,17 @@
         "text_color": ""
       }
     },
-    "video_EPzeaw": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_FdkURm": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/1204(2).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Newspitfireblueledexhausttip1-ezgif.com-optimize.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -281,7 +282,7 @@
     "main",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
-    "video_EPzeaw",
+    "image_with_text_overlay_FdkURm",
     "rich_text_VrrQih",
     "image_with_text_overlay_Nm7iL4",
     "rich_text_AKNFD7",
