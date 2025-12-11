@@ -1,0 +1,281 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "text_zPUVHJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Garantie 30 jours :</strong> Satisfait ou remboursé<br/><strong>Tester avant de Payez: </strong>Vous avez le droit de tester le produit avant de payer à la livraison.</p>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "easysell_cod_form_app_block_rrhTyh": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_zPUVHJ",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "easysell_cod_form_app_block_rrhTyh",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "image_with_text_overlay_JNWHyg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_qkb9jrqkb9jrqkb9_9c9eb4c2-fc72-4b41-bedf-01e3d43834b7.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yhM7re": {
+          "type": "heading",
+          "settings": {
+            "text": "La décoration au service du temps",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ce chronomètre <strong>dessine</strong> le <strong>temps</strong> qui passe. Créant avec du sable doré des paysages qui coule a travers le vers. Un ensemble <strong>décoratif</strong> qui attire un invité au premier regard !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yhM7re",
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_EPzeaw": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/1204(2).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Admirer l'écoulement du sable pendant que vous travaillez réduit le stress et crée un environnement de paix et de détente au bureau.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_Nm7iL4": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_xm3wluxm3wluxm3w.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Une pièce unique</strong></h2><p>Une touche moderne et luxueuse qui s'intègre parfaitement au salon et sur les bureau.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_KKKaNY": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_wqeo1iwqeo1iwqeo_1.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_BTTYKf": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_NPADG8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3><strong>🎁 Le Cadeau Parfait </strong></h3><p>Élégant et fascinant, c'est le cadeau idéal pour un collègue, un mariage, ou un anniversaire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_NPADG8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_JNWHyg",
+    "rich_text_pezP7C",
+    "video_EPzeaw",
+    "rich_text_VrrQih",
+    "image_with_text_overlay_Nm7iL4",
+    "rich_text_AKNFD7",
+    "image_with_text_overlay_KKKaNY",
+    "rich_text_BTTYKf"
+  ]
+}
