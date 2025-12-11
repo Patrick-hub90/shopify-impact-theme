@@ -109,7 +109,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Gemini_Generated_Image_qkb9jrqkb9jrqkb9_9c9eb4c2-fc72-4b41-bedf-01e3d43834b7.png",
+        "image": "shopify://shop_images/Gemini_Generated_Image_apfra5apfra5apfr.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -123,7 +123,7 @@
         "heading_yhM7re": {
           "type": "heading",
           "settings": {
-            "text": "La décoration au service du temps",
+            "text": "Ajoutez l'Effet \"Lance-Flammes\" à votre voiture",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -132,7 +132,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ce chronomètre <strong>dessine</strong> le <strong>temps</strong> qui passe. Créant avec du sable doré des paysages qui coule a travers le vers. Un ensemble <strong>décoratif</strong> qui attire un invité au premier regard !</p>"
+            "content": "<p>Cet embout est une véritable décoration d'enfer conçue pour impressionner. Grâce à son système LED intégré, il crée un visuel époustouflant dès que la nuit tombe. La lumière rougeoyante illumine les gaz d'échappement, donnant l'illusion saisissante que votre voiture <strong>crache du feu</strong> par l'arrière. C'est élégant, brillant, éblouissant et incroyablement accrocheur la nuit. Préparez-vous, car avec cet ajout créatif, vous êtes sûr d'aimer le résultat et de faire tourner les têtes.</p>"
           }
         }
       },
@@ -168,14 +168,24 @@
     "rich_text_VrrQih": {
       "type": "rich-text",
       "blocks": {
+        "heading_MiBPWN": {
+          "type": "heading",
+          "settings": {
+            "text": "Un Ajout Durable Conçu en Acier Inoxydable Résistant",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Admirer l'écoulement du sable pendant que vous travaillez réduit le stress et crée un environnement de paix et de détente au bureau.</p>"
+            "content": "<p><br/>Fabriquée en <strong>acier inoxydable durable</strong>, cette \"gorge de queue\" offre une excellente résistance à la corrosion et, surtout, une résistance aux hautes températures générées par l'échappement. Cette conception robuste assure une longue durée de vie au produit et évite des coûts de remplacement fréquents. C'est un ajout solide qui restera beau et fonctionnel dans le temps.</p>"
           }
         }
       },
       "block_order": [
+        "heading_MiBPWN",
         "richtext_dp3ceY"
       ],
       "name": "Rich text",
@@ -210,7 +220,7 @@
         "richtext_a3tjWm": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>Une pièce unique</strong></h2><p>Une touche moderne et luxueuse qui s'intègre parfaitement au salon et sur les bureau.</p>"
+            "content": "<h2><strong>Adapté uniquement au échappement ovale de 63 mm</strong></h2><p>Le système est conçu pour les sorties d'échappement de 63 mm. Une fois installé, il se fixe fermement au tuyau d'origine de la voiture, garantissant qu'il ne tombera pas facilement, même en roulant.</p><p></p>"
           }
         }
       },
@@ -249,7 +259,7 @@
         "richtext_NPADG8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>🎁 Le Cadeau Parfait </strong></h3><p>Élégant et fascinant, c'est le cadeau idéal pour un collègue, un mariage, ou un anniversaire.</p>"
+            "content": "<h3><strong>🎁 Installation simple et Facile</strong></h3><p>Des instructions sont fournies dans le paquet pour vous guider. Cependant, pour garantir un branchement électrique parfait des LED et un résultat optimal, une <strong>installation professionnelle auprès d'un mécanicien ilest fortement recommandée</strong>. Nous sommes là pour vous : si la lumière ne s'allume pas à l'installation (une situation très rare), contactez-nous pour un remplacement gratuit. Notre service est disponible 24h/24 pour toute question.</p>"
           }
         }
       },
