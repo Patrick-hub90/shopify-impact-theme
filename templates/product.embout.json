@@ -260,7 +260,7 @@
         "richtext_NPADG8": {
           "type": "richtext",
           "settings": {
-            "content": "<h3><strong>🎁 Installation simple et Facile</strong></h3><p>Des instructions sont fournies dans le paquet pour vous guider. Cependant, pour garantir un branchement électrique parfait des LED et un résultat optimal, une <strong>installation professionnelle auprès d'un mécanicien ilest fortement recommandée</strong>. Nous sommes là pour vous : si la lumière ne s'allume pas à l'installation (une situation très rare), contactez-nous pour un remplacement gratuit. Notre service est disponible 24h/24 pour toute question.</p>"
+            "content": "<h3><strong>🎁 Installation simple et Facile</strong></h3><p>Des instructions sont fournies dans le paquet pour vous guider. Cependant, pour garantir un branchement électrique parfait des LED et un résultat optimal, une <strong>installation professionnelle auprès d'un mécanicien est fortement recommandée</strong>. Nous sommes là pour vous : si la lumière ne s'allume pas à l'installation (une situation très rare), contactez-nous pour un remplacement gratuit. Notre service est disponible 24h/24 pour toute question.</p>"
           }
         }
       },
