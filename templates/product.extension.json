@@ -451,45 +451,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "image_with_text_overlay_jfiqVt": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Gemini_Generated_Image_8ri13g8ri13g8ri1_1.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_LBy8Fi": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_bUjm9A": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3><strong>1 Extension Achetée = 1 Lubrifiant \"Arôme Fresh\" OFFERT</strong></h3><p>Nous avons pensé à tout pour vous. En cadeau, nous vous offrons un lubrifiant de très haute qualité au <strong>parfum exotique</strong>, conçu pour sublimer vos moments intimes. Il garantit une glisse parfaite et des <strong>sensations explosives</strong> que votre partenaire n'oubliera jamais. Profitez d'une qualité de rapport exceptionnelle dès ce soir !<br/><br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_bUjm9A"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -505,8 +466,6 @@
     "image_with_text_overlay_Nm7iL4",
     "rich_text_phnTbQ",
     "image_with_text_overlay_3TYddb",
-    "rich_text_AKNFD7",
-    "image_with_text_overlay_jfiqVt",
-    "rich_text_LBy8Fi"
+    "rich_text_AKNFD7"
   ]
 }
