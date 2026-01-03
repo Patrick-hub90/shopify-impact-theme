@@ -195,6 +195,15 @@
     "rich_text_Xk6L6A": {
       "type": "rich-text",
       "blocks": {
+        "heading_RYzNJN": {
+          "type": "heading",
+          "settings": {
+            "text": "Il est indispensable d’utiliser un lubrifiant avec l’extension pour permettre une bonne pénétration.",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "heading_M36whR": {
           "type": "heading",
           "settings": {
@@ -212,6 +221,7 @@
         }
       },
       "block_order": [
+        "heading_RYzNJN",
         "heading_M36whR",
         "richtext_4FD9AE"
       ],
