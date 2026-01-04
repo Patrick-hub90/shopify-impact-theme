@@ -297,7 +297,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<p>L'intensité ne doit pas s'arrêter à cause d'une panne de batterie. Le blaster est équipé d'une batterie Lithium rechargeable haute capacité, optimisée pour fournir une pression constante du début à la fin de la charge.<br/>Couplé à son réservoir grande capacité, vous disposez d'une autonomie de tir qui vous permet de maintenir la pression sur vos adversaires pendant de longues sessions. C'est l'outil parfait pour des tournois ou des batailles qui durent toute l'après-midi.</p>"
+            "content": "<p>Le blaster est équipé d'une <strong>batterie Lithium rechargeable haute capacité 1200mAh</strong>, optimisée pour fournir une pression constante du début à la fin de la charge.<br/>Couplé à son réservoir grande capacité, vous disposez d'une autonomie de tir qui vous permet de maintenir la pression sur vos adversaires pendant de longues sessions. C'est l'outil parfait pour des tournois ou des batailles qui durent toute l'après-midi.</p>"
           }
         }
       },
