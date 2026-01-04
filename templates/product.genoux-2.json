@@ -56,24 +56,11 @@
             "product": ""
           }
         },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
+        "collapsible_text_MgeTfQ": {
+          "type": "collapsible_text",
           "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
+            "title": "📋 Caractéristiques Techniques",
+            "content": "<ul><li><strong>Matériau :</strong> ABS Renforcé Anti-Choc</li><li><strong>Mode de tir :</strong> Coup par coup et Rafale Électrique Haute Pression</li><li><strong>Portée :</strong> 8 à 10 Mètres (Tir tendu)</li><li><strong>Alimentation :</strong> Batterie Rechargeable 1200 mAh (1h d'utilisation ) (Câble USB inclus)</li><li><strong>Inclus dans la boîte :</strong> 1 Blaster, 1 Batterie, 1 Câble de charge, Réservoirs principale 500 ml et de secours 50ml.</li></ul>"
           }
         }
       },
@@ -86,9 +73,7 @@
         "rating",
         "payment_terms",
         "easysell_cod_form_app_block_rrhTyh",
-        "separator",
-        "description",
-        "variant_picker"
+        "collapsible_text_MgeTfQ"
       ],
       "settings": {
         "full_width": true,
