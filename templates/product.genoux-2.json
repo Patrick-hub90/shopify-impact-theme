@@ -201,11 +201,23 @@
           "settings": {
             "content": "<p>Ne craignez plus les chocs ni les mouvements brusques. Le <strong>Aqua-Fury 3000™</strong> est fabriqué avec des <strong>matériaux polymères ABS haute densité</strong>.<br/>Sa <strong>structure renforcée</strong> est pensée pour supporter les courses effrénées, les roulades et l'environnement extérieur (sable, jardin, bitume). C'est un <strong>équipement solide </strong>qui tient bien en main, avec un poids rassurant qui témoigne de sa <strong>qualité</strong> de fabrication. </p><p><strong>Vous pouvez vous concentrer sur votre stratégie, il encaissera le reste. 😁</strong></p>"
           }
+        },
+        "button_Kephz3": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Contactez-nous par Whatsapp",
+            "url": "https://wa.me/221785906443?text=Bonjour%20%F0%9F%91%8B%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20le%20Aqua-Fury%203000%E2%84%A2.%20Est-il%20toujours%20disponible%20pour%20une%20livraison%20%3F",
+            "background": "#00a341",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_M36whR",
-        "richtext_8mFjLP"
+        "richtext_8mFjLP",
+        "button_Kephz3"
       ],
       "name": "Rich text",
       "settings": {
