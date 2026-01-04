@@ -205,7 +205,7 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "💦 Ultimate Battle Blaster : Le Maître Absolu des Batailles d'Eau Électriques 🔫",
+            "text": "💦 .UNE ROBUSTESSE À TOUTE ÉPREUVE (Conçu pour durer) 🔫",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -214,7 +214,7 @@
         "richtext_8mFjLP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Transformez la bataille en victoire grâce à l'avantage électrique. <strong>Tir en rafale, rechargement ultra-rapide</strong>, et une <strong>portée maximale</strong> qui ne laisse aucune chance à la concurrence.</p>"
+            "content": "<p>Ne craignez plus les chocs ni les mouvements brusques. Le <strong>Aqua-Fury 3000™</strong> est fabriqué avec des matériaux polymères ABS haute densité, spécialement sélectionnés pour leur résistance aux impacts.<br/>Sa structure renforcée est pensée pour supporter les courses effrénées, les roulades et l'environnement extérieur (sable, jardin, bitume). C'est un équipement solide qui tient bien en main, avec un poids rassurant qui témoigne de sa qualité de fabrication. Vous pouvez vous concentrer sur votre stratégie, il encaissera le reste.</p>"
           }
         }
       },
@@ -226,7 +226,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -251,14 +251,24 @@
     "rich_text_pezP7C": {
       "type": "rich-text",
       "blocks": {
+        "heading_MFhGtz": {
+          "type": "heading",
+          "settings": {
+            "text": "PUISSANCE DE TIR & SENSATIONS RÉALISTES",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h4><strong>Puissance Électrique et Portée Inégalée</strong></h4><p>Grâce à son <strong>moteur électrique amélioré</strong>, vous bénéficiez d'une pression d'eau constante et supérieure, vous permettant de toucher vos cibles de loin.</p><ul><li><strong>Tir Longue Portée :</strong> Atteignez des adversaires jusqu'à <strong>8-10 mètres</strong> de distance.</li><li><strong>Modes de Tir Double :<br/>* Tir de Précision :</strong> Une simple pression du doigt pour un jet ciblé.<br/><strong>* Rafale Continue :</strong> Maintenez la gâchette enfoncée pour une pluie incessante, forçant vos adversaires à battre en retraite !</li></ul>"
+            "content": "<p>Vivez l'adrénaline d'une simulation de combat réelle. Grâce à son moteur électrique haute pression, chaque tir propulse un jet d'eau puissant et rectiligne qui \"claque\" à l'impact.<br/>Contrairement aux jets dispersés, ici vous avez de la précision. La gâchette réactive offre une sensation de tir instantanée, idéale pour toucher vos cibles jusqu'à 10 mètres. L'impact est suffisant pour être bien ressenti par l'adversaire, rendant le jeu beaucoup plus compétitif et immersif.</p>"
           }
         }
       },
       "block_order": [
+        "heading_MFhGtz",
         "richtext_wEM4q8"
       ],
       "name": "Rich text",
@@ -290,14 +300,24 @@
     "rich_text_VrrQih": {
       "type": "rich-text",
       "blocks": {
+        "heading_3FK7KA": {
+          "type": "heading",
+          "settings": {
+            "text": "ENDURANCE MAXIMALE POUR JEU PROLONGÉ",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<h4><strong>Endurance de Combat Maximale : Double Réservoir et Batterie Longue Durée</strong></h4><p></p><p>Votre jeu ne sera plus jamais interrompu par des recharges constantes.</p><ul><li><strong>Capacité Colossale :</strong> Profitez d'un immense <strong>réservoir tambour de 500 ml</strong> pour une autonomie de jeu prolongée, complété par un <strong>chargeur de secours de 50 ml</strong> facilement transportable.</li><li><strong>Batterie Haute Performance :</strong> La batterie rechargeable de <strong>1200 mAh</strong> offre <strong>1 heure complète de jeu continu</strong> par charge, surpassant largement les modèles concurrents.</li></ul>"
+            "content": "<p>L'intensité ne doit pas s'arrêter à cause d'une panne de batterie. Le blaster est équipé d'une batterie Lithium rechargeable haute capacité, optimisée pour fournir une pression constante du début à la fin de la charge.<br/>Couplé à son réservoir grande capacité, vous disposez d'une autonomie de tir qui vous permet de maintenir la pression sur vos adversaires pendant de longues sessions. C'est l'outil parfait pour des tournois ou des batailles qui durent toute l'après-midi.</p>"
           }
         }
       },
       "block_order": [
+        "heading_3FK7KA",
         "richtext_dp3ceY"
       ],
       "name": "Rich text",
