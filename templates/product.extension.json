@@ -251,7 +251,7 @@
           "type": "heading",
           "settings": {
             "text": "Augmentez Instantanément le Volume de votre 🍆 (Sans Pilules, Sans Traitement)",
-            "heading_tag": "h1",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -259,26 +259,31 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>En l'enfilant, vous ajoutez immédiatement une épaisseur de silicone  qui garantit une sensation de plénitude totale pour votre partenaire à chaque mouvement. </p>"
+            "content": "<p><strong>📈 Volume Instantané (+33%) :</strong> Pas de pilules, pas d'attente. Enfilez-le et gagnez immédiatement en épaisseur. La texture en silicone médical agit comme une seconde peau pour une sensation de plénitude totale.</p>"
           }
         },
-        "richtext_py8kJn": {
-          "type": "richtext",
+        "button_kBxwhK": {
+          "type": "button",
           "settings": {
-            "content": "<p><em><strong>NB: Vous bénéficiez d'une garantir de 7 jours après réception de votre produit, durée au cours de laquelle vous pouvez retournez le produit si il ne correspond pas à la description. Contactez le sur whsa( +221 785906444)</strong></em></p>"
+            "style": "fill",
+            "size": "base",
+            "text": "Contactez-nous par Whatsapp",
+            "url": "https://wa.me/221785906444?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20l'Extension%20XXL%20que%20j'ai%20vue%20sur%20votre%20site.%20Est-elle%20toujours%20disponible%20%3F",
+            "background": "#00a341",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "heading_jtKiJU",
         "richtext_wEM4q8",
-        "richtext_py8kJn"
+        "button_kBxwhK"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
