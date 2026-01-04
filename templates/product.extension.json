@@ -465,6 +465,67 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "faq_Ta36QE": {
+      "type": "faq",
+      "blocks": {
+        "item_kiQDEL": {
+          "type": "item",
+          "settings": {
+            "title": "1. En quelle matière est fabriquée l'extension ?",
+            "content": "<p>L'extension est conçue en <strong>silicone de grade médical</strong>. C'est une matière très douce, hygiénique et extensible qui imite la sensation de la peau. Elle est sans danger pour le corps et s'adapte confortablement à toutes les morphologies sans serrer douloureusement.</p>"
+          }
+        },
+        "item_PVfq6e": {
+          "type": "item",
+          "settings": {
+            "title": "2. Est-ce que cela permet vraiment de durer plus longtemps au lit ?",
+            "content": "<p>Oui, c'est l'un des plus grands avantages de ce produit. L'extension agit de deux façons pour votre endurance :</p><ol><li><strong>Effet barrière :</strong> L'épaisseur du silicone réduit légèrement l'hypersensibilité du pénis, ce qui vous permet de retarder l'éjaculation.</li><li><strong>Maintien de l'érection :</strong> L'anneau situé à la base (niveau testicules) maintient le sang dans la verge, garantissant une érection plus dure et plus longue.</li></ol>"
+          }
+        },
+        "item_YeJnjH": {
+          "type": "item",
+          "settings": {
+            "title": "3. Comment placer l'extension correctement ?",
+            "content": "<p>L'installation est simple et rapide :</p><ul><li>Assurez-vous d'être en érection (ou semi-érection).</li><li><strong>Important :</strong> Appliquez un peu de lubrifiant (ou de la salive à défaut) sur votre pénis et à l'intérieur de l'extension pour que ça glisse facilement.</li><li>Enroulez ou tirez l'extension comme une chaussette le long de la verge jusqu'à la base.</li><li>Ajustez le vibrateur pour qu'il soit bien positionné au-dessus (pour stimuler le clitoris de votre partenaire).</li></ul>"
+          }
+        },
+        "item_FRWNbX": {
+          "type": "item",
+          "settings": {
+            "title": "4. À quel moment faut-il le mettre ?",
+            "content": "<p>Nous vous conseillons de le mettre pendant les préliminaires, juste avant la pénétration. Vous pouvez même demander à votre partenaire de vous aider à le placer pour intégrer cela comme un jeu érotique.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_kiQDEL",
+        "item_PVfq6e",
+        "item_YeJnjH",
+        "item_FRWNbX"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Foires aux questions",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -480,6 +541,7 @@
     "video_6GkJQt",
     "rich_text_phnTbQ",
     "image_with_text_overlay_3TYddb",
-    "rich_text_AKNFD7"
+    "rich_text_AKNFD7",
+    "faq_Ta36QE"
   ]
 }
