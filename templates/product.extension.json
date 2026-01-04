@@ -312,7 +312,7 @@
           "type": "heading",
           "settings": {
             "text": "L'extension XXL rend votre 🍆 dure comme du béton et endurant comme une machine.",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -332,7 +332,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -364,10 +364,17 @@
             "text_color": "",
             "gradient": ""
           }
+        },
+        "richtext_BydDr7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ce n'est pas juste pour vous. Les vibrations sont positionnées pour stimuler le clitoris et le point G de votre partenaire en continu.</p>"
+          }
         }
       },
       "block_order": [
-        "heading_GzEThi"
+        "heading_GzEThi",
+        "richtext_BydDr7"
       ],
       "name": "Rich text",
       "settings": {
