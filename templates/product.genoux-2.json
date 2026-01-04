@@ -18,10 +18,16 @@
             "heading_tag": "h2"
           }
         },
+        "text_AP3jQi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transformez vos après-midis en véritables terrains de jeu tactiques avec un équipement conçu pour l'action, la vraie.</p>"
+          }
+        },
         "text_zPUVHJ": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Garantie 30 jours :</strong> Satisfait ou remboursé<br/><strong>Tester avant de Payez: </strong>Vous avez le droit de tester le produit avant de payer à la livraison.</p>"
+            "text": "<ul><li><strong>Vérification à la livraison</strong></li><li><strong>Garantie 7 jours :</strong> Satisfait ou remboursé</li></ul>"
           }
         },
         "badges": {
@@ -73,6 +79,7 @@
       },
       "block_order": [
         "title",
+        "text_AP3jQi",
         "text_zPUVHJ",
         "badges",
         "price",
