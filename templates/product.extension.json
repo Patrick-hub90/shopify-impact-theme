@@ -18,10 +18,10 @@
             "heading_tag": "h2"
           }
         },
-        "text_zPUVHJ": {
+        "text_XVF8LK": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Garantie 7 jours :</strong> Satisfait ou remboursé</p>"
+            "text": "<ul><li><strong>Vérification à la livraison</strong></li><li><strong>Garantie 7 jours :</strong> Satisfait ou remboursé</li><li><strong>Colis 100% Anonyme : </strong>Le livreur ne sait pas ce qu'il y a dedans.</li></ul>"
           }
         },
         "badges": {
@@ -73,7 +73,7 @@
       },
       "block_order": [
         "title",
-        "text_zPUVHJ",
+        "text_XVF8LK",
         "badges",
         "price",
         "rating",
@@ -207,8 +207,8 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "Le dispositif qui rend votre 🍆 instantanément Plus Gros, Plus Endurant et Plus Performant.",
-            "heading_tag": "h1",
+            "text": "",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -216,7 +216,7 @@
         "richtext_4FD9AE": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Avec l'extension XXL, vous allez impressionner et prolonger le plaisir de votre femme comme jamais auparavant.</p>"
+            "content": "<h3>🔥 Le dispositif qui rend votre 🍆 instantanément Plus Gros, Plus Endurant et Plus Performant.</h3><p>Ne vous contentez plus de la moyenne. Le dispositif <strong>Extension XXL</strong> est conçu pour les hommes qui veulent <strong>plus de volume</strong>, <strong>plus d'endurance</strong> et <strong>plus de sensations</strong> pour leur partenaire.</p>"
           }
         }
       },
@@ -272,7 +272,7 @@
         "richtext_py8kJn": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em><strong>NB: Vous bénéficiez d'une garantir de 7 jours après réception de votre produit, durée au cours de laquelle vous pouvez retournez le produit si il ne correspond pas à la description. Contactez le ( +221 785906444)</strong></em></p>"
+            "content": "<p><em><strong>NB: Vous bénéficiez d'une garantir de 7 jours après réception de votre produit, durée au cours de laquelle vous pouvez retournez le produit si il ne correspond pas à la description. Contactez le sur whsa( +221 785906444)</strong></em></p>"
           }
         }
       },
@@ -322,7 +322,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p><p></p><p>NB: Nous vous offrons en plus un lubrifiannt arome fresh pour améliorer la qualité du</p>"
+            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
           }
         }
       },
