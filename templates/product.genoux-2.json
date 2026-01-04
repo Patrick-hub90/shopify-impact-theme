@@ -248,7 +248,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vivez l'adrénaline d'une simulation de combat réelle. Grâce à son moteur électrique haute pression, chaque tir propulse un jet d'eau puissant et rectiligne qui \"claque\" à l'impact.<br/>Contrairement aux jets dispersés, ici vous avez de la précision. La gâchette réactive offre une sensation de tir instantanée, idéale pour toucher vos cibles jusqu'à 10 mètres. L'impact est suffisant pour être bien ressenti par l'adversaire, rendant le jeu beaucoup plus compétitif et immersif.</p>"
+            "content": "<p>Vivez l'adrénaline d'une simulation de <strong>combat réelle</strong>. Grâce à son moteur électrique haute pression, chaque tir propulse un jet d'eau puissant et rectiligne qui \"claque\" à l'impact.<br/>Contrairement aux jets dispersés, ici vous avez de la précision. La gâchette réactive offre une sensation de tir instantanée, idéale pour toucher vos cibles jusqu'à 10 mètres. <strong>L'impact est suffisant pour être bien ressenti par l'adversaire, rendant le jeu beaucoup plus compétitif et immersif.</strong></p>"
           }
         }
       },
