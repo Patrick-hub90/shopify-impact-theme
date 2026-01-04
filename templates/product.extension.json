@@ -50,10 +50,6 @@
             "product": ""
           }
         },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -69,6 +65,13 @@
             "color_mode": "color",
             "size_chart_page": ""
           }
+        },
+        "collapsible_text_Vjhy9n": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "📝 Conseils d'Utilisation Importants",
+            "content": "<ul><li><strong>Lubrification recommandée :</strong> Pour un confort total et une mise en place facile, nous vous conseillons vivement d'utiliser un lubrifiant à base d'eau (disponible en pharmacie) lors de l'utilisation.</li><li><strong>Hygiène :</strong> Lavez simplement à l'eau et au savon après chaque usage.</li></ul>"
+          }
         }
       },
       "block_order": [
@@ -79,9 +82,9 @@
         "rating",
         "payment_terms",
         "easysell_cod_form_app_block_rrhTyh",
-        "separator",
         "description",
-        "variant_picker"
+        "variant_picker",
+        "collapsible_text_Vjhy9n"
       ],
       "settings": {
         "full_width": true,
@@ -195,15 +198,6 @@
     "rich_text_Xk6L6A": {
       "type": "rich-text",
       "blocks": {
-        "heading_RYzNJN": {
-          "type": "heading",
-          "settings": {
-            "text": "Il est indispensable d’utiliser un lubrifiant avec l’extension pour permettre une bonne pénétration.",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "heading_M36whR": {
           "type": "heading",
           "settings": {
@@ -221,7 +215,6 @@
         }
       },
       "block_order": [
-        "heading_RYzNJN",
         "heading_M36whR",
         "richtext_4FD9AE"
       ],
