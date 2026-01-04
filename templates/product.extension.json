@@ -496,23 +496,39 @@
             "title": "4. À quel moment faut-il le mettre ?",
             "content": "<p>Nous vous conseillons de le mettre pendant les préliminaires, juste avant la pénétration. Vous pouvez même demander à votre partenaire de vous aider à le placer pour intégrer cela comme un jeu érotique.</p>"
           }
+        },
+        "item_VTChFG": {
+          "type": "item",
+          "settings": {
+            "title": "5. Faut-il le recharger ? À quoi sert le moteur ?",
+            "content": "<p>Oui, le dispositif est rechargeable (câble USB inclus).<br/>Le moteur est essentiel : il alimente les <strong>10 modes de vibrations</strong>. Ces vibrations ne sont pas seulement pour vous, elles sont spécialement placées pour venir frotter et stimuler le clitoris de la femme pendant l'acte. C'est ce qui garantit qu'elle prenne autant de plaisir que vous (voire plus !).</p>"
+          }
+        },
+        "item_NmxGnG": {
+          "type": "item",
+          "settings": {
+            "title": "6. Est-ce lavable et réutilisable ?",
+            "content": "<p>Absolument. Ce n'est pas un produit à usage unique. Après chaque utilisation, lavez-le simplement à l'eau tiède et au savon, séchez-le, et il est prêt pour la prochaine fois.</p>"
+          }
         }
       },
       "block_order": [
         "item_kiQDEL",
         "item_PVfq6e",
         "item_YeJnjH",
-        "item_FRWNbX"
+        "item_FRWNbX",
+        "item_VTChFG",
+        "item_NmxGnG"
       ],
       "name": "FAQ",
       "settings": {
         "full_width": true,
         "subheading": "",
         "title": "Foires aux questions",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "<p>Nous assurons la qualité de notre produit et sommes disponibles pour répondre à toutes vos questions par whatsapp.</p>",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "⚠️ Astuce Pro : Pour un confort maximal, l'utilisation d'un gel lubrifiant est fortement recommandée lors de la pose.",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
