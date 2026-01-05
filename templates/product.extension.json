@@ -110,7 +110,7 @@
         "item_7BnqBd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_10.png",
+            "image": "shopify://shop_images/img_0136_12.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -123,46 +123,7 @@
         "item_nVxNVA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_9.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_jqCTyd": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_8.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_aGU4GB": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_7.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_pnNR6D": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/img_0136_11.png",
+            "image": "shopify://shop_images/img_0136_13.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -175,12 +136,8 @@
       },
       "block_order": [
         "item_7BnqBd",
-        "item_nVxNVA",
-        "item_jqCTyd",
-        "item_aGU4GB",
-        "item_pnNR6D"
+        "item_nVxNVA"
       ],
-      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -189,7 +146,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Témoignage de nos clients",
-        "content": "<p>Retrouvez les retours des utilisateurs du mini powerbank</p>",
+        "content": "<p>Retrouvez les retours des utilisateurs de notre produit</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
