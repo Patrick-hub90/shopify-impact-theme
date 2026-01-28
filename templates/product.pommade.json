@@ -21,7 +21,7 @@
         "text_XVF8LK": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Vérification à la livraison</strong></li><li><strong>Garantie 7 jours :</strong> Satisfait ou remboursé</li><li><strong>Colis 100% Anonyme : </strong>Le livreur ne sait pas ce qu'il y a dedans.</li></ul>"
+            "text": "<p>Faites des pénétrations de 30 à 45min (voire plus) pour enflammer votre partenaire de plaisir.</p>"
           }
         },
         "badges": {
@@ -68,6 +68,7 @@
         },
         "collapsible_text_Vjhy9n": {
           "type": "collapsible_text",
+          "disabled": true,
           "settings": {
             "title": "📝 Conseils d'Utilisation Importants",
             "content": "<ul><li><strong>Lubrification recommandée :</strong> Pour un confort total et une mise en place facile, nous vous conseillons vivement d'utiliser un lubrifiant à base d'eau (disponible en pharmacie) lors de l'utilisation.</li><li><strong>Hygiène :</strong> Lavez simplement à l'eau et au savon après chaque usage.</li></ul>"
@@ -166,6 +167,7 @@
         "item_7BnqBd",
         "item_nVxNVA"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -178,6 +180,21 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "video_FXBjAM": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.14.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "rich_text_Xk6L6A": {
@@ -195,7 +212,7 @@
         "richtext_4FD9AE": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>🔥 Le dispositif qui rend votre 🍆 instantanément Plus Gros, Plus Endurant et Plus Performant.</h3><p>Ne vous contentez plus de la moyenne. Le dispositif <strong>Extension XXL</strong> est conçu pour les hommes qui veulent <strong>plus de volume</strong>, <strong>plus d'endurance</strong> et <strong>plus de sensations</strong> pour leur partenaire.</p>"
+            "content": "<p><strong> Reprenez le contrôle : Tenez entre 30 et 45 minutes (voire plus)</strong></p><p>Si la partie se termine souvent dès les premières minutes, ce n'est pas de votre faute : c'est biologique. Votre gland est simplement sujet à une <strong>hypersensibilité nerveuse</strong> qui déclenche l'ordre d'éjaculer bien trop tôt.</p><p>La <strong>Formule Aoki</strong> change la donne. Issue de la technologie japonaise, cette crème ne se contente pas de couvrir le problème : elle pénètre l'épiderme pour réguler directement les récepteurs nerveux.</p><ul><li><strong>L'effet :</strong> Elle crée une \"barrière de contrôle\" invisible.</li><li><strong>Le résultat :</strong> Vous ressentez toujours le plaisir, mais le picotement incontrôlable disparaît. Vous pouvez enfin décider du moment de la fin et satisfaire pleinement votre partenaire avec des rapports qui durent.</li></ul>"
           }
         }
       },
@@ -207,23 +224,22 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "image_with_text_overlay_JNWHyg": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_Hiktf8": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/d254f4c9-2e72-4f90-aec4-07cc9d946097_f7428905-31df-4656-b95a-5d9c08581d58.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.19.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -235,7 +251,7 @@
         "heading_jtKiJU": {
           "type": "heading",
           "settings": {
-            "text": "Augmentez Instantanément le Volume de votre 🍆 (Sans Pilules, Sans Traitement)",
+            "text": "Une efficacité redoutable, 0% de risque pour votre santé.",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -244,7 +260,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>📈 Volume Instantané (+33%) :</strong> Pas de pilules, pas d'attente. Enfilez-le et gagnez immédiatement en épaisseur. La texture en silicone médical agit comme une seconde peau pour une sensation de plénitude totale.</p>"
+            "content": "<p>Oubliez les pilules douteuses ou les produits chimiques que vous devez avaler. Pourquoi risquer des effets secondaires (maux de tête, palpitations) quand la solution peut être simplement locale ?</p><p>La Formule Aoki est une solution <strong>externe       et 100% naturelle</strong>. Sa puissance vient d'un complexe de plantes asiatiques reconnues pour la virilité masculine :</p><ul><li>🌿 <strong>Maca & Tongkat Ali :</strong> Pour tonifier et soutenir la virilité.</li><li>🌿 <strong>Ginseng & Menthe :</strong> Pour l'effet régulateur et la sensation de fraîcheur.</li></ul><p>Vous ne risquez rien. En appliquant la crème uniquement sur la verge, vous évitez de charger votre organisme. C'est la méthode la plus saine pour performer.</p>"
           }
         },
         "button_kBxwhK": {
@@ -255,7 +271,7 @@
             "text": "Contactez-nous par Whatsapp",
             "url": "https://wa.me/221785906444?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20l'Extension%20XXL%20que%20j'ai%20vue%20sur%20votre%20site.%20Est-elle%20toujours%20disponible%20%3F",
             "background": "#00a341",
-            "text_color": ""
+            "text_color": "#1a1a1a"
           }
         }
       },
@@ -268,23 +284,22 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "image_with_text_overlay_hPYUtC": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_qfNqzM": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/034392f9-4e0b-46e7-bdba-f6a7c456d8fd.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.10.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -296,7 +311,7 @@
         "heading_AXfdjh": {
           "type": "heading",
           "settings": {
-            "text": "L'extension XXL rend votre 🍆 dure comme du béton et endurant comme une machine.",
+            "text": "Le \"Secret Invisible\" : Ni vu, ni connu (Même par elle)",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -305,141 +320,13 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
+            "content": "<p>C'est souvent la plus grande peur des hommes : <em>\"Est-ce que ma femme va savoir que j'utilise un produit ?\"</em> <strong>La réponse est NON.</strong></p><p>Contrairement aux sprays bas de gamme qui ont un goût amer ou qui anesthésient aussi la partenaire, la Formule Aoki est conçue pour être <strong>indétectable</strong> grâce à son protocole de rinçage unique :</p><ol><li>Appliquez et massez.</li><li>Laissez la peau absorber les actifs (20-30 min).</li><li><strong>Rincez à l'eau.</strong></li></ol><p>Une fois rincé, le produit agit <strong>sous la peau</strong>. Il n'y a aucune odeur, aucun goût, et aucun résidu sur le pénis. Vous êtes propre, prêt, et personne ne saura pourquoi vous êtes devenu si endurant tout à coup. C'est votre secret.</p>"
           }
         }
       },
       "block_order": [
         "heading_AXfdjh",
         "richtext_dp3ceY"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_qJqhG7": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/1202(3).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_QjfPtU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GzEThi": {
-          "type": "heading",
-          "settings": {
-            "text": "Il possède 10 niveaux de vibrations pour stimuler le point G en continu durant la pénétration.",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_BydDr7": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Ce n'est pas juste pour vous. Les vibrations sont positionnées pour stimuler le clitoris et le point G de votre partenaire en continu.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GzEThi",
-        "richtext_BydDr7"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_6GkJQt": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/0104 (1).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_phnTbQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TFqVRJ": {
-          "type": "heading",
-          "settings": {
-            "text": "Elle va crier de joie toute la nuit...",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_TFqVRJ"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_3TYddb": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/BGCAGFC53VHPXDVHHQ63ICF424_9cb66275-db4e-4a4a-b522-4e98b99e1c6e.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_AKNFD7": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_a3tjWm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>🛡️ Silicone Grade Médical :</strong> Matière douce, extensible, hygiénique et facile à nettoyer. S'adapte à toutes les morphologies.<br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_a3tjWm"
       ],
       "name": "Rich text",
       "settings": {
@@ -532,17 +419,12 @@
   "order": [
     "main",
     "multi_column_DYGcr8",
+    "video_FXBjAM",
     "rich_text_Xk6L6A",
-    "image_with_text_overlay_JNWHyg",
+    "video_Hiktf8",
     "rich_text_pezP7C",
-    "image_with_text_overlay_hPYUtC",
+    "video_qfNqzM",
     "rich_text_VrrQih",
-    "video_qJqhG7",
-    "rich_text_QjfPtU",
-    "video_6GkJQt",
-    "rich_text_phnTbQ",
-    "image_with_text_overlay_3TYddb",
-    "rich_text_AKNFD7",
     "faq_Ta36QE"
   ]
 }
