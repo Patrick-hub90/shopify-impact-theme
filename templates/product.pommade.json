@@ -182,16 +182,17 @@
         "text_color": ""
       }
     },
-    "video_FXBjAM": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_k99jW7": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.14.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_100.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -212,7 +213,7 @@
         "richtext_4FD9AE": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong> Reprenez le contrôle : Tenez entre 30 et 45 minutes (voire plus)</strong></p><p>Si la partie se termine souvent dès les premières minutes, ce n'est pas de votre faute : c'est biologique. Votre gland est simplement sujet à une <strong>hypersensibilité nerveuse</strong> qui déclenche l'ordre d'éjaculer bien trop tôt.</p><p>La <strong>Formule Aoki</strong> change la donne. Issue de la technologie japonaise, cette crème ne se contente pas de couvrir le problème : elle pénètre l'épiderme pour réguler directement les récepteurs nerveux.</p><ul><li><strong>L'effet :</strong> Elle crée une \"barrière de contrôle\" invisible.</li><li><strong>Le résultat :</strong> Vous ressentez toujours le plaisir, mais le picotement incontrôlable disparaît. Vous pouvez enfin décider du moment de la fin et satisfaire pleinement votre partenaire avec des rapports qui durent.</li></ul>"
+            "content": "<p><strong> Reprenez le contrôle : Tenez entre 30 et 45 minutes (voire plus)</strong></p><p>Si la partie se termine souvent dès les premières minutes, c'est parce que votre gland est simplement sujet à une <strong>hypersensibilité nerveuse</strong> qui déclenche l'ordre d'éjaculer bien trop tôt.</p><p>La <strong>Formule Aoki</strong> change la donne, en pénètrant l'épiderme pour réguler directement les récepteurs nerveux.</p><ul><li><strong>L'effet :</strong> Elle crée une \"barrière de contrôle\" invisible.</li><li><strong>Le résultat :</strong> Vous ressentez toujours le plaisir, mais le picotement incontrôlable disparaît. Vous pouvez enfin décider du moment de la fin et satisfaire pleinement votre partenaire avec des rapports qui durent.</li></ul>"
           }
         }
       },
@@ -230,15 +231,15 @@
         "text_color": ""
       }
     },
-    "video_Hiktf8": {
+    "video_FXBjAM": {
       "type": "video",
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.19.mp4",
+        "video_size": "sm",
+        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.14.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -419,9 +420,9 @@
   "order": [
     "main",
     "multi_column_DYGcr8",
-    "video_FXBjAM",
+    "image_with_text_overlay_k99jW7",
     "rich_text_Xk6L6A",
-    "video_Hiktf8",
+    "video_FXBjAM",
     "rich_text_pezP7C",
     "video_qfNqzM",
     "rich_text_VrrQih",
