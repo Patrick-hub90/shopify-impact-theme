@@ -182,17 +182,16 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_k99jW7": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_FXBjAM": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_100.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.14.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -213,7 +212,7 @@
         "richtext_4FD9AE": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong> Reprenez le contrôle : Tenez entre 45min  à 1h</strong> <strong> (voire plus)</strong></p><p>Si la partie se termine souvent dès les premières minutes, c'est parce que votre gland est simplement sujet à une <strong>hypersensibilité nerveuse</strong> qui déclenche l'ordre d'éjaculer bien trop tôt.</p><p>La <strong>Formule Aoki</strong> change la donne, en pénètrant l'épiderme pour réguler directement les récepteurs nerveux.</p><ul><li><strong>L'effet :</strong> Elle crée une \"barrière de contrôle\" invisible.</li><li><strong>Le résultat :</strong> Vous ressentez toujours le plaisir, mais le picotement incontrôlable disparaît. Vous pouvez enfin décider du moment de la fin et satisfaire pleinement votre partenaire avec des rapports qui durent.</li></ul>"
+            "content": "<p><strong> Reprenez le contrôle : Tenez entre 45min  à 1h</strong> <strong> (voire plus)</strong></p><p>Si vous éjaculez dès les premières minutes, c'est parce que votre pénis est  <strong>hypersensible ce </strong>qui déclenche l'ordre d'éjaculer bien trop tôt.</p><p>La <strong>Formule Aoki</strong> est une pommade qui , en pénétrant la peau crée une fine couche qui absorbe la sensibilité ce qui vous permet de mieux contrôlez votre éjaculation.</p>"
           }
         }
       },
@@ -231,16 +230,17 @@
         "text_color": ""
       }
     },
-    "video_FXBjAM": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_dN8DGW": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.14.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Gemini_Generated_Image_i7m2soi7m2soi7m25.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -261,7 +261,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Oubliez les pilules douteuses ou les produits chimiques que vous devez avaler. Pourquoi risquer des effets secondaires (maux de tête, palpitations) quand la solution peut être simplement locale ?</p><p>La Formule Aoki est une solution <strong>externe       et 100% naturelle</strong>. Sa puissance vient d'un complexe de plantes asiatiques reconnues pour la virilité masculine :</p><ul><li>🌿 <strong>Maca & Tongkat Ali :</strong> Pour tonifier et soutenir la virilité.</li><li>🌿 <strong>Ginseng & Menthe :</strong> Pour l'effet régulateur et la sensation de fraîcheur.</li></ul><p>Vous ne risquez rien. En appliquant la crème uniquement sur la verge, vous évitez de charger votre organisme. C'est la méthode la plus saine pour performer.</p>"
+            "content": "<p>Oubliez les pilules douteuses ou les produits chimiques que vous devez avaler.</p><p>La Formule Aoki est une solution <strong>externe       et 100% naturelle</strong>. </p><ul><li>🌿 <strong>Maca & Tongkat Ali :</strong> Pour tonifier et soutenir la virilité.</li><li>🌿 <strong>Ginseng & Menthe :</strong> Pour l'effet régulateur et la sensation de fraîcheur.</li></ul><p>Vous ne risquez rien. En appliquant la crème uniquement sur la verge, vous évitez de charger votre organisme. C'est la méthode la plus saine pour performer.</p>"
           }
         },
         "button_kBxwhK": {
@@ -291,16 +291,17 @@
         "text_color": ""
       }
     },
-    "video_qfNqzM": {
-      "type": "video",
-      "name": "Video",
+    "image_with_text_overlay_k99jW7": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.10.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_100.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -420,11 +421,11 @@
   "order": [
     "main",
     "multi_column_DYGcr8",
-    "image_with_text_overlay_k99jW7",
-    "rich_text_Xk6L6A",
     "video_FXBjAM",
+    "rich_text_Xk6L6A",
+    "image_with_text_overlay_dN8DGW",
     "rich_text_pezP7C",
-    "video_qfNqzM",
+    "image_with_text_overlay_k99jW7",
     "rich_text_VrrQih",
     "faq_Ta36QE"
   ]
