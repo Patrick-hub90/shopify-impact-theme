@@ -68,10 +68,23 @@
         },
         "collapsible_text_Vjhy9n": {
           "type": "collapsible_text",
-          "disabled": true,
           "settings": {
-            "title": "📝 Conseils d'Utilisation Importants",
-            "content": "<ul><li><strong>Lubrification recommandée :</strong> Pour un confort total et une mise en place facile, nous vous conseillons vivement d'utiliser un lubrifiant à base d'eau (disponible en pharmacie) lors de l'utilisation.</li><li><strong>Hygiène :</strong> Lavez simplement à l'eau et au savon après chaque usage.</li></ul>"
+            "title": "📝 Comment on l'utilise ? (Mode d'emploi)",
+            "content": "<p>C'est simple et rapide :</p><ul><li> Lavez votre sexe.</li><li>Appliquez une noisette de crème sur le gland et la couronne.</li><li>Massez 1 à 2 minutes pour faire pénétrer.</li><li>Laissez agir 20 à 30 minutes.</li><li>Important : Rincez à l'eau avant l'acte. Vous êtes prêt !</li></ul>"
+          }
+        },
+        "collapsible_text_tb9hLp": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Combien de temps ça me rajoute ?",
+            "content": "<p>Les résultats varient selon les hommes, mais en moyenne, nos clients rapportent une prolongation de 45 min à 1h dès la première utilisation. De quoi satisfaire pleinement Madame.<br/></p>"
+          }
+        },
+        "collapsible_text_kpwzKy": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Est-ce que ça aide aussi pour l'érection ?",
+            "content": "<p>Le but principal est de retarder l'éjaculation. Cependant, les ingrédients comme le Tongkat Ali et la Maca sont connus pour tonifier la virilité. En étant moins stressé de finir vite, votre érection est naturellement plus sereine et plus forte.</p>"
           }
         }
       },
@@ -85,7 +98,9 @@
         "easysell_cod_form_app_block_rrhTyh",
         "description",
         "variant_picker",
-        "collapsible_text_Vjhy9n"
+        "collapsible_text_Vjhy9n",
+        "collapsible_text_tb9hLp",
+        "collapsible_text_kpwzKy"
       ],
       "settings": {
         "full_width": true,
@@ -394,6 +409,7 @@
         "item_VTChFG",
         "item_NmxGnG"
       ],
+      "disabled": true,
       "name": "FAQ",
       "settings": {
         "full_width": true,
