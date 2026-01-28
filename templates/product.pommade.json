@@ -1,0 +1,548 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "text_XVF8LK": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Vérification à la livraison</strong></li><li><strong>Garantie 7 jours :</strong> Satisfait ou remboursé</li><li><strong>Colis 100% Anonyme : </strong>Le livreur ne sait pas ce qu'il y a dedans.</li></ul>"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "easysell_cod_form_app_block_rrhTyh": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "collapsible_text_Vjhy9n": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "📝 Conseils d'Utilisation Importants",
+            "content": "<ul><li><strong>Lubrification recommandée :</strong> Pour un confort total et une mise en place facile, nous vous conseillons vivement d'utiliser un lubrifiant à base d'eau (disponible en pharmacie) lors de l'utilisation.</li><li><strong>Hygiène :</strong> Lavez simplement à l'eau et au savon après chaque usage.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_XVF8LK",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "easysell_cod_form_app_block_rrhTyh",
+        "description",
+        "variant_picker",
+        "collapsible_text_Vjhy9n"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "multi_column_DYGcr8": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Pz4Xyn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_15.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qLtrpf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_14.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_7BnqBd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_12.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nVxNVA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_13.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Pz4Xyn",
+        "item_qLtrpf",
+        "item_7BnqBd",
+        "item_nVxNVA"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Témoignage de nos clients",
+        "content": "<p>Retrouvez les retours des utilisateurs de notre produit</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_4FD9AE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>🔥 Le dispositif qui rend votre 🍆 instantanément Plus Gros, Plus Endurant et Plus Performant.</h3><p>Ne vous contentez plus de la moyenne. Le dispositif <strong>Extension XXL</strong> est conçu pour les hommes qui veulent <strong>plus de volume</strong>, <strong>plus d'endurance</strong> et <strong>plus de sensations</strong> pour leur partenaire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR",
+        "richtext_4FD9AE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JNWHyg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/d254f4c9-2e72-4f90-aec4-07cc9d946097_f7428905-31df-4656-b95a-5d9c08581d58.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jtKiJU": {
+          "type": "heading",
+          "settings": {
+            "text": "Augmentez Instantanément le Volume de votre 🍆 (Sans Pilules, Sans Traitement)",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>📈 Volume Instantané (+33%) :</strong> Pas de pilules, pas d'attente. Enfilez-le et gagnez immédiatement en épaisseur. La texture en silicone médical agit comme une seconde peau pour une sensation de plénitude totale.</p>"
+          }
+        },
+        "button_kBxwhK": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "base",
+            "text": "Contactez-nous par Whatsapp",
+            "url": "https://wa.me/221785906444?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20l'Extension%20XXL%20que%20j'ai%20vue%20sur%20votre%20site.%20Est-elle%20toujours%20disponible%20%3F",
+            "background": "#00a341",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jtKiJU",
+        "richtext_wEM4q8",
+        "button_kBxwhK"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_hPYUtC": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/034392f9-4e0b-46e7-bdba-f6a7c456d8fd.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AXfdjh": {
+          "type": "heading",
+          "settings": {
+            "text": "L'extension XXL rend votre 🍆 dure comme du béton et endurant comme une machine.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AXfdjh",
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_qJqhG7": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/1202(3).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_QjfPtU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GzEThi": {
+          "type": "heading",
+          "settings": {
+            "text": "Il possède 10 niveaux de vibrations pour stimuler le point G en continu durant la pénétration.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_BydDr7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ce n'est pas juste pour vous. Les vibrations sont positionnées pour stimuler le clitoris et le point G de votre partenaire en continu.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzEThi",
+        "richtext_BydDr7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_6GkJQt": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/0104 (1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_phnTbQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TFqVRJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Elle va crier de joie toute la nuit...",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TFqVRJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_3TYddb": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/BGCAGFC53VHPXDVHHQ63ICF424_9cb66275-db4e-4a4a-b522-4e98b99e1c6e.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>🛡️ Silicone Grade Médical :</strong> Matière douce, extensible, hygiénique et facile à nettoyer. S'adapte à toutes les morphologies.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_Ta36QE": {
+      "type": "faq",
+      "blocks": {
+        "item_kiQDEL": {
+          "type": "item",
+          "settings": {
+            "title": "1. En quelle matière est fabriquée l'extension ?",
+            "content": "<p>L'extension est conçue en <strong>silicone de grade médical</strong>. C'est une matière très douce, hygiénique et extensible qui imite la sensation de la peau. Elle est sans danger pour le corps et s'adapte confortablement à toutes les morphologies sans serrer douloureusement.</p>"
+          }
+        },
+        "item_PVfq6e": {
+          "type": "item",
+          "settings": {
+            "title": "2. Est-ce que cela permet vraiment de durer plus longtemps au lit ?",
+            "content": "<p>Oui, c'est l'un des plus grands avantages de ce produit. L'extension agit de deux façons pour votre endurance :</p><ol><li><strong>Effet barrière :</strong> L'épaisseur du silicone réduit légèrement l'hypersensibilité du pénis, ce qui vous permet de retarder l'éjaculation.</li><li><strong>Maintien de l'érection :</strong> L'anneau situé à la base (niveau testicules) maintient le sang dans la verge, garantissant une érection plus dure et plus longue.</li></ol>"
+          }
+        },
+        "item_YeJnjH": {
+          "type": "item",
+          "settings": {
+            "title": "3. Comment placer l'extension correctement ?",
+            "content": "<p>L'installation est simple et rapide :</p><ul><li>Assurez-vous d'être en érection (ou semi-érection).</li><li><strong>Important :</strong> Appliquez un peu de lubrifiant (ou de la salive à défaut) sur votre pénis et à l'intérieur de l'extension pour que ça glisse facilement.</li><li>Enroulez ou tirez l'extension comme une chaussette le long de la verge jusqu'à la base.</li><li>Ajustez le vibrateur pour qu'il soit bien positionné au-dessus (pour stimuler le clitoris de votre partenaire).</li></ul>"
+          }
+        },
+        "item_FRWNbX": {
+          "type": "item",
+          "settings": {
+            "title": "4. À quel moment faut-il le mettre ?",
+            "content": "<p>Nous vous conseillons de le mettre pendant les préliminaires, juste avant la pénétration. Vous pouvez même demander à votre partenaire de vous aider à le placer pour intégrer cela comme un jeu érotique.</p>"
+          }
+        },
+        "item_VTChFG": {
+          "type": "item",
+          "settings": {
+            "title": "5. Faut-il le recharger ? À quoi sert le moteur ?",
+            "content": "<p>Oui, le dispositif est rechargeable (câble USB inclus).<br/>Le moteur est essentiel : il alimente les <strong>10 modes de vibrations</strong>. Ces vibrations ne sont pas seulement pour vous, elles sont spécialement placées pour venir frotter et stimuler le clitoris de la femme pendant l'acte. C'est ce qui garantit qu'elle prenne autant de plaisir que vous (voire plus !).</p>"
+          }
+        },
+        "item_NmxGnG": {
+          "type": "item",
+          "settings": {
+            "title": "6. Est-ce lavable et réutilisable ?",
+            "content": "<p>Absolument. Ce n'est pas un produit à usage unique. Après chaque utilisation, lavez-le simplement à l'eau tiède et au savon, séchez-le, et il est prêt pour la prochaine fois.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_kiQDEL",
+        "item_PVfq6e",
+        "item_YeJnjH",
+        "item_FRWNbX",
+        "item_VTChFG",
+        "item_NmxGnG"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Foires aux questions",
+        "content": "<p>Nous assurons la qualité de notre produit et sommes disponibles pour répondre à toutes vos questions par whatsapp.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "⚠️ Astuce Pro : Pour un confort maximal, l'utilisation d'un gel lubrifiant est fortement recommandée lors de la pose.",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_DYGcr8",
+    "rich_text_Xk6L6A",
+    "image_with_text_overlay_JNWHyg",
+    "rich_text_pezP7C",
+    "image_with_text_overlay_hPYUtC",
+    "rich_text_VrrQih",
+    "video_qJqhG7",
+    "rich_text_QjfPtU",
+    "video_6GkJQt",
+    "rich_text_phnTbQ",
+    "image_with_text_overlay_3TYddb",
+    "rich_text_AKNFD7",
+    "faq_Ta36QE"
+  ]
+}
