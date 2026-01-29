@@ -198,6 +198,39 @@
         "text_color": ""
       }
     },
+    "rich_text_4yJh9e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_redFiG": {
+          "type": "heading",
+          "settings": {
+            "text": "La formule Aoki absorbe la  sensibilité de votre pénis !",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_AR36jP": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vous éjaculez plus rapidement parce que vous n'arrivez pas à contrôler la quantité de plaisir que votre pénis laisse passez. Aoki va absorber une grande quantité de ce plaisir vous permettant de contrôler l'autre partie plus facilement. <strong>Voila le secret de Aoki</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_redFiG",
+        "richtext_AR36jP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_FXBjAM": {
       "type": "video",
       "name": "Video",
@@ -219,7 +252,7 @@
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "Comment ça marche ?",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -228,7 +261,7 @@
         "richtext_4FD9AE": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong> Reprenez le contrôle : Tenez entre 45min  à 1h</strong> <strong> (voire plus)</strong></p><p>Si vous éjaculez dès les premières minutes, c'est parce que votre pénis est  <strong>hypersensible ce </strong>qui déclenche l'ordre d'éjaculer bien trop tôt.</p><p>La <strong>Formule Aoki</strong> est une pommade qui , en pénétrant la peau crée une fine couche qui absorbe la sensibilité ce qui vous permet de mieux contrôlez votre éjaculation.</p>"
+            "content": "<p>Aoki est sans danger car vous n'avalez rien. En appliquant la formule aoki sur la peau de votre pénis, il va créer un couche invisble juste en dessous de la peau, c'est comme porter un gant et touchez un moteur qui vibre. Vous ressentez moins la vibration.  Donc la sensation devient contrôlable.</p>"
           }
         }
       },
@@ -277,7 +310,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Oubliez les pilules douteuses ou les produits chimiques que vous devez avaler.</p><p>La Formule Aoki est une solution <strong>externe       et 100% naturelle</strong>. </p><ul><li>🌿 <strong>Maca & Tongkat Ali :</strong> Pour tonifier et soutenir la virilité.</li><li>🌿 <strong>Ginseng & Menthe :</strong> Pour l'effet régulateur et la sensation de fraîcheur.</li></ul><p>Vous ne risquez rien. En appliquant la crème uniquement sur la verge, vous évitez de charger votre organisme. C'est la méthode la plus saine pour performer.</p>"
+            "content": "<p>La Formule Aoki est une solution <strong>externe       et 100% naturelle</strong>. </p><ul><li>🌿 <strong>Maca & Tongkat Ali :</strong> Pour tonifier et soutenir la virilité.</li><li>🌿 <strong>Ginseng & Menthe :</strong> Pour l'effet régulateur et la sensation de fraîcheur.</li></ul><p>Vous ne risquez rien. En appliquant la crème uniquement sur la verge, vous évitez de charger votre organisme. </p>"
           }
         },
         "button_kBxwhK": {
@@ -329,7 +362,7 @@
         "heading_AXfdjh": {
           "type": "heading",
           "settings": {
-            "text": "Soyez permorfant sans qu'elle ne sache.",
+            "text": "Votre partenaire va jouir avant vous avec la formule Aoki",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -338,7 +371,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<p>C'est souvent la plus grande peur des hommes : <em>\"Est-ce que ma femme va savoir que j'utilise un produit ?\"</em> <strong>La réponse est NON.</strong></p><p>Contrairement aux sprays bas de gamme qui ont un goût amer, la Formule Aoki est conçue pour être <strong>indétectable</strong> grâce à son protocole de rinçage unique :</p><ol><li>Appliquez et massez.</li><li>Laissez la peau absorber les actifs (20-30 min).</li><li><strong>Rincez à l'eau.</strong></li></ol><p>Une fois rincé, le produit agit <strong>sous la peau</strong>. Il n'y a aucune odeur, aucun goût, et aucun résidu sur le pénis. Vous êtes propre, prêt, et personne ne saura pourquoi vous êtes devenu si endurant tout à coup. C'est votre secret. </p>"
+            "content": "<p>Vous n'avez qu'une chose à faire: </p><ol><li>Appliquez et massez.</li><li>Laissez la peau absorber les actifs (20-30 min).</li><li><strong>Rincez à l'eau.</strong></li></ol><p>Une fois rincé, vous pouvez commencer. Contactez nous via whatsapp pour laissez vos témoignages: +221785906444</p>"
           }
         }
       },
@@ -438,6 +471,7 @@
   "order": [
     "main",
     "multi_column_DYGcr8",
+    "rich_text_4yJh9e",
     "video_FXBjAM",
     "rich_text_Xk6L6A",
     "image_with_text_overlay_dN8DGW",
