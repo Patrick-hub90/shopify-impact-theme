@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_h4GxzC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+130,000 ventes à travers 17 pays d'Afrique.</p>"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -89,6 +95,7 @@
         }
       },
       "block_order": [
+        "text_h4GxzC",
         "title",
         "text_XVF8LK",
         "badges",
