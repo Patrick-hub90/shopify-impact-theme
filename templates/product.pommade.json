@@ -85,6 +85,13 @@
             "title": "Est-ce que ça aide aussi pour l'érection ?",
             "content": "<p>Aoki, améliore la circulation sanguine permettant une érection plus dur et vigoureuse.</p>"
           }
+        },
+        "collapsible_text_fGFKcQ": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "De quoi est il composé ?",
+            "content": "<p>Elle est composée d'un mélange d'extraits végétaux naturels sélectionnés dont le Ginseng du congo et le Maca asiatique  pour leur éfficacité sur la performance masculine. Son application aide à renforcer la vigueur de l'<strong>érection</strong> en favorisant une meilleure circulation sanguine locale. Et à booster l'<strong>endurance</strong>, permettant de prolongée largement la durée du rapport et de retarder l'éjaculation de manière naturelle.</p>"
+          }
         }
       },
       "block_order": [
@@ -99,7 +106,8 @@
         "description",
         "variant_picker",
         "collapsible_text_Vjhy9n",
-        "collapsible_text_kpwzKy"
+        "collapsible_text_kpwzKy",
+        "collapsible_text_fGFKcQ"
       ],
       "settings": {
         "full_width": true,
