@@ -197,6 +197,22 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_dN8DGW": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_53_couple-noir-ayant-argument_53876-750.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "rich_text_4yJh9e": {
       "type": "rich-text",
       "blocks": {
@@ -205,7 +221,7 @@
           "settings": {
             "text": "Garantie 100% satisfait ou remboursé !",
             "heading_tag": "h3",
-            "text_color": "",
+            "text_color": "#ff7d00",
             "gradient": ""
           }
         },
@@ -218,7 +234,7 @@
         "richtext_AR36jP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Êtes-vous fatigué de regardez votre femme toujours en chaleur alors que vous avez déja jouir ? Avec Aoki vous n'allez plus perdre le contrôle dès les premières minutes. Tous nos clients qui utilise AOki avant chaque rapport sont satisfait à 1000%. </p>"
+            "content": "<p>Êtes-vous fatigué de regardez votre femme toujours en chaleur alors que vous avez déja jouir ? Avec Aoki vous n'allez plus perdre le contrôle dès les premières minutes. Tous nos clients qui utilise AOki avant chaque rapport sont satisfait à 1000%.  Testez et vous reviendrez en prendre. </p>"
           }
         }
       },
@@ -237,8 +253,25 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_MMePEW": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_45_femme-mari-ayant-du-temps-qualite_23-2148960234.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "video_FXBjAM": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -260,7 +293,7 @@
           "settings": {
             "text": "Comment ça marche ?",
             "heading_tag": "h2",
-            "text_color": "",
+            "text_color": "#ff7d00",
             "gradient": ""
           }
         },
@@ -283,22 +316,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "image_with_text_overlay_dN8DGW": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Gemini_Generated_Image_i7m2soi7m2soi7m25.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "rich_text_pezP7C": {
@@ -336,6 +353,7 @@
         "richtext_wEM4q8",
         "button_kBxwhK"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -477,10 +495,11 @@
   "order": [
     "main",
     "multi_column_DYGcr8",
+    "image_with_text_overlay_dN8DGW",
     "rich_text_4yJh9e",
+    "image_with_text_overlay_MMePEW",
     "video_FXBjAM",
     "rich_text_Xk6L6A",
-    "image_with_text_overlay_dN8DGW",
     "rich_text_pezP7C",
     "image_with_text_overlay_k99jW7",
     "rich_text_VrrQih",
