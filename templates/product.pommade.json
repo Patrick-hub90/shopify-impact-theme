@@ -14,6 +14,7 @@
       "blocks": {
         "text_h4GxzC": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>+130,000 ventes à travers 17 pays d'Afrique.</p>"
           }
@@ -191,6 +192,7 @@
         "item_7BnqBd",
         "item_nVxNVA"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
