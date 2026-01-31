@@ -28,7 +28,7 @@
         "text_XVF8LK": {
           "type": "text",
           "settings": {
-            "text": "<p>Formulée pour améliorer l'endurance sexuelle pour des pénétrations allant de 45min à 1h de temps ou plus selons les individus</p>"
+            "text": "<p>Formulée pour améliorer l'endurance sexuelle pour des pénétrations allant de 45min à 1h de temps ou plus.</p>"
           }
         },
         "badges": {
@@ -77,7 +77,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "📝 Comment on l'utilise ? (Mode d'emploi)",
-            "content": "<p>\t1.\tNettoyage : Lavez le pénis  à l’eau tiède, puis séchez délicatement.<br/>\t2.\tDosage : Prélevez une petite quantité de pommade avec un doigt propre.<br/>\t3.\tApplication : Appliquez uniformément sur la tête du pénis et le reste du corps du penis, en évitant l’orifice urétral.<br/>\t4.\tMassage : Massez doucement pendant 1 à 2 minutes jusqu’à absorption complète.<br/>\t5.\tTemps d’action : Laissez agir 10 à 30 minutes avant l’activité.<br/>\t6.\tAvant rapport : Rincez soigneusement les résidus de pommade.<br/>\t7.\tFréquence : Utiliser selon les besoins, avant l’activité sexuelle.<br/><br/>Effet principal : Réduction de la sensibilité du gland (avec amélioration de la circulation du sang, de la fermeté de l'érection , action antibactérienne et soulagement des démangeaisons).</p>"
+            "content": "<p>\t1.\tNettoyage : Lavez le pénis  à l’eau tiède, puis séchez délicatement.<br/>\t2.\tDosage : Prélevez une petite quantité de pommade avec un doigt propre.<br/>\t3.\tApplication : Appliquez uniformément sur la tête du pénis et le en évitant l’orifice urétral.<br/>\t4.\tMassage : Massez doucement pendant 1 à 2 minutes jusqu’à absorption complète.<br/>\t5.\tTemps d’action : Laissez agir 10 à 30 minutes avant l’activité.<br/>\t6.\tAvant rapport : Rincez soigneusement les résidus de pommade.<br/>\t7.\tFréquence : Utiliser selon les besoins, avant l’activité sexuelle.</p>"
           }
         },
         "collapsible_text_kpwzKy": {
@@ -91,7 +91,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "De quoi est il composé ?",
-            "content": "<p>Elle est composée d'un mélange d'extraits végétaux naturels sélectionnés dont le Ginseng du congo et le Maca asiatique  pour leur éfficacité sur la performance masculine. Son application aide à renforcer la vigueur de l'<strong>érection</strong> en favorisant une meilleure circulation sanguine locale. Et à booster l'<strong>endurance</strong>, permettant de prolongée largement la durée du rapport et de retarder l'éjaculation de manière naturelle.</p>"
+            "content": "<p><strong>Extrait de Ginseng, Maca, Tonghak Al, Huile de Jojoba, Vitamine E</strong></p>"
           }
         }
       },
@@ -229,7 +229,7 @@
         "heading_redFiG": {
           "type": "heading",
           "settings": {
-            "text": "Garantie 100% satisfait ou remboursé !",
+            "text": "Arrêtez d’être frustré par votre femme. Arrêtez qu’on dise derrière votre dos que \"vous n’assurez pas\"",
             "heading_tag": "h3",
             "text_color": "#ff7d00",
             "gradient": ""
@@ -238,13 +238,13 @@
         "subheading_UjhaHf": {
           "type": "subheading",
           "settings": {
-            "text": "Contactez-nous aux +221785906444 pour réclamer votre remboursement."
+            "text": ""
           }
         },
         "richtext_AR36jP": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Êtes-vous fatigué de regardez votre femme toujours en chaleur alors que vous avez déja jouir ? Avec Aoki vous n'allez plus perdre le contrôle dès les premières minutes. Tous nos clients qui utilise AOki avant chaque rapport sont satisfait à 1000%.  Testez et vous reviendrez en prendre. </p>"
+            "content": "<p>Tous nos clients qui ont utilisé Aoki sont revenus nous dire qu’ils étaient satisfaits à <strong>1000 %</strong>. Leurs femmes ne regardent plus ailleurs… parce qu’elles sont enfin comblées, jour après jour.<br/>Aujourd’hui, c’est votre tour de reprendre le contrôle et de devenir l’homme qu’elle désire vraiment.</p>"
           }
         }
       },
@@ -258,6 +258,71 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_FXBjAM": {
+      "type": "video",
+      "disabled": true,
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.14.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_k99jW7": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/telechargement_100.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "Est-ce que ça marche vraiment ? Va-t-elle crier de plaisir ?",
+            "heading_tag": "h2",
+            "text_color": "#ff7d00",
+            "gradient": ""
+          }
+        },
+        "richtext_4FD9AE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Si vous aviez l’habitude de durer seulement quelques minutes, avec Aoki, vous passerez facilement à 45 minutes minimum, voire plus d’1 heure selon le temps que vous laissez agir la crème.<br/>Plus vous laissez le produit pénétrer (entre 10 minutes à 30 minutes maximum), plus votre endurance explose.<br/>Elle hurlera votre nom, tremblera de plaisir, et vous suppliera de continuer. C’est réel. C’est puissant. C’est <strong>Aoki.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR",
+        "richtext_4FD9AE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -277,55 +342,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "video_FXBjAM": {
-      "type": "video",
-      "disabled": true,
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "sm",
-        "video": "shopify://files/videos/WhatsApp Video 2026-01-28 at 19.24.14.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_Xk6L6A": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_M36whR": {
-          "type": "heading",
-          "settings": {
-            "text": "Comment ça marche ?",
-            "heading_tag": "h2",
-            "text_color": "#ff7d00",
-            "gradient": ""
-          }
-        },
-        "richtext_4FD9AE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Aoki est sans danger car vous n'avalez rien. En appliquant la formule aoki sur la tête et le corps de votre pénis, il va rendre votre pénis moins sensible vous permettant de pénétrer votre partenaire <strong>non-stop.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_M36whR",
-        "richtext_4FD9AE"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "rich_text_pezP7C": {
@@ -374,29 +390,13 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_k99jW7": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/telechargement_100.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "rich_text_VrrQih": {
       "type": "rich-text",
       "blocks": {
         "heading_AXfdjh": {
           "type": "heading",
           "settings": {
-            "text": "Votre partenaire va jouir avant vous avec la formule Aoki",
+            "text": "Y a-t-il des effets secondaires ? Faut-il l’avaler ?",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -405,7 +405,7 @@
         "richtext_dp3ceY": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vous n'avez qu'une chose à faire: </p><ol><li>Appliquez et massez sur la tête et le corps du pénis.</li><li>Laissez la peau absorber les actifs (20-30 min).</li><li><strong>Rincez soigneusement les débris de pommade.</strong></li></ol><p>Une fois rincé, vous pouvez commencer. Contactez nous via whatsapp pour laissez vos témoignages: +221785906444</p>"
+            "content": "<p>Absolument aucun effet secondaire rapporté par des milliers d’hommes.<br/>Pas besoin de comprimés, pas besoin d’avaler quoi que ce soit.<br/>Il vous suffit d’appliquer une petite quantité sur le bout de votre manhood 🍆, de laisser agir 10 à 30 minutes maximum, puis de rincer légèrement.<br/>Et vous voilà prêt à la faire jouir comme jamais 💦. Elle chantera votre nom toute la nuit !</p>"
           }
         }
       },
@@ -507,11 +507,11 @@
     "multi_column_DYGcr8",
     "image_with_text_overlay_dN8DGW",
     "rich_text_4yJh9e",
-    "image_with_text_overlay_MMePEW",
     "video_FXBjAM",
-    "rich_text_Xk6L6A",
-    "rich_text_pezP7C",
     "image_with_text_overlay_k99jW7",
+    "rich_text_Xk6L6A",
+    "image_with_text_overlay_MMePEW",
+    "rich_text_pezP7C",
     "rich_text_VrrQih",
     "faq_Ta36QE"
   ]
