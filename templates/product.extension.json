@@ -213,6 +213,21 @@
         "text_color": ""
       }
     },
+    "video_hLc4Yr": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/WhatsApp Video 2026-02-04 at 12.06.55.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "image_with_text_overlay_JNWHyg": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -332,54 +347,6 @@
         "autoplay": true,
         "video_size": "auto",
         "video": "shopify://files/videos/1202(3).mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_QjfPtU": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GzEThi": {
-          "type": "heading",
-          "settings": {
-            "text": "Il possède 10 niveaux de vibrations pour stimuler le point G en continu durant la pénétration.",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_BydDr7": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Ce n'est pas juste pour vous. Les vibrations sont positionnées pour stimuler le clitoris et le point G de votre partenaire en continu.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GzEThi",
-        "richtext_BydDr7"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_6GkJQt": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/0104 (1).mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -533,13 +500,12 @@
     "main",
     "multi_column_DYGcr8",
     "rich_text_Xk6L6A",
+    "video_hLc4Yr",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
     "image_with_text_overlay_hPYUtC",
     "rich_text_VrrQih",
     "video_qJqhG7",
-    "rich_text_QjfPtU",
-    "video_6GkJQt",
     "rich_text_phnTbQ",
     "image_with_text_overlay_3TYddb",
     "rich_text_AKNFD7",
