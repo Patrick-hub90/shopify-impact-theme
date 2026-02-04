@@ -213,21 +213,6 @@
         "text_color": ""
       }
     },
-    "video_hLc4Yr": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify://files/videos/WhatsApp Video 2026-02-04 at 12.06.55.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "image_with_text_overlay_JNWHyg": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -338,15 +323,15 @@
         "text_color": ""
       }
     },
-    "video_qJqhG7": {
+    "video_hLc4Yr": {
       "type": "video",
       "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
+        "autoplay": false,
         "video_size": "auto",
-        "video": "shopify://files/videos/1202(3).mp4",
+        "video": "shopify://files/videos/WhatsApp Video 2026-02-04 at 12.06.55.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -500,12 +485,11 @@
     "main",
     "multi_column_DYGcr8",
     "rich_text_Xk6L6A",
-    "video_hLc4Yr",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
     "image_with_text_overlay_hPYUtC",
     "rich_text_VrrQih",
-    "video_qJqhG7",
+    "video_hLc4Yr",
     "rich_text_phnTbQ",
     "image_with_text_overlay_3TYddb",
     "rich_text_AKNFD7",
