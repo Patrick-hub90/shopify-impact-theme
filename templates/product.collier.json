@@ -106,21 +106,6 @@
         "input_text_color": ""
       }
     },
-    "video_P4eyyj": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "md",
-        "video": "shopify://files/videos/8133e487198040318003fd276b4c4e63.SD-480p-1.5Mbps-39995145.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "1757608418ec914bc0": {
       "type": "apps",
       "disabled": true,
@@ -137,6 +122,22 @@
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_PFFYjq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imageye___-_imgi_26_Untitleddesign_53_800x_720x720_d73f615c-ec84-4f8f-ac4b-46a3b3f192dc.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "rich_text_yCBeNf": {
@@ -170,7 +171,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imgi_8_ily-n-opt.gif",
+        "image": "shopify://shop_images/imageye___-_imgi_19_ILoveYou3_720x_60e3428c-617f-4ec4-824c-78a2954de4ec.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -209,7 +210,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imgi_20_ILoveYou1_540x_3f5153c0-5984-436d-b0c5-d8b53b7fe218.jpg",
+        "image": "shopify://shop_images/ily-n-opt.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -304,8 +305,8 @@
   },
   "order": [
     "main",
-    "video_P4eyyj",
     "1757608418ec914bc0",
+    "image_with_text_overlay_PFFYjq",
     "rich_text_yCBeNf",
     "image_with_text_overlay_iQbpV3",
     "rich_text_AEAtMf",
