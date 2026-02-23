@@ -22,22 +22,24 @@
           "type": "badges",
           "settings": {}
         },
+        "amazon_reviews_by_appio_rating_badge_FGUqmA": {
+          "type": "shopify://apps/amazon-reviews-by-appio/blocks/rating-badge/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
         },
+        "separator_RMr7Hj": {
+          "type": "separator",
+          "settings": {}
+        },
         "text_EPiAcW": {
           "type": "text",
           "settings": {
             "text": "<ul><li>✨ <strong>Atténue les taches sombres</strong> et l'hyperpigmentation pour un<strong> teint uniforme</strong>.</li><li>🌿 <strong>Régule le sébum</strong> sans agresser ni dessécher pour une <strong>peau sans bouton</strong>.</li><li>💎 <strong>Lisse le grain de peau</strong> pour un éclat naturel, <strong>un visage plus lisse</strong>.</li></ul><p>Votre visage va vous remerciez ! </p>"
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
           }
         },
         "easysell_cod_form_app_block_3AmQKT": {
@@ -74,9 +76,10 @@
       "block_order": [
         "title",
         "badges",
+        "amazon_reviews_by_appio_rating_badge_FGUqmA",
         "price",
+        "separator_RMr7Hj",
         "text_EPiAcW",
-        "rating",
         "easysell_cod_form_app_block_3AmQKT",
         "payment_terms",
         "separator",
