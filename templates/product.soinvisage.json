@@ -166,6 +166,31 @@
         "text_color": ""
       }
     },
+    "177187691528415c76": {
+      "type": "apps",
+      "blocks": {
+        "amazon_reviews_by_appio_reviews_widget_T4LCqh": {
+          "type": "shopify://apps/amazon-reviews-by-appio/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "amazon_reviews_by_appio_reviews_widget_T4LCqh"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -194,6 +219,7 @@
     "rich_text_Xk6L6A",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
+    "177187691528415c76",
     "related-products"
   ]
 }
