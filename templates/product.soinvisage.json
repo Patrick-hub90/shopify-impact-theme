@@ -1,0 +1,274 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_EPiAcW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>👉 <strong>Ultra-compact, ultra-puissant et ultra-pratique</strong>, ce powerbank de 30.000 mAh est l’allié parfait pour ne jamais manquer de charge durant la semaine...</p>"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "text_EPiAcW",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "Profitez d’une capacité exceptionnelle de 30.000 mAh sans trimballer un powerbank lourd et encombrant.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JNWHyg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/fae4576f-ee81-4f56-a605-7f551f75049e.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Le problème avec les powerbanks actuels</h2><p>La plupart des powerbanks posent un dilemme :</p><ul><li><strong>Petits et légers</strong> → faible capacité (3.000 à 5.000 mAh).</li><li><strong>Grande capacité (10.000 à 20.000 mAh)</strong> → lourds et volumineux, donc peu pratiques en déplacement.</li></ul><p>Ce mini powerbank change complètement la donne : avec ses <strong>30.000 mAh</strong>, il offre une capacité largement supérieure aux modèles classiques, tout en restant <strong>ultra-léger</strong>. Vous pouvez l’accrocher à votre porte-clés, le glisser dans votre poche et l’utiliser facilement partout.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_hPYUtC": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/6c8cf40b-68da-406a-93b5-ca98655c7f91.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_VrrQih": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dp3ceY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Que représente 30.000 mAh ?</h2><p>Imaginez : cette capacité colossale, concentrée dans un powerbank de seulement <strong>320 g</strong>, équivaut à <strong>6 recharges complètes (0 à 100%) d’un iPhone 17 Pro Max</strong>.<br/><br/>En clair, une seule charge du powerbank le dimanche soir peut suffire à maintenir votre téléphone alimenté <strong>toute la semaine</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dp3ceY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_Nm7iL4": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AKNFD7": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_a3tjWm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>En quoi est-il vraiment utile ?</h2><p>Au-delà de sa capacité impressionnante, ce powerbank délivre une puissance de <strong>66 W</strong>, contre seulement 22,5 W en moyenne pour les modèles classiques. Résultat :</p><ul><li>Recharge <strong>3 fois plus rapide</strong> → de 0 à 100% en environ <strong>30 minutes</strong>.</li><li>Compatibilité universelle → il intègre directement <strong>tous les câbles nécessaires</strong> (Android, Type-C, iPhone, USB).</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_a3tjWm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Xk6L6A",
+    "image_with_text_overlay_JNWHyg",
+    "rich_text_pezP7C",
+    "image_with_text_overlay_hPYUtC",
+    "rich_text_VrrQih",
+    "image_with_text_overlay_Nm7iL4",
+    "rich_text_AKNFD7",
+    "related-products"
+  ]
+}
