@@ -149,90 +149,12 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Des résultats rapides et visibles</h2><p>Cet appareil de soin pour visage </p>"
+            "content": "<h2>Des résultats rapides et visibles</h2><p>En utilisant le masque <strong>8–12 minutes par jour, vous observerez:</strong></p><ul><li><strong>0–1 semaine :</strong> Vous remarquerez un <strong>éclat immédiat</strong>, une peau plus douce au toucher et une légère réduction des rougeurs et des imperfections superficielles ; prenez une photo avant pour voir la différence. </li><li><strong>2–3 semaines :</strong> Les pores paraissent plus fins, le grain de peau s’uniformise et les petites taches commencent à s’estomper, ce qui rend votre teint visiblement plus homogène. </li><li><strong>3–4 semaines :</strong> Les rides d’expression sont atténuées, la peau gagne en fermeté et les taches pigmentaires sont sensiblement réduites .</li></ul>"
           }
         }
       },
       "block_order": [
         "richtext_wEM4q8"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_hPYUtC": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/6c8cf40b-68da-406a-93b5-ca98655c7f91.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_VrrQih": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_dp3ceY": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>Que représente 30.000 mAh ?</h2><p>Imaginez : cette capacité colossale, concentrée dans un powerbank de seulement <strong>320 g</strong>, équivaut à <strong>6 recharges complètes (0 à 100%) d’un iPhone 17 Pro Max</strong>.<br/><br/>En clair, une seule charge du powerbank le dimanche soir peut suffire à maintenir votre téléphone alimenté <strong>toute la semaine</strong>.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_dp3ceY"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_Nm7iL4": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/21cfaa52-4a29-4175-914d-9474882b8374.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_AKNFD7": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_a3tjWm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2>En quoi est-il vraiment utile ?</h2><p>Au-delà de sa capacité impressionnante, ce powerbank délivre une puissance de <strong>66 W</strong>, contre seulement 22,5 W en moyenne pour les modèles classiques. Résultat :</p><ul><li>Recharge <strong>3 fois plus rapide</strong> → de 0 à 100% en environ <strong>30 minutes</strong>.</li><li>Compatibilité universelle → il intègre directement <strong>tous les câbles nécessaires</strong> (Android, Type-C, iPhone, USB).</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_a3tjWm"
       ],
       "name": "Rich text",
       "settings": {
@@ -272,10 +194,6 @@
     "rich_text_Xk6L6A",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
-    "image_with_text_overlay_hPYUtC",
-    "rich_text_VrrQih",
-    "image_with_text_overlay_Nm7iL4",
-    "rich_text_AKNFD7",
     "related-products"
   ]
 }
