@@ -169,6 +169,68 @@
         "text_color": ""
       }
     },
+    "multi_column_EEX64C": {
+      "type": "multi-column",
+      "blocks": {
+        "item_X3TXxV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_b90dd331-066f-4243-a09c-f72409dbe93f.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ebjAxf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_d569ab49-89cb-498d-ad23-521af4a7b53a.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pw7bYY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_52c07fef-5b53-47e6-b19f-cd3be2589ab7.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_X3TXxV",
+        "item_ebjAxf",
+        "item_pw7bYY"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Résultat observé après deux semaines",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "177187691528415c76": {
       "type": "apps",
       "blocks": {
@@ -222,6 +284,7 @@
     "rich_text_Xk6L6A",
     "image_with_text_overlay_JNWHyg",
     "rich_text_pezP7C",
+    "multi_column_EEX64C",
     "177187691528415c76",
     "related-products"
   ]
