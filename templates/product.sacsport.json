@@ -24,6 +24,7 @@
         },
         "amazon_reviews_by_appio_rating_badge_FGUqmA": {
           "type": "shopify://apps/amazon-reviews-by-appio/blocks/rating-badge/569167b3-e5d6-4314-9866-f51281b506d7",
+          "disabled": true,
           "settings": {}
         },
         "price": {
@@ -35,12 +36,6 @@
         "separator_RMr7Hj": {
           "type": "separator",
           "settings": {}
-        },
-        "text_EPiAcW": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>✨ <strong>Atténue les taches sombres</strong> et l'hyperpigmentation pour un<strong> teint uniforme</strong>.</li><li>🌿 <strong>Régule le sébum</strong> sans agresser ni dessécher pour une <strong>peau sans bouton</strong>.</li><li>💎 <strong>Lisse le grain de peau</strong> pour un éclat naturel, <strong>un visage plus lisse</strong>.</li></ul><p>Votre visage va vous remerciez ! </p>"
-          }
         },
         "easysell_cod_form_app_block_3AmQKT": {
           "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
@@ -79,7 +74,6 @@
         "amazon_reviews_by_appio_rating_badge_FGUqmA",
         "price",
         "separator_RMr7Hj",
-        "text_EPiAcW",
         "easysell_cod_form_app_block_3AmQKT",
         "payment_terms",
         "separator",
@@ -104,75 +98,13 @@
         "input_text_color": ""
       }
     },
-    "multi_column_EEX64C": {
-      "type": "multi-column",
-      "blocks": {
-        "item_X3TXxV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1_b90dd331-066f-4243-a09c-f72409dbe93f.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_ebjAxf": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/3_d569ab49-89cb-498d-ad23-521af4a7b53a.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_pw7bYY": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/2_52c07fef-5b53-47e6-b19f-cd3be2589ab7.png",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_X3TXxV",
-        "item_ebjAxf",
-        "item_pw7bYY"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Résultat observé après deux semaines",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_Xk6L6A": {
       "type": "rich-text",
       "blocks": {
         "heading_M36whR": {
           "type": "heading",
           "settings": {
-            "text": "Nettoie, purifie et rajeunie votre visage en moins de 04 semaines.",
+            "text": "Accès Smartphone Instantané",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -182,6 +114,7 @@
       "block_order": [
         "heading_M36whR"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -192,20 +125,19 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_JNWHyg": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_fMjcz8": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/a0f3fecc-5075-4656-aaa0-5cf9cfffb3fe.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/0225(1).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 30
       }
     },
     "rich_text_pezP7C": {
@@ -214,7 +146,7 @@
         "richtext_wEM4q8": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Des résultats rapides et visibles</h2><p>En utilisant le masque <strong>8–12 minutes par jour, vous observerez:</strong></p><ul><li><strong>0–1 semaine :</strong> Vous remarquerez un <strong>éclat immédiat</strong>, une peau plus douce au toucher et une légère réduction des rougeurs et des imperfections superficielles ; prenez une photo avant pour voir la différence. </li><li><strong>2–3 semaines :</strong> Les pores paraissent plus fins, le grain de peau s’uniformise et les petites taches commencent à s’estomper, ce qui rend votre teint visiblement plus homogène. </li><li><strong>3–4 semaines :</strong> Les rides d’expression sont atténuées, la peau gagne en fermeté et les taches pigmentaires sont sensiblement réduites .</li></ul>"
+            "content": "<h2>Accédez à votre Téléphone sans le sortir du sac </h2><p>Utilisez votre téléphone (photos, messages, appels) sans jamais le sortir du sac grâce à la fenêtre transparente 100% tactile et sécurisée. Filmez vos séances de gym, ou à la piscine plus facilement.</p>"
           }
         }
       },
@@ -231,29 +163,81 @@
         "text_color": ""
       }
     },
-    "177187691528415c76": {
-      "type": "apps",
+    "video_Tyd3C8": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "md",
+        "video": "shopify://files/videos/0225.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_wV39pE": {
+      "type": "rich-text",
       "blocks": {
-        "amazon_reviews_by_appio_reviews_widget_T4LCqh": {
-          "type": "shopify://apps/amazon-reviews-by-appio/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
-          "settings": {}
+        "richtext_zCrMfw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Conception Ultra-Résistante  </h2><p>Fabriqué en matériau épais, ce sac est conçu pour durer au moins 5ans minimum .</p>"
+          }
         }
       },
       "block_order": [
-        "amazon_reviews_by_appio_reviews_widget_T4LCqh"
+        "richtext_zCrMfw"
       ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
+        "content_width": "small",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JNWHyg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/unnamed_2.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_RzaNtd": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_dAAG8m": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>Sécurité & Flottabilité </strong></h2><p>Gardez vos vêtements et objets de valeur parfaitement au sec. Grâce à sa fermeture hermétique, le sac emprisonne l'air et flotte en cas de chute accidentelle dans l'eau.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_dAAG8m"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "related-products": {
@@ -281,11 +265,13 @@
   },
   "order": [
     "main",
-    "multi_column_EEX64C",
     "rich_text_Xk6L6A",
-    "image_with_text_overlay_JNWHyg",
+    "video_fMjcz8",
     "rich_text_pezP7C",
-    "177187691528415c76",
+    "video_Tyd3C8",
+    "rich_text_wV39pE",
+    "image_with_text_overlay_JNWHyg",
+    "rich_text_RzaNtd",
     "related-products"
   ]
 }
