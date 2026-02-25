@@ -1,0 +1,291 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "amazon_reviews_by_appio_rating_badge_FGUqmA": {
+          "type": "shopify://apps/amazon-reviews-by-appio/blocks/rating-badge/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "separator_RMr7Hj": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_EPiAcW": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>✨ <strong>Atténue les taches sombres</strong> et l'hyperpigmentation pour un<strong> teint uniforme</strong>.</li><li>🌿 <strong>Régule le sébum</strong> sans agresser ni dessécher pour une <strong>peau sans bouton</strong>.</li><li>💎 <strong>Lisse le grain de peau</strong> pour un éclat naturel, <strong>un visage plus lisse</strong>.</li></ul><p>Votre visage va vous remerciez ! </p>"
+          }
+        },
+        "easysell_cod_form_app_block_3AmQKT": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "amazon_reviews_by_appio_rating_badge_FGUqmA",
+        "price",
+        "separator_RMr7Hj",
+        "text_EPiAcW",
+        "easysell_cod_form_app_block_3AmQKT",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "multi_column_EEX64C": {
+      "type": "multi-column",
+      "blocks": {
+        "item_X3TXxV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_b90dd331-066f-4243-a09c-f72409dbe93f.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ebjAxf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_d569ab49-89cb-498d-ad23-521af4a7b53a.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pw7bYY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_52c07fef-5b53-47e6-b19f-cd3be2589ab7.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_X3TXxV",
+        "item_ebjAxf",
+        "item_pw7bYY"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Résultat observé après deux semaines",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_Xk6L6A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M36whR": {
+          "type": "heading",
+          "settings": {
+            "text": "Nettoie, purifie et rajeunie votre visage en moins de 04 semaines.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_M36whR"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JNWHyg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/a0f3fecc-5075-4656-aaa0-5cf9cfffb3fe.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_pezP7C": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wEM4q8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Des résultats rapides et visibles</h2><p>En utilisant le masque <strong>8–12 minutes par jour, vous observerez:</strong></p><ul><li><strong>0–1 semaine :</strong> Vous remarquerez un <strong>éclat immédiat</strong>, une peau plus douce au toucher et une légère réduction des rougeurs et des imperfections superficielles ; prenez une photo avant pour voir la différence. </li><li><strong>2–3 semaines :</strong> Les pores paraissent plus fins, le grain de peau s’uniformise et les petites taches commencent à s’estomper, ce qui rend votre teint visiblement plus homogène. </li><li><strong>3–4 semaines :</strong> Les rides d’expression sont atténuées, la peau gagne en fermeté et les taches pigmentaires sont sensiblement réduites .</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wEM4q8"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "177187691528415c76": {
+      "type": "apps",
+      "blocks": {
+        "amazon_reviews_by_appio_reviews_widget_T4LCqh": {
+          "type": "shopify://apps/amazon-reviews-by-appio/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "amazon_reviews_by_appio_reviews_widget_T4LCqh"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_EEX64C",
+    "rich_text_Xk6L6A",
+    "image_with_text_overlay_JNWHyg",
+    "rich_text_pezP7C",
+    "177187691528415c76",
+    "related-products"
+  ]
+}
