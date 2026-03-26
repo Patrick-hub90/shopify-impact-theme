@@ -151,11 +151,23 @@
           "settings": {
             "content": "<p>La Formule Aoki est l'une des crèmes les plus puissant pour réduire la sensibilité du pénis sans rien modifier. Elle crée une couche invisible sur la peau après l'application qui rend votre penis moins sensible durant la pénétration.</p>"
           }
+        },
+        "button_PfBFzn": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Contactez-nous par WhatsApp",
+            "url": "https://wa.me/2250799819468?text=Bonsoir%2C%20comment%20allez-vous%3F%20Je%20voudrais%20commander%2C%20est-ce%20que%20le%20Aoki%20est%20toujours%20disponible%20%3F",
+            "background": "#00a341",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_6g9y3e",
-        "richtext_NtBQJE"
+        "richtext_NtBQJE",
+        "button_PfBFzn"
       ],
       "name": "Rich text",
       "settings": {
