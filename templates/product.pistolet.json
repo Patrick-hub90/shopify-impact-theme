@@ -55,12 +55,6 @@
             "color_mode": "color",
             "size_chart_page": ""
           }
-        },
-        "easysell_cod_form_app_block_mjkaat": {
-          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
-          "settings": {
-            "product": ""
-          }
         }
       },
       "block_order": [
@@ -71,8 +65,7 @@
         "rating",
         "payment_terms",
         "separator",
-        "variant_picker",
-        "easysell_cod_form_app_block_mjkaat"
+        "variant_picker"
       ],
       "settings": {
         "full_width": true,
