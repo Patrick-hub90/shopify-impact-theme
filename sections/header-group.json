@@ -14,31 +14,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message": {
-          "type": "message",
-          "settings": {
-            "text": "LIVRAISON GRATUITE PARTOUT A DAKAR",
-            "url": ""
-          }
-        },
-        "message_4AY9kx": {
-          "type": "message",
-          "settings": {
-            "text": "LA MEILLEUR QUALITÉ",
-            "url": ""
-          }
-        },
         "message_aPcKbG": {
           "type": "message",
           "settings": {
-            "text": "TESTER AVANT D'ACHETER",
+            "text": "LIVRAISON GRATUITE",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message",
-        "message_4AY9kx",
         "message_aPcKbG"
       ],
       "settings": {
