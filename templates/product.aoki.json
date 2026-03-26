@@ -1,0 +1,276 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price_7nDK4k": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_nYbJtk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Formule Aoki est une pommade à base d’ingrédients 100 % naturels et traditionnels très efficace pour réduire la sensibilité excessive du pénis.</p>"
+          }
+        },
+        "text_HhK4Gf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🚚 <strong>Livraison gratuite <br/>💳 Paiement à livraison</strong></p>"
+          }
+        },
+        "collapsible_text_yEVftD": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Comment bien utiliser la Formule Aoki ?",
+            "content": "<ol><li>Rincez le gland et le sillon coronal à l’eau tiède, puis séchez délicatement.</li><li>Prenez une petite quantité de crème avec le bout du doigt propre.</li><li>Appliquez-la en couche fine et uniforme sur le gland et le sillon coronal, en évitant soigneusement l’orifice urinaire.</li><li>Massez doucement pendant 1 à 2 minutes jusqu’à ce que la crème soit bien absorbée.</li><li>Laissez agir entre 15 et 25 minutes pour un effet optimal.</li><li>Rincez soigneusement à l’eau claire avant tout rapport.</li></ol>"
+          }
+        },
+        "collapsible_text_YfRK33": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Faut-il l’utiliser tous les jours ?",
+            "content": "<p>Non. La Formule Aoki s’utilise uniquement à la demande, avant l’activité sexuelle. Elle n’est pas conçue comme un traitement quotidien.</p>"
+          }
+        },
+        "collapsible_text_AzwbHm": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Doit-on la rincer avant le rapport ?",
+            "content": "<p>Oui, il est important de bien rincer les résidus pour éviter tout transfert et garantir un confort optimal pour les deux partenaires.</p>"
+          }
+        },
+        "collapsible_text_LLLJGF": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Que contient la Formule Aoki ?",
+            "content": "<p>La Formule Aoki est composée principalement d’eau, de glycérine et d’extraits de plantes traditionnelles : Maca, Epimedium, Tongkat Ali, Rhodiola, Cannelle et  Menthe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price_7nDK4k",
+        "text_nYbJtk",
+        "text_HhK4Gf",
+        "collapsible_text_yEVftD",
+        "collapsible_text_YfRK33",
+        "collapsible_text_AzwbHm",
+        "collapsible_text_LLLJGF"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_TY4xTk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yyh7wA": {
+          "type": "heading",
+          "settings": {
+            "text": "Réduisez la sensibilité de votre gland avant le rapport pour durer plus longtemps",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yyh7wA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_4mFKGr": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_JriNXr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6g9y3e": {
+          "type": "heading",
+          "settings": {
+            "text": "Avec Aoki, gagnez plusieurs  dizaines de minutes supplémentaires en réduisant votre sensibilité",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NtBQJE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>La Formule Aoki est l'une des crèmes les plus puissant pour réduire la sensibilité du pénis sans rien modifier. Elle crée une couche invisible sur la peau après l'application qui rend votre penis moins sensible durant la pénétration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6g9y3e",
+        "richtext_NtBQJE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JqM6zh": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/erectile_dysfunction-fr.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_MDCnkP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ax3hDb": {
+          "type": "heading",
+          "settings": {
+            "text": "Gagnez une érection plus ferme et plus dure avec la formule Aoki",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3RGihp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>La Formule Aoki favorise également une meilleure circulation sanguine locale grâce aux extraits de racines d’Epimedium et de Tongkat Ali. Résultat : de nombreux utilisateurs constatent une érection plus ferme et plus stable tout au long de l’activité, sans sensation artificielle. Cela permet simplement de maintenir une rigidité constante, même lors des phases plus intenses ou prolongées, pour une expérience plus fluide et maîtrisée.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ax3hDb",
+        "richtext_3RGihp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_3iUfyw": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_bPBXqA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RUfa83": {
+          "type": "heading",
+          "settings": {
+            "text": "Gagnez des performances dès ce soir",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_zDYb4d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>La Formule Aoki ne modifie rien et ne traite rien ! Elle se met en place pour prolonger automatiquement vos rapport sexuels. Une fois terminé, vous rinçez votre sexe. N'attendez pas un mois de traitement. Soyez prêt dès ce soir.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RUfa83",
+        "richtext_zDYb4d"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_TY4xTk",
+    "video_4mFKGr",
+    "rich_text_JriNXr",
+    "image_with_text_overlay_JqM6zh",
+    "rich_text_MDCnkP",
+    "video_3iUfyw",
+    "rich_text_bPBXqA"
+  ]
+}
