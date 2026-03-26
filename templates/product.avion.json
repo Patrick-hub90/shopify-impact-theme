@@ -18,53 +18,19 @@
             "heading_tag": "h2"
           }
         },
-        "text_dk6B8X": {
-          "type": "text",
-          "settings": {
-            "text": "<p>blabamanjalkbzfjlbhjezke fnr customers about your products.</p>"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
+        "text_G3f8Mj": {
+          "type": "text",
           "settings": {
-            "show_empty": false
+            "text": "<p>Rendez vos viandes tendres et faites pénétrer les marinades en profondeur en une seule pression.</p>"
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "easysell_cod_form_app_block_hxBrgb": {
+        "easysell_cod_form_app_block_9TQPDU": {
           "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
             "product": ""
@@ -73,15 +39,9 @@
       },
       "block_order": [
         "title",
-        "text_dk6B8X",
-        "badges",
         "price",
-        "rating",
-        "payment_terms",
-        "separator",
-        "description",
-        "variant_picker",
-        "easysell_cod_form_app_block_hxBrgb"
+        "text_G3f8Mj",
+        "easysell_cod_form_app_block_9TQPDU"
       ],
       "settings": {
         "full_width": true,
@@ -101,110 +61,182 @@
         "input_text_color": ""
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "media_with_text_kmB4A4": {
-      "type": "media-with-text",
+    "rich_text_U7zkAz": {
+      "type": "rich-text",
       "blocks": {
-        "image_kbyP4j": {
-          "type": "image",
+        "heading_EUhCYT": {
+          "type": "heading",
           "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_wjpfRm": {
-          "type": "image",
-          "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_HDt8bi": {
-          "type": "image",
-          "settings": {
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "text": "Dites adieu aux viandes difficiles à mâcher !",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
           }
         }
       },
       "block_order": [
-        "image_kbyP4j",
-        "image_wjpfRm",
-        "image_HDt8bi"
+        "heading_EUhCYT"
       ],
-      "name": "Media with text",
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "spacing": "none"
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_NgXRTP": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_yBDLkK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6twPkA": {
+          "type": "heading",
+          "settings": {
+            "text": "Attendrit même les viandes les plus dures",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_fq3RAQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Les 32 aiguilles en acier inoxydable percent profondément la viande et cassent les fibres dures. En quelques pressions seulement, même les morceaux bon marché ou naturellement fermes (mouton,boeuf,poulet) deviennent moelleux et faciles à mâcher. Plus besoin de taper ou d’attendre des heures pour que la viande soit tendre.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6twPkA",
+        "richtext_fq3RAQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_Rjp7tV": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_d8pD8T": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3DCNaa": {
+          "type": "heading",
+          "settings": {
+            "text": "Les épices qui pénètrent vraiment partout",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_F7kjHg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chaque aiguille crée de petits trous qui laissent passer vos marinades, épices, sauces et sel jusqu’au cœur de la viande. Au lieu de rester seulement à la surface, le goût rentre partout. Vous obtenez une viande beaucoup plus savoureuse en 10-15 minutes au lieu de plusieurs heures.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3DCNaa",
+        "richtext_F7kjHg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_dTe4nr": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "sm",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_Tj4gJR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bD8Y4q": {
+          "type": "heading",
+          "settings": {
+            "text": "Simple, rapide et pratique tous les jours",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_t48XKJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Il suffit d’appuyer plusieurs fois des deux côtés de la viande. L’appareil est léger, tient bien en main, et les aiguilles se rétractent automatiquement quand vous le soulevez. Facile à laver sous l’eau et très résistant. L’outil idéal pour le barbecue, la poêle ou le four.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bD8Y4q",
+        "richtext_t48XKJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "related-products",
-    "media_with_text_kmB4A4"
+    "rich_text_U7zkAz",
+    "video_NgXRTP",
+    "rich_text_yBDLkK",
+    "video_Rjp7tV",
+    "rich_text_d8pD8T",
+    "video_dTe4nr",
+    "rich_text_Tj4gJR"
   ]
 }
