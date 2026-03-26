@@ -151,11 +151,23 @@
           "settings": {
             "content": "<p>Cette crème crée une couche invisible sur votre sexe après application. Votre sexe ressent moins les sensations d'éjaculation. Vous contrôlez mieux. Vous durez plus longtemps.<br/><strong>NB: Pour un résultat optimal, il est demandé d'appliquer la crème 15 à 20 min avant le rapport. Rincez avec l'eau tiede juste avant le rapport.</strong><br/><br/></p>"
           }
+        },
+        "button_gnAPA9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Contactez-nous par WhatsApp",
+            "url": "https://wa.me/2250799819468?text=Bonsoir%2C%20comment%20allez-vous%3F%20Je%20voudrais%20commander%2C%20est-ce%20que%20le%20Aoki%20est%20toujours%20disponible%20%3F",
+            "background": "#00a341",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_6g9y3e",
-        "richtext_NtBQJE"
+        "richtext_NtBQJE",
+        "button_gnAPA9"
       ],
       "name": "Rich text",
       "settings": {
@@ -270,7 +282,6 @@
         "item_z3gQHk": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_2.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -283,7 +294,6 @@
         "item_cDezVd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_3.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
