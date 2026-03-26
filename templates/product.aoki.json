@@ -99,7 +99,7 @@
         "heading_yyh7wA": {
           "type": "heading",
           "settings": {
-            "text": "Vous éjaculez trop vite ? Cette crème change tout dès ce soir.",
+            "text": "Vous éjaculez trop vite ? Cette crème changera tout dès ce soir.",
             "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
@@ -282,6 +282,7 @@
         "item_z3gQHk": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/img_0136_2.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -294,6 +295,7 @@
         "item_cDezVd": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/img_0136_4.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
