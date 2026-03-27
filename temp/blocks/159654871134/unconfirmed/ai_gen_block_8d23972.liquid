@@ -1,6 +1,585 @@
+{% doc %}
+  @prompt
+    je veux que tu genere une section grid pour lister les composant dun produit,
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-product-ingredients-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.section_padding }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-product-ingredients__header-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.spacing_below_heading }}px;
+  }
+
+  .ai-product-ingredients__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size }}px;
+    color: {{ block.settings.heading_color }};
+    margin: 0;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-product-ingredients__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 12px 0 0;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-product-ingredients__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.grid_gap }}px;
+  }
+
+  .ai-product-ingredients__item-{{ ai_gen_id }} {
+    background-color: {{ block.settings.card_background }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    padding: {{ block.settings.card_padding }}px;
+    text-align: {{ block.settings.card_text_alignment }};
+    border: {{ block.settings.card_border_width }}px solid {{ block.settings.card_border_color }};
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .ai-product-ingredients__item-{{ ai_gen_id }}:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-product-ingredients__item-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    margin: 0 auto {{ block.settings.spacing_below_icon }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-product-ingredients__item-icon-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .ai-product-ingredients__item-icon-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-product-ingredients__item-icon-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-product-ingredients__item-name-{{ ai_gen_id }} {
+    font-size: {{ block.settings.ingredient_name_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.ingredient_name_color }};
+    margin: 0 0 8px;
+  }
+
+  .ai-product-ingredients__item-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.ingredient_description_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-product-ingredients__grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+    }
+
+    .ai-product-ingredients__title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+    }
+  }
+{% endstyle %}
+
+<product-ingredients-{{ ai_gen_id }}
+  class="ai-product-ingredients-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  {% if block.settings.heading != blank or block.settings.description != blank %}
+    <div class="ai-product-ingredients__header-{{ ai_gen_id }}">
+      {% if block.settings.heading != blank %}
+        <h2 class="ai-product-ingredients__title-{{ ai_gen_id }}">
+          {{ block.settings.heading }}
+        </h2>
+      {% endif %}
+      {% if block.settings.description != blank %}
+        <div class="ai-product-ingredients__description-{{ ai_gen_id }}">
+          {{ block.settings.description }}
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="ai-product-ingredients__grid-{{ ai_gen_id }}">
+    {% for i in (1..6) %}
+      {% liquid
+        assign ingredient_name_key = 'ingredient_' | append: i | append: '_name'
+        assign ingredient_description_key = 'ingredient_' | append: i | append: '_description'
+        assign ingredient_icon_key = 'ingredient_' | append: i | append: '_icon'
+
+        assign ingredient_name = block.settings[ingredient_name_key]
+        assign ingredient_description = block.settings[ingredient_description_key]
+        assign ingredient_icon = block.settings[ingredient_icon_key]
+      %}
+
+      {% if ingredient_name != blank %}
+        <div class="ai-product-ingredients__item-{{ ai_gen_id }}">
+          <div class="ai-product-ingredients__item-icon-{{ ai_gen_id }}">
+            {% if ingredient_icon != blank %}
+              <img
+                src="{{ ingredient_icon | image_url: width: 200 }}"
+                alt="{{ ingredient_name | escape }}"
+                loading="lazy"
+                width="200"
+                height="200"
+              >
+            {% else %}
+              <div class="ai-product-ingredients__item-icon-placeholder-{{ ai_gen_id }}">
+                {{ 'product-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+          </div>
+          <h3 class="ai-product-ingredients__item-name-{{ ai_gen_id }}">
+            {{ ingredient_name }}
+          </h3>
+          {% if ingredient_description != blank %}
+            <div class="ai-product-ingredients__item-description-{{ ai_gen_id }}">
+              {{ ingredient_description }}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</product-ingredients-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ProductIngredients{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('product-ingredients-{{ ai_gen_id }}', ProductIngredients{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Composants produit",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "En-tête"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Titre",
+      "default": "Composants du produit"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Taille du titre",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille de la description",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "spacing_below_heading",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Espacement sous le titre",
+      "default": 30
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Alignement du texte",
+      "options": [
+        {
+          "value": "left",
+          "label": "Gauche"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        },
+        {
+          "value": "right",
+          "label": "Droite"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Grille"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "label": "Colonnes sur ordinateur",
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Colonnes sur mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Espacement de la grille",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Largeur sur ordinateur",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Style de carte"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Fond de carte",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Espacement intérieur",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Arrondi des coins",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "card_border_width",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "label": "Épaisseur de bordure",
+      "default": 1
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Couleur de bordure",
+      "default": "#e5e5e5"
+    },
+    {
+      "type": "select",
+      "id": "card_text_alignment",
+      "label": "Alignement du texte",
+      "options": [
+        {
+          "value": "left",
+          "label": "Gauche"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        },
+        {
+          "value": "right",
+          "label": "Droite"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Icônes"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 30,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Taille de l'icône",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "spacing_below_icon",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "label": "Espacement sous l'icône",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Fond de section",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Couleur du titre",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "ingredient_name_color",
+      "label": "Couleur du nom",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "header",
+      "content": "Typographie"
+    },
+    {
+      "type": "range",
+      "id": "ingredient_name_size",
+      "min": 14,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "label": "Taille du nom",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "ingredient_description_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Taille de la description",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Espacement"
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Espacement de section",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Composant 1"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_1_name",
+      "label": "Nom"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_1_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_1_icon",
+      "label": "Icône"
+    },
+    {
+      "type": "header",
+      "content": "Composant 2"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_2_name",
+      "label": "Nom"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_2_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_2_icon",
+      "label": "Icône"
+    },
+    {
+      "type": "header",
+      "content": "Composant 3"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_3_name",
+      "label": "Nom"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_3_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_3_icon",
+      "label": "Icône"
+    },
+    {
+      "type": "header",
+      "content": "Composant 4"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_4_name",
+      "label": "Nom"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_4_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_4_icon",
+      "label": "Icône"
+    },
+    {
+      "type": "header",
+      "content": "Composant 5"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_5_name",
+      "label": "Nom"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_5_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_5_icon",
+      "label": "Icône"
+    },
+    {
+      "type": "header",
+      "content": "Composant 6"
+    },
+    {
+      "type": "text",
+      "id": "ingredient_6_name",
+      "label": "Nom"
+    },
+    {
+      "type": "textarea",
+      "id": "ingredient_6_description",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "ingredient_6_icon",
+      "label": "Icône"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Composants produit"
+    }
+  ]
+}
 {% endschema %}
