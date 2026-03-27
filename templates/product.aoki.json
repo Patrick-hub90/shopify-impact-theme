@@ -27,7 +27,7 @@
         "text_nYbJtk": {
           "type": "text",
           "settings": {
-            "text": "<p><br/>Elle rend votre sexe moins sensible avant le rapport — donc vous ressentez moins l'envie d'éjaculer et vous durez plus longtemps. Naturel. Rapide. Efficace dès la première utilisation.</p>"
+            "text": "<h3>Tu bandes plus dur. Elle revient.</h3><p>Une crème naturelle pour hommes qui veulent performer sans limite. Plus d'endurance, une érection ferme du début à la fin — dès la première utilisation.</p>"
           }
         },
         "text_HhK4Gf": {
@@ -93,189 +93,6 @@
         "input_text_color": ""
       }
     },
-    "rich_text_TY4xTk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_yyh7wA": {
-          "type": "heading",
-          "settings": {
-            "text": "Vous éjaculez trop vite ? Cette crème changera tout dès ce soir.",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_yyh7wA"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_4mFKGr": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/WhatsApp Video 2026-03-24 at 03.08.06.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_JriNXr": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6g9y3e": {
-          "type": "heading",
-          "settings": {
-            "text": "Votre sexe devient moins sensible — vous durez, elle est satisfaite",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_NtBQJE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Cette crème crée une couche invisible sur votre sexe après application. Votre sexe ressent moins les sensations d'éjaculation. Vous contrôlez mieux. Vous durez plus longtemps.<br/><strong>NB: Pour un résultat optimal, il est demandé d'appliquer la crème 15 à 20 min avant le rapport. Rincez avec l'eau tiede juste avant le rapport.</strong><br/><br/></p>"
-          }
-        },
-        "button_gnAPA9": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Contactez-nous par WhatsApp",
-            "url": "https://wa.me/2250799819468?text=Bonsoir%2C%20comment%20allez-vous%3F%20Je%20voudrais%20commander%2C%20est-ce%20que%20le%20Aoki%20est%20toujours%20disponible%20%3F",
-            "background": "#00a341",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_6g9y3e",
-        "richtext_NtBQJE",
-        "button_gnAPA9"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_JqM6zh": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/erectile_dysfunction-fr.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_MDCnkP": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ax3hDb": {
-          "type": "heading",
-          "settings": {
-            "text": "En plus de durer — votre érection devient plus ferme",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_3RGihp": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Grâce aux plantes Epimedium et Tongkat Ali, beaucoup d'utilisateurs remarquent une érection plus dure et plus stable pendant tout le rapport. Pas d'effet artificiel — juste votre corps qui fonctionne mieux.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ax3hDb",
-        "richtext_3RGihp"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_3iUfyw": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/164a5d4782b56338210a9d039a64226f-720p-preview.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_bPBXqA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_RUfa83": {
-          "type": "heading",
-          "settings": {
-            "text": "Gagnez des performances dès ce soir",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_zDYb4d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Pas de traitement long. Pas d'ordonnance. Pas d'effets secondaires. Vous appliquez, vous rincez, vous commencez. Une seule utilisation suffit pour sentir la différence.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_RUfa83",
-        "richtext_zDYb4d"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "multi_column_pRM638": {
       "type": "multi-column",
       "blocks": {
@@ -323,10 +140,242 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_TY4xTk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yyh7wA": {
+          "type": "heading",
+          "settings": {
+            "text": "Certaines nuits, tu veux que ça dure. Formule Aoki est là pour ça.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yyh7wA"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_4mFKGr": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/WhatsApp Video 2026-03-24 at 03.08.06.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_JriNXr": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_NtBQJE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Tu veux durer plus longtemps, garder ton érection ferme et bien dure, et voir ta partenaire satisfaite de bout en bout.</p><p>La Formule Aoki  te donne le contrôle. Tu décides quand tu t'arrêtes — pas ton corps à ta place.</p><p><strong>Des plantes naturelles connues depuis des siècles. Utilisées par des millions d'hommes. Maintenant dans une crème que tu appliques en 2 minutes.</strong></p>"
+          }
+        },
+        "button_gnAPA9": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Contactez-nous par WhatsApp",
+            "url": "https://wa.me/2250799819468?text=Bonsoir%2C%20comment%20allez-vous%3F%20Je%20voudrais%20commander%2C%20est-ce%20que%20le%20Aoki%20est%20toujours%20disponible%20%3F",
+            "background": "#00a341",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_NtBQJE",
+        "button_gnAPA9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_JqM6zh": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/erectile_dysfunction-fr.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_MDCnkP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ax3hDb": {
+          "type": "heading",
+          "settings": {
+            "text": "Ce que tu ressens vraiment dès la première utilisation",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3RGihp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Ton endurance monte.</strong> Là où tu finissais en quelques minutes, tu tiens. Le rythme reste à toi. Elle ne regarde pas le plafond en attendant — elle est là avec toi, jusqu'à la fin.</p><p><strong>Ton érection reste ferme.</strong> Pas de moment gênant à mi-rapport où ça ramollit. Les plantes Tongkat Ali et Epimedium activent la circulation sanguine dans ton sexe — tu restes dur, du début à la fin.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ax3hDb",
+        "richtext_3RGihp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_3iUfyw": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/164a5d4782b56338210a9d039a64226f-720p-preview.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_bPBXqA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RUfa83": {
+          "type": "heading",
+          "settings": {
+            "text": "Ce qui est dedans ? Que de la nature. Rien d'autre.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_zDYb4d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Pas de chimie. Pas d'hormones. Pas d'effets secondaires. La Formule Aoki combine six plantes utilisées depuis des centaines d'années par les hommes qui voulaient performer — en Asie, en Amérique du Sud, en Europe. Maintenant dans une seule crème.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RUfa83",
+        "richtext_zDYb4d"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1774609004e6b727f5": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_8a0d68c_hckTpz": {
+          "type": "ai_gen_block_8a0d68c",
+          "settings": {
+            "heading": "Composants du produit",
+            "description": "",
+            "heading_size": 32,
+            "description_size": 16,
+            "spacing_below_heading": 30,
+            "text_alignment": "center",
+            "columns_desktop": 3,
+            "columns_mobile": "2",
+            "grid_gap": 20,
+            "desktop_width_percent": 100,
+            "card_background": "#ffffff",
+            "card_padding": 20,
+            "card_border_radius": 8,
+            "card_border_width": 1,
+            "card_border_color": "#e5e5e5",
+            "card_text_alignment": "center",
+            "emoji_size": 60,
+            "spacing_below_icon": 15,
+            "background_color": "#f9f9f9",
+            "heading_color": "#1a1a1a",
+            "text_color": "#666666",
+            "ingredient_name_color": "#1a1a1a",
+            "ingredient_name_size": 18,
+            "ingredient_description_size": 14,
+            "section_padding": 40,
+            "ingredient_1_emoji": "🌿",
+            "ingredient_1_name": "Maca",
+            "ingredient_1_description": "La plante des guerriers andins. Énergie, endurance, libido — elle est connue pour ça depuis des siècles au Pérou.",
+            "ingredient_2_emoji": "🌿",
+            "ingredient_2_name": "Tongkat Ali",
+            "ingredient_2_description": "Plante emblématique d'Asie du Sud-Est pour la vitalité masculine. Elle booste la circulation sanguine vers le sexe — érection plus ferme et plus stable.",
+            "ingredient_3_emoji": "🌿",
+            "ingredient_3_name": "Epimedium",
+            "ingredient_3_description": "Surnommée \"l'herbe de la vigueur\" en Asie. Elle aide ton érection à tenir plus longtemps sans faiblir à mi-chemin.",
+            "ingredient_4_emoji": "🌿",
+            "ingredient_4_name": "Rhodiola",
+            "ingredient_4_description": "Réduit le stress et la fatigue. Ton corps tient mieux l'effort physique prolongé — tu restes dans ta zone de performance.",
+            "ingredient_5_emoji": "🌿",
+            "ingredient_5_name": "Cannelle",
+            "ingredient_5_description": "Active la circulation sanguine. Chaleur naturelle et légère qui se sent dès l'application.",
+            "ingredient_6_emoji": "🌿",
+            "ingredient_6_name": "Menthe",
+            "ingredient_6_description": "Sensation fraîche et apaisante. Aussi pour le confort de ta partenaire lors du rapport."
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_8a0d68c_hckTpz"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
+    "multi_column_pRM638",
     "rich_text_TY4xTk",
     "video_4mFKGr",
     "rich_text_JriNXr",
@@ -334,6 +383,6 @@
     "rich_text_MDCnkP",
     "video_3iUfyw",
     "rich_text_bPBXqA",
-    "multi_column_pRM638"
+    "1774609004e6b727f5"
   ]
 }
