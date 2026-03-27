@@ -1,6 +1,955 @@
+{% doc %}
+  @prompt
+    Section pour lister les etapes dutilisation dune pommade, je veux une section pour les differents etapes dutilisation dun epommade
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-ointment-steps-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.section_padding }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-ointment-steps__header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    margin-bottom: {{ block.settings.header_spacing }}px;
+  }
+
+  .ai-ointment-steps__title-{{ ai_gen_id }} {
+    color: {{ block.settings.title_color }};
+    font-size: {{ block.settings.title_size }}px;
+    margin: 0 0 {{ block.settings.header_spacing | divided_by: 2 }}px;
+    font-weight: 700;
+  }
+
+  .ai-ointment-steps__subtitle-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.subtitle_size }}px;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  .ai-ointment-steps__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.gap_between_steps }}px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .ai-ointment-steps__item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.item_spacing }}px;
+    padding: {{ block.settings.item_padding }}px;
+    background-color: {{ block.settings.step_background }};
+    border-radius: {{ block.settings.step_border_radius }}px;
+    border: {{ block.settings.step_border_width }}px solid {{ block.settings.step_border_color }};
+    transition: transform 0.2s ease;
+  }
+
+  .ai-ointment-steps__item-{{ ai_gen_id }}:hover {
+    transform: translateY(-4px);
+  }
+
+  .ai-ointment-steps__number-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: {{ block.settings.item_spacing }}px;
+  }
+
+  .ai-ointment-steps__number-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.number_size }}px;
+    height: {{ block.settings.number_size }}px;
+    border-radius: 50%;
+    background-color: {{ block.settings.number_background }};
+    color: {{ block.settings.number_text_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: {{ block.settings.number_font_size }}px;
+  }
+
+  .ai-ointment-steps__step-title-{{ ai_gen_id }} {
+    color: {{ block.settings.step_title_color }};
+    font-size: {{ block.settings.step_title_size }}px;
+    font-weight: 600;
+    margin: 0;
+    flex: 1;
+  }
+
+  .ai-ointment-steps__icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    flex-shrink: 0;
+  }
+
+  .ai-ointment-steps__icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    stroke: {{ block.settings.icon_color }};
+    fill: none;
+    stroke-width: 2;
+  }
+
+  .ai-ointment-steps__description-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.description_size }}px;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-ointment-steps__grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_tablet }}, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-ointment-steps-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-ointment-steps__grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+    }
+
+    .ai-ointment-steps__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.8 }}px;
+    }
+
+    .ai-ointment-steps__number-{{ ai_gen_id }} {
+      width: {{ block.settings.number_size | times: 0.85 }}px;
+      height: {{ block.settings.number_size | times: 0.85 }}px;
+      font-size: {{ block.settings.number_font_size | times: 0.85 }}px;
+    }
+  }
+{% endstyle %}
+
+<ointment-steps-{{ ai_gen_id }} class="ai-ointment-steps-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.title != blank or block.settings.subtitle != blank %}
+    <div class="ai-ointment-steps__header-{{ ai_gen_id }}">
+      {% if block.settings.title != blank %}
+        <h2 class="ai-ointment-steps__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+      {% endif %}
+      {% if block.settings.subtitle != blank %}
+        <div class="ai-ointment-steps__subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <ol class="ai-ointment-steps__grid-{{ ai_gen_id }}">
+    {% for i in (1..8) %}
+      {% liquid
+        assign step_title_key = 'step_' | append: i | append: '_title'
+        assign step_desc_key = 'step_' | append: i | append: '_description'
+        assign step_icon_key = 'step_' | append: i | append: '_icon'
+        assign step_title = block.settings[step_title_key]
+        assign step_desc = block.settings[step_desc_key]
+        assign step_icon = block.settings[step_icon_key]
+      %}
+
+      {% if step_title != blank or step_desc != blank %}
+        <li class="ai-ointment-steps__item-{{ ai_gen_id }}">
+          <div class="ai-ointment-steps__number-wrapper-{{ ai_gen_id }}">
+            <div class="ai-ointment-steps__number-{{ ai_gen_id }}">{{ i }}</div>
+            {% if step_title != blank %}
+              <h3 class="ai-ointment-steps__step-title-{{ ai_gen_id }}">{{ step_title }}</h3>
+            {% endif %}
+            {% if block.settings.show_icons %}
+              <div class="ai-ointment-steps__icon-{{ ai_gen_id }}">
+                {% if step_icon == 'hand' %}
+                  <svg viewBox="0 0 24 24"><path d="M9 11V6a1 1 0 0 1 2 0v5M9 11a1 1 0 1 1 2 0M9 11h2m0 0v5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1m0-9v5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v0a1 1 0 0 1-1 1h0M7 15a1 1 0 0 1-1-1V9a1 1 0 0 1 2 0v5a1 1 0 0 1-1 1z"/></svg>
+                {% elsif step_icon == 'droplet' %}
+                  <svg viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                {% elsif step_icon == 'clock' %}
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                {% elsif step_icon == 'check' %}
+                  <svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+                {% elsif step_icon == 'rotate' %}
+                  <svg viewBox="0 0 24 24"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg>
+                {% elsif step_icon == 'spray' %}
+                  <svg viewBox="0 0 24 24"><path d="M7 13v8a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-8M7 13h10M7 13l1-5h8l1 5M12 3v2M16 5l-1 1M8 5l1 1"/></svg>
+                {% elsif step_icon == 'sun' %}
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                {% else %}
+                  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+          {% if step_desc != blank %}
+            <div class="ai-ointment-steps__description-{{ ai_gen_id }}">{{ step_desc }}</div>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</ointment-steps-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class OintmentSteps{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('ointment-steps-{{ ai_gen_id }}', OintmentSteps{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Étapes pommade",
+  "settings": [
+    {
+      "type": "header",
+      "content": "En-tête"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Comment utiliser"
+    },
+    {
+      "type": "textarea",
+      "id": "subtitle",
+      "label": "Sous-titre",
+      "default": "Suivez ces étapes pour une application optimale"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Alignement",
+      "options": [
+        {
+          "value": "left",
+          "label": "Gauche"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Étape 1"
+    },
+    {
+      "type": "text",
+      "id": "step_1_title",
+      "label": "Titre",
+      "default": "Nettoyez la zone"
+    },
+    {
+      "type": "textarea",
+      "id": "step_1_description",
+      "label": "Description",
+      "default": "Lavez et séchez soigneusement la zone à traiter."
+    },
+    {
+      "type": "select",
+      "id": "step_1_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "spray"
+    },
+    {
+      "type": "header",
+      "content": "Étape 2"
+    },
+    {
+      "type": "text",
+      "id": "step_2_title",
+      "label": "Titre",
+      "default": "Prélevez la quantité"
+    },
+    {
+      "type": "textarea",
+      "id": "step_2_description",
+      "label": "Description",
+      "default": "Appliquez une noisette de pommade sur vos doigts."
+    },
+    {
+      "type": "select",
+      "id": "step_2_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "droplet"
+    },
+    {
+      "type": "header",
+      "content": "Étape 3"
+    },
+    {
+      "type": "text",
+      "id": "step_3_title",
+      "label": "Titre",
+      "default": "Massez en douceur"
+    },
+    {
+      "type": "textarea",
+      "id": "step_3_description",
+      "label": "Description",
+      "default": "Massez délicatement en mouvements circulaires."
+    },
+    {
+      "type": "select",
+      "id": "step_3_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "rotate"
+    },
+    {
+      "type": "header",
+      "content": "Étape 4"
+    },
+    {
+      "type": "text",
+      "id": "step_4_title",
+      "label": "Titre",
+      "default": "Laissez agir"
+    },
+    {
+      "type": "textarea",
+      "id": "step_4_description",
+      "label": "Description",
+      "default": "Attendez quelques minutes pour une pénétration optimale."
+    },
+    {
+      "type": "select",
+      "id": "step_4_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "clock"
+    },
+    {
+      "type": "header",
+      "content": "Étape 5"
+    },
+    {
+      "type": "text",
+      "id": "step_5_title",
+      "label": "Titre"
+    },
+    {
+      "type": "textarea",
+      "id": "step_5_description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "step_5_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "info"
+    },
+    {
+      "type": "header",
+      "content": "Étape 6"
+    },
+    {
+      "type": "text",
+      "id": "step_6_title",
+      "label": "Titre"
+    },
+    {
+      "type": "textarea",
+      "id": "step_6_description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "step_6_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "info"
+    },
+    {
+      "type": "header",
+      "content": "Étape 7"
+    },
+    {
+      "type": "text",
+      "id": "step_7_title",
+      "label": "Titre"
+    },
+    {
+      "type": "textarea",
+      "id": "step_7_description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "step_7_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "info"
+    },
+    {
+      "type": "header",
+      "content": "Étape 8"
+    },
+    {
+      "type": "text",
+      "id": "step_8_title",
+      "label": "Titre"
+    },
+    {
+      "type": "textarea",
+      "id": "step_8_description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "step_8_icon",
+      "label": "Icône",
+      "options": [
+        {
+          "value": "hand",
+          "label": "Main"
+        },
+        {
+          "value": "droplet",
+          "label": "Goutte"
+        },
+        {
+          "value": "spray",
+          "label": "Spray"
+        },
+        {
+          "value": "rotate",
+          "label": "Rotation"
+        },
+        {
+          "value": "clock",
+          "label": "Horloge"
+        },
+        {
+          "value": "sun",
+          "label": "Soleil"
+        },
+        {
+          "value": "check",
+          "label": "Validation"
+        },
+        {
+          "value": "info",
+          "label": "Info"
+        }
+      ],
+      "default": "info"
+    },
+    {
+      "type": "header",
+      "content": "Mise en page"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Largeur sur ordinateur",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Colonnes sur ordinateur",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "columns_tablet",
+      "label": "Colonnes sur tablette",
+      "min": 1,
+      "max": 3,
+      "step": 1,
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Espacement intérieur",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Arrondi des coins",
+      "min": 0,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "gap_between_steps",
+      "label": "Espacement entre étapes",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "header_spacing",
+      "label": "Espacement en-tête",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Style des cartes"
+    },
+    {
+      "type": "range",
+      "id": "item_padding",
+      "label": "Espacement intérieur",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "item_spacing",
+      "label": "Espacement éléments",
+      "min": 10,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "step_border_radius",
+      "label": "Arrondi des coins",
+      "min": 0,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "step_border_width",
+      "label": "Épaisseur bordure",
+      "min": 0,
+      "max": 5,
+      "step": 1,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Icônes"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icons",
+      "label": "Afficher les icônes",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Taille des icônes",
+      "min": 20,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Arrière-plan",
+      "default": "#1b1b1b"
+    },
+    {
+      "type": "color",
+      "id": "step_background",
+      "label": "Arrière-plan cartes",
+      "default": "#252525"
+    },
+    {
+      "type": "color",
+      "id": "step_border_color",
+      "label": "Bordure cartes",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Titre principal",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Texte",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "number_background",
+      "label": "Arrière-plan numéro",
+      "default": "#f0c417"
+    },
+    {
+      "type": "color",
+      "id": "number_text_color",
+      "label": "Couleur numéro",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "step_title_color",
+      "label": "Titre étape",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Couleur icônes",
+      "default": "#f0c417"
+    },
+    {
+      "type": "header",
+      "content": "Tailles de police"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Titre principal",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "label": "Sous-titre",
+      "min": 14,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "number_size",
+      "label": "Taille cercle numéroté",
+      "min": 35,
+      "max": 70,
+      "step": 5,
+      "unit": "px",
+      "default": 45
+    },
+    {
+      "type": "range",
+      "id": "number_font_size",
+      "label": "Taille numéro",
+      "min": 16,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "step_title_size",
+      "label": "Titre étape",
+      "min": 16,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description",
+      "min": 13,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Étapes pommade"
+    }
+  ],
+  "tag": null
+}
 {% endschema %}
