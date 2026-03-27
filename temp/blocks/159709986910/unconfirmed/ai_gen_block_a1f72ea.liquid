@@ -1,11 +1,11 @@
 {% doc %}
   @prompt
-    Section pour lister les etapes dutilisation dune pommade, je veux une section pour les differents etapes dutilisation dun epommade
+    Section pour lister les etapes dutilisation dune pommade, je veux une section pour les differents etapes dutilisation dun epommade, je veux une section pour les differents etapes dutilisation dun epommade
 {% enddoc %}
 {% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
 
 {% style %}
-  .ai-ointment-steps-{{ ai_gen_id }} {
+  .ai-usage-steps-{{ ai_gen_id }} {
     display: block;
     width: {{ block.settings.desktop_width_percent }}%;
     max-width: 100%;
@@ -14,26 +14,26 @@
     border-radius: {{ block.settings.border_radius }}px;
   }
 
-  .ai-ointment-steps__header-{{ ai_gen_id }} {
+  .ai-usage-steps__header-{{ ai_gen_id }} {
     text-align: {{ block.settings.text_alignment }};
     margin-bottom: {{ block.settings.header_spacing }}px;
   }
 
-  .ai-ointment-steps__title-{{ ai_gen_id }} {
+  .ai-usage-steps__title-{{ ai_gen_id }} {
     color: {{ block.settings.title_color }};
     font-size: {{ block.settings.title_size }}px;
     margin: 0 0 {{ block.settings.header_spacing | divided_by: 2 }}px;
     font-weight: 700;
   }
 
-  .ai-ointment-steps__subtitle-{{ ai_gen_id }} {
+  .ai-usage-steps__subtitle-{{ ai_gen_id }} {
     color: {{ block.settings.text_color }};
     font-size: {{ block.settings.subtitle_size }}px;
     margin: 0;
     opacity: 0.9;
   }
 
-  .ai-ointment-steps__grid-{{ ai_gen_id }} {
+  .ai-usage-steps__grid-{{ ai_gen_id }} {
     display: grid;
     grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
     gap: {{ block.settings.gap_between_steps }}px;
@@ -42,7 +42,7 @@
     list-style: none;
   }
 
-  .ai-ointment-steps__item-{{ ai_gen_id }} {
+  .ai-usage-steps__item-{{ ai_gen_id }} {
     display: flex;
     flex-direction: column;
     gap: {{ block.settings.item_spacing }}px;
@@ -53,17 +53,17 @@
     transition: transform 0.2s ease;
   }
 
-  .ai-ointment-steps__item-{{ ai_gen_id }}:hover {
+  .ai-usage-steps__item-{{ ai_gen_id }}:hover {
     transform: translateY(-4px);
   }
 
-  .ai-ointment-steps__number-wrapper-{{ ai_gen_id }} {
+  .ai-usage-steps__number-wrapper-{{ ai_gen_id }} {
     display: flex;
     align-items: center;
     gap: {{ block.settings.item_spacing }}px;
   }
 
-  .ai-ointment-steps__number-{{ ai_gen_id }} {
+  .ai-usage-steps__number-{{ ai_gen_id }} {
     flex-shrink: 0;
     width: {{ block.settings.number_size }}px;
     height: {{ block.settings.number_size }}px;
@@ -77,7 +77,7 @@
     font-size: {{ block.settings.number_font_size }}px;
   }
 
-  .ai-ointment-steps__step-title-{{ ai_gen_id }} {
+  .ai-usage-steps__step-title-{{ ai_gen_id }} {
     color: {{ block.settings.step_title_color }};
     font-size: {{ block.settings.step_title_size }}px;
     font-weight: 600;
@@ -85,13 +85,13 @@
     flex: 1;
   }
 
-  .ai-ointment-steps__icon-{{ ai_gen_id }} {
+  .ai-usage-steps__icon-{{ ai_gen_id }} {
     width: {{ block.settings.icon_size }}px;
     height: {{ block.settings.icon_size }}px;
     flex-shrink: 0;
   }
 
-  .ai-ointment-steps__icon-{{ ai_gen_id }} svg {
+  .ai-usage-steps__icon-{{ ai_gen_id }} svg {
     width: 100%;
     height: 100%;
     stroke: {{ block.settings.icon_color }};
@@ -99,7 +99,7 @@
     stroke-width: 2;
   }
 
-  .ai-ointment-steps__description-{{ ai_gen_id }} {
+  .ai-usage-steps__description-{{ ai_gen_id }} {
     color: {{ block.settings.text_color }};
     font-size: {{ block.settings.description_size }}px;
     margin: 0;
@@ -107,25 +107,25 @@
   }
 
   @media screen and (max-width: 989px) {
-    .ai-ointment-steps__grid-{{ ai_gen_id }} {
+    .ai-usage-steps__grid-{{ ai_gen_id }} {
       grid-template-columns: repeat({{ block.settings.columns_tablet }}, 1fr);
     }
   }
 
   @media screen and (max-width: 749px) {
-    .ai-ointment-steps-{{ ai_gen_id }} {
+    .ai-usage-steps-{{ ai_gen_id }} {
       width: 100%;
     }
 
-    .ai-ointment-steps__grid-{{ ai_gen_id }} {
+    .ai-usage-steps__grid-{{ ai_gen_id }} {
       grid-template-columns: 1fr;
     }
 
-    .ai-ointment-steps__title-{{ ai_gen_id }} {
+    .ai-usage-steps__title-{{ ai_gen_id }} {
       font-size: {{ block.settings.title_size | times: 0.8 }}px;
     }
 
-    .ai-ointment-steps__number-{{ ai_gen_id }} {
+    .ai-usage-steps__number-{{ ai_gen_id }} {
       width: {{ block.settings.number_size | times: 0.85 }}px;
       height: {{ block.settings.number_size | times: 0.85 }}px;
       font-size: {{ block.settings.number_font_size | times: 0.85 }}px;
@@ -133,19 +133,19 @@
   }
 {% endstyle %}
 
-<ointment-steps-{{ ai_gen_id }} class="ai-ointment-steps-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+<usage-steps-{{ ai_gen_id }} class="ai-usage-steps-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
   {% if block.settings.title != blank or block.settings.subtitle != blank %}
-    <div class="ai-ointment-steps__header-{{ ai_gen_id }}">
+    <div class="ai-usage-steps__header-{{ ai_gen_id }}">
       {% if block.settings.title != blank %}
-        <h2 class="ai-ointment-steps__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+        <h2 class="ai-usage-steps__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
       {% endif %}
       {% if block.settings.subtitle != blank %}
-        <div class="ai-ointment-steps__subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</div>
+        <div class="ai-usage-steps__subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</div>
       {% endif %}
     </div>
   {% endif %}
 
-  <ol class="ai-ointment-steps__grid-{{ ai_gen_id }}">
+  <ol class="ai-usage-steps__grid-{{ ai_gen_id }}">
     {% for i in (1..8) %}
       {% liquid
         assign step_title_key = 'step_' | append: i | append: '_title'
@@ -157,14 +157,14 @@
       %}
 
       {% if step_title != blank or step_desc != blank %}
-        <li class="ai-ointment-steps__item-{{ ai_gen_id }}">
-          <div class="ai-ointment-steps__number-wrapper-{{ ai_gen_id }}">
-            <div class="ai-ointment-steps__number-{{ ai_gen_id }}">{{ i }}</div>
+        <li class="ai-usage-steps__item-{{ ai_gen_id }}">
+          <div class="ai-usage-steps__number-wrapper-{{ ai_gen_id }}">
+            <div class="ai-usage-steps__number-{{ ai_gen_id }}">{{ i }}</div>
             {% if step_title != blank %}
-              <h3 class="ai-ointment-steps__step-title-{{ ai_gen_id }}">{{ step_title }}</h3>
+              <h3 class="ai-usage-steps__step-title-{{ ai_gen_id }}">{{ step_title }}</h3>
             {% endif %}
             {% if block.settings.show_icons %}
-              <div class="ai-ointment-steps__icon-{{ ai_gen_id }}">
+              <div class="ai-usage-steps__icon-{{ ai_gen_id }}">
                 {% if step_icon == 'hand' %}
                   <svg viewBox="0 0 24 24"><path d="M9 11V6a1 1 0 0 1 2 0v5M9 11a1 1 0 1 1 2 0M9 11h2m0 0v5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-1m0-9v5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v0a1 1 0 0 1-1 1h0M7 15a1 1 0 0 1-1-1V9a1 1 0 0 1 2 0v5a1 1 0 0 1-1 1z"/></svg>
                 {% elsif step_icon == 'droplet' %}
@@ -186,17 +186,17 @@
             {% endif %}
           </div>
           {% if step_desc != blank %}
-            <div class="ai-ointment-steps__description-{{ ai_gen_id }}">{{ step_desc }}</div>
+            <div class="ai-usage-steps__description-{{ ai_gen_id }}">{{ step_desc }}</div>
           {% endif %}
         </li>
       {% endif %}
     {% endfor %}
   </ol>
-</ointment-steps-{{ ai_gen_id }}>
+</usage-steps-{{ ai_gen_id }}>
 
 <script>
   (function() {
-    class OintmentSteps{{ ai_gen_id }} extends HTMLElement {
+    class UsageSteps{{ ai_gen_id }} extends HTMLElement {
       constructor() {
         super();
       }
@@ -206,13 +206,13 @@
       }
     }
 
-    customElements.define('ointment-steps-{{ ai_gen_id }}', OintmentSteps{{ ai_gen_id }});
+    customElements.define('usage-steps-{{ ai_gen_id }}', UsageSteps{{ ai_gen_id }});
   })();
 </script>
 
 {% schema %}
 {
-  "name": "Étapes pommade",
+  "name": "Étapes utilisation",
   "settings": [
     {
       "type": "header",
@@ -222,7 +222,7 @@
       "type": "text",
       "id": "title",
       "label": "Titre",
-      "default": "Comment utiliser"
+      "default": "Mode d'emploi"
     },
     {
       "type": "textarea",
@@ -947,7 +947,7 @@
   ],
   "presets": [
     {
-      "name": "Étapes pommade"
+      "name": "Étapes utilisation"
     }
   ],
   "tag": null
