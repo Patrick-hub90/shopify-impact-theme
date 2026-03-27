@@ -149,7 +149,7 @@
           "settings": {
             "text": "Certaines nuits, tu veux que ça dure. Formule Aoki est là pour ça.",
             "heading_tag": "h3",
-            "text_color": "",
+            "text_color": "#ff7d00",
             "gradient": ""
           }
         }
@@ -241,7 +241,7 @@
           "settings": {
             "text": "Ce que tu ressens vraiment dès la première utilisation",
             "heading_tag": "h2",
-            "text_color": "",
+            "text_color": "#ff7d00",
             "gradient": ""
           }
         },
@@ -289,7 +289,7 @@
           "settings": {
             "text": "Ce qui est dedans ? Que de la nature. Rien d'autre.",
             "heading_tag": "h2",
-            "text_color": "",
+            "text_color": "#ff7d00",
             "gradient": ""
           }
         },
