@@ -103,6 +103,7 @@
         "item_z3gQHk",
         "item_cDezVd"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -116,6 +117,134 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "17746454175e2b6227": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_a1f72ea_krrYMC": {
+          "type": "ai_gen_block_a1f72ea",
+          "settings": {
+            "title": "Comment utiliser la Formule Aoki ?",
+            "subtitle": "Suivez ces étapes simples pour une application optimale",
+            "text_alignment": "center",
+            "step_1_title": "Rincez et séchez",
+            "step_1_description": "Avant d'appliquer, rincez l'aubergine  à l'eau tiède et séchez doucement.",
+            "step_1_icon": "spray",
+            "step_2_title": "Prélevez une petite quantité",
+            "step_2_description": "Applique une petite quantité — Un peu suffit. Masse doucement 1 à 2 minutes sur la tete de ton aubergine pour que la crème soit absorbée.",
+            "step_2_icon": "droplet",
+            "step_3_title": "Appliquez en massant",
+            "step_3_description": "Massez délicatement en mouvements circulaires jusqu'à absorption complète.",
+            "step_3_icon": "rotate",
+            "step_4_title": "Laissez agir",
+            "step_4_description": "Attends 15 à 20 minutes — Laisse agir. C'est là que la crème fait son travail en profondeur.",
+            "step_4_icon": "clock",
+            "step_5_title": "Rincez avant le rapport",
+            "step_5_description": "Rincez à l'eau claire juste avant. Vous gardez l'effet, mais sans résidu pour ta partenaire.",
+            "step_5_icon": "spray",
+            "step_6_title": "",
+            "step_6_description": "",
+            "step_6_icon": "info",
+            "step_7_title": "",
+            "step_7_description": "",
+            "step_7_icon": "info",
+            "step_8_title": "",
+            "step_8_description": "",
+            "step_8_icon": "info",
+            "desktop_width_percent": 100,
+            "columns_desktop": 2,
+            "columns_tablet": 2,
+            "section_padding": 40,
+            "border_radius": 0,
+            "gap_between_steps": 25,
+            "header_spacing": 40,
+            "item_padding": 25,
+            "item_spacing": 15,
+            "step_border_radius": 10,
+            "step_border_width": 1,
+            "show_icons": true,
+            "icon_size": 30,
+            "background_color": "#1b1b1b",
+            "step_background": "#252525",
+            "step_border_color": "#333333",
+            "title_color": "#ffffff",
+            "text_color": "#ffffff",
+            "number_background": "#f0c417",
+            "number_text_color": "#1a1a1a",
+            "step_title_color": "#ffffff",
+            "icon_color": "#f0c417",
+            "title_size": 36,
+            "subtitle_size": 18,
+            "number_size": 45,
+            "number_font_size": 20,
+            "step_title_size": 20,
+            "description_size": 16
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_a1f72ea_krrYMC"
+      ],
+      "settings": {}
+    },
+    "1774609004e6b727f5": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_8a0d68c_hckTpz": {
+          "type": "ai_gen_block_8a0d68c",
+          "settings": {
+            "heading": "Composants du produit",
+            "description": "",
+            "heading_size": 32,
+            "description_size": 16,
+            "spacing_below_heading": 30,
+            "text_alignment": "center",
+            "columns_desktop": 3,
+            "columns_mobile": "2",
+            "grid_gap": 20,
+            "desktop_width_percent": 100,
+            "card_background": "#ffffff",
+            "card_padding": 20,
+            "card_border_radius": 8,
+            "card_border_width": 1,
+            "card_border_color": "#e5e5e5",
+            "card_text_alignment": "center",
+            "emoji_size": 60,
+            "spacing_below_icon": 15,
+            "background_color": "#f9f9f9",
+            "heading_color": "#1a1a1a",
+            "text_color": "#666666",
+            "ingredient_name_color": "#1a1a1a",
+            "ingredient_name_size": 18,
+            "ingredient_description_size": 14,
+            "section_padding": 40,
+            "ingredient_1_emoji": "🌿",
+            "ingredient_1_name": "Maca",
+            "ingredient_1_description": "La plante des guerriers andins. Énergie, endurance, libido — elle est connue pour ça depuis des siècles au Pérou.",
+            "ingredient_2_emoji": "🌿",
+            "ingredient_2_name": "Tongkat Ali",
+            "ingredient_2_description": "Plante emblématique d'Asie du Sud-Est pour la vitalité masculine. Elle booste la circulation sanguine vers le sexe — érection plus ferme et plus stable.",
+            "ingredient_3_emoji": "🌿",
+            "ingredient_3_name": "Epimedium",
+            "ingredient_3_description": "Surnommée \"l'herbe de la vigueur\" en Asie. Elle aide ton érection à tenir plus longtemps sans faiblir à mi-chemin.",
+            "ingredient_4_emoji": "🌿",
+            "ingredient_4_name": "Rhodiola",
+            "ingredient_4_description": "Réduit le stress et la fatigue. Ton corps tient mieux l'effort physique prolongé — tu restes dans ta zone de performance.",
+            "ingredient_5_emoji": "🌿",
+            "ingredient_5_name": "Cannelle",
+            "ingredient_5_description": "Active la circulation sanguine. Chaleur naturelle et légère qui se sent dès l'application.",
+            "ingredient_6_emoji": "🌿",
+            "ingredient_6_name": "Menthe",
+            "ingredient_6_description": "Sensation fraîche et apaisante. Aussi pour le confort de ta partenaire lors du rapport."
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_8a0d68c_hckTpz"
+      ],
+      "settings": {}
     },
     "rich_text_TY4xTk": {
       "type": "rich-text",
@@ -133,6 +262,7 @@
       "block_order": [
         "heading_yyh7wA"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -296,64 +426,6 @@
         "text_color": ""
       }
     },
-    "1774609004e6b727f5": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_8a0d68c_hckTpz": {
-          "type": "ai_gen_block_8a0d68c",
-          "settings": {
-            "heading": "Composants du produit",
-            "description": "",
-            "heading_size": 32,
-            "description_size": 16,
-            "spacing_below_heading": 30,
-            "text_alignment": "center",
-            "columns_desktop": 3,
-            "columns_mobile": "2",
-            "grid_gap": 20,
-            "desktop_width_percent": 100,
-            "card_background": "#ffffff",
-            "card_padding": 20,
-            "card_border_radius": 8,
-            "card_border_width": 1,
-            "card_border_color": "#e5e5e5",
-            "card_text_alignment": "center",
-            "emoji_size": 60,
-            "spacing_below_icon": 15,
-            "background_color": "#f9f9f9",
-            "heading_color": "#1a1a1a",
-            "text_color": "#666666",
-            "ingredient_name_color": "#1a1a1a",
-            "ingredient_name_size": 18,
-            "ingredient_description_size": 14,
-            "section_padding": 40,
-            "ingredient_1_emoji": "🌿",
-            "ingredient_1_name": "Maca",
-            "ingredient_1_description": "La plante des guerriers andins. Énergie, endurance, libido — elle est connue pour ça depuis des siècles au Pérou.",
-            "ingredient_2_emoji": "🌿",
-            "ingredient_2_name": "Tongkat Ali",
-            "ingredient_2_description": "Plante emblématique d'Asie du Sud-Est pour la vitalité masculine. Elle booste la circulation sanguine vers le sexe — érection plus ferme et plus stable.",
-            "ingredient_3_emoji": "🌿",
-            "ingredient_3_name": "Epimedium",
-            "ingredient_3_description": "Surnommée \"l'herbe de la vigueur\" en Asie. Elle aide ton érection à tenir plus longtemps sans faiblir à mi-chemin.",
-            "ingredient_4_emoji": "🌿",
-            "ingredient_4_name": "Rhodiola",
-            "ingredient_4_description": "Réduit le stress et la fatigue. Ton corps tient mieux l'effort physique prolongé — tu restes dans ta zone de performance.",
-            "ingredient_5_emoji": "🌿",
-            "ingredient_5_name": "Cannelle",
-            "ingredient_5_description": "Active la circulation sanguine. Chaleur naturelle et légère qui se sent dès l'application.",
-            "ingredient_6_emoji": "🌿",
-            "ingredient_6_name": "Menthe",
-            "ingredient_6_description": "Sensation fraîche et apaisante. Aussi pour le confort de ta partenaire lors du rapport."
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_8a0d68c_hckTpz"
-      ],
-      "settings": {}
-    },
     "1774613207d7f61aae": {
       "type": "apps",
       "blocks": {
@@ -365,6 +437,7 @@
       "block_order": [
         "amazon_reviews_by_appio_reviews_widget_9xHtXc"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -383,6 +456,8 @@
   "order": [
     "main",
     "multi_column_pRM638",
+    "17746454175e2b6227",
+    "1774609004e6b727f5",
     "rich_text_TY4xTk",
     "video_4mFKGr",
     "rich_text_JriNXr",
@@ -390,7 +465,6 @@
     "rich_text_MDCnkP",
     "video_3iUfyw",
     "rich_text_bPBXqA",
-    "1774609004e6b727f5",
     "1774613207d7f61aae"
   ]
 }
