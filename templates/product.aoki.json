@@ -143,6 +143,21 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_Pwac3C": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "video_4mFKGr": {
       "type": "video",
       "name": "Video",
@@ -353,6 +368,7 @@
     "main",
     "multi_column_pRM638",
     "rich_text_TY4xTk",
+    "image_with_text_overlay_Pwac3C",
     "video_4mFKGr",
     "rich_text_JriNXr",
     "image_with_text_overlay_JqM6zh",
