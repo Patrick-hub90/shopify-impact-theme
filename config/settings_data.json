@@ -65,6 +65,11 @@
         "type": "shopify://apps/booster-page-speed-optimizer/blocks/app-embed/d920faf3-7c60-423a-9636-22618b5561b5",
         "disabled": false,
         "settings": {}
+      },
+      "16420725565331586169": {
+        "type": "shopify://apps/amazon-reviews-by-appio/blocks/integration/569167b3-e5d6-4314-9866-f51281b506d7",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

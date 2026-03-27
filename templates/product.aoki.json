@@ -347,6 +347,31 @@
         "ai_gen_block_8a0d68c_hckTpz"
       ],
       "settings": {}
+    },
+    "1774613207d7f61aae": {
+      "type": "apps",
+      "blocks": {
+        "amazon_reviews_by_appio_reviews_widget_9xHtXc": {
+          "type": "shopify://apps/amazon-reviews-by-appio/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "amazon_reviews_by_appio_reviews_widget_9xHtXc"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -359,6 +384,7 @@
     "rich_text_MDCnkP",
     "video_3iUfyw",
     "rich_text_bPBXqA",
-    "1774609004e6b727f5"
+    "1774609004e6b727f5",
+    "1774613207d7f61aae"
   ]
 }
