@@ -24,32 +24,24 @@
             "show_taxes_notice": false
           }
         },
-        "text_nYbJtk": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Tu bandes plus dur. Elle revient.</h3><p>Une crème naturelle pour hommes qui veulent performer sans limite. Plus d'endurance, une érection ferme du début à la fin — dès la première utilisation.</p>"
-          }
-        },
         "text_HhK4Gf": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 <strong>Livraison gratuite <br/>💳 Paiement à livraison</strong></p>"
+            "text": "<p>🚚 <strong>Livraison gratuite uniquement à Abidjan<br/>💳 Paiement à livraison<br/>⚠️ Les expéditions dans les autres régions sont à la charge du clients.</strong></p>"
           }
         },
-        "collapsible_text_yEVftD": {
-          "type": "collapsible_text",
+        "easysell_cod_form_app_block_GKHjAc": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
           "settings": {
-            "title": "Comment bien utiliser la crème ?",
-            "content": "<h2><strong>Simple à utiliser. Résultats dès ce soir.</strong></h2><ol><li><strong>Rince et sèche</strong> — Avant d'appliquer, rince l'aubergine  à l'eau tiède et sèche doucement.</li><li><strong>Applique une petite quantité</strong> — Un peu suffit. Masse doucement 1 à 2 minutes sur la tete de ton aubergine pour que la crème soit absorbée.</li><li><strong>Attends 15 à 20 minutes</strong> — Laisse agir. C'est là que la crème fait son travail en profondeur.</li><li><strong>Rince avant le rapport</strong> — Rince à l'eau claire juste avant. Tu gardes l'effet, mais sans résidu pour ta partenaire.</li><li><strong>Profite</strong> — Tu es prêt. Tu contrôles. Tu dures.</li></ol>"
+            "product": ""
           }
         }
       },
       "block_order": [
         "title",
         "price_7nDK4k",
-        "text_nYbJtk",
         "text_HhK4Gf",
-        "collapsible_text_yEVftD"
+        "easysell_cod_form_app_block_GKHjAc"
       ],
       "settings": {
         "full_width": true,
@@ -141,7 +133,7 @@
             "step_4_icon": "clock",
             "step_5_title": "Rincez avant le rapport",
             "step_5_description": "Rincez à l'eau claire juste avant. Vous gardez l'effet, mais sans résidu pour ta partenaire.",
-            "step_5_icon": "spray",
+            "step_5_icon": "info",
             "step_6_title": "",
             "step_6_description": "",
             "step_6_icon": "info",
