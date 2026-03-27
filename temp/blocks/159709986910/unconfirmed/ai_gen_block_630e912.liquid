@@ -1,6 +1,444 @@
+{% doc %}
+  @prompt
+    Section pour lister les etapes dutilisation dune pommade
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-usage-steps-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.section_padding }}px;
+    background-color: {{ block.settings.background_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+  }
+
+  .ai-usage-steps__header-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    margin-bottom: {{ block.settings.spacing_between_elements }}px;
+  }
+
+  .ai-usage-steps__title-{{ ai_gen_id }} {
+    color: {{ block.settings.title_color }};
+    font-size: {{ block.settings.title_size }}px;
+    margin: 0 0 {{ block.settings.spacing_between_elements | divided_by: 2 }}px;
+  }
+
+  .ai-usage-steps__description-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.description_size }}px;
+    margin: 0;
+  }
+
+  .ai-usage-steps__list-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.spacing_between_steps }}px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ai-usage-steps__item-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.spacing_between_elements }}px;
+    align-items: flex-start;
+  }
+
+  .ai-usage-steps__number-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.number_size }}px;
+    height: {{ block.settings.number_size }}px;
+    border-radius: 50%;
+    background-color: {{ block.settings.number_background }};
+    color: {{ block.settings.number_text_color }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: {{ block.settings.number_font_size }}px;
+  }
+
+  .ai-usage-steps__content-{{ ai_gen_id }} {
+    flex: 1;
+    padding-top: {{ block.settings.number_size | minus: block.settings.step_title_size | divided_by: 2 }}px;
+  }
+
+  .ai-usage-steps__step-title-{{ ai_gen_id }} {
+    color: {{ block.settings.step_title_color }};
+    font-size: {{ block.settings.step_title_size }}px;
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+
+  .ai-usage-steps__step-text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.step_text_size }}px;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-usage-steps-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-usage-steps__number-{{ ai_gen_id }} {
+      width: {{ block.settings.number_size | times: 0.8 }}px;
+      height: {{ block.settings.number_size | times: 0.8 }}px;
+      font-size: {{ block.settings.number_font_size | times: 0.8 }}px;
+    }
+
+    .ai-usage-steps__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<usage-steps-{{ ai_gen_id }} class="ai-usage-steps-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.title != blank or block.settings.description != blank %}
+    <div class="ai-usage-steps__header-{{ ai_gen_id }}">
+      {% if block.settings.title != blank %}
+        <h2 class="ai-usage-steps__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+      {% endif %}
+      {% if block.settings.description != blank %}
+        <div class="ai-usage-steps__description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <ol class="ai-usage-steps__list-{{ ai_gen_id }}">
+    {% for i in (1..6) %}
+      {% liquid
+        assign step_title_key = 'step_' | append: i | append: '_title'
+        assign step_text_key = 'step_' | append: i | append: '_text'
+        assign step_title = block.settings[step_title_key]
+        assign step_text = block.settings[step_text_key]
+      %}
+
+      {% if step_title != blank or step_text != blank %}
+        <li class="ai-usage-steps__item-{{ ai_gen_id }}">
+          <div class="ai-usage-steps__number-{{ ai_gen_id }}">{{ i }}</div>
+          <div class="ai-usage-steps__content-{{ ai_gen_id }}">
+            {% if step_title != blank %}
+              <h3 class="ai-usage-steps__step-title-{{ ai_gen_id }}">{{ step_title }}</h3>
+            {% endif %}
+            {% if step_text != blank %}
+              <div class="ai-usage-steps__step-text-{{ ai_gen_id }}">{{ step_text }}</div>
+            {% endif %}
+          </div>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+</usage-steps-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class UsageSteps{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('usage-steps-{{ ai_gen_id }}', UsageSteps{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Étapes d'utilisation",
+  "settings": [
+    {
+      "type": "header",
+      "content": "En-tête"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre",
+      "default": "Mode d'emploi"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Alignement du texte",
+      "options": [
+        {
+          "value": "left",
+          "label": "Gauche"
+        },
+        {
+          "value": "center",
+          "label": "Centre"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Étape 1"
+    },
+    {
+      "type": "text",
+      "id": "step_1_title",
+      "label": "Titre",
+      "default": "Nettoyez la zone"
+    },
+    {
+      "type": "textarea",
+      "id": "step_1_text",
+      "label": "Description",
+      "default": "Nettoyez et séchez soigneusement la zone à traiter avant l'application."
+    },
+    {
+      "type": "header",
+      "content": "Étape 2"
+    },
+    {
+      "type": "text",
+      "id": "step_2_title",
+      "label": "Titre",
+      "default": "Appliquez une petite quantité"
+    },
+    {
+      "type": "textarea",
+      "id": "step_2_text",
+      "label": "Description",
+      "default": "Prélevez une noisette de pommade et appliquez-la sur la zone concernée."
+    },
+    {
+      "type": "header",
+      "content": "Étape 3"
+    },
+    {
+      "type": "text",
+      "id": "step_3_title",
+      "label": "Titre",
+      "default": "Massez délicatement"
+    },
+    {
+      "type": "textarea",
+      "id": "step_3_text",
+      "label": "Description",
+      "default": "Massez en mouvements circulaires jusqu'à absorption complète du produit."
+    },
+    {
+      "type": "header",
+      "content": "Étape 4"
+    },
+    {
+      "type": "text",
+      "id": "step_4_title",
+      "label": "Titre"
+    },
+    {
+      "type": "textarea",
+      "id": "step_4_text",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Étape 5"
+    },
+    {
+      "type": "text",
+      "id": "step_5_title",
+      "label": "Titre"
+    },
+    {
+      "type": "textarea",
+      "id": "step_5_text",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Étape 6"
+    },
+    {
+      "type": "text",
+      "id": "step_6_title",
+      "label": "Titre"
+    },
+    {
+      "type": "textarea",
+      "id": "step_6_text",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Mise en page"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Largeur sur ordinateur",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Espacement intérieur",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Arrondi des coins",
+      "min": 0,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "spacing_between_steps",
+      "label": "Espacement entre les étapes",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "spacing_between_elements",
+      "label": "Espacement entre les éléments",
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Arrière-plan",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Titre",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Texte",
+      "default": "#677279"
+    },
+    {
+      "type": "color",
+      "id": "number_background",
+      "label": "Arrière-plan du numéro",
+      "default": "#f0c417"
+    },
+    {
+      "type": "color",
+      "id": "number_text_color",
+      "label": "Couleur du numéro",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "step_title_color",
+      "label": "Titre de l'étape",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Tailles de police"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Titre principal",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "number_size",
+      "label": "Taille du cercle numéroté",
+      "min": 30,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "number_font_size",
+      "label": "Taille du numéro",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "step_title_size",
+      "label": "Titre de l'étape",
+      "min": 14,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "step_text_size",
+      "label": "Texte de l'étape",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    }
+  ],
+  "presets": [
+    {
+      "name": "Étapes d'utilisation"
+    }
+  ],
+  "tag": null
+}
 {% endschema %}
