@@ -145,6 +145,7 @@
     },
     "video_4mFKGr": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -183,6 +184,7 @@
         "richtext_NtBQJE",
         "button_gnAPA9"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -195,6 +197,7 @@
     },
     "image_with_text_overlay_JqM6zh": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -232,6 +235,7 @@
         "heading_ax3hDb",
         "richtext_3RGihp"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -244,6 +248,7 @@
     },
     "video_3iUfyw": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -280,6 +285,7 @@
         "heading_RUfa83",
         "richtext_zDYb4d"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
