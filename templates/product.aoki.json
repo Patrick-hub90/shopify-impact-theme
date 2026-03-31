@@ -110,6 +110,110 @@
         "text_color": ""
       }
     },
+    "multi_column_E9M8JJ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CMneWH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/20231021150533b1b7d4849c3247c7a720c5dc1270dd3f.webp",
+            "column_size": "3",
+            "title": "Cnidium Monnieri",
+            "heading_tag": "h4",
+            "content": "<p><br/>C'est l'ingrédient le plus important du produit. En application locale, il réduit l'hypersensibilité du gland — ce qui permet de prolonger le rapport sans couper le plaisir.La médecine chinoise l'utilise depuis plus de 2000 ans exactement pour ça : contrôler l'éjaculation précoce et renforcer la fonction sexuelle masculine.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VmJhnF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/epimidio_png.webp",
+            "column_size": "3",
+            "title": "Epimedium — Herbe de Chèvre Cornée",
+            "heading_tag": "h4",
+            "content": "<p>Cette plante contient de l'icariin, un composé qui inhibe naturellement l'enzyme responsable de la perte d'érection — le même mécanisme que le Viagra, mais sans chimie. En topique, elle stimule la microcirculation sanguine locale, ce qui donne une érection plus ferme, plus durable et plus réactive. C'est la plante aphrodisiaque la plus étudiée scientifiquement au monde, et les résultats sont cohérents.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BxC6kt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/What-is-Tongkat-Ali.jpg",
+            "column_size": "3",
+            "title": "Tongkat Ali",
+            "heading_tag": "h4",
+            "content": "<p>Le secret des hommes d'Asie du Sud-Est. Le Tongkat Ali agit à deux niveaux : il augmente la testostérone libre dans le sang — ce qui relance directement le désir, la confiance et l'endurance — et il contient une molécule prouvée pour retarder le réflexe éjaculatoire. En plus de ça, il fait chuter le cortisol, l'hormone du stress. Et le stress, c'est la première cause de l'éjaculation précoce chez les hommes actifs. Tongkat Ali s'attaque donc à la racine du problème, pas juste au symptôme.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8xRrtq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/rhodiola-rosea-1296x728.webp",
+            "column_size": "3",
+            "title": "Rhodiola Rosea",
+            "heading_tag": "h4",
+            "content": "<p>Cette plante ne touche pas directement à la sexualité — elle touche à ce qui la détruit : l'anxiété de performance. La Rhodiola est un adaptogène cliniquement prouvé qui régule le cortisol et l'adrénaline. Quand un homme entre au lit stressé, son système nerveux est en alerte et le corps réagit en précipitant l'éjaculation. La Rhodiola calme ce mécanisme. Elle est utilisée par les alpinistes, les sportifs de haut niveau et les cosmonautes russes pour garder la tête froide sous pression. Au lit, c'est exactement ce dont on a besoin.<br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wngAgJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/i104271-maca-ps.webp",
+            "column_size": "3",
+            "title": "Maca",
+            "heading_tag": "h4",
+            "content": "<p>Cette racine andine consommée depuis 3000 ans booste la libido, l'énergie et le désir de façon naturelle et durable.  Concrètement, elle fait entrer l'homme dans le rapport avec de l'énergie et de l'envie réelles — pas du stress, pas de pression. C'est la fondation émotionnelle et physique d'une bonne performance.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_a3MWtm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Smilax-glabra-04.webp",
+            "column_size": "3",
+            "title": "Smilax Glabra",
+            "heading_tag": "h4",
+            "content": "<p> La Smilax Glabra est ce qu'on appelle un potentialisateur : elle améliore l'absorption cutanée des autres actifs et amplifie leur action en synergie. Elle agit aussi comme anti-inflammatoire local, ce qui rend l'application confortable et bien tolérée par la peau. <br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CMneWH",
+        "item_VmJhnF",
+        "item_BxC6kt",
+        "item_8xRrtq",
+        "item_wngAgJ",
+        "item_a3MWtm"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "6 plantes asiatiques pour un seul objectif",
+        "content": "<p>Combler toutes les insuffisances pour vous rendre plus performant au lit pour votre partenaire. Gagner en endurance pour mieux la satisfaire. </p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "17746454175e2b6227": {
       "type": "_blocks",
       "blocks": {
@@ -236,6 +340,7 @@
       "block_order": [
         "ai_gen_block_8a0d68c_hckTpz"
       ],
+      "disabled": true,
       "settings": {}
     },
     "rich_text_TY4xTk": {
@@ -448,6 +553,7 @@
   "order": [
     "main",
     "multi_column_pRM638",
+    "multi_column_E9M8JJ",
     "17746454175e2b6227",
     "1774609004e6b727f5",
     "rich_text_TY4xTk",
