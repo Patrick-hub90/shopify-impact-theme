@@ -214,6 +214,34 @@
         "text_color": ""
       }
     },
+    "rich_text_waTkCi": {
+      "type": "rich-text",
+      "blocks": {
+        "button_CAxiY6": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Contactez nous par whatsapp",
+            "url": "https://wa.me/2250799819467?text=Bonjour%20comment%20allez-vous%20%3F%20Je%20voudrais%20commander%20la%20Cr%C3%A8me%20asiatique.%20Est-elle%20disponible%20%3F",
+            "background": "#00a341",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "button_CAxiY6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "17746454175e2b6227": {
       "type": "_blocks",
       "blocks": {
@@ -554,6 +582,7 @@
     "main",
     "multi_column_pRM638",
     "multi_column_E9M8JJ",
+    "rich_text_waTkCi",
     "17746454175e2b6227",
     "1774609004e6b727f5",
     "rich_text_TY4xTk",
