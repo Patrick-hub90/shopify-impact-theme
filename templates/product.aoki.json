@@ -61,6 +61,39 @@
         "input_text_color": ""
       }
     },
+    "rich_text_VMpMHj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_g8EDJt": {
+          "type": "heading",
+          "settings": {
+            "text": "🔥 Crème Asiatique Très Puissante Pour Les Hommes De 40 Ans Et Plus",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_PNiz8f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Vous avez plus de 40 ans et vous sentez que votre corps ne répond plus comme avant ? Cette crème à base de 6 plantes asiatiques utilisées depuis plus de 2000 ans va tout changer :</p><p>✅ <strong>+20 minutes de pénétration</strong> — Retarde l'éjaculation naturellement grâce au Cnidium Monnieri, sans couper le plaisir</p><p>✅ <strong>Érection ferme et dure même après 55 ans</strong> — L'Herbe de Chèvre Cornée agit comme un viagra naturel en stimulant la circulation sanguine directement là où il faut</p><p>✅ <strong>Aubergine plus imposante pendant l'acte</strong> — Le Tongkat Ali et la Maca boostent l'afflux sanguin pour un volume plus important à chaque rapport</p><p>✅ <strong>Testostérone relancée naturellement</strong> — Votre désir, votre énergie et votre confiance reviennent comme à vos 25 ans</p><p>✅ <strong>Résultats dès la première utilisation</strong> — Application locale en 2 minutes, effet immédiat, pas de comprimé à avaler</p><p>✅ <strong>100% plantes naturelles</strong> — Aucun effet secondaire, aucun produit chimique, formule douce adaptée aux hommes âgés</p><p>👉 Votre femme va remarquer la différence dès la première nuit.</p><p>📦 Livraison gratuite à Abidjan — Paiement à la livraison</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_g8EDJt",
+        "richtext_PNiz8f"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multi_column_pRM638": {
       "type": "multi-column",
       "blocks": {
@@ -580,6 +613,7 @@
   },
   "order": [
     "main",
+    "rich_text_VMpMHj",
     "multi_column_pRM638",
     "multi_column_E9M8JJ",
     "rich_text_waTkCi",
