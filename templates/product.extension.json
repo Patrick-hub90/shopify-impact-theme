@@ -40,51 +40,19 @@
             "show_empty": false
           }
         },
+        "easysell_cod_form_app_block_XYwp7X": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
         },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "text_3MJaEN": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>⚡ RÉVOLUTIONNAIRE : </em>Le SEUL adaptateur qui charge 5 appareils à pleine vitesse - Plus que 85 pièces en stock !</p>"
-          }
-        },
-        "liquid_Jpizga": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Dynamic Order Count</title>\n  <style>\n    #dynamicText {\n      color: #6E72F0;\n      font-size: 15px;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <p id=\"dynamicText\"></p>\n\n  <script>\n    function updateOrderCount() {\n      // Générez un nombre aléatoire pour le nombre de commandes (N)\n      const numberOfOrders = Math.floor(Math.random() * 2) + 1; // Chiffre aléatoire entre 1 et 5\n\n      // Déterminez si le nombre est égal à 1 pour ajuster l'orthographe\n      const orderText = numberOfOrders === 1 ? 'commande' : 'commandes';\n\n      // Mettez à jour le texte avec le nouveau nombre de commandes et l'orthographe correcte\n      document.getElementById('dynamicText').innerHTML = `<span style=\"color: #000000; font-weight: bold;\">${numberOfOrders}</span> ${orderText} vien${numberOfOrders === 1 ? 't' : 'nnent'} d'être effectué${numberOfOrders === 1 ? 'e' : 's'}.`;\n    }\n\n    // Définissez un intervalle de temps variable entre 3 et 8 secondes (5000 et 15000 millisecondes)\n    const randomInterval = () => Math.floor(Math.random() * (9000 - 3000 + 1)) + 3000;\n    \n    // Mettez à jour les chiffres à des intervalles de temps aléatoires\n    setInterval(updateOrderCount, randomInterval());\n\n    // Appelez la fonction une fois au début pour afficher les chiffres initiaux\n    updateOrderCount();\n  </script>\n\n</body>\n</html>"
-          }
-        },
-        "text_ELXQm3": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li><li>✅ <strong>Échange gratuit</strong> si la taille ne convient pas</li></ul>"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
         "separator_BwTEfW": {
           "type": "separator",
           "settings": {}
-        },
-        "text_zywWY6": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>TOTAL À PAYER À LA LIVRAISON : 9 900 CFA </strong><em>(au lieu de 25 000 CFA)</em></p>"
-          }
         }
       },
       "block_order": [
@@ -93,14 +61,9 @@
         "badges",
         "price",
         "rating",
+        "easysell_cod_form_app_block_XYwp7X",
         "payment_terms",
-        "separator",
-        "text_3MJaEN",
-        "liquid_Jpizga",
-        "text_ELXQm3",
-        "variant_picker",
-        "separator_BwTEfW",
-        "text_zywWY6"
+        "separator_BwTEfW"
       ],
       "settings": {
         "full_width": true,
@@ -120,143 +83,55 @@
         "input_text_color": ""
       }
     },
-    "scrolling_text_nbJFE8": {
-      "type": "scrolling-text",
-      "name": "Scrolling text",
+    "rich_text_AjBzbt": {
+      "type": "rich-text",
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "text": "Plus de 5 000 clients satisfaits à Dakar | Livraison en 2h | Paiement sécurisé",
-        "text_size": "small",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 3,
-        "background": "#1a1a1a",
-        "background_gradient": "",
-        "text_color": "#ffffff",
-        "text_gradient": ""
-      }
-    },
-    "1757608418ec914bc0": {
-      "type": "apps",
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "multi_column_x47rbG": {
-      "type": "multi-column",
-      "blocks": {
-        "item_KRYJ6k": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_3_140-1.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_wtU9Yw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_7_IMG8.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_VUdTrq": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_12_IMG3_13f69974-71dc-4a0f-8b56-9493e1311b95.webp",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_LaWqH3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/imgi_11_IMG4.webp",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "item_KRYJ6k",
-        "item_wtU9Yw",
-        "item_VUdTrq",
-        "item_LaWqH3"
-      ],
-      "name": "Multi-column",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "image_with_text_overlay_WRFaPH": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_YMPJ6Q": {
+      "type": "video",
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imgi_90_GIF_02.gif",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "sm",
+        "video": "shopify://files/videos/ef36ff5831e945ebb346cfaa14182680.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
-    "rich_text_yCBeNf": {
+    "rich_text_tpRPWJ": {
       "type": "rich-text",
       "blocks": {
-        "richtext_xN7wFj": {
+        "heading_gPcwEH": {
+          "type": "heading",
+          "settings": {
+            "text": "Augmentez Instantanément le Volume de votre 🍆 (Sans Pilules, Sans Traitement)",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_hWtPT7": {
           "type": "richtext",
           "settings": {
-            "content": "<h2><strong>FINI LES GALÈRES DE PRISES AU BUREAU</strong></h2><h2>Une solution intelligente pour tous vos appareils.</h2><p>Vous en avez assez de :</p><ul><li>• Chercher des prises libres partout où vous allez ?</li><li>• Devoir débrancher un appareil pour en charger un autre ?</li><li>• Attendre des heures que vos appareils se rechargent ?</li></ul><p><strong>NOTRE SOLUTION :</strong> Notre adaptateur transforme n'importe quelle prise en station de charge complète. 4 ports USB (2 USB-C + 2 USB-A) + 1 prise secteur universelle. Tous vos appareils chargent simultanément à pleine vitesse.</p><p><strong>RÉSULTAT IMMÉDIAT :</strong> 5 appareils chargés en même temps, 3x plus vite qu'un chargeur classique.</p>"
+            "content": "<p>En l'enfilant, vous ajoutez immédiatement une épaisseur de silicone  qui garantit une sensation de plénitude totale pour votre partenaire à chaque mouvement. </p>"
           }
         }
       },
       "block_order": [
-        "richtext_xN7wFj"
+        "heading_gPcwEH",
+        "richtext_hWtPT7"
       ],
       "name": "Rich text",
       "settings": {
@@ -268,7 +143,7 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_aY8gMj": {
+    "image_with_text_overlay_L6jBmW": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
@@ -276,7 +151,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/imgi_6_IMG6.png",
+        "image": "shopify://shop_images/BGCAGFC53VHPXDVHHQ63ICF424.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -284,18 +159,28 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_AEAtMf": {
+    "rich_text_UxtFiG": {
       "type": "rich-text",
       "blocks": {
-        "richtext_apaJeq": {
+        "heading_7RxWnz": {
+          "type": "heading",
+          "settings": {
+            "text": "Elle va crier de joie toute la nuit...",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cJ7ykx": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>🔋 <strong>TECHNOLOGIE DE CHARGE RAPIDE INTELLIGENTE</strong></h2><p><strong>Comment ça fonctionne :</strong></p><ol><li><strong>Détection automatique</strong> - L'adaptateur identifie chaque appareil connecté</li><li><strong>Optimisation de puissance</strong> - Distribue la charge optimale pour chaque device</li><li><strong>Charge simultanée</strong> - Aucune perte de vitesse même avec 5 appareils branchés</li></ol>"
+            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure.</p>"
           }
         }
       },
       "block_order": [
-        "richtext_apaJeq"
+        "heading_7RxWnz",
+        "richtext_cJ7ykx"
       ],
       "name": "Rich text",
       "settings": {
@@ -307,118 +192,26 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_fEfE4x": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/imgi_89_GIF_01.gif",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_BzbCac": {
+    "rich_text_jNXzcw": {
       "type": "rich-text",
-      "blocks": {
-        "richtext_KFimte": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h2><strong>UNE SEULE PRISE POUR TOUS VOS BESOINS</strong></h2><h3>La liberté de ne plus jamais manquer de prise.</h3><p>Imaginez pouvoir :</p><ul><li>• ✅ Charger votre laptop ET téléphone au bureau</li><li>• ✅ Brancher tous vos appareils au restaurant</li><li>• ✅ Avoir une station de charge complète à la maison</li><li>• ✅ Ne plus jamais attendre qu'une prise se libère</li></ul><p><strong>TOUT CELA AVEC UN SEUL ADAPTATEUR !</strong></p><p>Grâce à notre <strong>technologie multi-ports intelligente</strong>, cet adaptateur remplace 5 chargeurs différents. Compatible avec TOUTES les formes de prises : européennes, américaines, britanniques, et etc...</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_KFimte"
-      ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "testimonials_9HhBci": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_fkiHH9": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Fatou, 34 ans,",
-            "title": "",
-            "content": "<p><em>Ce livre est vraiment très éfficace. Mon enfant prononce bien les mots, il n'a que 6 ans et il arrive déja à  nommé facilement tous les objets de la maison.</em></p>"
-          }
-        },
-        "testimonial_naCEiF": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Aïssatou, 28 ans",
-            "title": "",
-            "content": "<p><em>Je suis </em>enseignante<em> et j'ai acheté ce livre pour les enfants de la </em>maternelle, je vous recommande vraiment ce livre. C'est très éducatif</p>"
-          }
-        },
-        "testimonial_KpjK4k": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Gueye, 41 ans",
-            "title": "",
-            "content": "<p><em>Super livre!</em></p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_fkiHH9",
-        "testimonial_naCEiF",
-        "testimonial_KpjK4k"
-      ],
-      "disabled": true,
-      "name": "Testimonials",
-      "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Ce que disent nos clients",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "scrolling_text_nbJFE8",
-    "1757608418ec914bc0",
-    "multi_column_x47rbG",
-    "image_with_text_overlay_WRFaPH",
-    "rich_text_yCBeNf",
-    "image_with_text_overlay_aY8gMj",
-    "rich_text_AEAtMf",
-    "image_with_text_overlay_fEfE4x",
-    "rich_text_BzbCac",
-    "testimonials_9HhBci"
+    "rich_text_AjBzbt",
+    "video_YMPJ6Q",
+    "rich_text_tpRPWJ",
+    "image_with_text_overlay_L6jBmW",
+    "rich_text_UxtFiG",
+    "rich_text_jNXzcw"
   ]
 }
