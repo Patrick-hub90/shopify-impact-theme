@@ -18,10 +18,10 @@
             "heading_tag": "h2"
           }
         },
-        "text_XVF8LK": {
+        "text_dbUxnm": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Vérification à la livraison</strong></li><li><strong>Garantie 7 jours :</strong> Satisfait ou remboursé</li><li><strong>Colis 100% Anonyme : </strong>Le livreur ne sait pas ce qu'il y a dedans.</li></ul>"
+            "text": "<p>Une seule prise pour tous vos appareils - Adaptateur qui transforme 1 prise en 5 ports de charge rapide.</p>"
           }
         },
         "badges": {
@@ -44,16 +44,26 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "easysell_cod_form_app_block_rrhTyh": {
-          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_3MJaEN": {
+          "type": "text",
           "settings": {
-            "product": ""
+            "text": "<p><em>⚡ RÉVOLUTIONNAIRE : </em>Le SEUL adaptateur qui charge 5 appareils à pleine vitesse - Plus que 85 pièces en stock !</p>"
           }
         },
-        "description": {
-          "type": "description",
+        "liquid_Jpizga": {
+          "type": "liquid",
           "settings": {
-            "collapse_content": false
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Dynamic Order Count</title>\n  <style>\n    #dynamicText {\n      color: #6E72F0;\n      font-size: 15px;\n      font-weight: bold;\n    }\n  </style>\n</head>\n<body>\n\n  <p id=\"dynamicText\"></p>\n\n  <script>\n    function updateOrderCount() {\n      // Générez un nombre aléatoire pour le nombre de commandes (N)\n      const numberOfOrders = Math.floor(Math.random() * 2) + 1; // Chiffre aléatoire entre 1 et 5\n\n      // Déterminez si le nombre est égal à 1 pour ajuster l'orthographe\n      const orderText = numberOfOrders === 1 ? 'commande' : 'commandes';\n\n      // Mettez à jour le texte avec le nouveau nombre de commandes et l'orthographe correcte\n      document.getElementById('dynamicText').innerHTML = `<span style=\"color: #000000; font-weight: bold;\">${numberOfOrders}</span> ${orderText} vien${numberOfOrders === 1 ? 't' : 'nnent'} d'être effectué${numberOfOrders === 1 ? 'e' : 's'}.`;\n    }\n\n    // Définissez un intervalle de temps variable entre 3 et 8 secondes (5000 et 15000 millisecondes)\n    const randomInterval = () => Math.floor(Math.random() * (9000 - 3000 + 1)) + 3000;\n    \n    // Mettez à jour les chiffres à des intervalles de temps aléatoires\n    setInterval(updateOrderCount, randomInterval());\n\n    // Appelez la fonction une fois au début pour afficher les chiffres initiaux\n    updateOrderCount();\n  </script>\n\n</body>\n</html>"
+          }
+        },
+        "text_ELXQm3": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>🛡️ GARANTIE TOTALE - ZÉRO RISQUE</h4><ul><li>✅ <strong>30 jours satisfait ou 100% remboursé</strong></li><li>✅ <strong>Livraison gratuite en 2h à Dakar</strong></li><li>✅ <strong>Testez avant de payer</strong> (paiement à la livraison)</li><li>✅ <strong>Échange gratuit</strong> si la taille ne convient pas</li></ul>"
           }
         },
         "variant_picker": {
@@ -66,25 +76,31 @@
             "size_chart_page": ""
           }
         },
-        "collapsible_text_Vjhy9n": {
-          "type": "collapsible_text",
+        "separator_BwTEfW": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_zywWY6": {
+          "type": "text",
           "settings": {
-            "title": "📝 Conseils d'Utilisation Importants",
-            "content": "<ul><li><strong>Lubrification recommandée :</strong> Pour un confort total et une mise en place facile, nous vous conseillons vivement d'utiliser un lubrifiant à base d'eau (disponible en pharmacie) lors de l'utilisation.</li><li><strong>Hygiène :</strong> Lavez simplement à l'eau et au savon après chaque usage.</li></ul>"
+            "text": "<p><strong>TOTAL À PAYER À LA LIVRAISON : 9 900 CFA </strong><em>(au lieu de 25 000 CFA)</em></p>"
           }
         }
       },
       "block_order": [
         "title",
-        "text_XVF8LK",
+        "text_dbUxnm",
         "badges",
         "price",
         "rating",
         "payment_terms",
-        "easysell_cod_form_app_block_rrhTyh",
-        "description",
+        "separator",
+        "text_3MJaEN",
+        "liquid_Jpizga",
+        "text_ELXQm3",
         "variant_picker",
-        "collapsible_text_Vjhy9n"
+        "separator_BwTEfW",
+        "text_zywWY6"
       ],
       "settings": {
         "full_width": true,
@@ -93,7 +109,7 @@
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": false,
+        "enable_video_autoplay": true,
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
@@ -104,13 +120,46 @@
         "input_text_color": ""
       }
     },
-    "multi_column_DYGcr8": {
+    "scrolling_text_nbJFE8": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Plus de 5 000 clients satisfaits à Dakar | Livraison en 2h | Paiement sécurisé",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "text_gradient": ""
+      }
+    },
+    "1757608418ec914bc0": {
+      "type": "apps",
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "multi_column_x47rbG": {
       "type": "multi-column",
       "blocks": {
-        "item_Pz4Xyn": {
+        "item_KRYJ6k": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_15.png",
+            "image": "shopify://shop_images/imgi_3_140-1.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -120,10 +169,10 @@
             "link_style": "link"
           }
         },
-        "item_qLtrpf": {
+        "item_wtU9Yw": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_14.png",
+            "image": "shopify://shop_images/imgi_7_IMG8.jpg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -133,10 +182,10 @@
             "link_style": "link"
           }
         },
-        "item_7BnqBd": {
+        "item_VUdTrq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_12.png",
+            "image": "shopify://shop_images/imgi_12_IMG3_13f69974-71dc-4a0f-8b56-9493e1311b95.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -146,10 +195,10 @@
             "link_style": "link"
           }
         },
-        "item_nVxNVA": {
+        "item_LaWqH3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/img_0136_13.png",
+            "image": "shopify://shop_images/imgi_11_IMG4.webp",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -161,10 +210,10 @@
         }
       },
       "block_order": [
-        "item_Pz4Xyn",
-        "item_qLtrpf",
-        "item_7BnqBd",
-        "item_nVxNVA"
+        "item_KRYJ6k",
+        "item_wtU9Yw",
+        "item_VUdTrq",
+        "item_LaWqH3"
       ],
       "name": "Multi-column",
       "settings": {
@@ -173,47 +222,14 @@
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
-        "title": "Témoignage de nos clients",
-        "content": "<p>Retrouvez les retours des utilisateurs de notre produit</p>",
+        "title": "",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "rich_text_Xk6L6A": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_M36whR": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_4FD9AE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h3>🔥 Le dispositif qui rend votre 🍆 instantanément Plus Gros, Plus Endurant et Plus Performant.</h3><p>Ne vous contentez plus de la moyenne. Le dispositif <strong>Extension XXL</strong> est conçu pour les hommes qui veulent <strong>plus de volume</strong>, <strong>plus d'endurance</strong> et <strong>plus de sensations</strong> pour leur partenaire.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_M36whR",
-        "richtext_4FD9AE"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_JNWHyg": {
+    "image_with_text_overlay_WRFaPH": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
@@ -221,7 +237,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/d254f4c9-2e72-4f90-aec4-07cc9d946097_f7428905-31df-4656-b95a-5d9c08581d58.jpg",
+        "image": "shopify://shop_images/imgi_90_GIF_02.gif",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -229,169 +245,18 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_pezP7C": {
+    "rich_text_yCBeNf": {
       "type": "rich-text",
       "blocks": {
-        "heading_jtKiJU": {
-          "type": "heading",
-          "settings": {
-            "text": "Augmentez Instantanément le Volume de votre 🍆 (Sans Pilules, Sans Traitement)",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_wEM4q8": {
+        "richtext_xN7wFj": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>📈 Volume Instantané (+33%) :</strong> Pas de pilules, pas d'attente. Enfilez-le et gagnez immédiatement en épaisseur. La texture en silicone médical agit comme une seconde peau pour une sensation de plénitude totale.</p>"
-          }
-        },
-        "button_kBxwhK": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "base",
-            "text": "Contactez-nous par Whatsapp",
-            "url": "https://wa.me/221785906444?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20l'Extension%20XXL%20que%20j'ai%20vue%20sur%20votre%20site.%20Est-elle%20toujours%20disponible%20%3F",
-            "background": "#00a341",
-            "text_color": ""
+            "content": "<h2><strong>FINI LES GALÈRES DE PRISES AU BUREAU</strong></h2><h2>Une solution intelligente pour tous vos appareils.</h2><p>Vous en avez assez de :</p><ul><li>• Chercher des prises libres partout où vous allez ?</li><li>• Devoir débrancher un appareil pour en charger un autre ?</li><li>• Attendre des heures que vos appareils se rechargent ?</li></ul><p><strong>NOTRE SOLUTION :</strong> Notre adaptateur transforme n'importe quelle prise en station de charge complète. 4 ports USB (2 USB-C + 2 USB-A) + 1 prise secteur universelle. Tous vos appareils chargent simultanément à pleine vitesse.</p><p><strong>RÉSULTAT IMMÉDIAT :</strong> 5 appareils chargés en même temps, 3x plus vite qu'un chargeur classique.</p>"
           }
         }
       },
       "block_order": [
-        "heading_jtKiJU",
-        "richtext_wEM4q8",
-        "button_kBxwhK"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_hPYUtC": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/034392f9-4e0b-46e7-bdba-f6a7c456d8fd.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_VrrQih": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_AXfdjh": {
-          "type": "heading",
-          "settings": {
-            "text": "L'extension XXL rend votre 🍆 dure comme du béton et endurant comme une machine.",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_dp3ceY": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Comment ça marche ?</strong>  L' extension agit comme une seconde peau qui absorbe l'excès de frottement. Vous ressentez tout le plaisir, mais sans l'excitation incontrôlable qui fait finir trop vite. De plus, l'anneau au niveau des testicules verrouille votre érection pour qu'elle reste dure comme du béton, aussi longtemps que vous le voulez.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_AXfdjh",
-        "richtext_dp3ceY"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_hLc4Yr": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify://files/videos/WhatsApp Video 2026-02-04 at 12.06.55.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_phnTbQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TFqVRJ": {
-          "type": "heading",
-          "settings": {
-            "text": "Elle va crier de joie toute la nuit...",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_TFqVRJ"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_3TYddb": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/BGCAGFC53VHPXDVHHQ63ICF424_9cb66275-db4e-4a4a-b522-4e98b99e1c6e.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_AKNFD7": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_a3tjWm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>🛡️ Silicone Grade Médical :</strong> Matière douce, extensible, hygiénique et facile à nettoyer. S'adapte à toutes les morphologies.<br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_a3tjWm"
+        "richtext_xN7wFj"
       ],
       "name": "Rich text",
       "settings": {
@@ -403,96 +268,157 @@
         "text_color": ""
       }
     },
-    "faq_Ta36QE": {
-      "type": "faq",
+    "image_with_text_overlay_aY8gMj": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_6_IMG6.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_AEAtMf": {
+      "type": "rich-text",
       "blocks": {
-        "item_kiQDEL": {
-          "type": "item",
+        "richtext_apaJeq": {
+          "type": "richtext",
           "settings": {
-            "title": "1. En quelle matière est fabriquée l'extension ?",
-            "content": "<p>L'extension est conçue en <strong>silicone de grade médical</strong>. C'est une matière très douce, hygiénique et extensible qui imite la sensation de la peau. Elle est sans danger pour le corps et s'adapte confortablement à toutes les morphologies sans serrer douloureusement.</p>"
-          }
-        },
-        "item_PVfq6e": {
-          "type": "item",
-          "settings": {
-            "title": "2. Est-ce que cela permet vraiment de durer plus longtemps au lit ?",
-            "content": "<p>Oui, c'est l'un des plus grands avantages de ce produit. L'extension agit de deux façons pour votre endurance :</p><ol><li><strong>Effet barrière :</strong> L'épaisseur du silicone réduit légèrement l'hypersensibilité du pénis, ce qui vous permet de retarder l'éjaculation.</li><li><strong>Maintien de l'érection :</strong> L'anneau situé à la base (niveau testicules) maintient le sang dans la verge, garantissant une érection plus dure et plus longue.</li></ol>"
-          }
-        },
-        "item_YeJnjH": {
-          "type": "item",
-          "settings": {
-            "title": "3. Comment placer l'extension correctement ?",
-            "content": "<p>L'installation est simple et rapide :</p><ul><li>Assurez-vous d'être en érection (ou semi-érection).</li><li><strong>Important :</strong> Appliquez un peu de lubrifiant (ou de la salive à défaut) sur votre pénis et à l'intérieur de l'extension pour que ça glisse facilement.</li><li>Enroulez ou tirez l'extension comme une chaussette le long de la verge jusqu'à la base.</li><li>Ajustez le vibrateur pour qu'il soit bien positionné au-dessus (pour stimuler le clitoris de votre partenaire).</li></ul>"
-          }
-        },
-        "item_FRWNbX": {
-          "type": "item",
-          "settings": {
-            "title": "4. À quel moment faut-il le mettre ?",
-            "content": "<p>Nous vous conseillons de le mettre pendant les préliminaires, juste avant la pénétration. Vous pouvez même demander à votre partenaire de vous aider à le placer pour intégrer cela comme un jeu érotique.</p>"
-          }
-        },
-        "item_VTChFG": {
-          "type": "item",
-          "settings": {
-            "title": "5. Faut-il le recharger ? À quoi sert le moteur ?",
-            "content": "<p>Oui, le dispositif est rechargeable (câble USB inclus).<br/>Le moteur est essentiel : il alimente les <strong>10 modes de vibrations</strong>. Ces vibrations ne sont pas seulement pour vous, elles sont spécialement placées pour venir frotter et stimuler le clitoris de la femme pendant l'acte. C'est ce qui garantit qu'elle prenne autant de plaisir que vous (voire plus !).</p>"
-          }
-        },
-        "item_NmxGnG": {
-          "type": "item",
-          "settings": {
-            "title": "6. Est-ce lavable et réutilisable ?",
-            "content": "<p>Absolument. Ce n'est pas un produit à usage unique. Après chaque utilisation, lavez-le simplement à l'eau tiède et au savon, séchez-le, et il est prêt pour la prochaine fois.</p>"
+            "content": "<h2>🔋 <strong>TECHNOLOGIE DE CHARGE RAPIDE INTELLIGENTE</strong></h2><p><strong>Comment ça fonctionne :</strong></p><ol><li><strong>Détection automatique</strong> - L'adaptateur identifie chaque appareil connecté</li><li><strong>Optimisation de puissance</strong> - Distribue la charge optimale pour chaque device</li><li><strong>Charge simultanée</strong> - Aucune perte de vitesse même avec 5 appareils branchés</li></ol>"
           }
         }
       },
       "block_order": [
-        "item_kiQDEL",
-        "item_PVfq6e",
-        "item_YeJnjH",
-        "item_FRWNbX",
-        "item_VTChFG",
-        "item_NmxGnG"
+        "richtext_apaJeq"
       ],
-      "name": "FAQ",
+      "name": "Rich text",
       "settings": {
         "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_fEfE4x": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/imgi_89_GIF_01.gif",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_BzbCac": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_KFimte": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2><strong>UNE SEULE PRISE POUR TOUS VOS BESOINS</strong></h2><h3>La liberté de ne plus jamais manquer de prise.</h3><p>Imaginez pouvoir :</p><ul><li>• ✅ Charger votre laptop ET téléphone au bureau</li><li>• ✅ Brancher tous vos appareils au restaurant</li><li>• ✅ Avoir une station de charge complète à la maison</li><li>• ✅ Ne plus jamais attendre qu'une prise se libère</li></ul><p><strong>TOUT CELA AVEC UN SEUL ADAPTATEUR !</strong></p><p>Grâce à notre <strong>technologie multi-ports intelligente</strong>, cet adaptateur remplace 5 chargeurs différents. Compatible avec TOUTES les formes de prises : européennes, américaines, britanniques, et etc...</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_KFimte"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_9HhBci": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_fkiHH9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Fatou, 34 ans,",
+            "title": "",
+            "content": "<p><em>Ce livre est vraiment très éfficace. Mon enfant prononce bien les mots, il n'a que 6 ans et il arrive déja à  nommé facilement tous les objets de la maison.</em></p>"
+          }
+        },
+        "testimonial_naCEiF": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Aïssatou, 28 ans",
+            "title": "",
+            "content": "<p><em>Je suis </em>enseignante<em> et j'ai acheté ce livre pour les enfants de la </em>maternelle, je vous recommande vraiment ce livre. C'est très éducatif</p>"
+          }
+        },
+        "testimonial_KpjK4k": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gueye, 41 ans",
+            "title": "",
+            "content": "<p><em>Super livre!</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_fkiHH9",
+        "testimonial_naCEiF",
+        "testimonial_KpjK4k"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
         "subheading": "",
-        "title": "Foires aux questions",
-        "content": "<p>Nous assurons la qualité de notre produit et sommes disponibles pour répondre à toutes vos questions par whatsapp.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "⚠️ Astuce Pro : Pour un confort maximal, l'utilisation d'un gel lubrifiant est fortement recommandée lors de la pose.",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
+        "title": "Ce que disent nos clients",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "multi_column_DYGcr8",
-    "rich_text_Xk6L6A",
-    "image_with_text_overlay_JNWHyg",
-    "rich_text_pezP7C",
-    "image_with_text_overlay_hPYUtC",
-    "rich_text_VrrQih",
-    "video_hLc4Yr",
-    "rich_text_phnTbQ",
-    "image_with_text_overlay_3TYddb",
-    "rich_text_AKNFD7",
-    "faq_Ta36QE"
+    "scrolling_text_nbJFE8",
+    "1757608418ec914bc0",
+    "multi_column_x47rbG",
+    "image_with_text_overlay_WRFaPH",
+    "rich_text_yCBeNf",
+    "image_with_text_overlay_aY8gMj",
+    "rich_text_AEAtMf",
+    "image_with_text_overlay_fEfE4x",
+    "rich_text_BzbCac",
+    "testimonials_9HhBci"
   ]
 }
