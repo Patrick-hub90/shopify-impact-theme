@@ -18,12 +18,6 @@
             "heading_tag": "h2"
           }
         },
-        "text_dbUxnm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Une seule prise pour tous vos appareils - Adaptateur qui transforme 1 prise en 5 ports de charge rapide.</p>"
-          }
-        },
         "badges": {
           "type": "badges",
           "settings": {}
@@ -57,7 +51,6 @@
       },
       "block_order": [
         "title",
-        "text_dbUxnm",
         "badges",
         "price",
         "rating",
