@@ -149,7 +149,7 @@
         "item_CMneWH": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/20231021150533b1b7d4849c3247c7a720c5dc1270dd3f.webp",
+            "image": "shopify://shop_images/camphre_blanc.webp",
             "column_size": "3",
             "title": "Menthol Cristallisé",
             "heading_tag": "h4",
@@ -162,7 +162,7 @@
         "item_VmJhnF": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/epimidio_png.webp",
+            "image": "shopify://shop_images/images.jpg",
             "column_size": "3",
             "title": "Gingembre Rouge",
             "heading_tag": "h4",
@@ -188,7 +188,7 @@
         "item_8xRrtq": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/rhodiola-rosea-1296x728.webp",
+            "image": "shopify://shop_images/camphre_blanc.webp",
             "column_size": "3",
             "title": "Camphre Blanc",
             "heading_tag": "h4",
@@ -201,11 +201,11 @@
         "item_wngAgJ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/i104271-maca-ps.webp",
+            "image": "shopify://shop_images/6e8c0bcc6513a82cd4aaa9baa3360b63f967726e_original.jpg",
             "column_size": "3",
             "title": "Huile de Moxa (Armoise)",
             "heading_tag": "h4",
-            "content": "<p>Plante sacrée de la médecine traditionnelle chinoise utilisée en moxibustion depuis des millénaires. Elle réactive la circulation sanguine dans les zones engourdies, réchauffe les articulations froides (mains, pieds, genoux) et débloque l'énergie stagnante. Essentielle pour les douleurs liées au froid et à la mauvaise circulation.</p>",
+            "content": "<p> Elle réactive la circulation sanguine dans les zones engourdies, réchauffe les articulations froides (mains, pieds, genoux) et débloque l'énergie stagnante. Essentielle pour les douleurs liées au froid et à la mauvaise circulation.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -214,7 +214,7 @@
         "item_a3MWtm": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Smilax-glabra-04.webp",
+            "image": "shopify://shop_images/Eucalyptus1.webp",
             "column_size": "3",
             "title": "Eucalyptus",
             "heading_tag": "h4",
