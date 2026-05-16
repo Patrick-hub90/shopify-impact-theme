@@ -67,7 +67,7 @@
         "heading_g8EDJt": {
           "type": "heading",
           "settings": {
-            "text": "Baume de Massage Pour vous rendre plus endurant",
+            "text": "Baume de Massage Pour soulager le corps de la douleur.",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -76,7 +76,7 @@
         "richtext_PNiz8f": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Vous avez plus de 40 ans et vous sentez que votre corps ne répond plus comme avant ? Massez votre banane avec ce baume asiatique à base de 6 plantes — seul ou demandez à votre femme de le faire pour vous.</p><p>✅ <strong>5 minutes de massage suffisent</strong> — Appliquez une noisette, massez doucement, et laissez les 6 plantes faire le travail.</p><p>✅ <strong>Durez plus longtemps au lit</strong> — Le Cnidium Monnieri réduit la sensibilité naturellement. Vos rapports passent de 3 minutes à plus de 20 minutes.</p><p>✅ <strong>Érection plus ferme et plus dure</strong> — L'Herbe de Chèvre Cornée stimule la circulation sanguine directement là où il faut. Vous redevenez solide comme à vos 25 ans.</p><p>✅ <strong>Votre désir et votre énergie reviennent</strong> — Le Tongkat Ali et la Maca relancent la vitalité et la confiance que l'âge a ralenti.</p><p>✅ <strong>100% naturel, zéro danger</strong> — Aucun produit chimique, aucun effet secondaire. Adapté aux peaux sensibles, compatible diabète et hypertension.</p><p>✅ <strong>Pas de comprimé, pas de pharmacie, pas de gêne</strong> — Un simple massage de 5 minutes et votre femme verra la différence dès la première nuit.</p>"
+            "content": "<p>Si vous détester la douleur, ce <strong>baume asiatique </strong>ne devrait pas manquer dans votre maison.<br/><br/>✅ <strong>5 minutes de massage suffisent</strong> — Appliquez une noisette sur la zone douloureuse, massez en cercles doux, et laissez les 6 plantes pénétrer en profondeur.</p><p>✅ <strong>Soulagement dès la première application</strong> — Le <strong>Menthol cristallisé</strong> crée un effet glaçant qui anesthésie la douleur en moins de 3 minutes.</p><p>✅ <strong>Vos articulations retrouvent leur souplesse</strong> — Le <strong>Gingembre Rouge</strong> et le <strong>Curcuma</strong> réduisent l'inflammation. Vous pliez le genou, vous vous baissez, vous montez les escaliers sans grimacer.</p><p>✅ <strong>Vos muscles se décontractent enfin</strong> — Le <strong>Camphre Blanc</strong> chauffe en profondeur et dénoue les tensions du dos et de la nuque. Fini les raideurs matinales.</p><p>✅ <strong>Votre circulation se réactive là où ça fait mal</strong> — L'<strong>Huile de Moxa</strong> et l'<strong>Eucalyptus</strong> relancent la circulation dans les zones engourdies. Mains, pieds, hanches reprennent vie.</p><p>✅ <strong>Action prolongée jusqu'à 8 heures</strong> — Une application le matin vous tient toute la journée. Une application le soir vous fait dormir sans douleur.</p><p>✅ <strong>100% naturel, zéro danger</strong> — Aucun produit chimique, aucun effet secondaire. Compatible diabète et hypertension. Aucune interaction avec vos médicaments.</p><p>✅ <strong>Pas de comprimé, pas de pharmacie, pas d'ordonnance</strong> — Un simple massage et vous retrouvez la mobilité que vous pensiez avoir perdue.</p>"
           }
         }
       },
@@ -151,9 +151,9 @@
           "settings": {
             "image": "shopify://shop_images/20231021150533b1b7d4849c3247c7a720c5dc1270dd3f.webp",
             "column_size": "3",
-            "title": "Cnidium Monnieri",
+            "title": "Menthol Cristallisé",
             "heading_tag": "h4",
-            "content": "<p><br/>C'est l'ingrédient le plus important du produit. En application locale, il réduit l'hypersensibilité du gland — ce qui permet de prolonger le rapport sans couper le plaisir.La médecine chinoise l'utilise depuis plus de 2000 ans exactement pour ça : contrôler l'éjaculation précoce et renforcer la fonction sexuelle masculine.<br/><br/></p>",
+            "content": "<p>Effet glaçant immédiat qui anesthésie les terminaisons nerveuses dès l'application. C'est lui qui fait disparaître la douleur en 3 minutes en envoyant un signal de froid intense qui \"endort\" le message douloureux envoyé au cerveau.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -164,9 +164,9 @@
           "settings": {
             "image": "shopify://shop_images/epimidio_png.webp",
             "column_size": "3",
-            "title": "Epimedium — Herbe de Chèvre Cornée",
+            "title": "Gingembre Rouge",
             "heading_tag": "h4",
-            "content": "<p>Cette plante contient de l'icariin, un composé qui inhibe naturellement l'enzyme responsable de la perte d'érection — le même mécanisme que le Viagra, mais sans chimie. En topique, elle stimule la microcirculation sanguine locale, ce qui donne une érection plus ferme, plus durable et plus réactive. C'est la plante aphrodisiaque la plus étudiée scientifiquement au monde, et les résultats sont cohérents.</p>",
+            "content": "<p>Anti-inflammatoire naturel le plus puissant de la médecine asiatique. Il réduit le gonflement des articulations enflammées (arthrose, rhumatismes) et soulage la raideur. Utilisé depuis plus de 2000 ans en Chine pour traiter les douleurs articulaires chroniques.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -177,9 +177,9 @@
           "settings": {
             "image": "shopify://shop_images/What-is-Tongkat-Ali.jpg",
             "column_size": "3",
-            "title": "Tongkat Ali",
+            "title": "Curcuma",
             "heading_tag": "h4",
-            "content": "<p>Le secret des hommes d'Asie du Sud-Est. Le Tongkat Ali agit à deux niveaux : il augmente la testostérone libre dans le sang — ce qui relance directement le désir, la confiance et l'endurance — et il contient une molécule prouvée pour retarder le réflexe éjaculatoire. En plus de ça, il fait chuter le cortisol, l'hormone du stress. Et le stress, c'est la première cause de l'éjaculation précoce chez les hommes actifs. Tongkat Ali s'attaque donc à la racine du problème, pas juste au symptôme.<br/><br/></p>",
+            "content": "<p>Surnommé \"l'or jaune\" en médecine ayurvédique. Sa curcumine pénètre dans les tissus profonds pour calmer l'inflammation à la source. Régénère le cartilage et ralentit l'usure des articulations. Action complémentaire au gingembre pour une attaque double sur l'inflammation.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -190,9 +190,9 @@
           "settings": {
             "image": "shopify://shop_images/rhodiola-rosea-1296x728.webp",
             "column_size": "3",
-            "title": "Rhodiola Rosea",
+            "title": "Camphre Blanc",
             "heading_tag": "h4",
-            "content": "<p>Cette plante ne touche pas directement à la sexualité — elle touche à ce qui la détruit : l'anxiété de performance. La Rhodiola est un adaptogène cliniquement prouvé qui régule le cortisol et l'adrénaline. Quand un homme entre au lit stressé, son système nerveux est en alerte et le corps réagit en précipitant l'éjaculation. La Rhodiola calme ce mécanisme. Elle est utilisée par les alpinistes, les sportifs de haut niveau et les cosmonautes russes pour garder la tête froide sous pression. Au lit, c'est exactement ce dont on a besoin.<br/></p>",
+            "content": "<p>Crée une chaleur profonde qui pénètre jusqu'au muscle et décontracte les fibres tendues. Idéal pour les douleurs musculaires, les contractures du dos, les torticolis et les raideurs matinales. Son action chauffante complète l'effet froid du menthol pour un soulagement complet : on calme la douleur (froid) ET on détend le muscle (chaud).</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -203,9 +203,9 @@
           "settings": {
             "image": "shopify://shop_images/i104271-maca-ps.webp",
             "column_size": "3",
-            "title": "Maca",
+            "title": "Huile de Moxa (Armoise)",
             "heading_tag": "h4",
-            "content": "<p>Cette racine andine consommée depuis 3000 ans booste la libido, l'énergie et le désir de façon naturelle et durable.  Concrètement, elle fait entrer l'homme dans le rapport avec de l'énergie et de l'envie réelles — pas du stress, pas de pression. C'est la fondation émotionnelle et physique d'une bonne performance.<br/><br/></p>",
+            "content": "<p>Plante sacrée de la médecine traditionnelle chinoise utilisée en moxibustion depuis des millénaires. Elle réactive la circulation sanguine dans les zones engourdies, réchauffe les articulations froides (mains, pieds, genoux) et débloque l'énergie stagnante. Essentielle pour les douleurs liées au froid et à la mauvaise circulation.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -216,9 +216,9 @@
           "settings": {
             "image": "shopify://shop_images/Smilax-glabra-04.webp",
             "column_size": "3",
-            "title": "Smilax Glabra",
+            "title": "Eucalyptus",
             "heading_tag": "h4",
-            "content": "<p> La Smilax Glabra est ce qu'on appelle un potentialisateur : elle améliore l'absorption cutanée des autres actifs et amplifie leur action en synergie. Elle agit aussi comme anti-inflammatoire local, ce qui rend l'application confortable et bien tolérée par la peau. <br/></p>",
+            "content": "<p>Décongestionnant naturel qui dilate les vaisseaux et oxygène les tissus douloureux. Son parfum frais accentue la sensation de soulagement et purifie. Il transporte les autres principes actifs plus profondément dans la peau, agissant comme un \"vecteur\" qui amplifie l'efficacité des 5 autres plantes.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -241,7 +241,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "6 plantes asiatiques pour un seul objectif",
-        "content": "<p>Combler toutes les insuffisances pour vous rendre plus performant au lit pour votre partenaire. Gagner en endurance pour mieux la satisfaire. </p>",
+        "content": "<p>Vivre chaque jour sans aucune douleur.</p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -274,341 +274,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "17746454175e2b6227": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_a1f72ea_krrYMC": {
-          "type": "ai_gen_block_a1f72ea",
-          "settings": {
-            "title": "Comment utiliser le baume?",
-            "subtitle": "Suivez ces étapes simples pour une application optimale",
-            "text_alignment": "center",
-            "step_1_title": "Rincez et séchez",
-            "step_1_description": "Avant d'appliquer, rincez l'aubergine  à l'eau tiède et séchez doucement.",
-            "step_1_icon": "spray",
-            "step_2_title": "Prélevez une petite quantité",
-            "step_2_description": "Applique une petite quantité — Un peu suffit. Masse doucement 1 à 2 minutes sur la tete de ton aubergine pour que la crème soit absorbée.",
-            "step_2_icon": "droplet",
-            "step_3_title": "Appliquez en massant",
-            "step_3_description": "Massez délicatement en mouvements circulaires jusqu'à absorption complète.",
-            "step_3_icon": "rotate",
-            "step_4_title": "Laissez agir",
-            "step_4_description": "Attends 15 à 20 minutes — Laisse agir. C'est là que la crème fait son travail en profondeur.",
-            "step_4_icon": "clock",
-            "step_5_title": "Rincez avant le rapport",
-            "step_5_description": "Rincez à l'eau claire juste avant. Vous gardez l'effet, mais sans résidu pour ta partenaire.",
-            "step_5_icon": "info",
-            "step_6_title": "",
-            "step_6_description": "",
-            "step_6_icon": "info",
-            "step_7_title": "",
-            "step_7_description": "",
-            "step_7_icon": "info",
-            "step_8_title": "",
-            "step_8_description": "",
-            "step_8_icon": "info",
-            "desktop_width_percent": 100,
-            "columns_desktop": 2,
-            "columns_tablet": 2,
-            "section_padding": 40,
-            "border_radius": 0,
-            "gap_between_steps": 25,
-            "header_spacing": 40,
-            "item_padding": 25,
-            "item_spacing": 15,
-            "step_border_radius": 10,
-            "step_border_width": 1,
-            "show_icons": true,
-            "icon_size": 30,
-            "background_color": "#1b1b1b",
-            "step_background": "#252525",
-            "step_border_color": "#333333",
-            "title_color": "#ffffff",
-            "text_color": "#ffffff",
-            "number_background": "#f0c417",
-            "number_text_color": "#1a1a1a",
-            "step_title_color": "#ffffff",
-            "icon_color": "#f0c417",
-            "title_size": 36,
-            "subtitle_size": 18,
-            "number_size": 45,
-            "number_font_size": 20,
-            "step_title_size": 20,
-            "description_size": 16
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_a1f72ea_krrYMC"
-      ],
-      "settings": {}
-    },
-    "1774609004e6b727f5": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_8a0d68c_hckTpz": {
-          "type": "ai_gen_block_8a0d68c",
-          "settings": {
-            "heading": "Composants du produit",
-            "description": "",
-            "heading_size": 32,
-            "description_size": 16,
-            "spacing_below_heading": 30,
-            "text_alignment": "center",
-            "columns_desktop": 3,
-            "columns_mobile": "2",
-            "grid_gap": 20,
-            "desktop_width_percent": 100,
-            "card_background": "#ffffff",
-            "card_padding": 20,
-            "card_border_radius": 8,
-            "card_border_width": 1,
-            "card_border_color": "#e5e5e5",
-            "card_text_alignment": "center",
-            "emoji_size": 60,
-            "spacing_below_icon": 15,
-            "background_color": "#f9f9f9",
-            "heading_color": "#1a1a1a",
-            "text_color": "#666666",
-            "ingredient_name_color": "#1a1a1a",
-            "ingredient_name_size": 18,
-            "ingredient_description_size": 14,
-            "section_padding": 40,
-            "ingredient_1_emoji": "🌿",
-            "ingredient_1_name": "Maca",
-            "ingredient_1_description": "La plante des guerriers andins. Énergie, endurance, libido — elle est connue pour ça depuis des siècles au Pérou.",
-            "ingredient_2_emoji": "🌿",
-            "ingredient_2_name": "Tongkat Ali",
-            "ingredient_2_description": "Plante emblématique d'Asie du Sud-Est pour la vitalité masculine. Elle booste la circulation sanguine vers le sexe — érection plus ferme et plus stable.",
-            "ingredient_3_emoji": "🌿",
-            "ingredient_3_name": "Epimedium",
-            "ingredient_3_description": "Surnommée \"l'herbe de la vigueur\" en Asie. Elle aide ton érection à tenir plus longtemps sans faiblir à mi-chemin.",
-            "ingredient_4_emoji": "🌿",
-            "ingredient_4_name": "Rhodiola",
-            "ingredient_4_description": "Réduit le stress et la fatigue. Ton corps tient mieux l'effort physique prolongé — tu restes dans ta zone de performance.",
-            "ingredient_5_emoji": "🌿",
-            "ingredient_5_name": "Cannelle",
-            "ingredient_5_description": "Active la circulation sanguine. Chaleur naturelle et légère qui se sent dès l'application.",
-            "ingredient_6_emoji": "🌿",
-            "ingredient_6_name": "Menthe",
-            "ingredient_6_description": "Sensation fraîche et apaisante. Aussi pour le confort de ta partenaire lors du rapport."
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_8a0d68c_hckTpz"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
-    "rich_text_TY4xTk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_yyh7wA": {
-          "type": "heading",
-          "settings": {
-            "text": "Certaines nuits, tu veux que ça dure. Formule Aoki est là pour ça.",
-            "heading_tag": "h3",
-            "text_color": "#ff7d00",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_yyh7wA"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_4mFKGr": {
-      "type": "video",
-      "disabled": true,
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/WhatsApp Video 2026-03-24 at 03.08.06.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_JriNXr": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_NtBQJE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Tu veux durer plus longtemps, garder ton érection ferme et bien dure, et voir ta partenaire satisfaite de bout en bout.</p><p>La Formule Aoki  te donne le contrôle. Tu décides quand tu t'arrêtes — pas ton corps à ta place.</p><p><strong>Des plantes naturelles connues depuis des siècles. Utilisées par des millions d'hommes. Maintenant dans une crème que tu appliques en 2 minutes.</strong></p>"
-          }
-        },
-        "button_gnAPA9": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Contactez-nous par WhatsApp",
-            "url": "https://wa.me/2250799819468?text=Bonsoir%2C%20comment%20allez-vous%3F%20Je%20voudrais%20commander%2C%20est-ce%20que%20le%20Aoki%20est%20toujours%20disponible%20%3F",
-            "background": "#00a341",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "richtext_NtBQJE",
-        "button_gnAPA9"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_JqM6zh": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/erectile_dysfunction-fr.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_MDCnkP": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ax3hDb": {
-          "type": "heading",
-          "settings": {
-            "text": "Ce que tu ressens vraiment dès la première utilisation",
-            "heading_tag": "h2",
-            "text_color": "#ff7d00",
-            "gradient": ""
-          }
-        },
-        "richtext_3RGihp": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Ton endurance monte.</strong> Là où tu finissais en quelques minutes, tu tiens. Le rythme reste à toi. Elle ne regarde pas le plafond en attendant — elle est là avec toi, jusqu'à la fin.</p><p><strong>Ton érection reste ferme.</strong> Pas de moment gênant à mi-rapport où ça ramollit. Les plantes Tongkat Ali et Epimedium activent la circulation sanguine dans ton sexe — tu restes dur, du début à la fin.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ax3hDb",
-        "richtext_3RGihp"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_3iUfyw": {
-      "type": "video",
-      "disabled": true,
-      "name": "Video",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify://files/videos/164a5d4782b56338210a9d039a64226f-720p-preview.mp4",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "rich_text_bPBXqA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_RUfa83": {
-          "type": "heading",
-          "settings": {
-            "text": "Ce qui est dedans ? Que de la nature. Rien d'autre.",
-            "heading_tag": "h2",
-            "text_color": "#ff7d00",
-            "gradient": ""
-          }
-        },
-        "richtext_zDYb4d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Pas de chimie. Pas d'hormones. Pas d'effets secondaires. La Formule Aoki combine six plantes utilisées depuis des centaines d'années par les hommes qui voulaient performer — en Asie, en Amérique du Sud, en Europe. Maintenant dans une seule crème.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_RUfa83",
-        "richtext_zDYb4d"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "1774613207d7f61aae": {
-      "type": "apps",
-      "blocks": {
-        "amazon_reviews_by_appio_reviews_widget_9xHtXc": {
-          "type": "shopify://apps/amazon-reviews-by-appio/blocks/reviews-widget/569167b3-e5d6-4314-9866-f51281b506d7",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "amazon_reviews_by_appio_reviews_widget_9xHtXc"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
     }
   },
   "order": [
@@ -616,16 +281,6 @@
     "rich_text_VMpMHj",
     "multi_column_pRM638",
     "multi_column_E9M8JJ",
-    "rich_text_waTkCi",
-    "17746454175e2b6227",
-    "1774609004e6b727f5",
-    "rich_text_TY4xTk",
-    "video_4mFKGr",
-    "rich_text_JriNXr",
-    "image_with_text_overlay_JqM6zh",
-    "rich_text_MDCnkP",
-    "video_3iUfyw",
-    "rich_text_bPBXqA",
-    "1774613207d7f61aae"
+    "rich_text_waTkCi"
   ]
 }
