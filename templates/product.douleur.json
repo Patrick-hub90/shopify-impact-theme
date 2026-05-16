@@ -61,6 +61,68 @@
         "input_text_color": ""
       }
     },
+    "multi_column_WMz3k9": {
+      "type": "multi-column",
+      "blocks": {
+        "item_bRjDNd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_16_mai_2026_18_32_02_b39cfaa6-495e-48f3-988e-dba63f86a25a.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_3ijDhV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_16_mai_2026_18_31_49_e6e8e75a-e779-47dc-b335-f726566bc0ad.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6RELk9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_16_mai_2026_18_31_42_20eddef2-554f-4cc2-a386-16cbe75bd635.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_bRjDNd",
+        "item_3ijDhV",
+        "item_6RELk9"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "NOS CLIENTS",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_VMpMHj": {
       "type": "rich-text",
       "blocks": {
@@ -278,6 +340,7 @@
   },
   "order": [
     "main",
+    "multi_column_WMz3k9",
     "rich_text_VMpMHj",
     "multi_column_pRM638",
     "multi_column_E9M8JJ",
