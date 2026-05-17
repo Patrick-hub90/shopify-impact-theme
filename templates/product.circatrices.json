@@ -1,0 +1,350 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "price_7nDK4k": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "text_HhK4Gf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🚚 <strong>Livraison gratuite uniquement à Abidjan<br/>💳 Paiement à livraison<br/>⚠️ Les expéditions dans les autres régions sont à la charge du clients.</strong></p>"
+          }
+        },
+        "easysell_cod_form_app_block_GKHjAc": {
+          "type": "shopify://apps/easysell-cod-form/blocks/app-block/7bfd0a95-6839-4f02-b2ee-896832dbe67e",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price_7nDK4k",
+        "text_HhK4Gf",
+        "easysell_cod_form_app_block_GKHjAc"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "multi_column_WMz3k9": {
+      "type": "multi-column",
+      "blocks": {
+        "item_bRjDNd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_16_mai_2026_18_32_02_b39cfaa6-495e-48f3-988e-dba63f86a25a.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_3ijDhV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_16_mai_2026_18_31_49_e6e8e75a-e779-47dc-b335-f726566bc0ad.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6RELk9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_16_mai_2026_18_31_42_20eddef2-554f-4cc2-a386-16cbe75bd635.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_bRjDNd",
+        "item_3ijDhV",
+        "item_6RELk9"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "NOS CLIENTS",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_VMpMHj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_g8EDJt": {
+          "type": "heading",
+          "settings": {
+            "text": "Baume de Massage Pour soulager le corps de la douleur.",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_PNiz8f": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h2>Baume de Massage pour soulager les douleurs du corps</h2><p>Si vous détestez la douleur, ce baume de massage est le produit à toujours avoir à la maison.</p><p>✅ <strong>Un massage simple de 5 minutes suffit</strong><br/><br/>Appliquez une petite quantité sur la zone douloureuse, massez doucement en mouvements circulaires, puis laissez le baume agir.</p><p>✅ <strong>Soulage rapidement les douleurs du quotidien</strong><br/><br/>Idéal pour les douleurs au dos, aux genoux, aux épaules, à la nuque, aux hanches, aux jambes et aux articulations sensibles.</p><p>✅ <strong>Aide à retrouver plus de mobilité</strong><br/><br/>Il accompagne les mouvements du quotidien : se lever, marcher, se baisser, monter les escaliers ou plier les genoux avec plus de confort.</p><p>✅ <strong>Détend les muscles fatigués et contractés</strong><br/><br/>Après une longue journée, il aide à relâcher les tensions du dos, de la nuque et des épaules pour une sensation de soulagement.</p><p>✅ <strong>Procure une sensation agréable de fraîcheur et de chaleur</strong><br/><br/>Le baume agit par massage avec un effet apaisant qui aide à calmer la zone douloureuse et à apporter plus de confort.</p><p>✅ <strong>Parfait pour une utilisation à la maison</strong><br/><br/>À utiliser quand la douleur se manifeste, jusqu’à 2 à 3 fois par jour maximum, selon le besoin.</p><p>✅ <strong>Un allié pour mieux dormir</strong><br/><br/>Appliqué le soir sur les zones douloureuses, il aide le corps à se détendre pour passer une nuit plus confortable.</p><p>✅ <strong>Usage externe uniquement</strong><br/><br/>Facile à appliquer, pratique à garder à la maison, et adapté aux adultes qui veulent soulager les douleurs du quotidien sans complication.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_g8EDJt",
+        "richtext_PNiz8f"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_pRM638": {
+      "type": "multi-column",
+      "blocks": {
+        "item_z3gQHk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_2.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cDezVd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/img_0136_4.png",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_z3gQHk",
+        "item_cDezVd"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Conversations Whatsapp avec nos clients",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_E9M8JJ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CMneWH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/camphre_blanc.webp",
+            "column_size": "3",
+            "title": "Menthol Cristallisé",
+            "heading_tag": "h4",
+            "content": "<p>Effet glaçant immédiat qui anesthésie les terminaisons nerveuses dès l'application. C'est lui qui fait disparaître la douleur en 3 minutes en envoyant un signal de froid intense qui \"endort\" le message douloureux envoyé au cerveau.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VmJhnF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/images.jpg",
+            "column_size": "3",
+            "title": "Gingembre Rouge",
+            "heading_tag": "h4",
+            "content": "<p>Anti-inflammatoire naturel le plus puissant de la médecine asiatique. Il réduit le gonflement des articulations enflammées (arthrose, rhumatismes) et soulage la raideur. Utilisé depuis plus de 2000 ans en Chine pour traiter les douleurs articulaires chroniques.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BxC6kt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/What-is-Tongkat-Ali.jpg",
+            "column_size": "3",
+            "title": "Curcuma",
+            "heading_tag": "h4",
+            "content": "<p>Surnommé \"l'or jaune\" en médecine ayurvédique. Sa curcumine pénètre dans les tissus profonds pour calmer l'inflammation à la source. Régénère le cartilage et ralentit l'usure des articulations. Action complémentaire au gingembre pour une attaque double sur l'inflammation.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8xRrtq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/camphre_blanc.webp",
+            "column_size": "3",
+            "title": "Camphre Blanc",
+            "heading_tag": "h4",
+            "content": "<p>Crée une chaleur profonde qui pénètre jusqu'au muscle et décontracte les fibres tendues. Idéal pour les douleurs musculaires, les contractures du dos, les torticolis et les raideurs matinales. Son action chauffante complète l'effet froid du menthol pour un soulagement complet : on calme la douleur (froid) ET on détend le muscle (chaud).</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wngAgJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6e8c0bcc6513a82cd4aaa9baa3360b63f967726e_original.jpg",
+            "column_size": "3",
+            "title": "Huile de Moxa (Armoise)",
+            "heading_tag": "h4",
+            "content": "<p> Elle réactive la circulation sanguine dans les zones engourdies, réchauffe les articulations froides (mains, pieds, genoux) et débloque l'énergie stagnante. Essentielle pour les douleurs liées au froid et à la mauvaise circulation.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_a3MWtm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Eucalyptus1.webp",
+            "column_size": "3",
+            "title": "Eucalyptus",
+            "heading_tag": "h4",
+            "content": "<p>Décongestionnant naturel qui dilate les vaisseaux et oxygène les tissus douloureux. Son parfum frais accentue la sensation de soulagement et purifie. Il transporte les autres principes actifs plus profondément dans la peau, agissant comme un \"vecteur\" qui amplifie l'efficacité des 5 autres plantes.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CMneWH",
+        "item_VmJhnF",
+        "item_BxC6kt",
+        "item_8xRrtq",
+        "item_wngAgJ",
+        "item_a3MWtm"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "6 plantes asiatiques pour un seul objectif",
+        "content": "<p>Vivre chaque jour sans aucune douleur.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_waTkCi": {
+      "type": "rich-text",
+      "blocks": {
+        "button_CAxiY6": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Contactez nous par whatsapp",
+            "url": "https://wa.me/2250799819467?text=Bonjour%20comment%20allez-vous%20%3F%20Je%20voudrais%20commander%20la%20Cr%C3%A8me%20asiatique.%20Est-elle%20disponible%20%3F",
+            "background": "#00a341",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "button_CAxiY6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_WMz3k9",
+    "rich_text_VMpMHj",
+    "multi_column_pRM638",
+    "multi_column_E9M8JJ",
+    "rich_text_waTkCi"
+  ]
+}
