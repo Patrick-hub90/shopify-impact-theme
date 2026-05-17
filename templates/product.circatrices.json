@@ -296,6 +296,7 @@
         "item_wngAgJ",
         "item_a3MWtm"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
