@@ -315,6 +315,7 @@
       "blocks": {
         "button_CAxiY6": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "fill",
             "size": "xl",
